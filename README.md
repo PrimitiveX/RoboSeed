@@ -39,6 +39,8 @@ We aim to give the robotics community **an honest and complete record of what it
 | ABot-M0 · Qwen3.5 4B | RoboTwin | Clean 4294/5000 (85.88%); Randomized 4256/5000 (85.12%) | [Run](docs/experiments/qwen3_5-4b-robotwin/README.md) |
 | ABot-M0 · Qwen3.5 4B | LIBERO | 1,935/2,000 (96.75%), four suites | [Run](docs/experiments/qwen3_5-4b-libero/README.md) |
 
+
+
 RoboTwin direct-S2 results each cover 50 tasks × 100 trials per evaluation setting, seed 0. Training used both Clean and Randomized trajectories; do not compare these figures to a clean-only leaderboard protocol without accounting for that difference. The LIBERO rate comes from success/failure markers in rollout video filenames over 40 tasks × 50 trials. [RoboTwin task results](docs/datasets/robotwin/task_results.md) · [LIBERO task results](docs/datasets/libero/task_results.md). [Earlier S1 → S2 diagnostics](docs/experiments/robotwin-s1-diagnostics/README.md) used 10 Clean trials per task and are reported separately.
 
 **Reported but without completed outcomes:** [Qwen3.5 9B / RoboTwin](docs/experiments/qwen3_5-9b-robotwin/README.md). Details for any future dataset/model pair should be added only after a corresponding experiment record is available. Checkpoint release URLs, full raw logs, and immutable dataset revisions are pending where marked in the subdocuments.
