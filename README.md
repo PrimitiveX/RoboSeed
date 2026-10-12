@@ -2,7 +2,7 @@
 
 # RoboSeed
 
-### Reproducing Vision–Language–Action Models, from Training to Closed-Loop Evaluation
+### Reproducing Frontier Action Models, from Training to Closed-Loop Evaluation
 
 **RoboSeed Team**
 
