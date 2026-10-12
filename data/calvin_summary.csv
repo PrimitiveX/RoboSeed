@@ -1,0 +1,2 @@
+benchmark,backbone,training_split,evaluation_split,updates,global_batch,train_duration,train_hours,gpu_hours,samples_per_s,checkpoint_bytes,checkpoint_gb,final_action_dit_loss,sequences,avg_seq_len,successful_subtasks,attempted_subtasks,fully_completed,eval_hours_recorded
+CALVIN,Qwen3.5-4B,ABCD,D,34000,64,14:39:51,14.664166666666667,58.656666666666666,41.21914720312174,13270910352,13.270910352,0.029485901817679405,1000,3.625,3625,4054,571,10.266666666666667

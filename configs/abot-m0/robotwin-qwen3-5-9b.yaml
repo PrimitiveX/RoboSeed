@@ -1,0 +1,72 @@
+# Recorded training configuration. Dataset and initialization paths are parameterized.
+# This repository does not contain the training implementation. See docs/reproduction/README.md.
+datasets:
+  vla_data:
+    data_mix: robotwin
+    data_root_dir: ${ROBOSEED_DATA_ROOT}
+    dataset_py: lerobot_datasets
+    image_size:
+    - 224
+    - 224
+    num_workers: 4
+    per_device_batch_size: 16
+    sequential_step_sampling: false
+framework:
+  action_model:
+    action_dim: 14
+    action_horizon: 50
+    action_model_type: DiT-B
+    add_pos_embed: true
+    diffusion_model_cfg:
+      cross_attention_dim: 4096
+      dropout: 0.2
+      final_dropout: true
+      interleave_self_attention: true
+      norm_type: ada_norm
+      num_layers: 16
+      output_dim: 2560
+      positional_embeddings: null
+    future_action_window_size: 49
+    hidden_size: 1024
+    max_seq_len: 1024
+    noise_beta_alpha: 1.5
+    noise_beta_beta: 1.0
+    noise_s: 0.999
+    num_inference_timesteps: 4
+    num_target_vision_tokens: 32
+    num_timestep_buckets: 1000
+    past_action_window_size: 0
+    state_dim: 14
+  name: PX_M0
+  qwenvl:
+    base_vlm: ${ROBOSEED_VLM_BASE}
+output_dir: ./outputs/robotwin-qwen3-5-9b
+run_id: PX_M0_robotwin_Qwen3.5-9B
+run_root_dir: ./outputs
+seed: 42
+trainer:
+  eval_interval: 5000
+  freeze_modules: spatial_model
+  gradient_accumulation_steps: 1
+  gradient_clipping: 1.0
+  is_resume: false
+  learning_rate:
+    action_model: 0.0001
+    base: 1.0e-05
+    qwen_vl_interface: 1.0e-05
+  logging_frequency: 100
+  lr_scheduler_type: cosine_with_min_lr
+  max_train_steps: 150000
+  num_warmup_steps: 5000
+  optimizer:
+    betas:
+    - 0.9
+    - 0.95
+    eps: 1.0e-08
+    weight_decay: 1.0e-08
+  repeated_diffusion_steps: 4
+  save_interval: 5000
+  scheduler_specific_kwargs:
+    min_lr: 5.0e-07
+wandb_entity: your_wandb_entity
+wandb_project: PX_M0

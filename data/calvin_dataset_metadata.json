@@ -1,0 +1,130 @@
+{
+  "codebase_version": "v2.1",
+  "robot_type": "panda",
+  "total_episodes": 17870,
+  "total_frames": 1071743,
+  "total_tasks": 389,
+  "total_videos": 35740,
+  "total_chunks": 18,
+  "chunks_size": 1000,
+  "fps": 10,
+  "splits": {
+    "train": "0:17870"
+  },
+  "data_path": "data/chunk-{episode_chunk:03d}/episode_{episode_index:06d}.parquet",
+  "video_path": "videos/chunk-{episode_chunk:03d}/{video_key}/episode_{episode_index:06d}.mp4",
+  "features": {
+    "image": {
+      "dtype": "video",
+      "shape": [
+        200,
+        200,
+        3
+      ],
+      "names": [
+        "height",
+        "width",
+        "channel"
+      ],
+      "info": {
+        "video.height": 200,
+        "video.width": 200,
+        "video.codec": "av1",
+        "video.pix_fmt": "yuv420p",
+        "video.is_depth_map": false,
+        "video.fps": 10,
+        "video.channels": 3,
+        "has_audio": false
+      }
+    },
+    "wrist_image": {
+      "dtype": "video",
+      "shape": [
+        84,
+        84,
+        3
+      ],
+      "names": [
+        "height",
+        "width",
+        "channel"
+      ],
+      "info": {
+        "video.height": 84,
+        "video.width": 84,
+        "video.codec": "av1",
+        "video.pix_fmt": "yuv420p",
+        "video.is_depth_map": false,
+        "video.fps": 10,
+        "video.channels": 3,
+        "has_audio": false
+      }
+    },
+    "state": {
+      "dtype": "float32",
+      "shape": [
+        8
+      ],
+      "names": [
+        "x",
+        "y",
+        "z",
+        "roll",
+        "pitch",
+        "yaw",
+        "pad",
+        "gripper"
+      ]
+    },
+    "actions": {
+      "dtype": "float32",
+      "shape": [
+        7
+      ],
+      "names": [
+        "x",
+        "y",
+        "z",
+        "roll",
+        "pitch",
+        "yaw",
+        "gripper"
+      ]
+    },
+    "timestamp": {
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "names": null
+    },
+    "frame_index": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ],
+      "names": null
+    },
+    "episode_index": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ],
+      "names": null
+    },
+    "index": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ],
+      "names": null
+    },
+    "task_index": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ],
+      "names": null
+    }
+  }
+}

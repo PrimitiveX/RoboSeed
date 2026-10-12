@@ -1,0 +1,6 @@
+* text=auto eol=lf
+data/*.csv -text
+data/*.json -text
+*.pdf binary
+*.png binary
+*.jpg binary

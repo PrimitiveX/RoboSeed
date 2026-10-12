@@ -1,0 +1,2224 @@
+[
+  {
+    "suite": "libero_10",
+    "task_id": 2419,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://3ffa1606325dd7b2/rollout_t2419_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_15_episode0_success.mp4",
+      "mtime": 1790709181.2156487,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://1c8f4ac2928abb3d/rollout_t2419_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_15_episode0_success.mp4",
+        "mtime": 1790694622.8815331,
+        "success": 1
+      },
+      {
+        "path": "source://3ffa1606325dd7b2/rollout_t2419_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_15_episode0_success.mp4",
+        "mtime": 1790709181.2156487,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2420,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://b82ca07ca0765e02/rollout_t2420_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_18_episode0_success.mp4",
+      "mtime": 1790709201.5916224,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://603a2a215cf40ec0/rollout_t2420_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_18_episode0_success.mp4",
+        "mtime": 1790694644.3453002,
+        "success": 1
+      },
+      {
+        "path": "source://b82ca07ca0765e02/rollout_t2420_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_18_episode0_success.mp4",
+        "mtime": 1790709201.5916224,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2421,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://2eab20a1e71a49e9/rollout_t2421_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_21_episode0_success.mp4",
+      "mtime": 1790709225.6915913,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://32709a8111111ef5/rollout_t2421_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_21_episode0_success.mp4",
+        "mtime": 1790694669.861026,
+        "success": 1
+      },
+      {
+        "path": "source://2eab20a1e71a49e9/rollout_t2421_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_21_episode0_success.mp4",
+        "mtime": 1790709225.6915913,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2422,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://4eb5c7109bd7249b/rollout_t2422_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_22_episode0_success.mp4",
+      "mtime": 1790709246.5155644,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://4e9d55dc8b877f03/rollout_t2422_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_22_episode0_success.mp4",
+        "mtime": 1790694692.0087905,
+        "success": 1
+      },
+      {
+        "path": "source://4eb5c7109bd7249b/rollout_t2422_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_22_episode0_success.mp4",
+        "mtime": 1790709246.5155644,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2423,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://a14fe1fb2ca00dad/rollout_t2423_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_25_episode0_success.mp4",
+      "mtime": 1790709268.6115355,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://472d7cd504db0c64/rollout_t2423_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_25_episode0_success.mp4",
+        "mtime": 1790694716.7325299,
+        "success": 1
+      },
+      {
+        "path": "source://a14fe1fb2ca00dad/rollout_t2423_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_25_episode0_success.mp4",
+        "mtime": 1790709268.6115355,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2424,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://dcde41f795214400/rollout_t2424_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_26_episode0_success.mp4",
+      "mtime": 1790709289.903508,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://b66cee60680c3453/rollout_t2424_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_26_episode0_success.mp4",
+        "mtime": 1790694738.9002986,
+        "success": 1
+      },
+      {
+        "path": "source://dcde41f795214400/rollout_t2424_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_26_episode0_success.mp4",
+        "mtime": 1790709289.903508,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2425,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://5459c1a02455fc75/rollout_t2425_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_30_episode0_success.mp4",
+      "mtime": 1790709312.9915988,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://bd3b22a1196e0b24/rollout_t2425_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_30_episode0_success.mp4",
+        "mtime": 1790694763.2240467,
+        "success": 1
+      },
+      {
+        "path": "source://5459c1a02455fc75/rollout_t2425_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_30_episode0_success.mp4",
+        "mtime": 1790709312.9915988,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2426,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://88c242fa8c02dbde/rollout_t2426_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_38_episode0_success.mp4",
+      "mtime": 1790709335.7244635,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://e115304fdadcb6c1/rollout_t2426_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_38_episode0_success.mp4",
+        "mtime": 1790694786.8998036,
+        "success": 1
+      },
+      {
+        "path": "source://88c242fa8c02dbde/rollout_t2426_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_38_episode0_success.mp4",
+        "mtime": 1790709335.7244635,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2427,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://9e30c3ff41e03df7/rollout_t2427_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_44_episode0_success.mp4",
+      "mtime": 1790709356.2172132,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://2ac3cdf68c14f6f6/rollout_t2427_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_44_episode0_success.mp4",
+        "mtime": 1790694808.8995798,
+        "success": 1
+      },
+      {
+        "path": "source://9e30c3ff41e03df7/rollout_t2427_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_44_episode0_success.mp4",
+        "mtime": 1790709356.2172132,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2428,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://20b3d42d5efb601f/rollout_t2428_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_46_episode0_success.mp4",
+      "mtime": 1790709377.3539581,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://a38bf49a306bbeae/rollout_t2428_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_46_episode0_success.mp4",
+        "mtime": 1790694830.9913564,
+        "success": 1
+      },
+      {
+        "path": "source://20b3d42d5efb601f/rollout_t2428_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_46_episode0_success.mp4",
+        "mtime": 1790709377.3539581,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2429,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://b7c99c9c0c0f6b19/rollout_t2429_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_47_episode0_success.mp4",
+      "mtime": 1790709400.4027395,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://69bdf0f4cbb08614/rollout_t2429_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_47_episode0_success.mp4",
+        "mtime": 1790694854.835117,
+        "success": 1
+      },
+      {
+        "path": "source://b7c99c9c0c0f6b19/rollout_t2429_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_47_episode0_success.mp4",
+        "mtime": 1790709400.4027395,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2430,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://c99cc4fd5da0c5b0/rollout_t2430_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_48_episode0_success.mp4",
+      "mtime": 1790709420.931409,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://9a25e9c7c7178a3e/rollout_t2430_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_48_episode0_success.mp4",
+        "mtime": 1790694876.530901,
+        "success": 1
+      },
+      {
+        "path": "source://c99cc4fd5da0c5b0/rollout_t2430_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_48_episode0_success.mp4",
+        "mtime": 1790709420.931409,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2431,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://63dcbe6af7b53302/rollout_t2431_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_50_episode0_success.mp4",
+      "mtime": 1790709443.720124,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://ba8f3cdc7bf08cc4/rollout_t2431_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_50_episode0_success.mp4",
+        "mtime": 1790694900.3546653,
+        "success": 1
+      },
+      {
+        "path": "source://63dcbe6af7b53302/rollout_t2431_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_50_episode0_success.mp4",
+        "mtime": 1790709443.720124,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2432,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://0ba9bce46b267a0e/rollout_t2432_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_6_episode0_success.mp4",
+      "mtime": 1790709464.940765,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://01d3ef4dc5554858/rollout_t2432_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_6_episode0_success.mp4",
+        "mtime": 1790694922.5024476,
+        "success": 1
+      },
+      {
+        "path": "source://0ba9bce46b267a0e/rollout_t2432_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_6_episode0_success.mp4",
+        "mtime": 1790709464.940765,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2433,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://ca9ebaf40272cdd1/rollout_t2433_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_8_episode0_success.mp4",
+      "mtime": 1790709485.8773742,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://1f8be862db75808c/rollout_t2433_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_8_episode0_success.mp4",
+        "mtime": 1790694944.3702338,
+        "success": 1
+      },
+      {
+        "path": "source://ca9ebaf40272cdd1/rollout_t2433_LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_8_episode0_success.mp4",
+        "mtime": 1790709485.8773742,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2434,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://b4b8a575a4682055/rollout_t2434_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_10_episode0_success.mp4",
+      "mtime": 1790709507.1339703,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://dd9df061bb67ad85/rollout_t2434_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_10_episode0_success.mp4",
+        "mtime": 1790694966.8860152,
+        "success": 1
+      },
+      {
+        "path": "source://b4b8a575a4682055/rollout_t2434_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_10_episode0_success.mp4",
+        "mtime": 1790709507.1339703,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2435,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://897bc6be520c1d05/rollout_t2435_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_11_episode0_success.mp4",
+      "mtime": 1790709530.3225963,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://c9d761bf47df074b/rollout_t2435_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_11_episode0_success.mp4",
+        "mtime": 1790694991.762157,
+        "success": 1
+      },
+      {
+        "path": "source://897bc6be520c1d05/rollout_t2435_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_11_episode0_success.mp4",
+        "mtime": 1790709530.3225963,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2436,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://535535efd2cc3908/rollout_t2436_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_12_episode0_success.mp4",
+      "mtime": 1790709552.239165,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://c451bdb31620767d/rollout_t2436_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_12_episode0_success.mp4",
+        "mtime": 1790695014.2103796,
+        "success": 1
+      },
+      {
+        "path": "source://535535efd2cc3908/rollout_t2436_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_12_episode0_success.mp4",
+        "mtime": 1790709552.239165,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2437,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://a33e0d23fd59c68c/rollout_t2437_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_13_episode0_success.mp4",
+      "mtime": 1790709575.415744,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://042b28a3d948f553/rollout_t2437_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_13_episode0_success.mp4",
+        "mtime": 1790695038.946608,
+        "success": 1
+      },
+      {
+        "path": "source://a33e0d23fd59c68c/rollout_t2437_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_13_episode0_success.mp4",
+        "mtime": 1790709575.415744,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2438,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://845881e2e5203f0f/rollout_t2438_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_15_episode0_success.mp4",
+      "mtime": 1790709597.2922697,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://e9fb43848b54a726/rollout_t2438_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_15_episode0_success.mp4",
+        "mtime": 1790695062.5468102,
+        "success": 1
+      },
+      {
+        "path": "source://845881e2e5203f0f/rollout_t2438_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_15_episode0_success.mp4",
+        "mtime": 1790709597.2922697,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2439,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://60fc6afbe8e04625/rollout_t2439_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_16_episode0_success.mp4",
+      "mtime": 1790709620.1767993,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://287e545f271b3ca1/rollout_t2439_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_16_episode0_success.mp4",
+        "mtime": 1790695086.9830036,
+        "success": 1
+      },
+      {
+        "path": "source://60fc6afbe8e04625/rollout_t2439_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_16_episode0_success.mp4",
+        "mtime": 1790709620.1767993,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2440,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://6e4b7f481181d529/rollout_t2440_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_17_episode0_success.mp4",
+      "mtime": 1790709641.2052681,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://bab0c8961df2999c/rollout_t2440_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_17_episode0_success.mp4",
+        "mtime": 1790695109.8711712,
+        "success": 1
+      },
+      {
+        "path": "source://6e4b7f481181d529/rollout_t2440_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_17_episode0_success.mp4",
+        "mtime": 1790709641.2052681,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2441,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://cb23ddd10f10ccd2/rollout_t2441_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_18_episode0_success.mp4",
+      "mtime": 1790709664.521769,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://2fb6c731d704309a/rollout_t2441_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_18_episode0_success.mp4",
+        "mtime": 1790695134.90734,
+        "success": 1
+      },
+      {
+        "path": "source://cb23ddd10f10ccd2/rollout_t2441_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_18_episode0_success.mp4",
+        "mtime": 1790709664.521769,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2442,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://9063a4579bed5dc7/rollout_t2442_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_19_episode0_success.mp4",
+      "mtime": 1790709685.6102054,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://f551d3c351f3b3a7/rollout_t2442_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_19_episode0_success.mp4",
+        "mtime": 1790695158.2954845,
+        "success": 1
+      },
+      {
+        "path": "source://9063a4579bed5dc7/rollout_t2442_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_19_episode0_success.mp4",
+        "mtime": 1790709685.6102054,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2443,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://9c8070b80f501a2c/rollout_t2443_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_2_episode0_success.mp4",
+      "mtime": 1790709708.4226608,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://18620b9f9f80126e/rollout_t2443_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_2_episode0_success.mp4",
+        "mtime": 1790695183.535627,
+        "success": 1
+      },
+      {
+        "path": "source://9c8070b80f501a2c/rollout_t2443_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_2_episode0_success.mp4",
+        "mtime": 1790709708.4226608,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2444,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://aa709c484377c60a/rollout_t2444_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_20_episode0_success.mp4",
+      "mtime": 1790709730.9510942,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://e895e5043b191f26/rollout_t2444_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_20_episode0_success.mp4",
+        "mtime": 1790695207.8197513,
+        "success": 1
+      },
+      {
+        "path": "source://aa709c484377c60a/rollout_t2444_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_20_episode0_success.mp4",
+        "mtime": 1790709730.9510942,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2445,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://44ccf89e745f2885/rollout_t2445_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_21_episode0_success.mp4",
+      "mtime": 1790709752.8635006,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://8c390c0c3426dfb7/rollout_t2445_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_21_episode0_success.mp4",
+        "mtime": 1790695231.2878602,
+        "success": 1
+      },
+      {
+        "path": "source://44ccf89e745f2885/rollout_t2445_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_21_episode0_success.mp4",
+        "mtime": 1790709752.8635006,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2446,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://ccebb7e8b5b10f75/rollout_t2446_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_22_episode0_success.mp4",
+      "mtime": 1790709775.1198988,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://786af34f47055964/rollout_t2446_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_22_episode0_success.mp4",
+        "mtime": 1790695255.9919634,
+        "success": 1
+      },
+      {
+        "path": "source://ccebb7e8b5b10f75/rollout_t2446_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_22_episode0_success.mp4",
+        "mtime": 1790709775.1198988,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2447,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://b0579eed4190f928/rollout_t2447_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_24_episode0_success.mp4",
+      "mtime": 1790709798.4323008,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://3160a5ec6b752c81/rollout_t2447_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_24_episode0_success.mp4",
+        "mtime": 1790695280.6160553,
+        "success": 1
+      },
+      {
+        "path": "source://b0579eed4190f928/rollout_t2447_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_24_episode0_success.mp4",
+        "mtime": 1790709798.4323008,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2448,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://fc8494bcc43df0d1/rollout_t2448_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_25_episode0_success.mp4",
+      "mtime": 1790709819.8206568,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://99f96cc51c836eb2/rollout_t2448_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_25_episode0_success.mp4",
+        "mtime": 1790695304.076133,
+        "success": 1
+      },
+      {
+        "path": "source://fc8494bcc43df0d1/rollout_t2448_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_25_episode0_success.mp4",
+        "mtime": 1790709819.8206568,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2449,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://b7ecf0971fd3af4d/rollout_t2449_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_26_episode0_success.mp4",
+      "mtime": 1790709841.8290107,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://b04c3b1d68c24872/rollout_t2449_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_26_episode0_success.mp4",
+        "mtime": 1790695327.0242002,
+        "success": 1
+      },
+      {
+        "path": "source://b7ecf0971fd3af4d/rollout_t2449_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_26_episode0_success.mp4",
+        "mtime": 1790709841.8290107,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2450,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://f65b3762d7b1f6d8/rollout_t2450_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_27_episode0_success.mp4",
+      "mtime": 1790709865.1373725,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://30c347f4448ec16d/rollout_t2450_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_27_episode0_success.mp4",
+        "mtime": 1790695351.9242635,
+        "success": 1
+      },
+      {
+        "path": "source://f65b3762d7b1f6d8/rollout_t2450_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_27_episode0_success.mp4",
+        "mtime": 1790709865.1373725,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2451,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://0e71e27f0183bc45/rollout_t2451_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_28_episode0_success.mp4",
+      "mtime": 1790709888.421721,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://05d3883c586bc889/rollout_t2451_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_28_episode0_success.mp4",
+        "mtime": 1790695376.1963162,
+        "success": 1
+      },
+      {
+        "path": "source://0e71e27f0183bc45/rollout_t2451_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_28_episode0_success.mp4",
+        "mtime": 1790709888.421721,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2452,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://0a6752466a0c2053/rollout_t2452_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_29_episode0_success.mp4",
+      "mtime": 1790709910.3260376,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://a09521ccf32661e4/rollout_t2452_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_29_episode0_success.mp4",
+        "mtime": 1790695398.8163579,
+        "success": 1
+      },
+      {
+        "path": "source://0a6752466a0c2053/rollout_t2452_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_29_episode0_success.mp4",
+        "mtime": 1790709910.3260376,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2453,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://cf73f4fe0250c59a/rollout_t2453_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_31_episode0_success.mp4",
+      "mtime": 1790709931.1223288,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://4f28feba8a13e743/rollout_t2453_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_31_episode0_success.mp4",
+        "mtime": 1790695421.7523928,
+        "success": 1
+      },
+      {
+        "path": "source://cf73f4fe0250c59a/rollout_t2453_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_31_episode0_success.mp4",
+        "mtime": 1790709931.1223288,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2454,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://b97a6780a0bce185/rollout_t2454_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_33_episode0_success.mp4",
+      "mtime": 1790709952.5786195,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://506e7d9401cab21f/rollout_t2454_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_33_episode0_success.mp4",
+        "mtime": 1790695444.4364204,
+        "success": 1
+      },
+      {
+        "path": "source://b97a6780a0bce185/rollout_t2454_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_33_episode0_success.mp4",
+        "mtime": 1790709952.5786195,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2455,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://222e10d11cea7afd/rollout_t2455_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_35_episode0_success.mp4",
+      "mtime": 1790709974.5349073,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://d37199e3eeca59fc/rollout_t2455_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_35_episode0_success.mp4",
+        "mtime": 1790695466.7764413,
+        "success": 1
+      },
+      {
+        "path": "source://222e10d11cea7afd/rollout_t2455_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_35_episode0_success.mp4",
+        "mtime": 1790709974.5349073,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2456,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://0304bd670880887f/rollout_t2456_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_36_episode0_success.mp4",
+      "mtime": 1790709999.1912198,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://67e69593905654f6/rollout_t2456_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_36_episode0_success.mp4",
+        "mtime": 1790695492.1684577,
+        "success": 1
+      },
+      {
+        "path": "source://0304bd670880887f/rollout_t2456_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_36_episode0_success.mp4",
+        "mtime": 1790709999.1912198,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2457,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://86f80ab984208515/rollout_t2457_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_39_episode0_success.mp4",
+      "mtime": 1790710023.0395114,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://2154a214b2a818a7/rollout_t2457_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_39_episode0_success.mp4",
+        "mtime": 1790695517.196467,
+        "success": 1
+      },
+      {
+        "path": "source://86f80ab984208515/rollout_t2457_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_39_episode0_success.mp4",
+        "mtime": 1790710023.0395114,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2458,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://e00317a7dee0a5d7/rollout_t2458_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_41_episode0_success.mp4",
+      "mtime": 1790710046.2357855,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://f01f39885c000fd6/rollout_t2458_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_41_episode0_success.mp4",
+        "mtime": 1790695541.604469,
+        "success": 1
+      },
+      {
+        "path": "source://e00317a7dee0a5d7/rollout_t2458_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_41_episode0_success.mp4",
+        "mtime": 1790710046.2357855,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2459,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://0e18b112067e2b33/rollout_t2459_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_43_episode0_success.mp4",
+      "mtime": 1790710069.096047,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://dbb52efa86f1526e/rollout_t2459_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_43_episode0_success.mp4",
+        "mtime": 1790695566.3404648,
+        "success": 1
+      },
+      {
+        "path": "source://0e18b112067e2b33/rollout_t2459_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_43_episode0_success.mp4",
+        "mtime": 1790710069.096047,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2460,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://1321d2c7c887a74e/rollout_t2460_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_44_episode0_success.mp4",
+      "mtime": 1790710091.1722915,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://8f68e277b1ce227f/rollout_t2460_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_44_episode0_success.mp4",
+        "mtime": 1790695589.4404554,
+        "success": 1
+      },
+      {
+        "path": "source://1321d2c7c887a74e/rollout_t2460_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_44_episode0_success.mp4",
+        "mtime": 1790710091.1722915,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2461,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://02e156c518dfea23/rollout_t2461_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_46_episode0_success.mp4",
+      "mtime": 1790710112.3085186,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://00fcc8c96e3d5f57/rollout_t2461_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_46_episode0_success.mp4",
+        "mtime": 1790695612.0604413,
+        "success": 1
+      },
+      {
+        "path": "source://02e156c518dfea23/rollout_t2461_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_46_episode0_success.mp4",
+        "mtime": 1790710112.3085186,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2462,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://235feb1130c5fc30/rollout_t2462_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_49_episode0_success.mp4",
+      "mtime": 1790710134.9047542,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://f38de0ef063b4efb/rollout_t2462_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_49_episode0_success.mp4",
+        "mtime": 1790695636.7084205,
+        "success": 1
+      },
+      {
+        "path": "source://235feb1130c5fc30/rollout_t2462_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_49_episode0_success.mp4",
+        "mtime": 1790710134.9047542,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2463,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://ba78a10428ab86ae/rollout_t2463_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_5_episode0_success.mp4",
+      "mtime": 1790710157.8769865,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://dc5bd47496214717/rollout_t2463_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_5_episode0_success.mp4",
+        "mtime": 1790695661.4643946,
+        "success": 1
+      },
+      {
+        "path": "source://ba78a10428ab86ae/rollout_t2463_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_5_episode0_success.mp4",
+        "mtime": 1790710157.8769865,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2464,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://ff7093a91a3038d3/rollout_t2464_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_50_episode0_success.mp4",
+      "mtime": 1790710181.109214,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://eabec422f1107d0e/rollout_t2464_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_50_episode0_success.mp4",
+        "mtime": 1790695686.0283637,
+        "success": 1
+      },
+      {
+        "path": "source://ff7093a91a3038d3/rollout_t2464_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_50_episode0_success.mp4",
+        "mtime": 1790710181.109214,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2465,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://13e9817e5a6ed6bb/rollout_t2465_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_6_episode0_success.mp4",
+      "mtime": 1790710202.7374198,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://2b11fd8bd2f5d43f/rollout_t2465_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_6_episode0_success.mp4",
+        "mtime": 1790695708.672331,
+        "success": 1
+      },
+      {
+        "path": "source://13e9817e5a6ed6bb/rollout_t2465_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_6_episode0_success.mp4",
+        "mtime": 1790710202.7374198,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2466,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://e8e6dfc53ba1e789/rollout_t2466_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_7_episode0_success.mp4",
+      "mtime": 1790710225.2376277,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://20af4ca43fbc7285/rollout_t2466_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_7_episode0_success.mp4",
+        "mtime": 1790695732.800292,
+        "success": 1
+      },
+      {
+        "path": "source://e8e6dfc53ba1e789/rollout_t2466_LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_7_episode0_success.mp4",
+        "mtime": 1790710225.2376277,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2467,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://984475273825f3c6/rollout_t2467_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_10_episode0_success.mp4",
+      "mtime": 1790710244.961805,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://8c7710ae31209eb8/rollout_t2467_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_10_episode0_success.mp4",
+        "mtime": 1790695754.1162539,
+        "success": 1
+      },
+      {
+        "path": "source://984475273825f3c6/rollout_t2467_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_10_episode0_success.mp4",
+        "mtime": 1790710244.961805,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2468,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://3fdfbe8d3d0018c0/rollout_t2468_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_11_episode0_success.mp4",
+      "mtime": 1790710263.1219647,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://585cc4a1c9046edf/rollout_t2468_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_11_episode0_success.mp4",
+        "mtime": 1790695773.388217,
+        "success": 1
+      },
+      {
+        "path": "source://3fdfbe8d3d0018c0/rollout_t2468_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_11_episode0_success.mp4",
+        "mtime": 1790710263.1219647,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2469,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://2d952a8ecc51723d/rollout_t2469_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_13_episode0_success.mp4",
+      "mtime": 1790710281.7541244,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://137ddef981c1cf89/rollout_t2469_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_13_episode0_success.mp4",
+        "mtime": 1790695792.1721785,
+        "success": 1
+      },
+      {
+        "path": "source://2d952a8ecc51723d/rollout_t2469_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_13_episode0_success.mp4",
+        "mtime": 1790710281.7541244,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2470,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://61996e030cce91d0/rollout_t2470_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_14_episode0_success.mp4",
+      "mtime": 1790710301.5222902,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://2fe9fe44cc8ce8a6/rollout_t2470_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_14_episode0_success.mp4",
+        "mtime": 1790695812.7321336,
+        "success": 1
+      },
+      {
+        "path": "source://61996e030cce91d0/rollout_t2470_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_14_episode0_success.mp4",
+        "mtime": 1790710301.5222902,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2471,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://6f8b4f0acb845935/rollout_t2471_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_15_episode0_success.mp4",
+      "mtime": 1790710319.7664394,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://6f296f5e11546e73/rollout_t2471_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_15_episode0_success.mp4",
+        "mtime": 1790695831.6400902,
+        "success": 1
+      },
+      {
+        "path": "source://6f8b4f0acb845935/rollout_t2471_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_15_episode0_success.mp4",
+        "mtime": 1790710319.7664394,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2472,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://0c84d9eafa4c6db1/rollout_t2472_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_16_episode0_success.mp4",
+      "mtime": 1790710338.1505866,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://eda34e927afdba3b/rollout_t2472_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_16_episode0_success.mp4",
+        "mtime": 1790695850.868044,
+        "success": 1
+      },
+      {
+        "path": "source://0c84d9eafa4c6db1/rollout_t2472_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_16_episode0_success.mp4",
+        "mtime": 1790710338.1505866,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2473,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://e80fe1c857810ee8/rollout_t2473_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_18_episode0_success.mp4",
+      "mtime": 1790710356.302729,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://7b46ca9ba71d24b3/rollout_t2473_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_18_episode0_success.mp4",
+        "mtime": 1790695870.5919943,
+        "success": 1
+      },
+      {
+        "path": "source://e80fe1c857810ee8/rollout_t2473_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_18_episode0_success.mp4",
+        "mtime": 1790710356.302729,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2474,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://8c5ddc00a125ae32/rollout_t2474_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_19_episode0_success.mp4",
+      "mtime": 1790710375.5508764,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://846dd320ff6d23dc/rollout_t2474_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_19_episode0_success.mp4",
+        "mtime": 1790695891.623939,
+        "success": 1
+      },
+      {
+        "path": "source://8c5ddc00a125ae32/rollout_t2474_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_19_episode0_success.mp4",
+        "mtime": 1790710375.5508764,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2475,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://8f0740c85fab86b1/rollout_t2475_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_2_episode0_failure.mp4",
+      "mtime": 1790710412.6431518,
+      "success": 0
+    },
+    "alternatives": [
+      {
+        "path": "source://2eca7dfb50ebb35b/rollout_t2475_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_2_episode0_failure.mp4",
+        "mtime": 1790695929.3798337,
+        "success": 0
+      },
+      {
+        "path": "source://8f0740c85fab86b1/rollout_t2475_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_2_episode0_failure.mp4",
+        "mtime": 1790710412.6431518,
+        "success": 0
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2476,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://bce963f428553d46/rollout_t2476_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_21_episode0_success.mp4",
+      "mtime": 1790710432.5432947,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://cfc50a7b05a8a89d/rollout_t2476_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_21_episode0_success.mp4",
+        "mtime": 1790695950.0837731,
+        "success": 1
+      },
+      {
+        "path": "source://bce963f428553d46/rollout_t2476_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_21_episode0_success.mp4",
+        "mtime": 1790710432.5432947,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2477,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://ff4ba275f6c91e78/rollout_t2477_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_22_episode0_success.mp4",
+      "mtime": 1790710450.763423,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://39d414c23374e093/rollout_t2477_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_22_episode0_success.mp4",
+        "mtime": 1790695969.5517144,
+        "success": 1
+      },
+      {
+        "path": "source://ff4ba275f6c91e78/rollout_t2477_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_22_episode0_success.mp4",
+        "mtime": 1790710450.763423,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2478,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://70a4e9866c9436e8/rollout_t2478_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_23_episode0_success.mp4",
+      "mtime": 1790710470.5355592,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://212f09cfba2ef3f1/rollout_t2478_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_23_episode0_success.mp4",
+        "mtime": 1790695990.1476502,
+        "success": 1
+      },
+      {
+        "path": "source://70a4e9866c9436e8/rollout_t2478_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_23_episode0_success.mp4",
+        "mtime": 1790710470.5355592,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2479,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://c7d7041aeea7fa6d/rollout_t2479_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_3_episode0_success.mp4",
+      "mtime": 1790710489.763689,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://2ab7fca2bc83ff60/rollout_t2479_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_3_episode0_success.mp4",
+        "mtime": 1790696015.2675695,
+        "success": 1
+      },
+      {
+        "path": "source://c7d7041aeea7fa6d/rollout_t2479_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_3_episode0_success.mp4",
+        "mtime": 1790710489.763689,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2480,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://a02255ab02ed3849/rollout_t2480_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_30_episode0_success.mp4",
+      "mtime": 1790710510.0518234,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://ef29cc42b41200a7/rollout_t2480_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_30_episode0_success.mp4",
+        "mtime": 1790696036.2515001,
+        "success": 1
+      },
+      {
+        "path": "source://a02255ab02ed3849/rollout_t2480_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_30_episode0_success.mp4",
+        "mtime": 1790710510.0518234,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2481,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://d10e5608f112a9d4/rollout_t2481_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_32_episode0_success.mp4",
+      "mtime": 1790710530.0399528,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://b984c1b9b1781640/rollout_t2481_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_32_episode0_success.mp4",
+        "mtime": 1790696056.8114302,
+        "success": 1
+      },
+      {
+        "path": "source://d10e5608f112a9d4/rollout_t2481_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_32_episode0_success.mp4",
+        "mtime": 1790710530.0399528,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2482,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://8f041281aaa73996/rollout_t2482_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_33_episode0_success.mp4",
+      "mtime": 1790710548.2840688,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://9898cb7ae517e4f5/rollout_t2482_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_33_episode0_success.mp4",
+        "mtime": 1790696075.6913648,
+        "success": 1
+      },
+      {
+        "path": "source://8f041281aaa73996/rollout_t2482_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_33_episode0_success.mp4",
+        "mtime": 1790710548.2840688,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2483,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://ea5e0692ec0cc0d7/rollout_t2483_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_34_episode0_success.mp4",
+      "mtime": 1790710568.348194,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://7a4619e85d3115ce/rollout_t2483_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_34_episode0_success.mp4",
+        "mtime": 1790696096.3832917,
+        "success": 1
+      },
+      {
+        "path": "source://ea5e0692ec0cc0d7/rollout_t2483_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_34_episode0_success.mp4",
+        "mtime": 1790710568.348194,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2484,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://c43b85fb66c406ab/rollout_t2484_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_35_episode0_success.mp4",
+      "mtime": 1790710586.5603054,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://e71aa95f00328d0d/rollout_t2484_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_35_episode0_success.mp4",
+        "mtime": 1790696115.5832224,
+        "success": 1
+      },
+      {
+        "path": "source://c43b85fb66c406ab/rollout_t2484_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_35_episode0_success.mp4",
+        "mtime": 1790710586.5603054,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2485,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://69ddb2eb98598a05/rollout_t2485_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_36_episode0_success.mp4",
+      "mtime": 1790710608.796439,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://7a587c126896d1af/rollout_t2485_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_36_episode0_success.mp4",
+        "mtime": 1790696137.2951424,
+        "success": 1
+      },
+      {
+        "path": "source://69ddb2eb98598a05/rollout_t2485_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_36_episode0_success.mp4",
+        "mtime": 1790710608.796439,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2486,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://e988444ed05e53a8/rollout_t2486_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_37_episode0_success.mp4",
+      "mtime": 1790710633.4685838,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://5898724725898d14/rollout_t2486_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_37_episode0_success.mp4",
+        "mtime": 1790696158.8550615,
+        "success": 1
+      },
+      {
+        "path": "source://e988444ed05e53a8/rollout_t2486_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_37_episode0_success.mp4",
+        "mtime": 1790710633.4685838,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2487,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://545fad97f24f5d20/rollout_t2487_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_38_episode0_success.mp4",
+      "mtime": 1790710651.87269,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://78dce9f1fb87d2cf/rollout_t2487_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_38_episode0_success.mp4",
+        "mtime": 1790696178.154988,
+        "success": 1
+      },
+      {
+        "path": "source://545fad97f24f5d20/rollout_t2487_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_38_episode0_success.mp4",
+        "mtime": 1790710651.87269,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2488,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://96a6a34ba92571d9/rollout_t2488_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_39_episode0_success.mp4",
+      "mtime": 1790710671.7768025,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://6c86b86926021a0a/rollout_t2488_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_39_episode0_success.mp4",
+        "mtime": 1790696199.7309043,
+        "success": 1
+      },
+      {
+        "path": "source://96a6a34ba92571d9/rollout_t2488_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_39_episode0_success.mp4",
+        "mtime": 1790710671.7768025,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2489,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://4b4163ba7b313e0c/rollout_t2489_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_4_episode0_success.mp4",
+      "mtime": 1790710691.6729133,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://75a16e9eb698b778/rollout_t2489_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_4_episode0_success.mp4",
+        "mtime": 1790696220.0868244,
+        "success": 1
+      },
+      {
+        "path": "source://4b4163ba7b313e0c/rollout_t2489_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_4_episode0_success.mp4",
+        "mtime": 1790710691.6729133,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2490,
+    "conflicting": true,
+    "chosen": {
+      "path": "source://d12bd2edd65a537d/rollout_t2490_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_40_episode0_success.mp4",
+      "mtime": 1790710710.1730146,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://0aabc5de4ee2021a/rollout_t2490_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_40_episode0_failure.mp4",
+        "mtime": 1790696254.7226853,
+        "success": 0
+      },
+      {
+        "path": "source://d12bd2edd65a537d/rollout_t2490_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_40_episode0_success.mp4",
+        "mtime": 1790710710.1730146,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2491,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://7a74522e1d6b0514/rollout_t2491_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_43_episode0_success.mp4",
+      "mtime": 1790710730.7531254,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://ff04006007a901dd/rollout_t2491_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_43_episode0_success.mp4",
+        "mtime": 1790696276.1825976,
+        "success": 1
+      },
+      {
+        "path": "source://7a74522e1d6b0514/rollout_t2491_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_43_episode0_success.mp4",
+        "mtime": 1790710730.7531254,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2492,
+    "conflicting": true,
+    "chosen": {
+      "path": "source://2b8be7ff07b27645/rollout_t2492_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_44_episode0_success.mp4",
+      "mtime": 1790710750.9332323,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://6241cdb59c96c7df/rollout_t2492_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_44_episode0_failure.mp4",
+        "mtime": 1790696311.006453,
+        "success": 0
+      },
+      {
+        "path": "source://2b8be7ff07b27645/rollout_t2492_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_44_episode0_success.mp4",
+        "mtime": 1790710750.9332323,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2493,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://e7e62e8b863c975d/rollout_t2493_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_45_episode0_success.mp4",
+      "mtime": 1790710770.433334,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://a6a379f0bd4a964b/rollout_t2493_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_45_episode0_success.mp4",
+        "mtime": 1790696331.5263665,
+        "success": 1
+      },
+      {
+        "path": "source://e7e62e8b863c975d/rollout_t2493_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_45_episode0_success.mp4",
+        "mtime": 1790710770.433334,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2494,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://dfcf62dec13f9e1d/rollout_t2494_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_48_episode0_success.mp4",
+      "mtime": 1790710788.5734272,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://f5b67679e8b89091/rollout_t2494_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_48_episode0_success.mp4",
+        "mtime": 1790696350.2542868,
+        "success": 1
+      },
+      {
+        "path": "source://dfcf62dec13f9e1d/rollout_t2494_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_48_episode0_success.mp4",
+        "mtime": 1790710788.5734272,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2495,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://9280ddbc4f02a25e/rollout_t2495_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_49_episode0_success.mp4",
+      "mtime": 1790710808.073526,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://54e1a5de3df01815/rollout_t2495_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_49_episode0_success.mp4",
+        "mtime": 1790696370.7381985,
+        "success": 1
+      },
+      {
+        "path": "source://9280ddbc4f02a25e/rollout_t2495_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_49_episode0_success.mp4",
+        "mtime": 1790710808.073526,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2496,
+    "conflicting": true,
+    "chosen": {
+      "path": "source://fa6fbd831831f9eb/rollout_t2496_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_5_episode0_failure.mp4",
+      "mtime": 1790710844.5057068,
+      "success": 0
+    },
+    "alternatives": [
+      {
+        "path": "source://fc06fe4fda767aab/rollout_t2496_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_5_episode0_success.mp4",
+        "mtime": 1790696402.086062,
+        "success": 1
+      },
+      {
+        "path": "source://fa6fbd831831f9eb/rollout_t2496_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_5_episode0_failure.mp4",
+        "mtime": 1790710844.5057068,
+        "success": 0
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2497,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://ab65994599da5454/rollout_t2497_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_50_episode0_success.mp4",
+      "mtime": 1790710863.7818005,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://7b79d65f2501b5bb/rollout_t2497_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_50_episode0_success.mp4",
+        "mtime": 1790696423.3179684,
+        "success": 1
+      },
+      {
+        "path": "source://ab65994599da5454/rollout_t2497_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_50_episode0_success.mp4",
+        "mtime": 1790710863.7818005,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2498,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://32c5b74ca0277869/rollout_t2498_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_1_episode0_success.mp4",
+      "mtime": 1790710878.889873,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://0b81797e660ac751/rollout_t2498_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_1_episode0_success.mp4",
+        "mtime": 1790696438.4139013,
+        "success": 1
+      },
+      {
+        "path": "source://32c5b74ca0277869/rollout_t2498_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_1_episode0_success.mp4",
+        "mtime": 1790710878.889873,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2499,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://403ae52e5f7230ca/rollout_t2499_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_11_episode0_success.mp4",
+      "mtime": 1790710893.9059443,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://f3910d0092283bcf/rollout_t2499_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_11_episode0_success.mp4",
+        "mtime": 1790696454.4338298,
+        "success": 1
+      },
+      {
+        "path": "source://403ae52e5f7230ca/rollout_t2499_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_11_episode0_success.mp4",
+        "mtime": 1790710893.9059443,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2500,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://704b841465c25d90/rollout_t2500_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_12_episode0_success.mp4",
+      "mtime": 1790710909.2940168,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://a4c5fd77e281e293/rollout_t2500_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_12_episode0_success.mp4",
+        "mtime": 1790696470.6657567,
+        "success": 1
+      },
+      {
+        "path": "source://704b841465c25d90/rollout_t2500_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_12_episode0_success.mp4",
+        "mtime": 1790710909.2940168,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2501,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://69d58ae3118ff680/rollout_t2501_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_13_episode0_success.mp4",
+      "mtime": 1790710923.5300832,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://70b1a15fbe79a6cc/rollout_t2501_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_13_episode0_success.mp4",
+        "mtime": 1790696485.4376898,
+        "success": 1
+      },
+      {
+        "path": "source://69d58ae3118ff680/rollout_t2501_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_13_episode0_success.mp4",
+        "mtime": 1790710923.5300832,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2502,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://722ef02046bac92e/rollout_t2502_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_14_episode0_success.mp4",
+      "mtime": 1790710938.5861528,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://4d9f985cb3800600/rollout_t2502_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_14_episode0_success.mp4",
+        "mtime": 1790696501.5576165,
+        "success": 1
+      },
+      {
+        "path": "source://722ef02046bac92e/rollout_t2502_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_14_episode0_success.mp4",
+        "mtime": 1790710938.5861528,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2503,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://6ee5fb5ffb3f5405/rollout_t2503_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_19_episode0_success.mp4",
+      "mtime": 1790710952.9462185,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://f33379c261f42858/rollout_t2503_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_19_episode0_success.mp4",
+        "mtime": 1790696516.0055504,
+        "success": 1
+      },
+      {
+        "path": "source://6ee5fb5ffb3f5405/rollout_t2503_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_19_episode0_success.mp4",
+        "mtime": 1790710952.9462185,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2504,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://fd1941f258a4a93d/rollout_t2504_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_2_episode0_success.mp4",
+      "mtime": 1790710968.1902876,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://1369196c2ea67218/rollout_t2504_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_2_episode0_success.mp4",
+        "mtime": 1790696531.781478,
+        "success": 1
+      },
+      {
+        "path": "source://fd1941f258a4a93d/rollout_t2504_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_2_episode0_success.mp4",
+        "mtime": 1790710968.1902876,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2505,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://d9d03418dd6b8860/rollout_t2505_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_20_episode0_success.mp4",
+      "mtime": 1790710984.1663592,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://7fb51413490e2423/rollout_t2505_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_20_episode0_success.mp4",
+        "mtime": 1790696548.1254022,
+        "success": 1
+      },
+      {
+        "path": "source://d9d03418dd6b8860/rollout_t2505_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_20_episode0_success.mp4",
+        "mtime": 1790710984.1663592,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2506,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://8c3045f89ec365ee/rollout_t2506_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_22_episode0_success.mp4",
+      "mtime": 1790710997.9144204,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://5bd80acc78dd2b26/rollout_t2506_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_22_episode0_success.mp4",
+        "mtime": 1790696562.809334,
+        "success": 1
+      },
+      {
+        "path": "source://8c3045f89ec365ee/rollout_t2506_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_22_episode0_success.mp4",
+        "mtime": 1790710997.9144204,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2507,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://e158549eb0ba4aa2/rollout_t2507_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_23_episode0_success.mp4",
+      "mtime": 1790711013.64249,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://de11f80409d6c728/rollout_t2507_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_23_episode0_success.mp4",
+        "mtime": 1790696579.6132557,
+        "success": 1
+      },
+      {
+        "path": "source://e158549eb0ba4aa2/rollout_t2507_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_23_episode0_success.mp4",
+        "mtime": 1790711013.64249,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2508,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://95ee98eb47d38bcf/rollout_t2508_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_24_episode0_success.mp4",
+      "mtime": 1790711027.8305519,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://962f4deed0d99e25/rollout_t2508_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_24_episode0_success.mp4",
+        "mtime": 1790696594.273187,
+        "success": 1
+      },
+      {
+        "path": "source://95ee98eb47d38bcf/rollout_t2508_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_24_episode0_success.mp4",
+        "mtime": 1790711027.8305519,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2509,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://ee34af99dfada72e/rollout_t2509_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_25_episode0_success.mp4",
+      "mtime": 1790711043.4586196,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://d27b3603b2852857/rollout_t2509_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_25_episode0_success.mp4",
+        "mtime": 1790696610.0211127,
+        "success": 1
+      },
+      {
+        "path": "source://ee34af99dfada72e/rollout_t2509_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_25_episode0_success.mp4",
+        "mtime": 1790711043.4586196,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2510,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://0503a7f0a3c343fd/rollout_t2510_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_28_episode0_success.mp4",
+      "mtime": 1790711057.7906814,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://67aa68f2e1ff2f6e/rollout_t2510_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_28_episode0_success.mp4",
+        "mtime": 1790696624.5930438,
+        "success": 1
+      },
+      {
+        "path": "source://0503a7f0a3c343fd/rollout_t2510_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_28_episode0_success.mp4",
+        "mtime": 1790711057.7906814,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2511,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://87fce02a187b6cd6/rollout_t2511_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_29_episode0_success.mp4",
+      "mtime": 1790711072.7947454,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://23287e7fd78e6cab/rollout_t2511_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_29_episode0_success.mp4",
+        "mtime": 1790696640.2049696,
+        "success": 1
+      },
+      {
+        "path": "source://87fce02a187b6cd6/rollout_t2511_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_29_episode0_success.mp4",
+        "mtime": 1790711072.7947454,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2512,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://36f7f235b779f5c0/rollout_t2512_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_30_episode0_success.mp4",
+      "mtime": 1790711086.9868054,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://225e0aeff87c7dc6/rollout_t2512_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_30_episode0_success.mp4",
+        "mtime": 1790696654.4529018,
+        "success": 1
+      },
+      {
+        "path": "source://36f7f235b779f5c0/rollout_t2512_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_30_episode0_success.mp4",
+        "mtime": 1790711086.9868054,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2513,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://fd2d651ed73de27f/rollout_t2513_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_31_episode0_success.mp4",
+      "mtime": 1790711101.1868653,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://792d873c2a0b0f8c/rollout_t2513_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_31_episode0_success.mp4",
+        "mtime": 1790696670.264826,
+        "success": 1
+      },
+      {
+        "path": "source://fd2d651ed73de27f/rollout_t2513_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_31_episode0_success.mp4",
+        "mtime": 1790711101.1868653,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2514,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://064ae4dcb6b46f9e/rollout_t2514_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_32_episode0_success.mp4",
+      "mtime": 1790711115.3629243,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://73cf5e37182d4d1e/rollout_t2514_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_32_episode0_success.mp4",
+        "mtime": 1790696684.644757,
+        "success": 1
+      },
+      {
+        "path": "source://064ae4dcb6b46f9e/rollout_t2514_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_32_episode0_success.mp4",
+        "mtime": 1790711115.3629243,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2515,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://2d4d332abc6ea122/rollout_t2515_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_38_episode0_success.mp4",
+      "mtime": 1790711129.9069848,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://f847c5b0f91de9e7/rollout_t2515_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_38_episode0_success.mp4",
+        "mtime": 1790696700.8006792,
+        "success": 1
+      },
+      {
+        "path": "source://2d4d332abc6ea122/rollout_t2515_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_38_episode0_success.mp4",
+        "mtime": 1790711129.9069848,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2516,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://0461358984da8f4c/rollout_t2516_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_39_episode0_success.mp4",
+      "mtime": 1790711143.9670427,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://a5a6d964db9330a5/rollout_t2516_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_39_episode0_success.mp4",
+        "mtime": 1790696715.352609,
+        "success": 1
+      },
+      {
+        "path": "source://0461358984da8f4c/rollout_t2516_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_39_episode0_success.mp4",
+        "mtime": 1790711143.9670427,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2517,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://e26b2259dca38f6e/rollout_t2517_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_41_episode0_success.mp4",
+      "mtime": 1790711157.9791,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://d75c9406ca2fea3d/rollout_t2517_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_41_episode0_success.mp4",
+        "mtime": 1790696730.0205379,
+        "success": 1
+      },
+      {
+        "path": "source://e26b2259dca38f6e/rollout_t2517_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_41_episode0_success.mp4",
+        "mtime": 1790711157.9791,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2518,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://08cefefd6422392b/rollout_t2518_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_5_episode0_success.mp4",
+      "mtime": 1790711172.4591587,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://e61b56739ce7d269/rollout_t2518_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_5_episode0_success.mp4",
+        "mtime": 1790696744.4164677,
+        "success": 1
+      },
+      {
+        "path": "source://08cefefd6422392b/rollout_t2518_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_5_episode0_success.mp4",
+        "mtime": 1790711172.4591587,
+        "success": 1
+      }
+    ]
+  },
+  {
+    "suite": "libero_10",
+    "task_id": 2519,
+    "conflicting": false,
+    "chosen": {
+      "path": "source://d3cd05f6ab90f710/rollout_t2519_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_8_episode0_success.mp4",
+      "mtime": 1790711187.7992206,
+      "success": 1
+    },
+    "alternatives": [
+      {
+        "path": "source://cd924446a51cc859/rollout_t2519_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_8_episode0_success.mp4",
+        "mtime": 1790696760.5083892,
+        "success": 1
+      },
+      {
+        "path": "source://d3cd05f6ab90f710/rollout_t2519_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_8_episode0_success.mp4",
+        "mtime": 1790711187.7992206,
+        "success": 1
+      }
+    ]
+  }
+]

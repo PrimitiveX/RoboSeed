@@ -1,0 +1,293 @@
+{
+  "source": "source://bab91b905cdd00a5/results.json",
+  "duplicate_keys": [
+    "0"
+  ],
+  "selection": "Final occurrence in file; earlier record is a 10-sequence smoke test, not pooled.",
+  "records": [
+    {
+      "key": "0",
+      "record": {
+        "avg_seq_len": 3.7,
+        "chain_sr": {
+          "1": 0.8,
+          "2": 0.8,
+          "3": 0.7,
+          "4": 0.7,
+          "5": 0.7
+        },
+        "task_info": {
+          "rotate_blue_block_right": {
+            "success": 2,
+            "total": 2
+          },
+          "move_slider_right": {
+            "success": 1,
+            "total": 1
+          },
+          "lift_red_block_slider": {
+            "success": 2,
+            "total": 2
+          },
+          "place_in_slider": {
+            "success": 6,
+            "total": 7
+          },
+          "turn_off_lightbulb": {
+            "success": 2,
+            "total": 2
+          },
+          "turn_off_led": {
+            "success": 1,
+            "total": 1
+          },
+          "push_into_drawer": {
+            "success": 1,
+            "total": 1
+          },
+          "lift_blue_block_drawer": {
+            "success": 1,
+            "total": 1
+          },
+          "close_drawer": {
+            "success": 2,
+            "total": 2
+          },
+          "lift_pink_block_slider": {
+            "success": 2,
+            "total": 2
+          },
+          "open_drawer": {
+            "success": 4,
+            "total": 4
+          },
+          "rotate_red_block_right": {
+            "success": 2,
+            "total": 2
+          },
+          "lift_red_block_table": {
+            "success": 1,
+            "total": 1
+          },
+          "lift_pink_block_table": {
+            "success": 3,
+            "total": 3
+          },
+          "turn_on_lightbulb": {
+            "success": 1,
+            "total": 1
+          },
+          "rotate_blue_block_left": {
+            "success": 1,
+            "total": 1
+          },
+          "push_blue_block_left": {
+            "success": 1,
+            "total": 1
+          },
+          "turn_on_led": {
+            "success": 1,
+            "total": 1
+          },
+          "stack_block": {
+            "success": 1,
+            "total": 1
+          },
+          "push_red_block_right": {
+            "success": 1,
+            "total": 1
+          },
+          "move_slider_left": {
+            "success": 1,
+            "total": 1
+          },
+          "push_pink_block_right": {
+            "success": 0,
+            "total": 1
+          },
+          "push_red_block_left": {
+            "success": 0,
+            "total": 1
+          }
+        }
+      }
+    },
+    {
+      "key": "0",
+      "record": {
+        "avg_seq_len": 3.625,
+        "chain_sr": {
+          "1": 0.889,
+          "2": 0.798,
+          "3": 0.721,
+          "4": 0.646,
+          "5": 0.571
+        },
+        "task_info": {
+          "rotate_blue_block_right": {
+            "success": 70,
+            "total": 77
+          },
+          "move_slider_right": {
+            "success": 252,
+            "total": 252
+          },
+          "lift_red_block_slider": {
+            "success": 106,
+            "total": 122
+          },
+          "place_in_slider": {
+            "success": 258,
+            "total": 298
+          },
+          "turn_off_lightbulb": {
+            "success": 134,
+            "total": 135
+          },
+          "turn_off_led": {
+            "success": 138,
+            "total": 150
+          },
+          "push_into_drawer": {
+            "success": 88,
+            "total": 102
+          },
+          "lift_blue_block_drawer": {
+            "success": 19,
+            "total": 19
+          },
+          "close_drawer": {
+            "success": 182,
+            "total": 182
+          },
+          "lift_pink_block_slider": {
+            "success": 109,
+            "total": 128
+          },
+          "open_drawer": {
+            "success": 307,
+            "total": 320
+          },
+          "rotate_red_block_right": {
+            "success": 69,
+            "total": 72
+          },
+          "lift_red_block_table": {
+            "success": 153,
+            "total": 155
+          },
+          "lift_pink_block_table": {
+            "success": 120,
+            "total": 129
+          },
+          "turn_on_lightbulb": {
+            "success": 164,
+            "total": 164
+          },
+          "rotate_blue_block_left": {
+            "success": 66,
+            "total": 66
+          },
+          "push_blue_block_left": {
+            "success": 50,
+            "total": 70
+          },
+          "turn_on_led": {
+            "success": 168,
+            "total": 168
+          },
+          "stack_block": {
+            "success": 153,
+            "total": 165
+          },
+          "push_red_block_right": {
+            "success": 19,
+            "total": 72
+          },
+          "move_slider_left": {
+            "success": 231,
+            "total": 233
+          },
+          "push_red_block_left": {
+            "success": 50,
+            "total": 74
+          },
+          "lift_blue_block_table": {
+            "success": 143,
+            "total": 143
+          },
+          "place_in_drawer": {
+            "success": 147,
+            "total": 151
+          },
+          "rotate_red_block_left": {
+            "success": 60,
+            "total": 61
+          },
+          "lift_blue_block_slider": {
+            "success": 100,
+            "total": 123
+          },
+          "lift_pink_block_drawer": {
+            "success": 11,
+            "total": 11
+          },
+          "rotate_pink_block_right": {
+            "success": 45,
+            "total": 68
+          },
+          "unstack_block": {
+            "success": 65,
+            "total": 65
+          },
+          "push_blue_block_right": {
+            "success": 23,
+            "total": 70
+          },
+          "rotate_pink_block_left": {
+            "success": 54,
+            "total": 55
+          },
+          "push_pink_block_left": {
+            "success": 33,
+            "total": 73
+          },
+          "push_pink_block_right": {
+            "success": 21,
+            "total": 64
+          },
+          "lift_red_block_drawer": {
+            "success": 17,
+            "total": 17
+          }
+        }
+      }
+    }
+  ],
+  "successful_prefix_distribution": {
+    "0": 111,
+    "1": 91,
+    "2": 77,
+    "3": 75,
+    "4": 75,
+    "5": 571
+  },
+  "checks": {
+    "sequences": 1000,
+    "task_types": 34,
+    "successful_subtasks": 3625,
+    "attempted_subtasks": 4054,
+    "tasks_at_least_85_pct": 26
+  },
+  "training_log": {
+    "raw_observations": 349,
+    "discarded_preliminary_observations": 9,
+    "final_run_observations": 340
+  },
+  "limitations": [
+    "No per-sequence outcome file available; chain counts and task counts are internally consistent aggregates.",
+    "Task rates are conditional on reaching a task after previous successes.",
+    "Source prose table omits close_drawer and repeats lift_pink_block_drawer; CSV follows JSON.",
+    "Source prose claims 28/34 tasks above 85%; JSON yields 26/34."
+  ]
+}

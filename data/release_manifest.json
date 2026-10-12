@@ -1,0 +1,138 @@
+{
+  "as_of": "2026-10-12",
+  "scope": "Packaged results, audits, recorded configs, and report PDF. Original source hashes are in source_manifest.json.",
+  "files": {
+    "configs/abot-m0/calvin-qwen3-5-4b.yaml": {
+      "bytes": 1849,
+      "sha256": "7cb8bdafd3939e660fad02c81fed954520db6cc858590c704e87a041fd20cbdc"
+    },
+    "configs/abot-m0/libero-qwen3-5-4b.yaml": {
+      "bytes": 1771,
+      "sha256": "7d2d6e302229424ca7616dc662b7a010303cf1ef4c1fe6ccb4cbb3bc26493c51"
+    },
+    "configs/abot-m0/robocasa-tabletop-qwen3-5-4b.yaml": {
+      "bytes": 1888,
+      "sha256": "b81e96a90de42899597febc1800c9501098292a805c718d7fee1790a77dd6018"
+    },
+    "configs/abot-m0/robotwin-qwen3-5-0-8b.yaml": {
+      "bytes": 1843,
+      "sha256": "d5245b8b953c2e4809afbcb5208f7f494d84a22eb11304fd0a31c9b03fe98e13"
+    },
+    "configs/abot-m0/robotwin-qwen3-5-2b.yaml": {
+      "bytes": 1839,
+      "sha256": "440ff83e4e0cac2619a039486b842f014dffeb6b6025b67922933898e0f5ba4a"
+    },
+    "configs/abot-m0/robotwin-qwen3-5-4b.yaml": {
+      "bytes": 1846,
+      "sha256": "3c619c6280f4e205ffac8e3103e519fa082cef7512c6d997e91c1bbacc7024e6"
+    },
+    "configs/abot-m0/robotwin-qwen3-5-9b.yaml": {
+      "bytes": 1839,
+      "sha256": "f07bac3c5da5b359ad86897cf47c9baff8bb061e086ab0fe1f068e8df5d223bb"
+    },
+    "configs/abot-m0/robotwin-qwen3-vl-2b.yaml": {
+      "bytes": 1841,
+      "sha256": "1d8eac855e5e086efe8250c313eb1def38139748a79810330657fa5f8c77ee41"
+    },
+    "configs/abot-m0/robotwin-qwen3-vl-4b.yaml": {
+      "bytes": 1841,
+      "sha256": "b0a70d2437d31026d142eb0b05b0803c7bb054d6afbae828f5d1e8fc3b4fbe69"
+    },
+    "data/README.md": {
+      "bytes": 4841,
+      "sha256": "26c4735ff08d84a239c646ee08a47d0eb1b524c3c7194c56df901456225680df"
+    },
+    "data/calvin_audit.json": {
+      "bytes": 7109,
+      "sha256": "f208a4eddffffa8f2216135d0baec3d0b0af8df0bb0b73d86f90041de8afae98"
+    },
+    "data/calvin_chain.csv": {
+      "bytes": 140,
+      "sha256": "3037ef6b967fcd019679a4773d8d419a51d56b33be77073089d513a1290292cb"
+    },
+    "data/calvin_dataset_metadata.json": {
+      "bytes": 2346,
+      "sha256": "b78e4c32fe40e02821e549019604123ccbc3f0204fb6b48de3c9d9c98d44da5b"
+    },
+    "data/calvin_eval_sequences.json": {
+      "bytes": 369692,
+      "sha256": "6c486a1e2434f70054911ce59e03592f78a000cac4077654b1b6793c19ccebb4"
+    },
+    "data/calvin_families.csv": {
+      "bytes": 216,
+      "sha256": "86f4f19301b3e52b28883bf46acf23896032c77127fe1813ebb0238dd0281507"
+    },
+    "data/calvin_loss.csv": {
+      "bytes": 9068,
+      "sha256": "0ea6d39713d4d3074c311d3954db6a1da3f00ef16e9fab4889160fad2474b4ff"
+    },
+    "data/calvin_results_source.json": {
+      "bytes": 3190,
+      "sha256": "74c9dd264b9554e5b8dc08f96b47d19cac8cd57714af46952166876d8fb51edf"
+    },
+    "data/calvin_summary.csv": {
+      "bytes": 464,
+      "sha256": "eb54c780868936f96b488558cae9a53694c210f6bbf32ad4d694b5809774c3ab"
+    },
+    "data/calvin_tasks.csv": {
+      "bytes": 1428,
+      "sha256": "6f60bb19983c48b35f324ed17a64818ee15f4554bb6c37dcdb27d26d68ba95f1"
+    },
+    "data/checkpoints.json": {
+      "bytes": 4168,
+      "sha256": "c42db797d951c96ce8b3400d7bfb563317f0af27345733eb3f6c31412c99ef82"
+    },
+    "data/libero_tasks.csv": {
+      "bytes": 3159,
+      "sha256": "1a7adafc2a8d128dea74fc758768e200dc6a27346414ef49917c1d53f9898d34"
+    },
+    "data/liberoplus_category.csv": {
+      "bytes": 373,
+      "sha256": "619a0d3fed90ae2d13cce9ad30d2b7f73dc62443ef48ed5395df551d3097bb9e"
+    },
+    "data/liberoplus_duplicates.json": {
+      "bytes": 89823,
+      "sha256": "9eca41f4b26cb6876852b31eb88749c15795a67cc80ac56648b994df8e5c30cc"
+    },
+    "data/liberoplus_suite.csv": {
+      "bytes": 208,
+      "sha256": "6ddbcc401997de19a1946cc9dfdca88a7a821091cddd9ea3e9217f7445a10a2c"
+    },
+    "data/liberoplus_tasks.csv": {
+      "bytes": 403245,
+      "sha256": "598994a1ef0924fcd1d053bbb0acafdd3423031c564e56da0a824b45f507f849"
+    },
+    "data/robocasa_tasks.csv": {
+      "bytes": 1264,
+      "sha256": "0808516a24b4262ad2a1e2a27665b151b00db04ca0ecdd29204194ef0055fec7"
+    },
+    "data/robotwin_loss.csv": {
+      "bytes": 362988,
+      "sha256": "a5e430f7f8ccaf822b93e55d7a04529316c6d26b9565b0eeca21e95dd90b3389"
+    },
+    "data/robotwin_summary.csv": {
+      "bytes": 1308,
+      "sha256": "18997c130ed6523a1898fb20181244663d23b10410a1d9232e180f8120154c87"
+    },
+    "data/robotwin_tasks.csv": {
+      "bytes": 25150,
+      "sha256": "8a530995971e7266f1fc5c3d1a49a017092810c02cc6e04763c58c721d753ea9"
+    },
+    "data/robotwin_training_only.csv": {
+      "bytes": 319,
+      "sha256": "d7718869376ea1cc5bd32b74824fc8fd2bf3989cfc8651945d6da3737cdd5cf4"
+    },
+    "data/source_manifest.json": {
+      "bytes": 185647,
+      "sha256": "914dfafd330b423a995be9a1879d60f574c8e77d3062b6c51f4607c988cb927b"
+    },
+    "data/video_index.csv": {
+      "bytes": 2443776,
+      "sha256": "4ff2932f1f7da6cf7b84d8117c7da11b4a86e2d4ea16b62944671499b9c1e379"
+    },
+    "docs/report/RoboSeed.pdf": {
+      "bytes": 540720,
+      "sha256": "a4c341f63bd0cc8cfdd6522ea17ed0aa8927f83ccce4910b76fa9fc4f168f1f5"
+    }
+  }
+}
