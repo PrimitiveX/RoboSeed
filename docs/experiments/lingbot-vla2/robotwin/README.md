@@ -6,6 +6,10 @@
 
 [Original paper](https://arxiv.org/abs/2607.06403) · [Technical report](../../../report/README.md)
 
+**Experimental objective.** RoboSeed studies model behavior under practical, limited-hardware training budgets, using the ABot-M0 downstream study as the comparison reference. Some official training recipes require resources beyond this setting, so local runs adapt their batch sizes, training durations and execution settings to the available hardware. The goal is to compare models at comparable downstream training scales. The recorded runs below retain their actual budgets; batch size, updates, sample exposure and compute are not all equal across families. A local score below a released checkpoint therefore describes this budget-adapted recipe and does not establish that the original method is weaker.
+
+[Comparison scope and actual training budgets](../../../reproduction/comparison-protocol.md)
+
 ## Setup and inherited components
 
 Qwen3-VL-4B with 32 routed action experts (top-4 plus a shared expert) and depth/video teacher supervision. Local adaptation inherits the released foundation: Muon, three H200 GPUs, global batch 96, 50k updates, 55 state/action channels, three cameras, chunk length 50 and ten inference steps.
@@ -20,12 +24,14 @@ Clean only, 50 tasks × 100 episodes, unseen instructions, seed 0, BF16 and comp
 
 | Checkpoint | Clean successes / episodes | Randomized successes / episodes | Local training GPU-hours | Weights |
 | --- | --- | --- | --- | --- |
-| [LingBot 6B official](README.md) | 4,486/5,000 (89.72%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000) |
-| [LingBot 6B local](README.md) | 2,889/5,000 (57.78%) | — | 174.365 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000) |
+| [LingBot 6B · released weights](README.md) | 4,486/5,000 (89.72%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000) |
+| [LingBot 6B · local budget run](README.md) | 2,889/5,000 (57.78%) | — | 174.365 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000) |
+
+Released-weight rows are our local evaluations of official checkpoints, not scores copied from the original papers. Local-budget rows use our adapted training recipes.
 
 ## Interpretation and measured cost
 
-The local checkpoint is 31.94 percentage points below the official checkpoint on the common local evaluator. Local exposure is 4.8M windows versus 51.2M in the source recipe. This supports a recipe-sensitivity diagnosis; it does not isolate exposure, teacher supervision or MoE as the cause. The measured local training interval is 174.365 H200 GPU-hours, excluding setup and final export.
+The released-weight reference and local budget run achieve 89.72% and 57.78% on the common local evaluator, a 31.94-point difference between training recipes. Local global batch 96 and 50k updates give 4.8M windows, versus 51.2M from the source recipe’s batch 1024 and 50k updates: 10.67× less exposure locally. This reduced-budget run implements the ABot-M0-referenced comparison objective; it does not repeat the full official adaptation recipe or measure the method’s attainable performance under that recipe. Exposure, teacher supervision, optimization and initialization effects are not isolated. The measured local interval is 174.365 H200 GPU-hours, excluding setup and final export.
 
 <p align="center"><img src="../../../figure/results/12_lingbot_experiments.svg" alt="LingBot-VLA 2.0 checkpoint outcomes, native training losses, task profiles and recorded resources." width="100%"></p>
 

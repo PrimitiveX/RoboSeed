@@ -8,6 +8,8 @@
 
 The 41-page report connects capability, downstream training and deployment affordability, research value and reproduction evidence. It covers six completed ABot-M0 RoboTwin backbones, independent Qwen3.5-4B policies on LIBERO, RoboCasa and CALVIN, and zero-shot LIBERO-plus evaluation. LingBot-VLA 2.0, OpenWAM and LiLa-WAM add official/local checkpoint comparisons; the PX harness supplies systems measurements.
 
+The comparison is designed around practical, limited-hardware budgets, with ABot-M0 as the downstream reference. Local recipes adjust official batch sizes, training duration and execution settings where full official conditions exceed the available resources. Results describe these budget-adapted runs; released-weight reference rows are official checkpoints evaluated locally, not original-paper leaderboard scores. The [comparison protocol](../reproduction/comparison-protocol.md) lists actual training scales and distinguishes the goal of comparable budgets from exact equality of exposure or compute.
+
 ## Reading guide
 
 | Topic | Repository companion |

@@ -4,6 +4,10 @@
 
 [Home](../../../../README.md) · [Documentation](../../../README.md) · [All experiments](../../README.md)
 
+**Experimental objective.** RoboSeed studies model behavior under practical, limited-hardware training budgets, using the ABot-M0 downstream study as the comparison reference. Some official training recipes require resources beyond this setting, so local runs adapt their batch sizes, training durations and execution settings to the available hardware. The goal is to compare models at comparable downstream training scales. The recorded runs below retain their actual budgets; batch size, updates, sample exposure and compute are not all equal across families. A local score below a released checkpoint therefore describes this budget-adapted recipe and does not establish that the original method is weaker.
+
+[Comparison scope and actual training budgets](../../../reproduction/comparison-protocol.md)
+
 ## Training and execution
 
 Independently trained `steps_50000` policy. The training mix covers 24 datasets with 1,000 demonstrations each. 50k post-train updates, global batch 64, four H200 GPUs; base/VLM/action learning rates 1e-5 / 1e-5 / 1e-4. VGGT is frozen. Training horizon is 16; 58 state dimensions encode sine and cosine of 29 joint values. The policy outputs 29 absolute joint targets for the arms, dexterous hands, and waist. The recorded training time is approximately 20 h 44 min; the corresponding cost is approximately 82.9 GPU-hours.

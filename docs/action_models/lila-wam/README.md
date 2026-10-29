@@ -4,6 +4,10 @@
 
 [Home](../../../README.md) · [Documentation](../../README.md) · [All experiments](../../experiments/README.md)
 
+**Experimental objective.** RoboSeed studies model behavior under practical, limited-hardware training budgets, using the ABot-M0 downstream study as the comparison reference. Some official training recipes require resources beyond this setting, so local runs adapt their batch sizes, training durations and execution settings to the available hardware. The goal is to compare models at comparable downstream training scales. The recorded runs below retain their actual budgets; batch size, updates, sample exposure and compute are not all equal across families. A local score below a released checkpoint therefore describes this budget-adapted recipe and does not establish that the original method is weaker.
+
+[Comparison scope and actual training budgets](../../reproduction/comparison-protocol.md)
+
 Frozen DINOv3 ViT-L/16 with compact future-feature prediction and action generation. Head camera at 320 × 240, 14 joint-action channels, 32 predicted actions, first 16 executed, ten flow steps and spline smoothing. The local evaluated artifact is stage-2 epoch four.
 
 Clean only, 50 tasks × five episodes on one H200 NVL with four workers. A task name selects precomputed visual transition tokens (task_cond.npy); the inspected policy ignores the instruction argument. These outcomes do not demonstrate unseen-language understanding.

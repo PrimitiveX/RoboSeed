@@ -48,6 +48,10 @@ The [technical report](docs/report/README.md) evaluates capability, downstream t
 
 ## Results
 
+**Comparison objective.** We use the ABot-M0 downstream study as a reference to investigate model behavior at comparable training scales on practical, limited hardware. Some official training recipes exceed the available hardware budget, so our local runs adapt batch sizes, training duration and execution settings. A lower score under a local recipe describes that budgeted experiment; it does not establish the original method’s performance under its full official setup.
+
+**Actual alignment is reported explicitly:** the current local runs use different batch sizes, updates and training units. Comparable-budget evaluation is the objective; exact equality of sample exposure, compute and GPU-hours has not yet been established across all families. See the [comparison protocol and actual training-budget table](docs/reproduction/comparison-protocol.md).
+
 ### RoboTwin · ABot-M0
 
 Every evaluated backbone uses **150k post-train updates**, global batch 64, and four H200 NVL GPUs. Training includes both Clean and Randomized demonstrations and omits the unified robotic pre-train stage. Each scene evaluates **50 tasks × 100 episodes**, with launch seed 0 and unseen instructions. Average equally weights the two scenes.
@@ -114,13 +118,15 @@ Read the [experimental findings](docs/findings/README.md) for the report's scale
 <!-- BEGIN GENERATED extensions -->
 | Checkpoint | Clean successes / episodes | Randomized successes / episodes | Local training GPU-hours | Weights |
 | --- | --- | --- | --- | --- |
-| [LingBot 6B official](docs/experiments/lingbot-vla2/robotwin/README.md) | 4,486/5,000 (89.72%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000) |
-| [LingBot 6B local](docs/experiments/lingbot-vla2/robotwin/README.md) | 2,889/5,000 (57.78%) | — | 174.365 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000) |
-| [OpenWAM official](docs/experiments/openwam/robotwin/README.md) | 4,701/5,000 (94.02%) | 4,683/5,000 (93.66%) | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-official-step118655) |
-| [OpenWAM local](docs/experiments/openwam/robotwin/README.md) | 4,565/5,000 (91.30%) | 4,570/5,000 (91.40%) | 262.068 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-local-step80000) |
-| [LiLa-WAM official](docs/experiments/lila-wam/robotwin/README.md) | 224/250 (89.60%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4) |
-| [LiLa-WAM local](docs/experiments/lila-wam/robotwin/README.md) | 222/250 (88.80%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4) |
+| [LingBot 6B · released weights](docs/experiments/lingbot-vla2/robotwin/README.md) | 4,486/5,000 (89.72%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000) |
+| [LingBot 6B · local budget run](docs/experiments/lingbot-vla2/robotwin/README.md) | 2,889/5,000 (57.78%) | — | 174.365 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000) |
+| [OpenWAM · released weights](docs/experiments/openwam/robotwin/README.md) | 4,701/5,000 (94.02%) | 4,683/5,000 (93.66%) | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-official-step118655) |
+| [OpenWAM · local budget run](docs/experiments/openwam/robotwin/README.md) | 4,565/5,000 (91.30%) | 4,570/5,000 (91.40%) | 262.068 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-local-step80000) |
+| [LiLa-WAM · released weights](docs/experiments/lila-wam/robotwin/README.md) | 224/250 (89.60%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4) |
+| [LiLa-WAM · local budget run](docs/experiments/lila-wam/robotwin/README.md) | 222/250 (88.80%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4) |
 <!-- END GENERATED extensions -->
+
+**Released weights** are official checkpoints evaluated through our local evaluator; **local budget run** denotes our adapted training recipe. These are local measurements, not percentages copied from the original papers.
 
 Each cell retains its own denominator. **LiLa uses task-selected visual transition tokens and five episodes per task**; LingBot and OpenWAM use 100. Missing Randomized outcomes are unevaluated. Official/local comparisons use a common evaluator within each family; family-specific interfaces and recipes differ.
 
@@ -168,6 +174,7 @@ Completed and planned work is tracked below. The 2025 candidates complement the 
 - [ ] **SmolVLA (2025)** — reproduce a compact VLA baseline and compare synchronous/asynchronous execution under a fixed task protocol and hardware budget. [Official release and training recipe](https://huggingface.co/blog/smolvla).
 - [ ] Extend LingBot and LiLa to Randomized scenes; expand LiLa beyond five episodes per task and keep visual task selection distinct from language understanding.
 - [ ] Measure warmed inference peak memory and p95 latency with raw timings; complete deployment dimensions before calculating composite scores.
+- [ ] Complete cross-family comparisons at explicitly matched downstream budgets, using ABot-M0 as the reference and publishing remaining differences in exposure, interfaces and inherited pre-train.
 - [ ] Repeat controlled adaptation and component ablations across at least three training seeds; complete rollout evaluation of training-prefix candidates before promoting them.
 
 ## Contributing

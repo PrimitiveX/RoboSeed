@@ -6,6 +6,10 @@
 
 [Original paper](https://arxiv.org/abs/2608.03701) · [Technical report](../../../report/README.md)
 
+**Experimental objective.** RoboSeed studies model behavior under practical, limited-hardware training budgets, using the ABot-M0 downstream study as the comparison reference. Some official training recipes require resources beyond this setting, so local runs adapt their batch sizes, training durations and execution settings to the available hardware. The goal is to compare models at comparable downstream training scales. The recorded runs below retain their actual budgets; batch size, updates, sample exposure and compute are not all equal across families. A local score below a released checkpoint therefore describes this budget-adapted recipe and does not establish that the original method is weaker.
+
+[Comparison scope and actual training budgets](../../../reproduction/comparison-protocol.md)
+
 ## Setup and inherited components
 
 Frozen DINOv3 ViT-L/16 with compact future-feature prediction and action generation. Head camera at 320 × 240, 14 joint-action channels, 32 predicted actions, first 16 executed, ten flow steps and spline smoothing. The local evaluated artifact is stage-2 epoch four.
@@ -20,12 +24,14 @@ Clean only, 50 tasks × five episodes on one H200 NVL with four workers. A task 
 
 | Checkpoint | Clean successes / episodes | Randomized successes / episodes | Local training GPU-hours | Weights |
 | --- | --- | --- | --- | --- |
-| [LiLa-WAM official](README.md) | 224/250 (89.60%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4) |
-| [LiLa-WAM local](README.md) | 222/250 (88.80%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4) |
+| [LiLa-WAM · released weights](README.md) | 224/250 (89.60%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4) |
+| [LiLa-WAM · local budget run](README.md) | 222/250 (88.80%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4) |
+
+Released-weight rows are our local evaluations of official checkpoints, not scores copied from the original papers. Local-budget rows use our adapted training recipes.
 
 ## Interpretation and measured cost
 
-Official and local checkpoints achieve 224/250 (89.60%) and 222/250 (88.80%). The difference is two successful episodes; five episodes per task do not establish equivalence. Randomized outcomes and independently verified H200 adaptation cost are unavailable. The approximately 1.273 GB package excludes the separately loaded DINOv3 encoder and may contain optimizer state, so it is not the complete deployment footprint.
+The released-weight reference and local budget run achieve 224/250 (89.60%) and 222/250 (88.80%). The local artifact comes from completed saved prefixes through stage-1 epoch 12 and stage-2 epoch four; it does not establish completion of the configured 40-epoch stage-2 schedule. Its outcome belongs to this available-budget recipe. The difference is two successful episodes; five episodes per task do not establish equivalence. Randomized outcomes and independently verified H200 adaptation cost are unavailable, so an equal-compute comparison with ABot-M0 cannot be claimed. The approximately 1.273 GB package excludes the separately loaded DINOv3 encoder and may contain optimizer state, so it is not the complete deployment footprint.
 
 <p align="center"><img src="../../../figure/results/14_lila_experiments.svg" alt="LiLa-WAM checkpoint outcomes, native training losses, task profiles and recorded resources." width="100%"></p>
 

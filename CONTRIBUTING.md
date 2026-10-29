@@ -8,6 +8,12 @@ Create a dedicated section under `docs/action_models/<model>/README.md` and cano
 
 ABot-M0 is the first section. Additional models should follow the same record structure without being described as ABot-M0 variants.
 
+## Compare under practical training budgets
+
+Use ABot-M0 as the downstream reference for the practical-budget study. State which hardware and budget variable are matched, and document changes from the source recipe when its full training requirements exceed available resources. Record actual batch, updates, sample exposure, inherited initialization and measured device time; call a comparison equal-scale only for variables that were actually matched. See the [comparison protocol](docs/reproduction/comparison-protocol.md).
+
+Label official checkpoints evaluated locally as released-weight references, and locally adapted checkpoints as budget runs. Original-paper headline scores need separate attribution and protocol details. Explain any lower local outcome in the context of the observed training recipe and budget, without claiming that a resource difference alone caused it.
+
 ## Add or update an experiment
 
 1. Record the dataset/split/revision, initialization identity, configured and executed action/state layouts, optimizer, learning rates, frozen modules, batch, updates, hardware, and training seed.

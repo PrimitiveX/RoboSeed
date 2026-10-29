@@ -4,6 +4,10 @@
 
 [Home](../../../README.md) · [Documentation](../../README.md) · [All experiments](../../experiments/README.md)
 
+**Experimental objective.** RoboSeed studies model behavior under practical, limited-hardware training budgets, using the ABot-M0 downstream study as the comparison reference. Some official training recipes require resources beyond this setting, so local runs adapt their batch sizes, training durations and execution settings to the available hardware. The goal is to compare models at comparable downstream training scales. The recorded runs below retain their actual budgets; batch size, updates, sample exposure and compute are not all equal across families. A local score below a released checkpoint therefore describes this budget-adapted recipe and does not establish that the original method is weaker.
+
+[Comparison scope and actual training budgets](../../reproduction/comparison-protocol.md)
+
 Wan2.2-TI2V-5B and ActionDiT with joint self-attention; frozen Wan VAE and T5. Local adaptation inherits Foundation step 154000: four H200 NVL GPUs, BF16, ZeRO-2, AdamW, global batch 64 and 80k updates. Three views, 33-frame windows, stride four, 384 × 320 images; 20 physical end-effector channels in an 80-channel representation.
 
 Both scenes, each 50 tasks × 100 episodes; unseen instructions, seed 0, four GPUs and 16 rollout slots. Evaluator 0aeea2d requests observations at chunk start and checks success after every action. Both checkpoints share this adapted execution path.

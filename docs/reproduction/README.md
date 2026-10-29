@@ -2,6 +2,8 @@
 
 [Home](../../README.md) · [Documentation](../README.md) · [Experiment records](../experiments/README.md) · [Checkpoint registry](../releases/README.md)
 
+The comparison is designed around practical, limited-hardware budgets, with ABot-M0 as the downstream reference. Local recipes adjust official batch sizes, training duration and execution settings where full official conditions exceed the available resources. Results describe these budget-adapted runs; released-weight reference rows are official checkpoints evaluated locally, not original-paper leaderboard scores. The [comparison protocol](comparison-protocol.md) lists actual training scales and distinguishes the goal of comparable budgets from exact equality of exposure or compute.
+
 ## Reproduce the packaged analysis
 
 Python 3.10 or later can verify all counts and generated pages without third-party dependencies:

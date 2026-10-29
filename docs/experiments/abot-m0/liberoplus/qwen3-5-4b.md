@@ -8,6 +8,10 @@ The LIBERO `steps_40000` policy is evaluated **without additional training**. Th
 
 Repeated video records are grouped by `(suite, task_id)`. The latest-mtime record is selected for 101 duplicate keys, with all alternatives retained. Three keys have conflicting verdicts; alternative selections bound the score at **80.01%–80.04%**.
 
+**Experimental objective.** RoboSeed studies model behavior under practical, limited-hardware training budgets, using the ABot-M0 downstream study as the comparison reference. Some official training recipes require resources beyond this setting, so local runs adapt their batch sizes, training durations and execution settings to the available hardware. The goal is to compare models at comparable downstream training scales. The recorded runs below retain their actual budgets; batch size, updates, sample exposure and compute are not all equal across families. A local score below a released checkpoint therefore describes this budget-adapted recipe and does not establish that the original method is weaker.
+
+[Comparison scope and actual training budgets](../../../reproduction/comparison-protocol.md)
+
 ## Suite results
 
 | Suite | Successes / variants | Success (%) |

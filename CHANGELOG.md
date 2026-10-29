@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-29 · Clarify practical-budget comparison scope
+
+- State the ABot-M0-referenced comparison objective, adaptations from demanding official recipes, and the actual per-family training scales.
+- Distinguish released checkpoints evaluated locally from source-paper scores and local budget runs; qualify score gaps by training recipe and budget.
+- Add comparison guidance to the homepage, experiment/model records, findings, report/reproduction guides and contribution rules. Retain all measured outcomes.
+
 ## 2026-10-29 · October 28 report evidence
 
 - Complete ABot-M0 Qwen3.5-2B evaluation (84.30% Clean, 83.94% Randomized, 84.12% mean) and align all six-backbone tables and figures.

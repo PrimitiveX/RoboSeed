@@ -4,6 +4,8 @@
 
 RoboSeed reproduces vision–language–action and world–action models. The October 28, 2026 evidence snapshot covers ABot-M0, LingBot-VLA 2.0, OpenWAM and LiLa-WAM, with a five-dimension evaluation framework and PX harness systems measurements. The project repository is **PrimitiveX/RoboSeed**; [17 model packages](releases/README.md) are published on ModelScope.
 
+The comparison is designed around practical, limited-hardware budgets, with ABot-M0 as the downstream reference. Local recipes adjust official batch sizes, training duration and execution settings where full official conditions exceed the available resources. Results describe these budget-adapted runs; released-weight reference rows are official checkpoints evaluated locally, not original-paper leaderboard scores. The [comparison protocol](reproduction/comparison-protocol.md) lists actual training scales and distinguishes the goal of comparable budgets from exact equality of exposure or compute.
+
 ## Read the project
 
 | Page | What it explains |

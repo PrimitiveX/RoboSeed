@@ -4,6 +4,10 @@
 
 [Home](../../../../README.md) · [Documentation](../../../README.md) · [All experiments](../../README.md)
 
+**Experimental objective.** RoboSeed studies model behavior under practical, limited-hardware training budgets, using the ABot-M0 downstream study as the comparison reference. Some official training recipes require resources beyond this setting, so local runs adapt their batch sizes, training durations and execution settings to the available hardware. The goal is to compare models at comparable downstream training scales. The recorded runs below retain their actual budgets; batch size, updates, sample exposure and compute are not all equal across families. A local score below a released checkpoint therefore describes this budget-adapted recipe and does not establish that the original method is weaker.
+
+[Comparison scope and actual training budgets](../../../reproduction/comparison-protocol.md)
+
 ## Training and execution
 
 Direct downstream **post-train**, without the unified robotic **pre-train** stage. Training includes Clean and Randomized demonstrations: the records report 27,500 trajectories and 6,075,103 transitions. All runs use four H200 NVL GPUs, 150,000 updates, global batch 64 (16 per device; accumulation 1), seed 42, and 224 × 224 images. VGGT is frozen. The DiT-B expert uses action horizon 50, configured state/action dimensions 14/14, and four repeated time samples. Base/VLM/action learning rates are 1e-5 / 1e-5 / 1e-4; AdamW uses betas (0.9, 0.95), 5,000 warmup steps, and cosine decay to 5e-7.

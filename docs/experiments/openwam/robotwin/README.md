@@ -6,6 +6,10 @@
 
 [Original paper](https://arxiv.org/abs/2609.07398) · [Technical report](../../../report/README.md)
 
+**Experimental objective.** RoboSeed studies model behavior under practical, limited-hardware training budgets, using the ABot-M0 downstream study as the comparison reference. Some official training recipes require resources beyond this setting, so local runs adapt their batch sizes, training durations and execution settings to the available hardware. The goal is to compare models at comparable downstream training scales. The recorded runs below retain their actual budgets; batch size, updates, sample exposure and compute are not all equal across families. A local score below a released checkpoint therefore describes this budget-adapted recipe and does not establish that the original method is weaker.
+
+[Comparison scope and actual training budgets](../../../reproduction/comparison-protocol.md)
+
 ## Setup and inherited components
 
 Wan2.2-TI2V-5B and ActionDiT with joint self-attention; frozen Wan VAE and T5. Local adaptation inherits Foundation step 154000: four H200 NVL GPUs, BF16, ZeRO-2, AdamW, global batch 64 and 80k updates. Three views, 33-frame windows, stride four, 384 × 320 images; 20 physical end-effector channels in an 80-channel representation.
@@ -20,12 +24,14 @@ Both scenes, each 50 tasks × 100 episodes; unseen instructions, seed 0, four GP
 
 | Checkpoint | Clean successes / episodes | Randomized successes / episodes | Local training GPU-hours | Weights |
 | --- | --- | --- | --- | --- |
-| [OpenWAM official](README.md) | 4,701/5,000 (94.02%) | 4,683/5,000 (93.66%) | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-official-step118655) |
-| [OpenWAM local](README.md) | 4,565/5,000 (91.30%) | 4,570/5,000 (91.40%) | 262.068 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-local-step80000) |
+| [OpenWAM · released weights](README.md) | 4,701/5,000 (94.02%) | 4,683/5,000 (93.66%) | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-official-step118655) |
+| [OpenWAM · local budget run](README.md) | 4,565/5,000 (91.30%) | 4,570/5,000 (91.40%) | 262.068 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-local-step80000) |
+
+Released-weight rows are our local evaluations of official checkpoints, not scores copied from the original papers. Local-budget rows use our adapted training recipes.
 
 ## Interpretation and measured cost
 
-Official and local two-scene means are 93.84% and 91.35%, a 2.49-point adaptation gap. The local interval is 262.068 H200 GPU-hours; inherited foundation training is excluded. Local evaluation costs another 135.046 GPU-hours. End-effector actions, inherited priors and evaluator differences prevent attributing cross-family score gaps to architecture alone.
+The released-weight reference and local budget run have two-scene means of 93.84% and 91.35%, a 2.49-point difference between adaptation recipes. The local batch-64, 80k-update run processes 5.12M video windows, versus a source-reference estimate of 30.376M (118655 × 256). Local adaptation is scoped to the ABot-M0-referenced practical-budget study rather than the full official recipe. The local interval is 262.068 H200 GPU-hours; inherited foundation training is excluded. Local evaluation costs another 135.046 GPU-hours. Video windows and ABot examples are different training units; end-effector actions, inherited priors and evaluator differences also prevent attributing cross-family gaps to architecture alone.
 
 <p align="center"><img src="../../../figure/results/13_openwam_experiments.svg" alt="OpenWAM checkpoint outcomes, native training losses, task profiles and recorded resources." width="100%"></p>
 

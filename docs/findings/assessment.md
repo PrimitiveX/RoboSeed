@@ -4,6 +4,10 @@
 
 [Home](../../README.md) · [Documentation](../README.md) · [All experiments](../experiments/README.md)
 
+**Experimental objective.** RoboSeed studies model behavior under practical, limited-hardware training budgets, using the ABot-M0 downstream study as the comparison reference. Some official training recipes require resources beyond this setting, so local runs adapt their batch sizes, training durations and execution settings to the available hardware. The goal is to compare models at comparable downstream training scales. The recorded runs below retain their actual budgets; batch size, updates, sample exposure and compute are not all equal across families. A local score below a released checkpoint therefore describes this budget-adapted recipe and does not establish that the original method is weaker.
+
+[Comparison scope and actual training budgets](../reproduction/comparison-protocol.md)
+
 The decision unit is a checkpoint, training recipe, interface and evaluator tuple. The report defines five dimensions: capability P, downstream training affordability T, deployment affordability D, locally verified research value V and reproduction evidence R. These are declared decision rules, not a universal architecture ranking.
 
 P requires both Clean and Randomized outcomes. T uses the measured local H200 interval and fixed 64–1,024 GPU-hour anchors. D requires primary artifact size, warmed inference peak memory and p95 request latency; every D is missing in this snapshot. V and R follow the report’s binary evidence criteria. Missing components remain absent; no weights are renormalized and no composite is calculated without every required component.
