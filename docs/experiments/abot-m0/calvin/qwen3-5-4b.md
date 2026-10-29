@@ -88,3 +88,7 @@ There are **3,625 successful subtasks in 4,054 reached attempts**, over 34 uniqu
 The source JSON contains two top-level `0` keys. The final occurrence is the 1,000-sequence result; the earlier ten-sequence smoke test is retained in the audit and is not pooled. The available aggregate outcomes do not provide independent per-sequence execution traces. The saved minimum learning rate is 1e-6 while the final logged scalar is 4e-7; scheduler/parameter-group conventions remain unresolved.
 
 [Chain CSV](../../../../data/calvin_chain.csv) · [Task CSV](../../../../data/calvin_tasks.csv) · [Loss CSV](../../../../data/calvin_loss.csv) · [Source JSON](../../../../data/calvin_results_source.json) · [Duplicate-key audit](../../../../data/calvin_audit.json) · [Input sequence list](../../../../data/calvin_eval_sequences.json)
+
+## Model weights
+
+[Download from ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B) · [Package registry and dependencies](../../../releases/README.md)

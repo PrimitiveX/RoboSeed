@@ -34,3 +34,7 @@ Repeated video records are grouped by `(suite, task_id)`. The latest-mtime recor
 *The same LIBERO policy evaluated on standard tasks and seven perturbation dimensions.*
 
 [10,030 variant rows](../../../../data/liberoplus_tasks.csv) · [Duplicate alternatives](../../../../data/liberoplus_duplicates.json) · [Training record](../libero/qwen3-5-4b.md)
+
+## Model weights
+
+[Download from ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B) · [Package registry and dependencies](../../../releases/README.md)

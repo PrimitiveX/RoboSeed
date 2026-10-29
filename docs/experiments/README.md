@@ -4,34 +4,30 @@
 
 [Home](../../README.md) · [Documentation](../README.md) · [All experiments](README.md)
 
-The October 12, 2026 report records one reproduced action model, ABot-M0. Five RoboTwin backbones have complete closed-loop evaluation; a sixth has completed training. LIBERO, RoboCasa, and CALVIN use independent Qwen3.5-4B policies. LIBERO-plus reuses the LIBERO policy.
+The October 28, 2026 evidence snapshot covers ABot-M0, LingBot-VLA 2.0, OpenWAM and LiLa-WAM. All six ABot-M0 RoboTwin backbones have complete closed-loop evaluation. LIBERO, RoboCasa, and CALVIN use independent Qwen3.5-4B policies. LIBERO-plus reuses the LIBERO policy.
 
 ## ABot-M0 · completed RoboTwin evaluations
 
-| VLM backbone | Clean (%) | Randomized (%) | Average (%) | Training GPU-hours |
-| --- | --- | --- | --- | --- |
-| [Qwen3.5-0.8B](abot-m0/robotwin/qwen3-5-0-8b.md) | 80.76 | 80.50 | 80.63 | 174.1 |
-| [Qwen3-VL-2B](abot-m0/robotwin/qwen3-vl-2b.md) | 83.66 | 83.90 | 83.78 | 214.0 |
-| [Qwen3-VL-4B](abot-m0/robotwin/qwen3-vl-4b.md) | 85.70 | 85.34 | 85.52 | 288.1 |
-| [Qwen3.5-4B](abot-m0/robotwin/qwen3-5-4b.md) | 85.88 | 85.12 | 85.50 | 394.4 |
-| [Qwen3.5-9B](abot-m0/robotwin/qwen3-5-9b.md) | 83.98 | 83.68 | 83.83 | 509.2 |
+| VLM backbone | Clean (%) | Randomized (%) | Average (%) | Training GPU-hours | Weights |
+| --- | --- | --- | --- | --- | --- |
+| [Qwen3.5-0.8B](abot-m0/robotwin/qwen3-5-0-8b.md) | 80.76 | 80.50 | 80.63 | 174.1 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-0.8B) |
+| [Qwen3-VL-2B](abot-m0/robotwin/qwen3-vl-2b.md) | 83.66 | 83.90 | 83.78 | 214.0 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-2B) |
+| [Qwen3-VL-4B](abot-m0/robotwin/qwen3-vl-4b.md) | 85.70 | 85.34 | 85.52 | 288.1 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-4B) |
+| [Qwen3.5-2B](abot-m0/robotwin/qwen3-5-2b.md) | 84.30 | 83.94 | 84.12 | 212.9 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-2B) |
+| [Qwen3.5-4B](abot-m0/robotwin/qwen3-5-4b.md) | 85.88 | 85.12 | 85.50 | 394.4 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-4B) |
+| [Qwen3.5-9B](abot-m0/robotwin/qwen3-5-9b.md) | 83.98 | 83.68 | 83.83 | 509.2 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-9B) |
 
-All five runs use 150k post-train updates and the same task denominators. Training GPU-hours exclude evaluation.
+All six runs use 150k post-train updates and the same task denominators. Training GPU-hours exclude evaluation.
 
-## ABot-M0 · training complete, evaluation pending
-
-| VLM backbone | Post-train updates | Training GPU-hours | Evaluation status |
-| --- | --- | --- | --- |
-| [Qwen3.5-2B](abot-m0/robotwin/qwen3-5-2b.md) | 150,000 | 212.9 | Pending at the report snapshot |
 
 ## ABot-M0 · other benchmarks
 
-| Benchmark | Post-train updates | Evaluation counts | Result |
-| --- | --- | --- | --- |
-| [LIBERO](abot-m0/libero/qwen3-5-4b.md) | 40k | 1,935/2,000 | 96.75% |
-| [LIBERO-plus](abot-m0/liberoplus/qwen3-5-4b.md) | No extra training | 8,027/10,030 | 80.03% |
-| [RoboCasa GR1 Tabletop](abot-m0/robocasa-tabletop/qwen3-5-4b.md) | 50k | 574/1,200 | 47.83% |
-| [CALVIN · ABCD → D](abot-m0/calvin/qwen3-5-4b.md) | 34k | 1,000 five-task sequences | Mean length **3.625 / 5**; five tasks **57.1%** |
+| Benchmark | Post-train updates | Evaluation counts | Result | Weights |
+| --- | --- | --- | --- | --- |
+| [LIBERO](abot-m0/libero/qwen3-5-4b.md) | 40k | 1,935/2,000 | 96.75% | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B) |
+| [LIBERO-plus](abot-m0/liberoplus/qwen3-5-4b.md) | No extra training | 8,027/10,030 | 80.03% | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B) |
+| [RoboCasa GR1 Tabletop](abot-m0/robocasa-tabletop/qwen3-5-4b.md) | 50k | 574/1,200 | 47.83% | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B) |
+| [CALVIN · ABCD → D](abot-m0/calvin/qwen3-5-4b.md) | 34k | 1,000 five-task sequences | Mean length **3.625 / 5**; five tasks **57.1%** | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B) |
 
 CALVIN reports continuous-chain completion; its score is not pooled with episode success on other benchmarks.
 
@@ -42,3 +38,16 @@ CALVIN reports continuous-chain completion; its score is not pooled with episode
 These Clean-only, 10-episode-per-task studies retain their own initialization and training routes.
 
 Each run page links its recorded configuration, rollout protocol, resource record, and task counts. [Experimental findings](../findings/README.md) connects the observations to the report. Public checkpoint availability is tracked in the [release registry](../releases/README.md).
+
+## Additional reproduced models
+
+| Checkpoint | Clean successes / episodes | Randomized successes / episodes | Local training GPU-hours | Weights |
+| --- | --- | --- | --- | --- |
+| [LingBot 6B official](lingbot-vla2/robotwin/README.md) | 4,486/5,000 (89.72%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000) |
+| [LingBot 6B local](lingbot-vla2/robotwin/README.md) | 2,889/5,000 (57.78%) | — | 174.365 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000) |
+| [OpenWAM official](openwam/robotwin/README.md) | 4,701/5,000 (94.02%) | 4,683/5,000 (93.66%) | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-official-step118655) |
+| [OpenWAM local](openwam/robotwin/README.md) | 4,565/5,000 (91.30%) | 4,570/5,000 (91.40%) | 262.068 | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-local-step80000) |
+| [LiLa-WAM official](lila-wam/robotwin/README.md) | 224/250 (89.60%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4) |
+| [LiLa-WAM local](lila-wam/robotwin/README.md) | 222/250 (88.80%) | — | — | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4) |
+
+[PX harness systems results](px-harness/README.md) · [Five-dimension evaluation framework](../findings/assessment.md)

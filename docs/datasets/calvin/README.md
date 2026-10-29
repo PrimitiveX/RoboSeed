@@ -10,9 +10,9 @@ Language-conditioned tabletop manipulation. Our ABCD → D result evaluates 1,00
 
 ## Recorded experiment
 
-| Benchmark | Post-train updates | Evaluation counts | Result |
-| --- | --- | --- | --- |
-| [CALVIN · ABCD → D](../../experiments/abot-m0/calvin/qwen3-5-4b.md) | 34k | 1,000 five-task sequences | Mean length **3.625 / 5**; five tasks **57.1%** |
+| Benchmark | Post-train updates | Evaluation counts | Result | Weights |
+| --- | --- | --- | --- | --- |
+| [CALVIN · ABCD → D](../../experiments/abot-m0/calvin/qwen3-5-4b.md) | 34k | 1,000 five-task sequences | Mean length **3.625 / 5**; five tasks **57.1%** | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B) |
 
 [Full training, execution, and audit record](../../experiments/abot-m0/calvin/qwen3-5-4b.md)
 

@@ -1,0 +1,937 @@
+{
+  "policy_version": "1.1",
+  "snapshot": "2026-10-28",
+  "profiles": {
+    "balanced": [
+      0.3,
+      0.2,
+      0.2,
+      0.15,
+      0.15
+    ],
+    "training": [
+      0.3,
+      0.35,
+      0.1,
+      0.1,
+      0.15
+    ],
+    "deployment": [
+      0.3,
+      0.1,
+      0.35,
+      0.1,
+      0.15
+    ]
+  },
+  "missing_policy": "Null in JSON, dash in tables; require every component before computing a composite; never renormalize missing weights.",
+  "anchors": {
+    "training_gpu_hours": [
+      64,
+      1024
+    ],
+    "checkpoint_gb": [
+      2,
+      32
+    ],
+    "inference_peak_gib": [
+      8,
+      80
+    ],
+    "policy_p95_ms": [
+      50,
+      1000
+    ]
+  },
+  "value_rules": [
+    "implemented mechanism",
+    "local decision comparator",
+    "local mechanism ablation",
+    "local zero-shot or held-out transfer test"
+  ],
+  "evidence_rules": [
+    "configuration and weight mapping",
+    "audited task counts",
+    "50 tasks with at least 20 episodes per observed scene",
+    "local training time and device count",
+    "at least 3 independent training seeds"
+  ],
+  "units": [
+    {
+      "id": "abot_Qwen3_5_0_8B",
+      "label": "ABot Qwen3.5-0.8B",
+      "method": "ABot-M0",
+      "origin": "local",
+      "gpu_hours": 174.12555555555556,
+      "exposure": 9600000,
+      "checkpoint_gb": 5.040220774,
+      "train_cost_verified": true,
+      "memory_note": "Approximate legacy readings; no uniform memory trace",
+      "scenes": {
+        "Clean": {
+          "success": 4038,
+          "episodes": 5000,
+          "pct": 80.76,
+          "wilson95": [
+            79.64394321330045,
+            81.82882776303965
+          ]
+        },
+        "Randomized": {
+          "success": 4025,
+          "episodes": 5000,
+          "pct": 80.5,
+          "wilson95": [
+            79.37856487855211,
+            81.57460530279943
+          ]
+        }
+      },
+      "scores": {
+        "P": 80.63,
+        "T": 63.90039636017093,
+        "D": null,
+        "V": 75,
+        "R": 80
+      },
+      "subscores": {
+        "P_clean": 80.76,
+        "P_randomized": 80.5,
+        "D_weight": 66.66282678296591,
+        "D_memory": null,
+        "D_latency": null
+      },
+      "dimension_coverage": {
+        "P": 1.0,
+        "T": 1,
+        "D": 0.2,
+        "V": 1.0,
+        "R": 1.0
+      },
+      "value_flags": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence_flags": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "total": {
+        "balanced": null,
+        "training": null,
+        "deployment": null
+      },
+      "coverage": {
+        "balanced": 0.8400000000000001,
+        "training": 0.9199999999999999,
+        "deployment": 0.7200000000000001
+      }
+    },
+    {
+      "id": "abot_Qwen3_VL_2B",
+      "label": "ABot Qwen3-VL-2B",
+      "method": "ABot-M0",
+      "origin": "local",
+      "gpu_hours": 214.04888888888888,
+      "exposure": 9600000,
+      "checkpoint_gb": 7.76608331,
+      "train_cost_verified": true,
+      "memory_note": "Approximate legacy readings; no uniform memory trace",
+      "scenes": {
+        "Clean": {
+          "success": 4183,
+          "episodes": 5000,
+          "pct": 83.66,
+          "wilson95": [
+            82.60940567672183,
+            84.65891262833694
+          ]
+        },
+        "Randomized": {
+          "success": 4195,
+          "episodes": 5000,
+          "pct": 83.9,
+          "wilson95": [
+            82.8553084149788,
+            84.89264139314633
+          ]
+        }
+      },
+      "scores": {
+        "P": 83.78,
+        "T": 56.45508658971497,
+        "D": null,
+        "V": 75,
+        "R": 80
+      },
+      "subscores": {
+        "P_clean": 83.66,
+        "P_randomized": 83.9,
+        "D_weight": 51.07032040704785,
+        "D_memory": null,
+        "D_latency": null
+      },
+      "dimension_coverage": {
+        "P": 1.0,
+        "T": 1,
+        "D": 0.2,
+        "V": 1.0,
+        "R": 1.0
+      },
+      "value_flags": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence_flags": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "total": {
+        "balanced": null,
+        "training": null,
+        "deployment": null
+      },
+      "coverage": {
+        "balanced": 0.8400000000000001,
+        "training": 0.9199999999999999,
+        "deployment": 0.7200000000000001
+      }
+    },
+    {
+      "id": "abot_Qwen3_VL_4B",
+      "label": "ABot Qwen3-VL-4B",
+      "method": "ABot-M0",
+      "origin": "local",
+      "gpu_hours": 288.1322222222222,
+      "exposure": 9600000,
+      "checkpoint_gb": 12.580024298,
+      "train_cost_verified": true,
+      "memory_note": "Approximate legacy readings; no uniform memory trace",
+      "scenes": {
+        "Clean": {
+          "success": 4285,
+          "episodes": 5000,
+          "pct": 85.7,
+          "wilson95": [
+            84.70224384974786,
+            86.64294223137506
+          ]
+        },
+        "Randomized": {
+          "success": 4267,
+          "episodes": 5000,
+          "pct": 85.34,
+          "wilson95": [
+            84.3324633769444,
+            86.29327544957899
+          ]
+        }
+      },
+      "scores": {
+        "P": 85.52000000000001,
+        "T": 45.73532005342977,
+        "D": null,
+        "V": 75,
+        "R": 80
+      },
+      "subscores": {
+        "P_clean": 85.7,
+        "P_randomized": 85.34,
+        "D_weight": 33.67342990909048,
+        "D_memory": null,
+        "D_latency": null
+      },
+      "dimension_coverage": {
+        "P": 1.0,
+        "T": 1,
+        "D": 0.2,
+        "V": 1.0,
+        "R": 1.0
+      },
+      "value_flags": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence_flags": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "total": {
+        "balanced": null,
+        "training": null,
+        "deployment": null
+      },
+      "coverage": {
+        "balanced": 0.8400000000000001,
+        "training": 0.9199999999999999,
+        "deployment": 0.7200000000000001
+      }
+    },
+    {
+      "id": "abot_Qwen3_5_2B",
+      "label": "ABot Qwen3.5-2B",
+      "method": "ABot-M0",
+      "origin": "local",
+      "gpu_hours": 212.90444444444447,
+      "exposure": 9600000,
+      "checkpoint_gb": 8.332287878,
+      "train_cost_verified": true,
+      "memory_note": "Approximate legacy readings; no uniform memory trace",
+      "scenes": {
+        "Clean": {
+          "success": 4215,
+          "episodes": 5000,
+          "pct": 84.3,
+          "wilson95": [
+            83.26532532946949,
+            85.28201031709958
+          ]
+        },
+        "Randomized": {
+          "success": 4197,
+          "episodes": 5000,
+          "pct": 83.94,
+          "wilson95": [
+            82.89629996577045,
+            84.93158842619908
+          ]
+        }
+      },
+      "scores": {
+        "P": 84.12,
+        "T": 56.648443585673206,
+        "D": null,
+        "V": 75,
+        "R": 80
+      },
+      "subscores": {
+        "P_clean": 84.3,
+        "P_randomized": 83.94,
+        "D_weight": 48.53218287718895,
+        "D_memory": null,
+        "D_latency": null
+      },
+      "dimension_coverage": {
+        "P": 1.0,
+        "T": 1,
+        "D": 0.2,
+        "V": 1.0,
+        "R": 1.0
+      },
+      "value_flags": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence_flags": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "total": {
+        "balanced": null,
+        "training": null,
+        "deployment": null
+      },
+      "coverage": {
+        "balanced": 0.8400000000000001,
+        "training": 0.9199999999999999,
+        "deployment": 0.7200000000000001
+      }
+    },
+    {
+      "id": "abot_Qwen3_5_4B",
+      "label": "ABot Qwen3.5-4B",
+      "method": "ABot-M0",
+      "origin": "local",
+      "gpu_hours": 394.36555555555555,
+      "exposure": 9600000,
+      "checkpoint_gb": 13.276414352,
+      "train_cost_verified": true,
+      "memory_note": "Approximate legacy readings; no uniform memory trace",
+      "scenes": {
+        "Clean": {
+          "success": 4294,
+          "episodes": 5000,
+          "pct": 85.88,
+          "wilson95": [
+            84.88721200041623,
+            86.81769770800649
+          ]
+        },
+        "Randomized": {
+          "success": 4256,
+          "episodes": 5000,
+          "pct": 85.12,
+          "wilson95": [
+            84.10658650372065,
+            86.07949011165854
+          ]
+        }
+      },
+      "scores": {
+        "P": 85.5,
+        "T": 34.4152565007208,
+        "D": null,
+        "V": 75,
+        "R": 80
+      },
+      "subscores": {
+        "P_clean": 85.88,
+        "P_randomized": 85.12,
+        "D_weight": 31.730158597512766,
+        "D_memory": null,
+        "D_latency": null
+      },
+      "dimension_coverage": {
+        "P": 1.0,
+        "T": 1,
+        "D": 0.2,
+        "V": 1.0,
+        "R": 1.0
+      },
+      "value_flags": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence_flags": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "total": {
+        "balanced": null,
+        "training": null,
+        "deployment": null
+      },
+      "coverage": {
+        "balanced": 0.8400000000000001,
+        "training": 0.9199999999999999,
+        "deployment": 0.7200000000000001
+      }
+    },
+    {
+      "id": "abot_Qwen3_5_9B",
+      "label": "ABot Qwen3.5-9B",
+      "method": "ABot-M0",
+      "origin": "local",
+      "gpu_hours": 509.20666666666665,
+      "exposure": 9600000,
+      "checkpoint_gb": 21.88455872,
+      "train_cost_verified": true,
+      "memory_note": "Approximate legacy readings; no uniform memory trace",
+      "scenes": {
+        "Clean": {
+          "success": 4199,
+          "episodes": 5000,
+          "pct": 83.98,
+          "wilson95": [
+            82.9372937518038,
+            84.97053322401013
+          ]
+        },
+        "Randomized": {
+          "success": 4184,
+          "episodes": 5000,
+          "pct": 83.68,
+          "wilson95": [
+            82.6298945422259,
+            84.67839305475505
+          ]
+        }
+      },
+      "scores": {
+        "P": 83.83000000000001,
+        "T": 25.197312568052578,
+        "D": null,
+        "V": 75,
+        "R": 80
+      },
+      "subscores": {
+        "P_clean": 83.98,
+        "P_randomized": 83.68,
+        "D_weight": 13.703965283231012,
+        "D_memory": null,
+        "D_latency": null
+      },
+      "dimension_coverage": {
+        "P": 1.0,
+        "T": 1,
+        "D": 0.2,
+        "V": 1.0,
+        "R": 1.0
+      },
+      "value_flags": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence_flags": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "total": {
+        "balanced": null,
+        "training": null,
+        "deployment": null
+      },
+      "coverage": {
+        "balanced": 0.8400000000000001,
+        "training": 0.9199999999999999,
+        "deployment": 0.7200000000000001
+      }
+    },
+    {
+      "id": "ling_official",
+      "label": "LingBot 6B official",
+      "method": "LingBot-VLA 2.0",
+      "origin": "official",
+      "gpu_hours": null,
+      "exposure": 51200000,
+      "checkpoint_gb": 25.503889772,
+      "train_cost_verified": false,
+      "eval_seconds": 27660,
+      "eval_gpus": 4,
+      "train_timing_scope": "Progress-bar interval; excludes setup and final export",
+      "scenes": {
+        "Clean": {
+          "success": 4486,
+          "episodes": 5000,
+          "pct": 89.72,
+          "wilson95": [
+            88.84748673840586,
+            90.5315270190788
+          ]
+        }
+      },
+      "scores": {
+        "P": null,
+        "T": null,
+        "D": null,
+        "V": 50,
+        "R": 60
+      },
+      "subscores": {
+        "P_clean": 89.72,
+        "P_randomized": null,
+        "D_weight": 8.183865149919129,
+        "D_memory": null,
+        "D_latency": null
+      },
+      "dimension_coverage": {
+        "P": 0.5,
+        "T": 0,
+        "D": 0.2,
+        "V": 1.0,
+        "R": 1.0
+      },
+      "value_flags": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence_flags": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "total": {
+        "balanced": null,
+        "training": null,
+        "deployment": null
+      },
+      "coverage": {
+        "balanced": 0.49,
+        "training": 0.42000000000000004,
+        "deployment": 0.47
+      }
+    },
+    {
+      "id": "ling_local",
+      "label": "LingBot 6B local",
+      "method": "LingBot-VLA 2.0",
+      "origin": "local",
+      "gpu_hours": 174.365,
+      "exposure": 4800000,
+      "checkpoint_gb": 25.503889772,
+      "train_cost_verified": true,
+      "eval_seconds": 32130,
+      "eval_gpus": 4,
+      "train_timing_scope": "Progress-bar interval; excludes setup and final export",
+      "scenes": {
+        "Clean": {
+          "success": 2889,
+          "episodes": 5000,
+          "pct": 57.78,
+          "wilson95": [
+            56.40551612961461,
+            59.142538428120304
+          ]
+        }
+      },
+      "scores": {
+        "P": null,
+        "T": 63.85083327138384,
+        "D": null,
+        "V": 50,
+        "R": 80
+      },
+      "subscores": {
+        "P_clean": 57.78,
+        "P_randomized": null,
+        "D_weight": 8.183865149919129,
+        "D_memory": null,
+        "D_latency": null
+      },
+      "dimension_coverage": {
+        "P": 0.5,
+        "T": 1,
+        "D": 0.2,
+        "V": 1.0,
+        "R": 1.0
+      },
+      "value_flags": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence_flags": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "total": {
+        "balanced": null,
+        "training": null,
+        "deployment": null
+      },
+      "coverage": {
+        "balanced": 0.6900000000000001,
+        "training": 0.77,
+        "deployment": 0.5700000000000001
+      }
+    },
+    {
+      "id": "openwam_official",
+      "label": "OpenWAM official",
+      "method": "OpenWAM",
+      "origin": "official",
+      "gpu_hours": null,
+      "exposure": 30375680,
+      "checkpoint_gb": 24.813767464,
+      "train_cost_verified": false,
+      "eval_seconds": 105005,
+      "eval_gpus": 4,
+      "train_timing_scope": "Recorded 65:31:01 interval, not total development time",
+      "scenes": {
+        "Clean": {
+          "success": 4701,
+          "episodes": 5000,
+          "pct": 94.02,
+          "wilson95": [
+            93.32834978439317,
+            94.64406173636402
+          ]
+        },
+        "Randomized": {
+          "success": 4683,
+          "episodes": 5000,
+          "pct": 93.66,
+          "wilson95": [
+            92.95047307968794,
+            94.30249118646968
+          ]
+        }
+      },
+      "scores": {
+        "P": 93.84,
+        "T": null,
+        "D": null,
+        "V": 50,
+        "R": 60
+      },
+      "subscores": {
+        "P_clean": 94.02,
+        "P_randomized": 93.66,
+        "D_weight": 9.173277736588933,
+        "D_memory": null,
+        "D_latency": null
+      },
+      "dimension_coverage": {
+        "P": 1.0,
+        "T": 0,
+        "D": 0.2,
+        "V": 1.0,
+        "R": 1.0
+      },
+      "value_flags": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence_flags": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "total": {
+        "balanced": null,
+        "training": null,
+        "deployment": null
+      },
+      "coverage": {
+        "balanced": 0.64,
+        "training": 0.5700000000000001,
+        "deployment": 0.62
+      }
+    },
+    {
+      "id": "openwam_local",
+      "label": "OpenWAM local",
+      "method": "OpenWAM",
+      "origin": "local",
+      "gpu_hours": 262.0677777777778,
+      "exposure": 5120000,
+      "checkpoint_gb": 24.813767464,
+      "train_cost_verified": true,
+      "eval_seconds": 121541,
+      "eval_gpus": 4,
+      "train_timing_scope": "Recorded 65:31:01 interval, not total development time",
+      "scenes": {
+        "Clean": {
+          "success": 4565,
+          "episodes": 5000,
+          "pct": 91.3,
+          "wilson95": [
+            90.48675785282828,
+            92.04982996651003
+          ]
+        },
+        "Randomized": {
+          "success": 4570,
+          "episodes": 5000,
+          "pct": 91.4,
+          "wilson95": [
+            90.59075036390422,
+            92.14568391504507
+          ]
+        }
+      },
+      "scores": {
+        "P": 91.35,
+        "T": 49.155095761355874,
+        "D": null,
+        "V": 50,
+        "R": 80
+      },
+      "subscores": {
+        "P_clean": 91.3,
+        "P_randomized": 91.4,
+        "D_weight": 9.173277736588933,
+        "D_memory": null,
+        "D_latency": null
+      },
+      "dimension_coverage": {
+        "P": 1.0,
+        "T": 1,
+        "D": 0.2,
+        "V": 1.0,
+        "R": 1.0
+      },
+      "value_flags": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence_flags": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "total": {
+        "balanced": null,
+        "training": null,
+        "deployment": null
+      },
+      "coverage": {
+        "balanced": 0.8400000000000001,
+        "training": 0.9199999999999999,
+        "deployment": 0.7200000000000001
+      }
+    },
+    {
+      "id": "lila_official",
+      "label": "LiLa-WAM official",
+      "method": "LiLa-WAM",
+      "origin": "official",
+      "gpu_hours": null,
+      "exposure": null,
+      "checkpoint_gb": null,
+      "train_cost_verified": false,
+      "package_note": "Action/training checkpoint excludes separately loaded DINOv3; optimizer state may be present. Unscored.",
+      "local_rollout_verified": false,
+      "train_cost_note": "Summed epoch timers are recorded, but lack an independent source-level device trace; no scored H200 interval assigned.",
+      "scenes": {
+        "Clean": {
+          "success": 224,
+          "episodes": 250,
+          "pct": 89.6,
+          "wilson95": [
+            85.19796592920389,
+            92.8034767507569
+          ]
+        }
+      },
+      "scores": {
+        "P": null,
+        "T": null,
+        "D": null,
+        "V": 50,
+        "R": 40
+      },
+      "subscores": {
+        "P_clean": 89.6,
+        "P_randomized": null,
+        "D_weight": null,
+        "D_memory": null,
+        "D_latency": null
+      },
+      "dimension_coverage": {
+        "P": 0.5,
+        "T": 0,
+        "D": 0,
+        "V": 1.0,
+        "R": 1.0
+      },
+      "value_flags": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence_flags": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "total": {
+        "balanced": null,
+        "training": null,
+        "deployment": null
+      },
+      "coverage": {
+        "balanced": 0.44999999999999996,
+        "training": 0.4,
+        "deployment": 0.4
+      }
+    },
+    {
+      "id": "lila_local",
+      "label": "LiLa-WAM local",
+      "method": "LiLa-WAM",
+      "origin": "local",
+      "gpu_hours": null,
+      "exposure": null,
+      "checkpoint_gb": null,
+      "train_cost_verified": false,
+      "package_note": "Action/training checkpoint excludes separately loaded DINOv3; optimizer state may be present. Unscored.",
+      "local_rollout_verified": true,
+      "train_cost_note": "Summed epoch timers are recorded, but lack an independent source-level device trace; no scored H200 interval assigned.",
+      "scenes": {
+        "Clean": {
+          "success": 222,
+          "episodes": 250,
+          "pct": 88.8,
+          "wilson95": [
+            84.28908673839413,
+            92.13656922075936
+          ]
+        }
+      },
+      "scores": {
+        "P": null,
+        "T": null,
+        "D": null,
+        "V": 50,
+        "R": 40
+      },
+      "subscores": {
+        "P_clean": 88.8,
+        "P_randomized": null,
+        "D_weight": null,
+        "D_memory": null,
+        "D_latency": null
+      },
+      "dimension_coverage": {
+        "P": 0.5,
+        "T": 0,
+        "D": 0,
+        "V": 1.0,
+        "R": 1.0
+      },
+      "value_flags": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence_flags": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "total": {
+        "balanced": null,
+        "training": null,
+        "deployment": null
+      },
+      "coverage": {
+        "balanced": 0.44999999999999996,
+        "training": 0.4,
+        "deployment": 0.4
+      }
+    }
+  ]
+}

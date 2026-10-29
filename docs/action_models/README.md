@@ -9,3 +9,9 @@ Each reproduced action model receives its own section. VLM substitutions remain 
 | Action model | Coverage | Record |
 | --- | --- | --- |
 | ABot-M0 | Six RoboTwin training runs; five benchmark records; historical pre-train diagnostics | [Architecture and experiments](abot_m0/README.md) |
+
+| Action model | Coverage | Record |
+| --- | --- | --- |
+| LingBot-VLA 2.0 | Official and local RoboTwin checkpoints | [Architecture and experiments](lingbot-vla2/README.md) |
+| OpenWAM | Official and local RoboTwin checkpoints | [Architecture and experiments](openwam/README.md) |
+| LiLa-WAM | Official and local RoboTwin checkpoints | [Architecture and experiments](lila-wam/README.md) |

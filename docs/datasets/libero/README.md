@@ -10,9 +10,9 @@ Four manipulation suites cover Spatial, Object, Goal, and Long (libero_10). Our 
 
 ## Recorded experiment
 
-| Benchmark | Post-train updates | Evaluation counts | Result |
-| --- | --- | --- | --- |
-| [LIBERO](../../experiments/abot-m0/libero/qwen3-5-4b.md) | 40k | 1,935/2,000 | 96.75% |
+| Benchmark | Post-train updates | Evaluation counts | Result | Weights |
+| --- | --- | --- | --- | --- |
+| [LIBERO](../../experiments/abot-m0/libero/qwen3-5-4b.md) | 40k | 1,935/2,000 | 96.75% | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B) |
 
 [Full training, execution, and audit record](../../experiments/abot-m0/libero/qwen3-5-4b.md)
 

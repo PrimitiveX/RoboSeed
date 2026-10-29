@@ -1,0 +1,85 @@
+{
+  "snapshot_date": "2026-10-28",
+  "report_updated": "2026-10-29",
+  "source": "RoboSeed technical report and audited companion data",
+  "report_sha256": "1398890f613c31f85ddc03f2f37055c3530fbbe995d13a29294e05fbc6c6dde7",
+  "source_files": {
+    "robotwin_summary.csv": {
+      "bytes": 1510,
+      "sha256": "ae4f374e8dc84216093791b8b623a8fecb55f1fbeddf25d81c3885e69c4e0459"
+    },
+    "robotwin_training_only.csv": {
+      "bytes": 144,
+      "sha256": "da90d86920735e1cfa8e8623861b98ac8ad2002f656a24e8a95b1fd601b5c801"
+    },
+    "robotwin_tasks.csv": {
+      "bytes": 30082,
+      "sha256": "0bcc342a30a52bcf0ba0ce8f3b0214b789ecad64dfd585629bd08e6b361e801a"
+    },
+    "robotwin_loss.csv": {
+      "bytes": 362988,
+      "sha256": "99ca975ad6257941f9ba46a0d48547bab35fd8deca7ddba066fb0f2b2c33f44c"
+    },
+    "robotwin_loss_statistics.csv": {
+      "bytes": 752,
+      "sha256": "b4664569440e0cd521b6b6370c4a7be04eae6ca7ea74f37a1ffc96cb2e32eb41"
+    },
+    "extension_tasks.csv": {
+      "bytes": 127363,
+      "sha256": "bdce5c6493ff612bcad06f10b0996294cec086a11a54a22a1a6a6a7af771e262"
+    },
+    "harness_refresh.csv": {
+      "bytes": 1796,
+      "sha256": "c1f49ce626f2509fbdf782570265eae8d27d0585e18effcab45bcea907b96395"
+    },
+    "harness_original_all50_tasks.csv": {
+      "bytes": 1417,
+      "sha256": "4f75e79b394ac620ff6698e7603f08637a9dd5536323ed2593fa0c0a1d317d3f"
+    },
+    "harness_w6_tasks.csv": {
+      "bytes": 3770,
+      "sha256": "f71565efe0c017c0ab5da36c997cd4df01c6d4c8776dc6209b07bfdc711990fc"
+    },
+    "harness_w16_tasks.csv": {
+      "bytes": 3818,
+      "sha256": "1d95b46237960372dddefa9226443c42b6b37dcf976c1ebdf88e2570dfb9c1e6"
+    },
+    "harness_oct28_central_w24_b1_tasks.csv": {
+      "bytes": 1040,
+      "sha256": "24fa486cdfd761432b8f845234bd3fc2b05760ba648187d1550d66bc4e3555c2"
+    },
+    "harness_oct28_central_w24_b4_tasks.csv": {
+      "bytes": 1040,
+      "sha256": "3aa08be09e19e9ee46002b30847a97857bb3ad8e8d930a4b18ee7ca86b28b7ae"
+    },
+    "harness_oct28_colocated_w16_b1_tasks.csv": {
+      "bytes": 1063,
+      "sha256": "2aa24bff0da0e0154b53a34f816485841e3e1aa1131afbe34ca712f3ce127fd7"
+    },
+    "ling_training_observations.csv": {
+      "bytes": 2502262,
+      "sha256": "ca36676c3c2c9ecc6e4c8e79da49d970bb7a15faf07725dfd2b0ebda993ae3db"
+    },
+    "openwam_training_observations.csv": {
+      "bytes": 2912742,
+      "sha256": "c0328840d2cad3121335b1f8eb2c4f37c91ffdd6a12fa2ea4ddf69dfa0adaa5b"
+    },
+    "lila_stage1_training_observations.csv": {
+      "bytes": 903465,
+      "sha256": "b9064a918fdeb3a65cd9ce88fef3be71590348e43a27a5329353012d6d555847"
+    },
+    "lila_stage2_training_observations.csv": {
+      "bytes": 286709,
+      "sha256": "4b7822452e626160f4e29a682c90786a33dbb2697b2cd825268f59005f78a298"
+    },
+    "assessment.json": {
+      "bytes": 23992,
+      "sha256": "914d7abcdf5e5cd4d98600a9b263c72b4ac9ab189e2072b87d04ec36d6115d93"
+    },
+    "extension_units.json": {
+      "bytes": 7928,
+      "sha256": "aa6b8297cb68a509d4fc31ee4ea638d71d495681b07f718286130cb28913c7a5"
+    }
+  },
+  "notes": "Extension units omit machine-specific weight paths; source-file hash records the original input. Earlier source_manifest evidence retains its original collection timestamp. ModelScope branch master is mutable; weight hashes are recorded separately. Extension task sources use portable source identifiers; assessment units omit machine-specific weight paths."
+}

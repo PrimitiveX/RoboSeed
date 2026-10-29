@@ -156,7 +156,63 @@ def verify_results():
             require((ROOT / r[key]).is_file(), 'Missing checkpoint metadata link')
         config = (ROOT / r['configuration']).read_text()
         require(int(re.search(r'^\s*max_train_steps:\s*(\d+)', config, re.M)[1]) == r['updates'], 'Configuration update count')
-    print('Counts and evidence: RoboTwin 50,000 episodes; LIBERO 2,000; LIBERO-plus 10,030; RoboCasa 1,200; CALVIN 1,000 chains.')
+    verify_refresh()
+    print('Counts and evidence: ABot RoboTwin 60,000 episodes; LIBERO 2,000; LIBERO-plus 10,030; RoboCasa 1,200; CALVIN 1,000 chains.')
+
+
+def verify_refresh():
+    tasks = read('extension_tasks.csv'); units = read_json('extension_units.json')
+    assessment = read_json('assessment.json')
+    require(len(tasks) == 1000 and len(units) == 12, 'Report extension coverage')
+    unique(tasks, ['unit', 'scene', 'task'], 'Report extension'); rates(tasks)
+    require({r['unit'] for r in tasks} == {u['id'] for u in units}, 'Extension unit mapping')
+    profiles = {u['id']: u for u in assessment['units']}
+    abot = {(r['backbone'], r['suite'], r['task']): r for r in read('robotwin_tasks.csv')}
+    for u in units:
+        observed = [r for r in tasks if r['unit'] == u['id']]
+        scenes = {'Clean', 'Randomized'} if u['method'] in {'ABot-M0', 'OpenWAM'} else {'Clean'}
+        require({r['scene'] for r in observed} == scenes, 'Unexpected scene coverage')
+        for scene in scenes:
+            group = [r for r in observed if r['scene'] == scene]
+            require(len(group) == 50 and all(int(r['episodes']) == (5 if u['method'] == 'LiLa-WAM' else 100) for r in group), 'Extension task denominators')
+            result = profiles[u['id']]['scenes'][scene]
+            require(totals(group) == (result['success'], result['episodes']), 'Assessment disagrees with task counts')
+            if u['method'] == 'ABot-M0':
+                for r in group:
+                    original = abot[u['label'].removeprefix('ABot '), scene, r['task']]
+                    require(int(r['success']) == int(original['success']), 'ABot extension/canonical task mismatch')
+        scores = profiles[u['id']]['scores']
+        if scenes == {'Clean', 'Randomized'}:
+            close(scores['P'], sum(profiles[u['id']]['scenes'][s]['pct'] for s in scenes)/2, 'Two-scene assessment P')
+        else:
+            require(scores['P'] is None, 'Missing scene must not receive two-scene P')
+        require(scores['D'] is None and all(v is None for v in profiles[u['id']]['total'].values()), 'Missing deployment measurements must withhold composites')
+    for name, count in [('ling_training_observations.csv', 50000), ('openwam_training_observations.csv', 80000), ('lila_stage1_training_observations.csv', 23643), ('lila_stage2_training_observations.csv', 7881)]:
+        require(len(read(name)) == count, 'Native loss selection count: ' + name)
+    for name, expected in [('harness_original_all50_tasks.csv', 411), ('harness_w6_tasks.csv', 408), ('harness_w16_tasks.csv', 401)]:
+        group = read(name); unique(group, ['task'], name)
+        require(len(group) == 50 and totals(group) == (expected, 500), 'Full-task harness counts')
+    fresh = read('harness_refresh.csv')
+    matched = [r for r in fresh if r['run'].startswith('px_4gpu_batch_compare_')]
+    require(len(matched) == 3 and len({r['episode_inputs_sha256'] for r in matched}) == 1, 'Matched-input systems comparison')
+    for r in fresh:
+        close(r['gpu_hours'], int(r['gpus'])*float(r['wall_seconds'])/3600, 'Harness rollout GPU-hours')
+        require(float(r['end_to_end_seconds']) >= float(r['wall_seconds']), 'Startup-inclusive timing scope')
+    packages = read_json('modelscope_packages.json')['packages']
+    require(len(packages) == 17, 'ModelScope package coverage')
+    unique(packages, ['package_id'], 'ModelScope packages')
+    require(Counter(p['status'] for p in packages) == {'evaluated': 15, 'training_prefix_no_rollout': 2}, 'Model package status coverage')
+    for p in packages:
+        require(p['public_url'] == 'https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/' + p['path'], 'ModelScope folder URL')
+        require(p['weight_files'], 'Package without observed weights')
+        for f in p['weight_files']:
+            require(f['path'].startswith(p['path'] + '/') and f['bytes'] > 0 and re.fullmatch('[0-9a-f]{64}', f['sha256']), 'Invalid remote weight metadata')
+    for r in read_json('checkpoints.json')['checkpoints']:
+        pkg = next(p for p in packages if p['public_url'] == r['public_url'])
+        require(r['revision'] == 'master' and r['evaluation_status'] == 'complete', 'Stale ABot release metadata')
+        require(sum(f['bytes'] for f in pkg['weight_files']) == r['checkpoint_bytes'], 'ModelScope/record weight size mismatch')
+    require(hashlib.sha256((ROOT / 'docs/report/RoboSeed.pdf').read_bytes()).hexdigest() == read_json('report_refresh.json')['report_sha256'], 'Report PDF differs from refresh source')
+    print('Report refresh: 1,000 task rows, 12 checkpoint profiles, native losses, harness evidence and 17 published package mappings checked.')
 
 
 def heading_ids(text):

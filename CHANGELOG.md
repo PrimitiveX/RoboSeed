@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-29 · October 28 report evidence
+
+- Complete ABot-M0 Qwen3.5-2B evaluation (84.30% Clean, 83.94% Randomized, 84.12% mean) and align all six-backbone tables and figures.
+- Add official/local LingBot-VLA 2.0, OpenWAM and LiLa-WAM records, full task counts, native losses, PX harness measurements and policy 1.1 assessment profiles.
+- Link all 17 ModelScope packages from the registry and corresponding result pages; keep official references and training prefixes explicit.
+- Refresh the report PDF and 17 figure sets, add a homepage reproduction checklist with sourced 2025 model candidates, balance the brand logos, and correct repository/citation links.
+
 ## 2026-10-12
 
 - Remove the homepage's Reproduce the results section and its navigation link; retain the original project narrative.

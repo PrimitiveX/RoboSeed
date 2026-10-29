@@ -27,3 +27,7 @@ Evaluation covers four suites of ten tasks, with 50 episodes per task. Counts ar
 *Standard LIBERO and zero-shot LIBERO-plus, with separate suite and perturbation denominators.*
 
 [All LIBERO task counts](../../../datasets/libero/task_results.md) · [LIBERO-plus evaluation of this checkpoint](../liberoplus/qwen3-5-4b.md)
+
+## Model weights
+
+[Download from ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B) · [Package registry and dependencies](../../../releases/README.md)

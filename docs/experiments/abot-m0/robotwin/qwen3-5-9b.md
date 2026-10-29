@@ -153,3 +153,7 @@ Rollouts use four evaluation GPUs and at most 4 workers per GPU. Scene runtimes 
 [Raw loss CSV](../../../../data/robotwin_loss.csv) · [RoboTwin dataset and full comparison](../../../datasets/robotwin/README.md)
 
 [How to interpret scale, loss, and cost](../../../findings/README.md)
+
+## Model weights
+
+[Download from ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-9B) · [Package registry and dependencies](../../../releases/README.md)

@@ -46,3 +46,7 @@ Rollouts use 24 tasks × 50 episodes, a 720-step limit, and 12 executed actions 
 | PosttrainPnPNovelFromCuttingboardToTieredbasketSplitA | 22/50 | 44.00 |
 | PosttrainPnPNovelFromTrayToCardboardboxSplitA | 21/50 | 42.00 |
 | PosttrainPnPNovelFromTrayToPotSplitA | 27/50 | 54.00 |
+
+## Model weights
+
+[Download from ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B) · [Package registry and dependencies](../../../releases/README.md)

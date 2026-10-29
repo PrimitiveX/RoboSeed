@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-28",
   "scope": "Packaged results, audits, recorded configs, and report PDF. Original source hashes are in source_manifest.json.",
   "files": {
     "configs/abot-m0/calvin-qwen3-5-4b.yaml": {
@@ -39,8 +39,12 @@
       "sha256": "b0a70d2437d31026d142eb0b05b0803c7bb054d6afbae828f5d1e8fc3b4fbe69"
     },
     "data/README.md": {
-      "bytes": 4841,
-      "sha256": "26c4735ff08d84a239c646ee08a47d0eb1b524c3c7194c56df901456225680df"
+      "bytes": 6609,
+      "sha256": "9daf9e4801df6321f7837882a0feea8508d27bab56b2b8f29b9c32906cb08dc0"
+    },
+    "data/assessment.json": {
+      "bytes": 20403,
+      "sha256": "33f251c17e8e5ea69c2df1c31c7586e1a75ba4dc8ccd3b55f759f87ba6700056"
     },
     "data/calvin_audit.json": {
       "bytes": 7109,
@@ -79,8 +83,44 @@
       "sha256": "6f60bb19983c48b35f324ed17a64818ee15f4554bb6c37dcdb27d26d68ba95f1"
     },
     "data/checkpoints.json": {
-      "bytes": 4168,
-      "sha256": "c42db797d951c96ce8b3400d7bfb563317f0af27345733eb3f6c31412c99ef82"
+      "bytes": 7484,
+      "sha256": "d49860ec3efe61b4dba236034ca62b6ac4c3ebe2ee885698b140d23c73d01cdc"
+    },
+    "data/extension_tasks.csv": {
+      "bytes": 76478,
+      "sha256": "12139094883490f7633f9a00d1bd3b0e10ff9cdd16753de582ce541a657a9066"
+    },
+    "data/extension_units.json": {
+      "bytes": 4495,
+      "sha256": "2d9b007607a63a028613e8cb4581416b0bf5b66eb559e65fc2eaa57a1723738c"
+    },
+    "data/harness_oct28_central_w24_b1_tasks.csv": {
+      "bytes": 1040,
+      "sha256": "24fa486cdfd761432b8f845234bd3fc2b05760ba648187d1550d66bc4e3555c2"
+    },
+    "data/harness_oct28_central_w24_b4_tasks.csv": {
+      "bytes": 1040,
+      "sha256": "3aa08be09e19e9ee46002b30847a97857bb3ad8e8d930a4b18ee7ca86b28b7ae"
+    },
+    "data/harness_oct28_colocated_w16_b1_tasks.csv": {
+      "bytes": 1063,
+      "sha256": "2aa24bff0da0e0154b53a34f816485841e3e1aa1131afbe34ca712f3ce127fd7"
+    },
+    "data/harness_original_all50_tasks.csv": {
+      "bytes": 1417,
+      "sha256": "4f75e79b394ac620ff6698e7603f08637a9dd5536323ed2593fa0c0a1d317d3f"
+    },
+    "data/harness_refresh.csv": {
+      "bytes": 1796,
+      "sha256": "c1f49ce626f2509fbdf782570265eae8d27d0585e18effcab45bcea907b96395"
+    },
+    "data/harness_w16_tasks.csv": {
+      "bytes": 3818,
+      "sha256": "1d95b46237960372dddefa9226443c42b6b37dcf976c1ebdf88e2570dfb9c1e6"
+    },
+    "data/harness_w6_tasks.csv": {
+      "bytes": 3770,
+      "sha256": "f71565efe0c017c0ab5da36c997cd4df01c6d4c8776dc6209b07bfdc711990fc"
     },
     "data/libero_tasks.csv": {
       "bytes": 3159,
@@ -102,6 +142,30 @@
       "bytes": 403245,
       "sha256": "598994a1ef0924fcd1d053bbb0acafdd3423031c564e56da0a824b45f507f849"
     },
+    "data/lila_stage1_training_observations.csv": {
+      "bytes": 903465,
+      "sha256": "b9064a918fdeb3a65cd9ce88fef3be71590348e43a27a5329353012d6d555847"
+    },
+    "data/lila_stage2_training_observations.csv": {
+      "bytes": 286709,
+      "sha256": "4b7822452e626160f4e29a682c90786a33dbb2697b2cd825268f59005f78a298"
+    },
+    "data/ling_training_observations.csv": {
+      "bytes": 2502262,
+      "sha256": "ca36676c3c2c9ecc6e4c8e79da49d970bb7a15faf07725dfd2b0ebda993ae3db"
+    },
+    "data/modelscope_packages.json": {
+      "bytes": 14505,
+      "sha256": "54b47b5c10d82fe9ebd1a171199a81d5a68a18e63156bc58960a23a226375def"
+    },
+    "data/openwam_training_observations.csv": {
+      "bytes": 2912742,
+      "sha256": "c0328840d2cad3121335b1f8eb2c4f37c91ffdd6a12fa2ea4ddf69dfa0adaa5b"
+    },
+    "data/report_refresh.json": {
+      "bytes": 3442,
+      "sha256": "14a94056cd5ce280b29f8cfe7ca7108fe71c8afbb60494f1d37d7e54342f33fb"
+    },
     "data/robocasa_tasks.csv": {
       "bytes": 1264,
       "sha256": "0808516a24b4262ad2a1e2a27665b151b00db04ca0ecdd29204194ef0055fec7"
@@ -110,29 +174,33 @@
       "bytes": 362988,
       "sha256": "a5e430f7f8ccaf822b93e55d7a04529316c6d26b9565b0eeca21e95dd90b3389"
     },
+    "data/robotwin_loss_statistics.csv": {
+      "bytes": 752,
+      "sha256": "b4664569440e0cd521b6b6370c4a7be04eae6ca7ea74f37a1ffc96cb2e32eb41"
+    },
     "data/robotwin_summary.csv": {
-      "bytes": 1308,
-      "sha256": "18997c130ed6523a1898fb20181244663d23b10410a1d9232e180f8120154c87"
+      "bytes": 1510,
+      "sha256": "ae4f374e8dc84216093791b8b623a8fecb55f1fbeddf25d81c3885e69c4e0459"
     },
     "data/robotwin_tasks.csv": {
-      "bytes": 25150,
-      "sha256": "8a530995971e7266f1fc5c3d1a49a017092810c02cc6e04763c58c721d753ea9"
+      "bytes": 30082,
+      "sha256": "0bcc342a30a52bcf0ba0ce8f3b0214b789ecad64dfd585629bd08e6b361e801a"
     },
     "data/robotwin_training_only.csv": {
-      "bytes": 319,
-      "sha256": "d7718869376ea1cc5bd32b74824fc8fd2bf3989cfc8651945d6da3737cdd5cf4"
+      "bytes": 144,
+      "sha256": "da90d86920735e1cfa8e8623861b98ac8ad2002f656a24e8a95b1fd601b5c801"
     },
     "data/source_manifest.json": {
       "bytes": 185647,
-      "sha256": "914dfafd330b423a995be9a1879d60f574c8e77d3062b6c51f4607c988cb927b"
+      "sha256": "3af97eba6395b58c5741bb4dc416d2216a7e8d82b146448904f098a4015b5952"
     },
     "data/video_index.csv": {
       "bytes": 2443776,
       "sha256": "4ff2932f1f7da6cf7b84d8117c7da11b4a86e2d4ea16b62944671499b9c1e379"
     },
     "docs/report/RoboSeed.pdf": {
-      "bytes": 540720,
-      "sha256": "a4c341f63bd0cc8cfdd6522ea17ed0aa8927f83ccce4910b76fa9fc4f168f1f5"
+      "bytes": 1178842,
+      "sha256": "1398890f613c31f85ddc03f2f37055c3530fbbe995d13a29294e05fbc6c6dde7"
     }
   }
 }

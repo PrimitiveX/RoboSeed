@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-28",
   "checkpoints": [
     {
       "action_model": "ABot-M0",
@@ -9,10 +9,17 @@
       "checkpoint_bytes": 5040220774,
       "checkpoint_file": "pytorch_model.pt",
       "evaluation_status": "complete",
-      "public_url": null,
-      "revision": null,
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-0.8B",
+      "revision": "master",
       "configuration": "configs/abot-m0/robotwin-qwen3-5-0-8b.yaml",
-      "record": "docs/experiments/abot-m0/robotwin/qwen3-5-0-8b.md"
+      "record": "docs/experiments/abot-m0/robotwin/qwen3-5-0-8b.md",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-0.8B/pytorch_model.pt",
+          "bytes": 5040220774,
+          "sha256": "913aa1b2023cb3b8ae433819a4b50f1643058f38d34112376899cfa7c1132f4e"
+        }
+      ]
     },
     {
       "action_model": "ABot-M0",
@@ -22,10 +29,17 @@
       "checkpoint_bytes": 7766083310,
       "checkpoint_file": "pytorch_model.pt",
       "evaluation_status": "complete",
-      "public_url": null,
-      "revision": null,
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-2B",
+      "revision": "master",
       "configuration": "configs/abot-m0/robotwin-qwen3-vl-2b.yaml",
-      "record": "docs/experiments/abot-m0/robotwin/qwen3-vl-2b.md"
+      "record": "docs/experiments/abot-m0/robotwin/qwen3-vl-2b.md",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-2B/pytorch_model.pt",
+          "bytes": 7766083310,
+          "sha256": "e8888f88275c44ca4e2fc938951afbdc6f6617e6784b6fc7611ee31b099f97eb"
+        }
+      ]
     },
     {
       "action_model": "ABot-M0",
@@ -35,10 +49,17 @@
       "checkpoint_bytes": 12580024298,
       "checkpoint_file": "pytorch_model.pt",
       "evaluation_status": "complete",
-      "public_url": null,
-      "revision": null,
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-4B",
+      "revision": "master",
       "configuration": "configs/abot-m0/robotwin-qwen3-vl-4b.yaml",
-      "record": "docs/experiments/abot-m0/robotwin/qwen3-vl-4b.md"
+      "record": "docs/experiments/abot-m0/robotwin/qwen3-vl-4b.md",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-4B/pytorch_model.pt",
+          "bytes": 12580024298,
+          "sha256": "bb7b5378f3cc2a2d50751c057ecc4eed1f3f037f92171de84ae6293c9356f3a4"
+        }
+      ]
     },
     {
       "action_model": "ABot-M0",
@@ -48,10 +69,17 @@
       "checkpoint_bytes": 13276414352,
       "checkpoint_file": "pytorch_model.pt",
       "evaluation_status": "complete",
-      "public_url": null,
-      "revision": null,
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-4B",
+      "revision": "master",
       "configuration": "configs/abot-m0/robotwin-qwen3-5-4b.yaml",
-      "record": "docs/experiments/abot-m0/robotwin/qwen3-5-4b.md"
+      "record": "docs/experiments/abot-m0/robotwin/qwen3-5-4b.md",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-4B/pytorch_model.pt",
+          "bytes": 13276414352,
+          "sha256": "8967ce6298c082bb1fd8a5d8e93927a30d2c8eca4cd20f74ffdf3dabef42a51a"
+        }
+      ]
     },
     {
       "action_model": "ABot-M0",
@@ -61,10 +89,17 @@
       "checkpoint_bytes": 21884558720,
       "checkpoint_file": "pytorch_model.pt",
       "evaluation_status": "complete",
-      "public_url": null,
-      "revision": null,
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-9B",
+      "revision": "master",
       "configuration": "configs/abot-m0/robotwin-qwen3-5-9b.yaml",
-      "record": "docs/experiments/abot-m0/robotwin/qwen3-5-9b.md"
+      "record": "docs/experiments/abot-m0/robotwin/qwen3-5-9b.md",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-9B/pytorch_model.pt",
+          "bytes": 21884558720,
+          "sha256": "57cba99a541a85465c5d58e7f06be9f121334b7c5ffff651fd122e193053e728"
+        }
+      ]
     },
     {
       "action_model": "ABot-M0",
@@ -73,11 +108,18 @@
       "updates": 150000,
       "checkpoint_bytes": 8332287878,
       "checkpoint_file": "pytorch_model.pt",
-      "evaluation_status": "pending",
-      "public_url": null,
-      "revision": null,
+      "evaluation_status": "complete",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-2B",
+      "revision": "master",
       "configuration": "configs/abot-m0/robotwin-qwen3-5-2b.yaml",
-      "record": "docs/experiments/abot-m0/robotwin/qwen3-5-2b.md"
+      "record": "docs/experiments/abot-m0/robotwin/qwen3-5-2b.md",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-2B/pytorch_model.pt",
+          "bytes": 8332287878,
+          "sha256": "063c82f4927c55097fba2ddce44b23ec811cf03d1f2d70bd74f3232c30de258b"
+        }
+      ]
     },
     {
       "action_model": "ABot-M0",
@@ -87,10 +129,17 @@
       "checkpoint_bytes": 13270910352,
       "checkpoint_file": "pytorch_model.pt",
       "evaluation_status": "complete",
-      "public_url": null,
-      "revision": null,
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B",
+      "revision": "master",
       "configuration": "configs/abot-m0/calvin-qwen3-5-4b.yaml",
-      "record": "docs/experiments/abot-m0/calvin/qwen3-5-4b.md"
+      "record": "docs/experiments/abot-m0/calvin/qwen3-5-4b.md",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B/pytorch_model.pt",
+          "bytes": 13270910352,
+          "sha256": "dfae21748956f7f3aba5a03b63787810409a1de55a2230a399858605c9afa073"
+        }
+      ]
     },
     {
       "action_model": "ABot-M0",
@@ -100,10 +149,17 @@
       "checkpoint_bytes": 13270925492,
       "checkpoint_file": "steps_40000_pytorch_model.pt",
       "evaluation_status": "complete",
-      "public_url": null,
-      "revision": null,
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B",
+      "revision": "master",
       "configuration": "configs/abot-m0/libero-qwen3-5-4b.yaml",
-      "record": "docs/experiments/abot-m0/libero/qwen3-5-4b.md"
+      "record": "docs/experiments/abot-m0/libero/qwen3-5-4b.md",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B/steps_40000_pytorch_model.pt",
+          "bytes": 13270925492,
+          "sha256": "dae837ab886c71a0e451ff62a021a6cd9ffb64f6a71803b70277f2079f14bc05"
+        }
+      ]
     },
     {
       "action_model": "ABot-M0",
@@ -113,10 +169,17 @@
       "checkpoint_bytes": 13287088820,
       "checkpoint_file": "steps_50000_pytorch_model.pt",
       "evaluation_status": "complete",
-      "public_url": null,
-      "revision": null,
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B",
+      "revision": "master",
       "configuration": "configs/abot-m0/robocasa-tabletop-qwen3-5-4b.yaml",
-      "record": "docs/experiments/abot-m0/robocasa-tabletop/qwen3-5-4b.md"
+      "record": "docs/experiments/abot-m0/robocasa-tabletop/qwen3-5-4b.md",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B/steps_50000_pytorch_model.pt",
+          "bytes": 13287088820,
+          "sha256": "6a35e88c0352744f772b7703f6560ae712927a7fa144401d8425afcf9551265a"
+        }
+      ]
     }
   ],
   "notes": "LIBERO-plus reuses the LIBERO checkpoint. Byte counts are observed local artifacts; no weights are bundled."

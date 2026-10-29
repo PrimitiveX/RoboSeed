@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Experiment index](../docs/experiments/README.md)
 
-This directory packages the records used in the October 12, 2026 RoboSeed report. Counts and loss observations are copied from its audited data. No model weights, demonstration videos, or simulation datasets are bundled.
+This directory packages the October 28, 2026 RoboSeed evidence snapshot, retaining the earlier audited records and adding the report refresh. Counts and loss observations are copied from its audited data. No model weights, demonstration videos, or simulation datasets are bundled.
 
 ## Result tables
 
@@ -31,7 +31,7 @@ Rates ending in `_pct` are percentages. The historical per-backbone RoboTwin CSV
 - [liberoplus_duplicates.json](liberoplus_duplicates.json) retains all alternatives for 101 repeated variant keys and the selected latest-mtime record. Three conflicting keys bound the aggregate result at 80.01%–80.04%.
 - [calvin_results_source.json](calvin_results_source.json) preserves the original duplicate-key JSON bytes. Ordinary JSON loaders silently select the last `0` key; [calvin_audit.json](calvin_audit.json) explicitly retains both occurrences and explains why the final 1,000-sequence result was chosen over the ten-sequence smoke test.
 - [calvin_eval_sequences.json](calvin_eval_sequences.json) is the input sequence list, rather than an independent outcome trace. [calvin_dataset_metadata.json](calvin_dataset_metadata.json) records the converted dataset's cameras, feature layout, counts, and frame rate.
-- [checkpoints.json](checkpoints.json) lists nine verified local artifacts. `public_url` and `revision` remain `null` until an actual immutable public release is supplied. LIBERO-plus shares the LIBERO checkpoint.
+- [checkpoints.json](checkpoints.json) lists nine verified local artifacts. `public_url` links each published ModelScope folder. `revision` is the mutable branch `master`; observed weight hashes are recorded in the registry. LIBERO-plus shares the LIBERO checkpoint.
 
 The original result CSVs and CALVIN source JSON retain the report's values. Public JSON audits and the video index change only local path representations. The source manifest's hashes refer to the original evidence, while [release_manifest.json](release_manifest.json) hashes the files actually packaged here.
 
@@ -45,3 +45,14 @@ python3 scripts/verify.py
 ```
 
 The generator updates result tables, task pages, and compatibility pages from these records. The verifier checks denominators, aggregates, duplicate selections, loss coverage, checkpoint mappings, generated content, relative links, and packaged file hashes.
+
+## October 28 report refresh
+
+[report_refresh.json](report_refresh.json) records source-file hashes and the updated PDF identity. The six-backbone ABot study now includes complete Qwen3.5-2B evaluation; `robotwin_training_only.csv` retains its schema with no pending rows.
+
+- [extension_tasks.csv](extension_tasks.csv): 1,000 checkpoint/scene/task rows across six ABot and six official/local extension units; `unit`, `scene`, `task`, integer `success` and `episodes`, and report-source identifier.
+- [extension_units.json](extension_units.json): checkpoint identity, origin, measured training budget and scope; machine-specific weight paths are omitted.
+- [assessment.json](assessment.json): policy 1.1 profiles, anchors, evidence flags, Wilson intervals and explicit nulls for unavailable dimensions/composites.
+- [harness_refresh.csv](harness_refresh.csv), [original full-task counts](harness_original_all50_tasks.csv), [W6 counts](harness_w6_tasks.csv), [W16 counts](harness_w16_tasks.csv): scoped systems observations. Wall time and startup-inclusive time are separate fields.
+- [LingBot](ling_training_observations.csv), [OpenWAM](openwam_training_observations.csv), [LiLa stage 1](lila_stage1_training_observations.csv) and [stage 2](lila_stage2_training_observations.csv): native loss observations. Objectives and console precision differ; raw loss values are not cross-model capability scores.
+- [modelscope_packages.json](modelscope_packages.json): all 17 published package folders, statuses, package sizes and remotely observed primary-weight byte counts and SHA-256 values. Branch `master` is mutable; these links are not immutable revisions.

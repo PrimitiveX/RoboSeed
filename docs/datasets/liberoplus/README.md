@@ -10,9 +10,9 @@ Robustness evaluation across seven perturbation dimensions. Our LIBERO-trained p
 
 ## Recorded experiment
 
-| Benchmark | Post-train updates | Evaluation counts | Result |
-| --- | --- | --- | --- |
-| [LIBERO-plus](../../experiments/abot-m0/liberoplus/qwen3-5-4b.md) | No extra training | 8,027/10,030 | 80.03% |
+| Benchmark | Post-train updates | Evaluation counts | Result | Weights |
+| --- | --- | --- | --- | --- |
+| [LIBERO-plus](../../experiments/abot-m0/liberoplus/qwen3-5-4b.md) | No extra training | 8,027/10,030 | 80.03% | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B) |
 
 [Full training, execution, and audit record](../../experiments/abot-m0/liberoplus/qwen3-5-4b.md)
 

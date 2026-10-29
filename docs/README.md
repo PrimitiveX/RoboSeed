@@ -2,12 +2,14 @@
 
 [Home](../README.md) · [Technical report](report/README.md) · [Experiment index](experiments/README.md)
 
-RoboSeed studies how published vision–language–action models behave across VLM backbones, model scales, and robot benchmarks. The October 12, 2026 release begins with ABot-M0 and connects each experiment to its settings, training cost, closed-loop results, and audit records. The public repository is named **AMseed**; the project and technical report use **RoboSeed**.
+RoboSeed reproduces vision–language–action and world–action models. The October 28, 2026 evidence snapshot covers ABot-M0, LingBot-VLA 2.0, OpenWAM and LiLa-WAM, with a five-dimension evaluation framework and PX harness systems measurements. The project repository is **PrimitiveX/RoboSeed**; [17 model packages](releases/README.md) are published on ModelScope.
 
 ## Read the project
 
 | Page | What it explains |
 | --- | --- |
+| [Evaluation framework](findings/assessment.md) | Five dimensions, explicit missing-data rules and recorded profiles |
+| [PX evaluation harness](experiments/px-harness/README.md) | Full-task throughput and topology/batch measurements |
 | [Experimental findings](findings/README.md) | Scale and budget comparisons, convergence versus execution, robustness, and failure patterns |
 | [Technical report](report/README.md) | Full study, section guide, scientific figures, and citation |
 | [Action models](action_models/README.md) | Reproduced methods, architecture, and adaptation choices |
@@ -19,7 +21,7 @@ RoboSeed studies how published vision–language–action models behave across V
 
 Start with an [action model](action_models/README.md), select its backbone and benchmark, and open the canonical run record. Each record describes training and execution settings, result denominators, resource measurements when available, and its configuration and evidence links.
 
-For the RoboTwin comparison, begin with [ABot-M0 × Qwen3-VL-4B](experiments/abot-m0/robotwin/qwen3-vl-4b.md), then compare the [five evaluated backbones](datasets/robotwin/README.md). For robustness, follow the [LIBERO training record](experiments/abot-m0/libero/qwen3-5-4b.md) to [LIBERO-plus](experiments/abot-m0/liberoplus/qwen3-5-4b.md), which uses the same checkpoint. For continuous execution, read the [CALVIN ABCD → D record](experiments/abot-m0/calvin/qwen3-5-4b.md).
+For the RoboTwin comparison, begin with [ABot-M0 × Qwen3-VL-4B](experiments/abot-m0/robotwin/qwen3-vl-4b.md), then compare the [six evaluated backbones](datasets/robotwin/README.md). For robustness, follow the [LIBERO training record](experiments/abot-m0/libero/qwen3-5-4b.md) to [LIBERO-plus](experiments/abot-m0/liberoplus/qwen3-5-4b.md), which uses the same checkpoint. For continuous execution, read the [CALVIN ABCD → D record](experiments/abot-m0/calvin/qwen3-5-4b.md).
 
 The [earlier pre-train → post-train studies](experiments/abot-m0/robotwin/pre-train-to-post-train-diagnostic.md) use a different training route and only ten episodes per Clean task. Their results remain in their own diagnostic section.
 
@@ -34,7 +36,7 @@ The [earlier pre-train → post-train studies](experiments/abot-m0/robotwin/pre-
 | Check whether a policy is publicly downloadable | [Checkpoint release registry](releases/README.md) |
 | Add a model, run, or correction | [Contribution guide](../CONTRIBUTING.md) |
 
-The release packages the report, results, audits, configurations, and analysis scripts. Public policy downloads and the local training implementation are pending or external, as recorded in the release and reproduction pages. Completed evaluation and downloadable weights are separate states.
+The release packages the report, results, audits, configurations, and analysis scripts. ModelScope policy folders are linked from the release registry; training implementations and simulator adapters remain external. Completed evaluation and downloadable weights are separate states.
 
 ## Interpret the results
 
