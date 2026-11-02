@@ -1,0 +1,183 @@
+{
+  "recorded_on": "2026-11-02",
+  "evidence_snapshot": "2026-10-28",
+  "selection": "Selected full-result artifacts from the report source manifest, extension manifest and deduplicated video index. RoboTwin uses all 100 task/scene results per checkpoint; LingBot uses its complete stats file; LiLa uses all four worker results; video benchmarks use every selected episode. Times are original artifact mtimes read on recorded_on, not report export or Git commit times. Files may have been rewritten after a run.",
+  "updates": [
+    {
+      "id": "abot_robotwin_Qwen3.5-0.8B",
+      "result_updated_at": "2026-09-26T15:07:47.878472+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 100,
+      "latest_artifact": {
+        "source_id": "source://4ff12fc699bf34b3/_result.txt",
+        "bytes": 62,
+        "sha256": "c5c10690ad9d691c0391917ddee50b88d7c309d25812e3575f4a72369686f8c6"
+      }
+    },
+    {
+      "id": "abot_robotwin_Qwen3-VL-2B",
+      "result_updated_at": "2026-09-25T21:25:32.883277+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 100,
+      "latest_artifact": {
+        "source_id": "source://31d4b698396b2949/_result.txt",
+        "bytes": 62,
+        "sha256": "e41336b2685dd6bfe90fb44a7c7a6e630071217017cfda3a9f7ae291305e4d65"
+      }
+    },
+    {
+      "id": "abot_robotwin_Qwen3-VL-4B",
+      "result_updated_at": "2026-09-21T09:15:37.244411+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 100,
+      "latest_artifact": {
+        "source_id": "source://5d0c10d82d31c45a/_result.txt",
+        "bytes": 61,
+        "sha256": "f4f741d986a2c5fe1cd13860b2663ca8c59d5440d1b64384a72a7b4ebe151e1f"
+      }
+    },
+    {
+      "id": "abot_robotwin_Qwen3.5-2B",
+      "result_updated_at": "2026-10-13T07:35:53.913989+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 100,
+      "latest_artifact": {
+        "source_id": "source://8f4e6391be772350/_result.txt",
+        "bytes": 62,
+        "sha256": "a3a7fe6faad683c4901258e05503c2d53283393636f51028a442ed1e127d79a3"
+      }
+    },
+    {
+      "id": "abot_robotwin_Qwen3.5-4B",
+      "result_updated_at": "2026-09-23T01:29:51.575965+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 100,
+      "latest_artifact": {
+        "source_id": "source://f7621923d046118a/_result.txt",
+        "bytes": 62,
+        "sha256": "25225d13f31ea4dd1bb6a862f47c1019c46ae9897c7ea7b2598b63c2f96e6cad"
+      }
+    },
+    {
+      "id": "abot_robotwin_Qwen3.5-9B",
+      "result_updated_at": "2026-10-04T03:39:45.059103+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 100,
+      "latest_artifact": {
+        "source_id": "source://7c47351ca479b6f6/_result.txt",
+        "bytes": 62,
+        "sha256": "723e0da712fe9c3d899641ca1b42dcee28a65aeb50682e56702fd2dfe5ad7225"
+      }
+    },
+    {
+      "id": "ling_official",
+      "result_updated_at": "2026-10-14T23:27:18.943182+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 1,
+      "latest_artifact": {
+        "source_id": "source://7812cf08f50d0dec/stats.txt",
+        "bytes": 4698,
+        "sha256": "74b43a1174ac8bfee544c415d35018117433f0c7afe4e1834e0bc32879b089ae"
+      }
+    },
+    {
+      "id": "ling_local",
+      "result_updated_at": "2026-10-18T11:17:43.376896+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 1,
+      "latest_artifact": {
+        "source_id": "source://40b6627b20c2401a/stats.txt",
+        "bytes": 4681,
+        "sha256": "7a15055d724dbfe2de6720adee22a74958c57836fe3c6d33c70a95d0267d5544"
+      }
+    },
+    {
+      "id": "openwam_official",
+      "result_updated_at": "2026-10-15T16:14:07.003425+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 100,
+      "latest_artifact": {
+        "source_id": "source://2cda2e264401b44c/_result.txt",
+        "bytes": 62,
+        "sha256": "1be330b108173d0b52e2871dc40058c8165642a058025033c12eb5c16bd7f81b"
+      }
+    },
+    {
+      "id": "openwam_local",
+      "result_updated_at": "2026-10-20T17:32:10.508932+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 100,
+      "latest_artifact": {
+        "source_id": "source://c96f69f829a38353/_result.txt",
+        "bytes": 62,
+        "sha256": "9bccdb389072ed09b655ce164b1a811cb65086a711d3956b9df4e723f6ac5b24"
+      }
+    },
+    {
+      "id": "lila_official",
+      "result_updated_at": "2026-10-26T07:23:02.860002+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 4,
+      "latest_artifact": {
+        "source_id": "source://37541c489d76ecb7/worker_2.json",
+        "bytes": 1454,
+        "sha256": "154356539e09dba4089938792b01d982eebbbca7a63ff8ee49a3821cc26422dc"
+      }
+    },
+    {
+      "id": "lila_local",
+      "result_updated_at": "2026-10-26T15:39:26.527455+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 4,
+      "latest_artifact": {
+        "source_id": "source://7ea83ff7b1c00629/worker_1.json",
+        "bytes": 1550,
+        "sha256": "e0a346de117a70658cf038f34727a05590a0530bee9e56cc576836eb77b7912b"
+      }
+    },
+    {
+      "id": "abot_libero",
+      "result_updated_at": "2026-09-26T09:02:40.695355+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 2000,
+      "latest_artifact": {
+        "source_id": "source://6ea9dcaa303eaadc/rollout_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_episode49_success.mp4",
+        "bytes": 197383,
+        "sha256": "b1f0ce9b07bf3e8021c5934ee365b9d3c7d28740567d2e735a20f42f07f8889e"
+      }
+    },
+    {
+      "id": "abot_liberoplus",
+      "result_updated_at": "2026-09-29T19:46:27.799221+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 10030,
+      "latest_artifact": {
+        "source_id": "source://d3cd05f6ab90f710/rollout_t2519_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_8_episode0_success.mp4",
+        "bytes": 56874,
+        "sha256": "8ade24a0eeefebd4d2a6ba9919e0700182995c971578e5a1cbe23154fabf6e40"
+      }
+    },
+    {
+      "id": "abot_robocasa",
+      "result_updated_at": "2026-09-28T07:50:24.262794+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 1200,
+      "latest_artifact": {
+        "source_id": "source://5a5dd36c76966ba1/74452643-c027-49c8-a628-bf62f369cce6_success0.mp4",
+        "bytes": 3975114,
+        "sha256": "11fc4794919fdca6d5cded56cbca69b48a8d686388c65403996b8c4481b79bb7"
+      }
+    },
+    {
+      "id": "abot_calvin",
+      "result_updated_at": "2026-10-10T13:43:00.712476+00:00",
+      "timestamp_basis": "Latest modification time among the selected result artifacts (UTC); not an exact training or evaluation completion timestamp.",
+      "artifact_count": 1,
+      "latest_artifact": {
+        "source_id": "source://bab91b905cdd00a5/results.json",
+        "bytes": 3190,
+        "sha256": "74c9dd264b9554e5b8dc08f96b47d19cac8cd57714af46952166876d8fb51edf"
+      }
+    }
+  ]
+}

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-02 · Homepage overview and dated model updates
+
+- Add a generated Overview table covering all 16 current evaluated checkpoint/benchmark records and the historical Qwen3-VL-8B diagnostic, with key metrics, evaluation counts, training costs and links to the canonical experiments.
+- Move release news into a standalone Updates section and add a newest-first model timeline with full UTC result-artifact timestamps, distinct from repository publication dates.
+- Package timestamp provenance, source IDs and hashes in `data/model_updates.json`; original file modification times are identified explicitly rather than treated as exact run completion times.
+
 ## 2026-10-29 · Clarify practical-budget comparison scope
 
 - State the ABot-M0-referenced comparison objective, adaptations from demanding official recipes, and the actual per-family training scales.

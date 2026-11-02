@@ -39,8 +39,8 @@
       "sha256": "b0a70d2437d31026d142eb0b05b0803c7bb054d6afbae828f5d1e8fc3b4fbe69"
     },
     "data/README.md": {
-      "bytes": 6609,
-      "sha256": "9daf9e4801df6321f7837882a0feea8508d27bab56b2b8f29b9c32906cb08dc0"
+      "bytes": 7199,
+      "sha256": "da391d0ef6484030e07b39e815aeefc3f954082e98ab1cd864820f8cdf31e6f3"
     },
     "data/assessment.json": {
       "bytes": 20403,
@@ -153,6 +153,10 @@
     "data/ling_training_observations.csv": {
       "bytes": 2502262,
       "sha256": "ca36676c3c2c9ecc6e4c8e79da49d970bb7a15faf07725dfd2b0ebda993ae3db"
+    },
+    "data/model_updates.json": {
+      "bytes": 8698,
+      "sha256": "fb48294e5f98029c49a4ded11f71c74cc88ccb9d11c96e11960207c6d135940d"
     },
     "data/modelscope_packages.json": {
       "bytes": 14505,

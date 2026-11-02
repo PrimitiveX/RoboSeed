@@ -8,9 +8,9 @@ This directory packages the October 28, 2026 RoboSeed evidence snapshot, retaini
 
 | File | Unit and schema |
 | --- | --- |
-| [robotwin_summary.csv](robotwin_summary.csv) | Five complete backbones; success counts, percentage rates, training cost, memory readings, throughput, checkpoint size, and rollout time |
-| [robotwin_training_only.csv](robotwin_training_only.csv) | Qwen3.5-2B training record; no completed evaluation score |
-| [robotwin_tasks.csv](robotwin_tasks.csv) | 500 `(backbone, suite, task)` rows; `success`, `episodes`, `success_rate_pct` |
+| [robotwin_summary.csv](robotwin_summary.csv) | Six complete backbones; success counts, percentage rates, training cost, memory readings, throughput, checkpoint size, and rollout time |
+| [robotwin_training_only.csv](robotwin_training_only.csv) | Schema retained; no pending rows in the October 28 snapshot |
+| [robotwin_tasks.csv](robotwin_tasks.csv) | 600 `(backbone, suite, task)` rows; `success`, `episodes`, `success_rate_pct` |
 | [robotwin_loss.csv](robotwin_loss.csv) | Six training runs; `backbone`, `step`, `action_dit_loss` |
 | [libero_tasks.csv](libero_tasks.csv) | 40 tasks; suite, task, successes, episodes, and percentage rate |
 | [liberoplus_tasks.csv](liberoplus_tasks.csv) | 10,030 selected variants; suite, variant ID, category, binary success, episodes |
@@ -26,6 +26,7 @@ Rates ending in `_pct` are percentages. The historical per-backbone RoboTwin CSV
 
 ## Source records and audits
 
+- [model_updates.json](model_updates.json) records the latest original result-artifact mtime for each of the 16 current evaluated checkpoint/benchmark records, in UTC with microsecond precision. Selection uses the report's source and extension manifests and selected video index; each entry retains artifact count, the latest artifact's portable source ID, size and SHA-256. These are file-update times observed on 2026-11-02, not exact run completion or repository publication times. The homepage Overview and Updates tables are generated from these dates and the packaged result tables.
 - [source_manifest.json](source_manifest.json) records the report's collection time, original evidence sizes and SHA-256 hashes, and dataset-specific checkpoint mappings. Original filesystem paths are replaced with stable `source://` identifiers. These IDs are not download URLs. Weight sizes were checked locally; large weights were not hashed or copied.
 - [video_index.csv](video_index.csv) preserves LIBERO, LIBERO-plus, and RoboCasa video filename verdicts, episode identifiers, and portable source IDs. The referenced videos remain outside this repository.
 - [liberoplus_duplicates.json](liberoplus_duplicates.json) retains all alternatives for 101 repeated variant keys and the selected latest-mtime record. Three conflicting keys bound the aggregate result at 80.01%–80.04%.
