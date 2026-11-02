@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use RoboSeed's experimental records or analysis tools, please cite the public RoboSeed paper in preferred-citation and the linked original models and benchmarks."
+message: "If you use RoboSeed's experimental records or analysis tools, please cite the public RoboSeed technical report in preferred-citation and the linked original models and benchmarks."
 type: software
 title: "RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models"
 authors:
@@ -9,7 +9,7 @@ url: "https://github.com/PrimitiveX/RoboSeed"
 date-released: 2026-10-29
 abstract: "Experimental reproduction records, benchmark results, resource costs, and reproducible analysis tools for vision-language-action models."
 preferred-citation:
-  type: article
+  type: report
   title: "RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence"
   authors:
     - family-names: "Ma"
@@ -38,6 +38,5 @@ preferred-citation:
       given-names: "Chuang"
   year: 2026
   month: 10
-  journal: "arXiv"
   doi: "10.48550/arXiv.2610.40026"
   url: "https://arxiv.org/abs/2610.40026"

@@ -1,7 +1,33 @@
 """Build the homepage inventory and dated updates from packaged evidence."""
 import csv
 import json
+import re
 from datetime import datetime
+from html import escape
+
+
+def merged_method_table(headers, rows):
+    """Render a GitHub HTML table with one spanning cell per method."""
+    def inline(text):
+        text = escape(text)
+        text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', text)
+        return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+
+    groups = {}
+    for row in rows:
+        groups.setdefault(row[0], []).append(row)
+    lines = ['<table>', '<thead>', '<tr>']
+    lines.extend(f'<th>{escape(header)}</th>' for header in headers)
+    lines.extend(['</tr>', '</thead>', '<tbody>'])
+    for method, group in groups.items():
+        for index, row in enumerate(group):
+            lines.append('<tr>')
+            if index == 0:
+                lines.append(f'<td rowspan="{len(group)}">{inline(method)}</td>')
+            lines.extend(f'<td>{inline(cell)}</td>' for cell in row[1:])
+            lines.append('</tr>')
+    lines.extend(['</tbody>', '</table>'])
+    return '\n'.join(lines) + '\n'
 
 
 def homepage_tables(root, table, slug):
@@ -87,7 +113,7 @@ def homepage_tables(root, table, slug):
                  '[Qwen3-VL-8B · historical diagnostic](docs/experiments/abot-m0/robotwin/pre-train-to-post-train-diagnostic.md)',
                  'RoboTwin · historical diagnostic', 'Local pre-train → post-train',
                  'Clean ' + diagnostic, '500 episodes; 10 / task', 'Not established'])
-    overview = table(['Method', 'VLM / reproduction checkpoint', 'Benchmark', 'Checkpoint origin', 'Key metrics',
+    overview = merged_method_table(['Method', 'VLM / reproduction checkpoint', 'Benchmark', 'Checkpoint origin', 'Key metrics',
                       'Evaluation counts', 'Local training GPU-hours'], rows)
     dates = json.loads((root / 'data/model_updates.json').read_text())['updates']
     if {r['id'] for r in dates} != set(labels) or len(dates) != len(labels):

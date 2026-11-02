@@ -4,7 +4,7 @@
 
 **RoboSeed: Multidimensional Evaluation of Vision–Language–Action and World–Action Models** · October 2026 · October 28 evidence snapshot, report updated October 29.
 
-[Read the technical report (PDF)](RoboSeed.pdf)
+[Read the technical report (PDF)](RoboSeed.pdf) · [Public technical report on arXiv](https://arxiv.org/abs/2610.40026)
 
 The 41-page report connects capability, downstream training and deployment affordability, research value and reproduction evidence. It covers six completed ABot-M0 RoboTwin backbones, independent Qwen3.5-4B policies on LIBERO, RoboCasa and CALVIN, and zero-shot LIBERO-plus evaluation. LingBot-VLA 2.0, OpenWAM and LiLa-WAM add official/local checkpoint comparisons; the PX harness supplies systems measurements.
 

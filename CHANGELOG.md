@@ -1,10 +1,15 @@
 # Changelog
 
-## 2026-11-02 · Refine homepage layout and public-paper citation
+## 2026-11-02 · Merge method cells and label the technical report
+
+- Render the Overview as an HTML table with a single spanning method cell for each algorithm; keep the historical ABot-M0 row with its method group.
+- Call the public arXiv release a technical report, use a BibTeX techreport entry, and identify the preferred citation as a report in CITATION.cff.
+
+## 2026-11-02 · Refine homepage layout and public technical-report citation
 
 - Separate method names from VLM/reproduction checkpoints in the first two Overview columns, with experiment and weight links.
 - Replace the timestamp table with a date-only Updates list of model results and corresponding weight links; keep weight publication as a separate dated entry.
-- Replace the homepage BibTeX with the public arXiv paper's complete title, twelve authors, identifier and DOI; add the same paper as the preferred citation in CITATION.cff.
+- Replace the homepage BibTeX with the public arXiv technical report's complete title, twelve authors, identifier and DOI; add the same technical report as the preferred citation in CITATION.cff.
 
 ## 2026-11-02 · Homepage overview and dated model updates
 
