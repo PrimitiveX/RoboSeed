@@ -10,9 +10,9 @@ The GR1 Tabletop task set uses a humanoid embodiment with arms, hands, and waist
 
 ## Recorded experiment
 
-| Benchmark | Post-train updates | Evaluation counts | Result |
-| --- | --- | --- | --- |
-| [RoboCasa GR1 Tabletop](../../experiments/abot-m0/robocasa-tabletop/qwen3-5-4b.md) | 50k | 574/1,200 | 47.83% |
+| Benchmark | Post-train updates | Evaluation counts | Result | Weights |
+| --- | --- | --- | --- | --- |
+| [RoboCasa GR1 Tabletop](../../experiments/abot-m0/robocasa-tabletop/qwen3-5-4b.md) | 50k | 574/1,200 | 47.83% | [ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B) |
 
 [Full training, execution, and audit record](../../experiments/abot-m0/robocasa-tabletop/qwen3-5-4b.md)
 

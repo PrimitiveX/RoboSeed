@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use RoboSeed's experimental records or analysis tools, please cite this repository and the linked original models and benchmarks."
 type: software
-title: "RoboSeed: Reproducing Vision-Language-Action Models"
+title: "RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models"
 authors:
   - name: "RoboSeed Team"
-repository-code: "https://github.com/PrimitiveX/AMseed"
-url: "https://github.com/PrimitiveX/AMseed"
-date-released: 2026-10-12
+repository-code: "https://github.com/PrimitiveX/RoboSeed"
+url: "https://github.com/PrimitiveX/RoboSeed"
+date-released: 2026-10-29
 abstract: "Experimental reproduction records, benchmark results, resource costs, and reproducible analysis tools for vision-language-action models."

@@ -1,0 +1,331 @@
+{
+  "repo_id": "InPeerReview/RoboSeed",
+  "report_snapshot": "2026-10-28",
+  "packages": [
+    {
+      "package_id": "RoboSeed-ABot-M0-RoboTwin-Qwen3.5-0.8B",
+      "label": "ABot-M0 Qwen3.5-0.8B / RoboTwin",
+      "origin": "local",
+      "status": "evaluated",
+      "bytes": 5040227658,
+      "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-0.8B",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-0.8B",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-0.8B/pytorch_model.pt",
+          "bytes": 5040220774,
+          "sha256": "913aa1b2023cb3b8ae433819a4b50f1643058f38d34112376899cfa7c1132f4e"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-2B",
+      "label": "ABot-M0 Qwen3-VL-2B / RoboTwin",
+      "origin": "local",
+      "status": "evaluated",
+      "bytes": 7766090200,
+      "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-2B",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-2B",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-2B/pytorch_model.pt",
+          "bytes": 7766083310,
+          "sha256": "e8888f88275c44ca4e2fc938951afbdc6f6617e6784b6fc7611ee31b099f97eb"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-4B",
+      "label": "ABot-M0 Qwen3-VL-4B / RoboTwin",
+      "origin": "local",
+      "status": "evaluated",
+      "bytes": 12580031204,
+      "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-4B",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-4B",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-4B/pytorch_model.pt",
+          "bytes": 12580024298,
+          "sha256": "bb7b5378f3cc2a2d50751c057ecc4eed1f3f037f92171de84ae6293c9356f3a4"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-ABot-M0-RoboTwin-Qwen3.5-2B",
+      "label": "ABot-M0 Qwen3.5-2B / RoboTwin",
+      "origin": "local",
+      "status": "evaluated",
+      "bytes": 8332294756,
+      "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-2B",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-2B",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-2B/pytorch_model.pt",
+          "bytes": 8332287878,
+          "sha256": "063c82f4927c55097fba2ddce44b23ec811cf03d1f2d70bd74f3232c30de258b"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-ABot-M0-RoboTwin-Qwen3.5-4B",
+      "label": "ABot-M0 Qwen3.5-4B / RoboTwin",
+      "origin": "local",
+      "status": "evaluated",
+      "bytes": 13276421244,
+      "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-4B",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-4B",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-4B/pytorch_model.pt",
+          "bytes": 13276414352,
+          "sha256": "8967ce6298c082bb1fd8a5d8e93927a30d2c8eca4cd20f74ffdf3dabef42a51a"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-ABot-M0-RoboTwin-Qwen3.5-9B",
+      "label": "ABot-M0 Qwen3.5-9B / RoboTwin",
+      "origin": "local",
+      "status": "evaluated",
+      "bytes": 21884565598,
+      "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-9B",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-9B",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-9B/pytorch_model.pt",
+          "bytes": 21884558720,
+          "sha256": "57cba99a541a85465c5d58e7f06be9f121334b7c5ffff651fd122e193053e728"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B",
+      "label": "ABot-M0 Qwen3.5-4B / CALVIN",
+      "origin": "local",
+      "status": "evaluated",
+      "bytes": 13270916894,
+      "path": "models/RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B/pytorch_model.pt",
+          "bytes": 13270910352,
+          "sha256": "dfae21748956f7f3aba5a03b63787810409a1de55a2230a399858605c9afa073"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B",
+      "label": "ABot-M0 Qwen3.5-4B / LIBERO",
+      "origin": "local",
+      "status": "evaluated",
+      "bytes": 13270933783,
+      "path": "models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B/steps_40000_pytorch_model.pt",
+          "bytes": 13270925492,
+          "sha256": "dae837ab886c71a0e451ff62a021a6cd9ffb64f6a71803b70277f2079f14bc05"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B",
+      "label": "ABot-M0 Qwen3.5-4B / RoboCasa",
+      "origin": "local",
+      "status": "evaluated",
+      "bytes": 13287101928,
+      "path": "models/RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B/steps_50000_pytorch_model.pt",
+          "bytes": 13287088820,
+          "sha256": "6a35e88c0352744f772b7703f6560ae712927a7fa144401d8425afcf9551265a"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000",
+      "label": "LingBot 6B official / RoboTwin",
+      "origin": "official",
+      "status": "evaluated",
+      "bytes": 25518329492,
+      "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000/model-00001-of-00006.safetensors",
+          "bytes": 4947507248,
+          "sha256": "514801684e0f23aaa4bb64a4fd81e420b97e094331499852d5f2cc567750b360"
+        },
+        {
+          "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000/model-00002-of-00006.safetensors",
+          "bytes": 4944315304,
+          "sha256": "e7b00cf59b21c2f5e9f76f7687ba423c6fe24bfa9fa8e313ef346bb081e73c9f"
+        },
+        {
+          "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000/model-00003-of-00006.safetensors",
+          "bytes": 4944315360,
+          "sha256": "ace74f6d5214059b6387b5728c570a452d51b5950dd9904fe29607dbfa41447b"
+        },
+        {
+          "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000/model-00004-of-00006.safetensors",
+          "bytes": 4992858968,
+          "sha256": "1f1cb6b4099e264b202eae0244f3730e1ced910c0b34355fff2a719993d0cbe5"
+        },
+        {
+          "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000/model-00005-of-00006.safetensors",
+          "bytes": 4963062048,
+          "sha256": "1316d6fe054253650dc65bae416ae6cf9afa283aad82a9712b02b0dd7029394b"
+        },
+        {
+          "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000/model-00006-of-00006.safetensors",
+          "bytes": 711830844,
+          "sha256": "0e1dfc6a23c43f3c387276e2389799867dfa90dc9727bb8e21250c73bfe7dd23"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000",
+      "label": "LingBot 6B local / RoboTwin",
+      "origin": "local",
+      "status": "evaluated",
+      "bytes": 25520005813,
+      "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000/model-00001-of-00006.safetensors",
+          "bytes": 4947507248,
+          "sha256": "e5fed96744711c96a73b632a98db15db93708670ccaf04c1e84af4d2d3789b6f"
+        },
+        {
+          "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000/model-00002-of-00006.safetensors",
+          "bytes": 4944315304,
+          "sha256": "2f0c27d913e21b41781321e8e6ffff17bd36ab5ad01716e6b7643a41c03324dd"
+        },
+        {
+          "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000/model-00003-of-00006.safetensors",
+          "bytes": 4944315360,
+          "sha256": "8209d04e2c0db1e66d8e4679ba6322b1dcfd0ee7d4b1492d00ea8bcafcd7991d"
+        },
+        {
+          "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000/model-00004-of-00006.safetensors",
+          "bytes": 4992858968,
+          "sha256": "2732e8309eb6e54e169eacf5b00f99fef3af2b52f4cefc0e5171b3fa4e3d8683"
+        },
+        {
+          "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000/model-00005-of-00006.safetensors",
+          "bytes": 4963062048,
+          "sha256": "a5aaaa81cac8540aa3e61c5c75164fbd0bed9266cafea122fb6cf4a7d15e246c"
+        },
+        {
+          "path": "models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000/model-00006-of-00006.safetensors",
+          "bytes": 711830844,
+          "sha256": "e4e1086fafa3d6c62b70a32f95465ab5c923b13de943b8b2352df702bf2687ad"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-OpenWAM-Alpha-RoboTwin-official-step118655",
+      "label": "OpenWAM official / RoboTwin",
+      "origin": "official",
+      "status": "evaluated",
+      "bytes": 24813772443,
+      "path": "models/RoboSeed-OpenWAM-Alpha-RoboTwin-official-step118655",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-official-step118655",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-OpenWAM-Alpha-RoboTwin-official-step118655/checkpoint_step_118655.safetensors",
+          "bytes": 24813767464,
+          "sha256": "d07ff6f8cfb627ebf47313e65af38773fabcb3861d52fdc7c3bc5e7bee33f6fe"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-OpenWAM-Alpha-RoboTwin-local-step80000",
+      "label": "OpenWAM local / RoboTwin",
+      "origin": "local",
+      "status": "evaluated",
+      "bytes": 24813773076,
+      "path": "models/RoboSeed-OpenWAM-Alpha-RoboTwin-local-step80000",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-local-step80000",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-OpenWAM-Alpha-RoboTwin-local-step80000/checkpoint_step_80000.safetensors",
+          "bytes": 24813767464,
+          "sha256": "64b7af66243d7f6610e5a19682e2629568443766d10c4c7cd51a3d10bd6f4f70"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4",
+      "label": "LiLa-WAM official / RoboTwin",
+      "origin": "official",
+      "status": "evaluated",
+      "bytes": 1272505148,
+      "path": "models/RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4/checkpoint_epoch_4.pt",
+          "bytes": 1272132693,
+          "sha256": "40e8aba09a6caeb6de1f532e55dd98a3ace0ba9363e87d52634c9ee9adeaeff9"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4",
+      "label": "LiLa-WAM local / RoboTwin",
+      "origin": "local",
+      "status": "evaluated",
+      "bytes": 1272503350,
+      "path": "models/RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4/checkpoint_epoch_4.pt",
+          "bytes": 1272129301,
+          "sha256": "c8977d7df23fa8e036dd771dea008ea881684336837e18cc5181bdc1463653ea"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-OpenWAM-Wan21-VACE-1.3B-RoboTwin-local-step50000-prefix",
+      "label": "OpenWAM Wan2.1-VACE-1.3B / training prefix",
+      "origin": "local",
+      "status": "training_prefix_no_rollout",
+      "bytes": 17210706092,
+      "path": "models/RoboSeed-OpenWAM-Wan21-VACE-1.3B-RoboTwin-local-step50000-prefix",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Wan21-VACE-1.3B-RoboTwin-local-step50000-prefix",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-OpenWAM-Wan21-VACE-1.3B-RoboTwin-local-step50000-prefix/checkpoint_step_50000.safetensors",
+          "bytes": 17210700574,
+          "sha256": "ce71a3165d2e75cb4378485acdfe316e1de48d5b71dbb0b7c88ac244fdaffa13"
+        }
+      ]
+    },
+    {
+      "package_id": "RoboSeed-LiLa-WAM-RoboTwin-local-stage1-epoch12-prefix",
+      "label": "LiLa-WAM local stage-1 / training prefix",
+      "origin": "local",
+      "status": "training_prefix_no_rollout",
+      "bytes": 1272502824,
+      "path": "models/RoboSeed-LiLa-WAM-RoboTwin-local-stage1-epoch12-prefix",
+      "public_url": "https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-local-stage1-epoch12-prefix",
+      "weight_files": [
+        {
+          "path": "models/RoboSeed-LiLa-WAM-RoboTwin-local-stage1-epoch12-prefix/checkpoint_epoch_12.pt",
+          "bytes": 1272130593,
+          "sha256": "6cb9a35efc5fb41033eb2be63975a4984a2488ad391ffa95515b59ee1a0623f2"
+        }
+      ]
+    }
+  ],
+  "verified_on": "2026-10-29",
+  "revision": "master",
+  "revision_note": "master is a mutable branch; recorded weight SHA-256 values identify the observed artifacts."
+}

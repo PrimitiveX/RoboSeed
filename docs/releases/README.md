@@ -4,22 +4,46 @@
 
 [Home](../../README.md) · [Documentation](../README.md) · [All experiments](../experiments/README.md)
 
-Nine dataset-specific local checkpoints were verified in the report. The repository packages their configuration and artifact-size records, rather than the large weights. Public download URLs and immutable revisions are not available in this release. Official upstream ABot-M0/Qwen weights identify upstream components, rather than these trained outputs.
+The nine ABot-M0 policies and eight additional official/local or training-prefix packages are published in [InPeerReview/RoboSeed on ModelScope](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models). Every link below opens the corresponding model folder. The Git repository contains metadata rather than large weights.
 
 | Benchmark | VLM backbone | Updates | Checkpoint GB | Evaluation | Public weights |
 | --- | --- | --- | --- | --- | --- |
-| [RoboTwin](../experiments/abot-m0/robotwin/qwen3-5-0-8b.md) | Qwen3.5-0.8B | 150,000 | 5.040 | complete | Pending release |
-| [RoboTwin](../experiments/abot-m0/robotwin/qwen3-vl-2b.md) | Qwen3-VL-2B | 150,000 | 7.766 | complete | Pending release |
-| [RoboTwin](../experiments/abot-m0/robotwin/qwen3-vl-4b.md) | Qwen3-VL-4B | 150,000 | 12.580 | complete | Pending release |
-| [RoboTwin](../experiments/abot-m0/robotwin/qwen3-5-4b.md) | Qwen3.5-4B | 150,000 | 13.276 | complete | Pending release |
-| [RoboTwin](../experiments/abot-m0/robotwin/qwen3-5-9b.md) | Qwen3.5-9B | 150,000 | 21.885 | complete | Pending release |
-| [RoboTwin](../experiments/abot-m0/robotwin/qwen3-5-2b.md) | Qwen3.5-2B | 150,000 | 8.332 | pending | Pending release |
-| [CALVIN](../experiments/abot-m0/calvin/qwen3-5-4b.md) | Qwen3.5-4B | 34,000 | 13.271 | complete | Pending release |
-| [LIBERO](../experiments/abot-m0/libero/qwen3-5-4b.md) | Qwen3.5-4B | 40,000 | 13.271 | complete | Pending release |
-| [RoboCasa](../experiments/abot-m0/robocasa-tabletop/qwen3-5-4b.md) | Qwen3.5-4B | 50,000 | 13.287 | complete | Pending release |
+| [RoboTwin](../experiments/abot-m0/robotwin/qwen3-5-0-8b.md) | Qwen3.5-0.8B | 150,000 | 5.040 | complete | [Download](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-0.8B) |
+| [RoboTwin](../experiments/abot-m0/robotwin/qwen3-vl-2b.md) | Qwen3-VL-2B | 150,000 | 7.766 | complete | [Download](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-2B) |
+| [RoboTwin](../experiments/abot-m0/robotwin/qwen3-vl-4b.md) | Qwen3-VL-4B | 150,000 | 12.580 | complete | [Download](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-4B) |
+| [RoboTwin](../experiments/abot-m0/robotwin/qwen3-5-4b.md) | Qwen3.5-4B | 150,000 | 13.276 | complete | [Download](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-4B) |
+| [RoboTwin](../experiments/abot-m0/robotwin/qwen3-5-9b.md) | Qwen3.5-9B | 150,000 | 21.885 | complete | [Download](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-9B) |
+| [RoboTwin](../experiments/abot-m0/robotwin/qwen3-5-2b.md) | Qwen3.5-2B | 150,000 | 8.332 | complete | [Download](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-2B) |
+| [CALVIN](../experiments/abot-m0/calvin/qwen3-5-4b.md) | Qwen3.5-4B | 34,000 | 13.271 | complete | [Download](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B) |
+| [LIBERO](../experiments/abot-m0/libero/qwen3-5-4b.md) | Qwen3.5-4B | 40,000 | 13.271 | complete | [Download](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B) |
+| [RoboCasa](../experiments/abot-m0/robocasa-tabletop/qwen3-5-4b.md) | Qwen3.5-4B | 50,000 | 13.287 | complete | [Download](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B) |
 
 LIBERO-plus uses the LIBERO checkpoint and does not add a separate trained artifact. Sizes use decimal GB. Evaluation completion and public weight availability are independent fields.
 
 [Machine-readable checkpoint registry](../../data/checkpoints.json)
 
-When publishing weights, supply their immutable revision, SHA-256 hash, action-adapted initialization identity, normalization statistics, tokenizer/action-token assets, and a compatible implementation revision.
+## All ModelScope packages
+
+| Package | Origin | Evidence status | Package GB |
+| --- | --- | --- | --- |
+| [ABot-M0 Qwen3.5-0.8B / RoboTwin](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-0.8B) | local | evaluated | 5.040 |
+| [ABot-M0 Qwen3-VL-2B / RoboTwin](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-2B) | local | evaluated | 7.766 |
+| [ABot-M0 Qwen3-VL-4B / RoboTwin](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-4B) | local | evaluated | 12.580 |
+| [ABot-M0 Qwen3.5-2B / RoboTwin](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-2B) | local | evaluated | 8.332 |
+| [ABot-M0 Qwen3.5-4B / RoboTwin](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-4B) | local | evaluated | 13.276 |
+| [ABot-M0 Qwen3.5-9B / RoboTwin](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-9B) | local | evaluated | 21.885 |
+| [ABot-M0 Qwen3.5-4B / CALVIN](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B) | local | evaluated | 13.271 |
+| [ABot-M0 Qwen3.5-4B / LIBERO](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B) | local | evaluated | 13.271 |
+| [ABot-M0 Qwen3.5-4B / RoboCasa](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B) | local | evaluated | 13.287 |
+| [LingBot 6B official / RoboTwin](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000) | official | evaluated | 25.518 |
+| [LingBot 6B local / RoboTwin](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000) | local | evaluated | 25.520 |
+| [OpenWAM official / RoboTwin](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-official-step118655) | official | evaluated | 24.814 |
+| [OpenWAM local / RoboTwin](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-local-step80000) | local | evaluated | 24.814 |
+| [LiLa-WAM official / RoboTwin](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4) | official | evaluated | 1.273 |
+| [LiLa-WAM local / RoboTwin](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4) | local | evaluated | 1.273 |
+| [OpenWAM Wan2.1-VACE-1.3B / training prefix](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Wan21-VACE-1.3B-RoboTwin-local-step50000-prefix) | local | training_prefix_no_rollout | 17.211 |
+| [LiLa-WAM local stage-1 / training prefix](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-local-stage1-epoch12-prefix) | local | training_prefix_no_rollout | 1.273 |
+
+The two training-prefix packages have no independent rollout and remain outside completed comparisons. Package sizes include auxiliary files and differ from primary-weight sizes above. LiLa requires its external DINOv3 encoder and visual task conditions. Follow each folder’s model card for dependencies, normalization and compatible implementation.
+
+The links use mutable branch `master`, not an immutable release. Observed weight SHA-256 values are in the [full package registry](../../data/modelscope_packages.json).

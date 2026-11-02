@@ -26,6 +26,7 @@ def save(fig,n):
     raise ValueError(f'{n}: legend intersects plotting area')
  fig.savefig(F/(n+'.pdf'),bbox_inches='tight',pad_inches=.14)
  fig.savefig(F/(n+'.svg'),bbox_inches='tight',pad_inches=.14)
+ svg=F/(n+'.svg');svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n')
  fig.savefig(F/(n+'.png'),dpi=220,bbox_inches='tight',pad_inches=.14);plt.close(fig)
 def grid(ax):ax.set_axisbelow(True);ax.grid(axis='y',color='#e5e7eb',lw=.6)
 from diagram_layout import project_diagram, architecture_diagram

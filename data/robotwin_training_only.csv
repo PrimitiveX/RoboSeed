@@ -1,2 +1,1 @@
 backbone,status,updates,train_duration,train_hours,gpu_hours,samples_per_s,avg_gpu_mem_gib,peak_gpu_mem_gib,checkpoint_gb,final_action_dit_loss
-Qwen3.5-2B,Training complete; evaluation in progress at snapshot,150000,53:13:34,53.226111111111116,212.90444444444447,50.10072332919306,,,8.332287878,0.0014421287924051285

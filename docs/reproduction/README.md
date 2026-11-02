@@ -2,6 +2,8 @@
 
 [Home](../../README.md) · [Documentation](../README.md) · [Experiment records](../experiments/README.md) · [Checkpoint registry](../releases/README.md)
 
+The comparison is designed around practical, limited-hardware budgets, with ABot-M0 as the downstream reference. Local recipes adjust official batch sizes, training duration and execution settings where full official conditions exceed the available resources. Results describe these budget-adapted runs; released-weight reference rows are official checkpoints evaluated locally, not original-paper leaderboard scores. The [comparison protocol](comparison-protocol.md) lists actual training scales and distinguishes the goal of comparable budgets from exact equality of exposure or compute.
+
 ## Reproduce the packaged analysis
 
 Python 3.10 or later can verify all counts and generated pages without third-party dependencies:
@@ -11,7 +13,7 @@ python3 scripts/verify.py
 python3 scripts/generate_docs.py --check
 ```
 
-Install the pinned plotting dependencies to regenerate the ten figure sets:
+Install the pinned plotting dependencies to regenerate the ten core figure sets:
 
 ```bash
 python3 -m venv .venv
@@ -22,11 +24,11 @@ python3 scripts/draw_figures.py
 python3 scripts/verify.py
 ```
 
-Run commands from the repository root. Generated diagrams and charts are saved as editable SVG/PDF and PNG previews under `docs/figure/results/`. Tables are derived from the packaged CSVs; the root README's surrounding prose remains editable. No access to the original experiment filesystem is required.
+Run commands from the repository root. Generated diagrams and charts are saved as editable SVG/PDF and PNG previews under `docs/figure/results/`. Tables are derived from the packaged CSVs; the root README's surrounding prose remains editable. No access to the original experiment filesystem is required. The seven extension figure sets (11–17) are packaged report exports; their values and native loss selections can be checked from the imported data, while this plotting script regenerates figures 1–10.
 
 ## Repeat training and robot evaluation
 
-The recorded experiments used a local adaptation of ABot-M0. This repository distributes configurations and analysis tools; it does not distribute that training implementation or its simulator adapters. The official source establishes the model's method, while local interface changes remain part of the recorded reproduction setting.
+The recorded experiments use local adaptations of ABot-M0, LingBot-VLA 2.0, OpenWAM and LiLa-WAM. This repository distributes configurations and analysis tools; it does not distribute that training implementation or its simulator adapters. The official source establishes the model's method, while local interface changes remain part of the recorded reproduction setting.
 
 | Component | Source / record |
 | --- | --- |
@@ -55,7 +57,7 @@ Use the canonical run page and its linked YAML together. The recorded configurat
 
 Confirm the effective observation fields, action normalization, padding, channel order, active state conditioning, prediction horizon, and executed chunk length against the run record. For CALVIN, the inspected client supplies images and language, executes eight actions, and resets policy buffers between subtasks. Its configured 16-dimensional state layout and wrapper `replan_steps=5` do not establish the effective rollout behavior.
 
-Public policy URLs, immutable initialization identities, and compatible local implementation revisions remain release dependencies. The commands above reproduce the available analysis; the repository does not currently supply a standalone training or rollout launcher.
+Published policy folders are linked in the checkpoint registry. Immutable initialization identities and compatible local implementation revisions remain reproduction dependencies. The commands above reproduce the available analysis; the repository does not currently supply a standalone training or rollout launcher.
 
 ### Compare the same metric
 

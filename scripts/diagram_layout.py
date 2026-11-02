@@ -86,9 +86,9 @@ def project_diagram():
     stage(ax, 5.69, '(a)', 'Experimental axes')
     xs = [.30, 4.38, 8.46]
     for x, title, lines in zip(xs,
-                              ['VLA model', 'VLM configuration', 'Benchmark'],
-                              ['ABot-M0\nFurther models (planned)',
-                               'Backbone family + parameter scale\n0.8B / 2B / 4B / 9B',
+                              ['VLA / WAM model', 'Backbone configuration', 'Benchmark'],
+                              ['ABot-M0 / LingBot-VLA 2.0\nOpenWAM / LiLa-WAM',
+                               'VLM / video / vision priors\nModel-specific scales + adapters',
                                'RoboTwin / LIBERO / RoboCasa\nCALVIN / LIBERO-plus']):
         node(ax, x, 4.16, 3.70, 1.27, title, lines, fill=PALE,
              title_size=15, body_size=12.2)

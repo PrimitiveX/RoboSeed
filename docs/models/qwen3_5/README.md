@@ -7,6 +7,6 @@
 | Backbone | Coverage |
 | --- | --- |
 | [Qwen3.5-0.8B](../qwen3-5-0-8b.md) | Completed evaluation |
+| [Qwen3.5-2B](../qwen3-5-2b.md) | Completed evaluation |
 | [Qwen3.5-4B](../qwen3-5-4b.md) | Completed evaluation |
 | [Qwen3.5-9B](../qwen3-5-9b.md) | Completed evaluation |
-| [Qwen3.5-2B](../qwen3-5-2b.md) | Training complete; evaluation pending |

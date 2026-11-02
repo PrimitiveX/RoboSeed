@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-11-02 · Homepage overview and dated model updates
+
+- Add a generated Overview table covering all 16 current evaluated checkpoint/benchmark records and the historical Qwen3-VL-8B diagnostic, with key metrics, evaluation counts, training costs and links to the canonical experiments.
+- Move release news into a standalone Updates section and add a newest-first model timeline with full UTC result-artifact timestamps, distinct from repository publication dates.
+- Package timestamp provenance, source IDs and hashes in `data/model_updates.json`; original file modification times are identified explicitly rather than treated as exact run completion times.
+
+## 2026-10-29 · Clarify practical-budget comparison scope
+
+- State the ABot-M0-referenced comparison objective, adaptations from demanding official recipes, and the actual per-family training scales.
+- Distinguish released checkpoints evaluated locally from source-paper scores and local budget runs; qualify score gaps by training recipe and budget.
+- Add comparison guidance to the homepage, experiment/model records, findings, report/reproduction guides and contribution rules. Retain all measured outcomes.
+
+## 2026-10-29 · October 28 report evidence
+
+- Complete ABot-M0 Qwen3.5-2B evaluation (84.30% Clean, 83.94% Randomized, 84.12% mean) and align all six-backbone tables and figures.
+- Add official/local LingBot-VLA 2.0, OpenWAM and LiLa-WAM records, full task counts, native losses, PX harness measurements and policy 1.1 assessment profiles.
+- Link all 17 ModelScope packages from the registry and corresponding result pages; keep official references and training prefixes explicit.
+- Refresh the report PDF and 17 figure sets, add a homepage reproduction checklist with sourced 2025 model candidates, balance the brand logos, and correct repository/citation links.
+
 ## 2026-10-12
 
 - Remove the homepage's Reproduce the results section and its navigation link; retain the original project narrative.

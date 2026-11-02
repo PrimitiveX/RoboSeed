@@ -9,9 +9,9 @@
 | [Qwen3.5-0.8B](qwen3-5-0-8b.md) | Completed evaluation |
 | [Qwen3-VL-2B](qwen3-vl-2b.md) | Completed evaluation |
 | [Qwen3-VL-4B](qwen3-vl-4b.md) | Completed evaluation |
+| [Qwen3.5-2B](qwen3-5-2b.md) | Completed evaluation |
 | [Qwen3.5-4B](qwen3-5-4b.md) | Completed evaluation |
 | [Qwen3.5-9B](qwen3-5-9b.md) | Completed evaluation |
-| [Qwen3.5-2B](qwen3-5-2b.md) | Training complete; evaluation pending |
 | [Qwen3-VL-8B](qwen3-vl-8b.md) | Historical diagnostics |
 
 Nominal sizes refer to the VLM. Official Qwen checkpoints establish the source family; project-specific action-adapted initialization and trained policies have separate release records.
