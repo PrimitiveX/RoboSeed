@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use RoboSeed's experimental records or analysis tools, please cite this repository and the linked original models and benchmarks."
+message: "If you use RoboSeed's experimental records or analysis tools, please cite the public RoboSeed paper in preferred-citation and the linked original models and benchmarks."
 type: software
 title: "RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models"
 authors:
@@ -8,3 +8,36 @@ repository-code: "https://github.com/PrimitiveX/RoboSeed"
 url: "https://github.com/PrimitiveX/RoboSeed"
 date-released: 2026-10-29
 abstract: "Experimental reproduction records, benchmark results, resource costs, and reproducible analysis tools for vision-language-action models."
+preferred-citation:
+  type: article
+  title: "RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence"
+  authors:
+    - family-names: "Ma"
+      given-names: "Xin"
+    - family-names: "Chen"
+      given-names: "Furong"
+    - family-names: "Man"
+      given-names: "Xinlong"
+    - family-names: "Zhang"
+      given-names: "Bo"
+    - family-names: "Guo"
+      given-names: "Yalong"
+    - family-names: "Lei"
+      given-names: "Haolan"
+    - family-names: "Cui"
+      given-names: "Chaochen"
+    - family-names: "Zhang"
+      given-names: "Hongyuan"
+    - family-names: "Chen"
+      given-names: "Mulin"
+    - family-names: "Wang"
+      given-names: "Yi"
+    - family-names: "Chau"
+      given-names: "Lap-pui"
+    - family-names: "Yang"
+      given-names: "Chuang"
+  year: 2026
+  month: 10
+  journal: "arXiv"
+  doi: "10.48550/arXiv.2610.40026"
+  url: "https://arxiv.org/abs/2610.40026"

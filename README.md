@@ -32,28 +32,28 @@
 
 RoboSeed reproduces **vision–language–action (VLA) and world–action models (WAM)** and connects each checkpoint to its training recipe, evaluation interface, resource cost and task-level evidence. The current study covers **ABot-M0, LingBot-VLA 2.0, OpenWAM and LiLa-WAM**. Backbone substitutions stay within each model family; independently trained benchmark policies retain their own records.
 
-The table below lists **all 16 current evaluated checkpoint/benchmark records**: six ABot-M0 RoboTwin backbones, four additional benchmark evaluations, and six official/local VLA and WAM records. It also includes the **historical Qwen3-VL-8B diagnostic**, which uses a separate 500-episode protocol. Click a model to open its experiment, protocol, task results and model-weight status.
+The table below lists **all 16 current evaluated checkpoint/benchmark records**: six ABot-M0 RoboTwin backbones, four additional benchmark evaluations, and six official/local VLA and WAM records. It also includes the **historical Qwen3-VL-8B diagnostic**, which uses a separate 500-episode protocol. The first column links to each method; the second identifies its VLM or reproduction checkpoint and links to the experiment and weights.
 
 <!-- BEGIN GENERATED overview -->
-| Model / experiment | Benchmark | Checkpoint origin | Key metrics | Evaluation counts | Local training GPU-hours |
-| --- | --- | --- | --- | --- | --- |
-| [ABot-M0 · Qwen3.5-0.8B](docs/experiments/abot-m0/robotwin/qwen3-5-0-8b.md) | RoboTwin | Local | Clean 80.76%; Randomized 80.50%; mean **80.63%** | 5,000 episodes / scene | 174.1 |
-| [ABot-M0 · Qwen3-VL-2B](docs/experiments/abot-m0/robotwin/qwen3-vl-2b.md) | RoboTwin | Local | Clean 83.66%; Randomized 83.90%; mean **83.78%** | 5,000 episodes / scene | 214.0 |
-| [ABot-M0 · Qwen3-VL-4B](docs/experiments/abot-m0/robotwin/qwen3-vl-4b.md) | RoboTwin | Local | Clean 85.70%; Randomized 85.34%; mean **85.52%** | 5,000 episodes / scene | 288.1 |
-| [ABot-M0 · Qwen3.5-2B](docs/experiments/abot-m0/robotwin/qwen3-5-2b.md) | RoboTwin | Local | Clean 84.30%; Randomized 83.94%; mean **84.12%** | 5,000 episodes / scene | 212.9 |
-| [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/robotwin/qwen3-5-4b.md) | RoboTwin | Local | Clean 85.88%; Randomized 85.12%; mean **85.50%** | 5,000 episodes / scene | 394.4 |
-| [ABot-M0 · Qwen3.5-9B](docs/experiments/abot-m0/robotwin/qwen3-5-9b.md) | RoboTwin | Local | Clean 83.98%; Randomized 83.68%; mean **83.83%** | 5,000 episodes / scene | 509.2 |
-| [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/libero/qwen3-5-4b.md) | LIBERO | Local | **96.75%** | 1,935/2,000 | See run record |
-| [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/liberoplus/qwen3-5-4b.md) | LIBERO-plus | Local · LIBERO weights reused | **80.03%** | 8,027/10,030 | No extra training |
-| [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/robocasa-tabletop/qwen3-5-4b.md) | RoboCasa GR1 Tabletop | Local | **47.83%** | 574/1,200 | See run record |
-| [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/calvin/qwen3-5-4b.md) | CALVIN · ABCD → D | Local | Mean chain **3.625 / 5**; five tasks 57.1% | 1,000 sequences | 58.7 |
-| [LingBot-VLA 2.0 · 6B official](docs/experiments/lingbot-vla2/robotwin/README.md) | RoboTwin | Released weights | Clean 89.72%; Randomized — | 5,000 episodes / evaluated scene | — |
-| [LingBot-VLA 2.0 · 6B local](docs/experiments/lingbot-vla2/robotwin/README.md) | RoboTwin | Local budget run | Clean 57.78%; Randomized — | 5,000 episodes / evaluated scene | 174.365 |
-| [OpenWAM official](docs/experiments/openwam/robotwin/README.md) | RoboTwin | Released weights | Clean 94.02%; Randomized 93.66% | 5,000 episodes / evaluated scene | — |
-| [OpenWAM local](docs/experiments/openwam/robotwin/README.md) | RoboTwin | Local budget run | Clean 91.30%; Randomized 91.40% | 5,000 episodes / evaluated scene | 262.068 |
-| [LiLa-WAM official](docs/experiments/lila-wam/robotwin/README.md) | RoboTwin | Released weights | Clean 89.60%; Randomized — | 250 episodes / evaluated scene | — |
-| [LiLa-WAM local](docs/experiments/lila-wam/robotwin/README.md) | RoboTwin | Local budget run | Clean 88.80%; Randomized — | 250 episodes / evaluated scene | — |
-| [ABot-M0 · Qwen3-VL-8B](docs/experiments/abot-m0/robotwin/pre-train-to-post-train-diagnostic.md) | RoboTwin · historical diagnostic | Local pre-train → post-train | Clean 73/500 (14.6%) | 500 episodes; 10 / task | Not established |
+| Method | VLM / reproduction checkpoint | Benchmark | Checkpoint origin | Key metrics | Evaluation counts | Local training GPU-hours |
+| --- | --- | --- | --- | --- | --- | --- |
+| [ABot-M0](docs/action_models/abot_m0/README.md) | [Qwen3.5-0.8B](docs/experiments/abot-m0/robotwin/qwen3-5-0-8b.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-0.8B) | RoboTwin | Local | Clean 80.76%; Randomized 80.50%; mean **80.63%** | 5,000 episodes / scene | 174.1 |
+| [ABot-M0](docs/action_models/abot_m0/README.md) | [Qwen3-VL-2B](docs/experiments/abot-m0/robotwin/qwen3-vl-2b.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-2B) | RoboTwin | Local | Clean 83.66%; Randomized 83.90%; mean **83.78%** | 5,000 episodes / scene | 214.0 |
+| [ABot-M0](docs/action_models/abot_m0/README.md) | [Qwen3-VL-4B](docs/experiments/abot-m0/robotwin/qwen3-vl-4b.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-4B) | RoboTwin | Local | Clean 85.70%; Randomized 85.34%; mean **85.52%** | 5,000 episodes / scene | 288.1 |
+| [ABot-M0](docs/action_models/abot_m0/README.md) | [Qwen3.5-2B](docs/experiments/abot-m0/robotwin/qwen3-5-2b.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-2B) | RoboTwin | Local | Clean 84.30%; Randomized 83.94%; mean **84.12%** | 5,000 episodes / scene | 212.9 |
+| [ABot-M0](docs/action_models/abot_m0/README.md) | [Qwen3.5-4B](docs/experiments/abot-m0/robotwin/qwen3-5-4b.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-4B) | RoboTwin | Local | Clean 85.88%; Randomized 85.12%; mean **85.50%** | 5,000 episodes / scene | 394.4 |
+| [ABot-M0](docs/action_models/abot_m0/README.md) | [Qwen3.5-9B](docs/experiments/abot-m0/robotwin/qwen3-5-9b.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-9B) | RoboTwin | Local | Clean 83.98%; Randomized 83.68%; mean **83.83%** | 5,000 episodes / scene | 509.2 |
+| [ABot-M0](docs/action_models/abot_m0/README.md) | [Qwen3.5-4B](docs/experiments/abot-m0/libero/qwen3-5-4b.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B) | LIBERO | Local | **96.75%** | 1,935/2,000 | See run record |
+| [ABot-M0](docs/action_models/abot_m0/README.md) | [Qwen3.5-4B](docs/experiments/abot-m0/liberoplus/qwen3-5-4b.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B) | LIBERO-plus | Local · LIBERO weights reused | **80.03%** | 8,027/10,030 | No extra training |
+| [ABot-M0](docs/action_models/abot_m0/README.md) | [Qwen3.5-4B](docs/experiments/abot-m0/robocasa-tabletop/qwen3-5-4b.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B) | RoboCasa GR1 Tabletop | Local | **47.83%** | 574/1,200 | See run record |
+| [ABot-M0](docs/action_models/abot_m0/README.md) | [Qwen3.5-4B](docs/experiments/abot-m0/calvin/qwen3-5-4b.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B) | CALVIN · ABCD → D | Local | Mean chain **3.625 / 5**; five tasks 57.1% | 1,000 sequences | 58.7 |
+| [LingBot-VLA 2.0](docs/action_models/lingbot-vla2/README.md) | [Qwen3-VL-4B / 6B policy · official step 50000](docs/experiments/lingbot-vla2/robotwin/README.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000) | RoboTwin | Released weights | Clean 89.72%; Randomized — | 5,000 episodes / evaluated scene | — |
+| [LingBot-VLA 2.0](docs/action_models/lingbot-vla2/README.md) | [Qwen3-VL-4B / 6B policy · local step 50000](docs/experiments/lingbot-vla2/robotwin/README.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000) | RoboTwin | Local budget run | Clean 57.78%; Randomized — | 5,000 episodes / evaluated scene | 174.365 |
+| [OpenWAM](docs/action_models/openwam/README.md) | [OpenWAM-Alpha · official step 118655](docs/experiments/openwam/robotwin/README.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-official-step118655) | RoboTwin | Released weights | Clean 94.02%; Randomized 93.66% | 5,000 episodes / evaluated scene | — |
+| [OpenWAM](docs/action_models/openwam/README.md) | [OpenWAM-Alpha · local step 80000](docs/experiments/openwam/robotwin/README.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-local-step80000) | RoboTwin | Local budget run | Clean 91.30%; Randomized 91.40% | 5,000 episodes / evaluated scene | 262.068 |
+| [LiLa-WAM](docs/action_models/lila-wam/README.md) | [DINOv3 ViT-L/16 · official stage-2 epoch 4](docs/experiments/lila-wam/robotwin/README.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4) | RoboTwin | Released weights | Clean 89.60%; Randomized — | 250 episodes / evaluated scene | — |
+| [LiLa-WAM](docs/action_models/lila-wam/README.md) | [DINOv3 ViT-L/16 · local stage-2 epoch 4](docs/experiments/lila-wam/robotwin/README.md) · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4) | RoboTwin | Local budget run | Clean 88.80%; Randomized — | 250 episodes / evaluated scene | — |
+| [ABot-M0](docs/action_models/abot_m0/README.md) | [Qwen3-VL-8B · historical diagnostic](docs/experiments/abot-m0/robotwin/pre-train-to-post-train-diagnostic.md) | RoboTwin · historical diagnostic | Local pre-train → post-train | Clean 73/500 (14.6%) | 500 episodes; 10 / task | Not established |
 <!-- END GENERATED overview -->
 
 RoboTwin ABot means equally weight Clean and Randomized; each scene has 50 tasks. LingBot and OpenWAM use 100 episodes per task, while LiLa uses five and task-selected visual conditions. **—** means unavailable, and GPU-hours cover local training only. Released-weight rows are official checkpoints evaluated locally. **CALVIN includes environment D in training** and reports chain length rather than episode success. LIBERO-plus reuses the LIBERO policy. These protocols and training budgets differ across families; see the [comparison scope](docs/reproduction/comparison-protocol.md).
@@ -64,36 +64,25 @@ The [technical report](docs/report/README.md) evaluates capability, downstream t
 
 ## Updates
 
-- **2026-11-02 · Homepage inventory and model timeline:** add the complete Overview table and the dated result-artifact index below.
-- **2026-10-29 · Report and checkpoint release:** publish the 2026-10-28 evidence snapshot, complete the six-backbone ABot-M0 comparison (including Qwen3.5-2B at 84.12% mean), add official/local LingBot, OpenWAM and LiLa results, and link all 17 ModelScope packages. Include full-task PX harness measurements and clarify the practical-budget comparison scope.
-- **2026-10-12 · Benchmark records and report:** publish the completed Qwen3.5-9B, LIBERO, LIBERO-plus, RoboCasa and CALVIN records, training configurations, audited data and technical report. Qwen3.5-2B was training-only at that release.
-
-The timeline below lists each model's **latest selected result-artifact modification time**, in full UTC date and time, sorted newest first. It uses the original task-result files, complete stats, worker results or selected rollout videos. These timestamps describe result records; files can be rewritten after a run, so they do not establish exact training or evaluation completion times. Repository publication dates are listed above. [Timestamp provenance, source IDs and hashes](data/model_updates.json) retain the selection and microsecond precision.
-
 <!-- BEGIN GENERATED updates -->
-| Result artifacts last updated (UTC) | Model / experiment | Benchmark |
-| --- | --- | --- |
-| 2026-10-26 15:39:26 | [LiLa-WAM local](docs/experiments/lila-wam/robotwin/README.md) | RoboTwin |
-| 2026-10-26 07:23:02 | [LiLa-WAM official](docs/experiments/lila-wam/robotwin/README.md) | RoboTwin |
-| 2026-10-20 17:32:10 | [OpenWAM local](docs/experiments/openwam/robotwin/README.md) | RoboTwin |
-| 2026-10-18 11:17:43 | [LingBot-VLA 2.0 · 6B local](docs/experiments/lingbot-vla2/robotwin/README.md) | RoboTwin |
-| 2026-10-15 16:14:07 | [OpenWAM official](docs/experiments/openwam/robotwin/README.md) | RoboTwin |
-| 2026-10-14 23:27:18 | [LingBot-VLA 2.0 · 6B official](docs/experiments/lingbot-vla2/robotwin/README.md) | RoboTwin |
-| 2026-10-13 07:35:53 | [ABot-M0 · Qwen3.5-2B](docs/experiments/abot-m0/robotwin/qwen3-5-2b.md) | RoboTwin |
-| 2026-10-10 13:43:00 | [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/calvin/qwen3-5-4b.md) | CALVIN · ABCD → D |
-| 2026-10-04 03:39:45 | [ABot-M0 · Qwen3.5-9B](docs/experiments/abot-m0/robotwin/qwen3-5-9b.md) | RoboTwin |
-| 2026-09-29 19:46:27 | [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/liberoplus/qwen3-5-4b.md) | LIBERO-plus |
-| 2026-09-28 07:50:24 | [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/robocasa-tabletop/qwen3-5-4b.md) | RoboCasa GR1 Tabletop |
-| 2026-09-26 15:07:47 | [ABot-M0 · Qwen3.5-0.8B](docs/experiments/abot-m0/robotwin/qwen3-5-0-8b.md) | RoboTwin |
-| 2026-09-26 09:02:40 | [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/libero/qwen3-5-4b.md) | LIBERO |
-| 2026-09-25 21:25:32 | [ABot-M0 · Qwen3-VL-2B](docs/experiments/abot-m0/robotwin/qwen3-vl-2b.md) | RoboTwin |
-| 2026-09-23 01:29:51 | [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/robotwin/qwen3-5-4b.md) | RoboTwin |
-| 2026-09-21 09:15:37 | [ABot-M0 · Qwen3-VL-4B](docs/experiments/abot-m0/robotwin/qwen3-vl-4b.md) | RoboTwin |
+- **2026-10-29** — Release [all 17 model-weight packages](docs/releases/README.md), covering ABot-M0, LingBot-VLA 2.0, OpenWAM and LiLa-WAM.
+- **2026-10-26** — Update [LiLa-WAM · DINOv3 ViT-L/16 · local stage-2 epoch 4](docs/experiments/lila-wam/robotwin/README.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4).
+- **2026-10-26** — Update [LiLa-WAM · DINOv3 ViT-L/16 · official stage-2 epoch 4](docs/experiments/lila-wam/robotwin/README.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4).
+- **2026-10-20** — Update [OpenWAM · OpenWAM-Alpha · local step 80000](docs/experiments/openwam/robotwin/README.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-local-step80000).
+- **2026-10-18** — Update [LingBot-VLA 2.0 · Qwen3-VL-4B / 6B policy · local step 50000](docs/experiments/lingbot-vla2/robotwin/README.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-local-step50000).
+- **2026-10-15** — Update [OpenWAM · OpenWAM-Alpha · official step 118655](docs/experiments/openwam/robotwin/README.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-OpenWAM-Alpha-RoboTwin-official-step118655).
+- **2026-10-14** — Update [LingBot-VLA 2.0 · Qwen3-VL-4B / 6B policy · official step 50000](docs/experiments/lingbot-vla2/robotwin/README.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LingBot-VLA2-6B-RoboTwin-official-step50000).
+- **2026-10-13** — Update [ABot-M0 · Qwen3.5-2B](docs/experiments/abot-m0/robotwin/qwen3-5-2b.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-2B).
+- **2026-10-10** — Update [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/calvin/qwen3-5-4b.md) results on CALVIN · ABCD → D · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-CALVIN-Qwen3.5-4B).
+- **2026-10-04** — Update [ABot-M0 · Qwen3.5-9B](docs/experiments/abot-m0/robotwin/qwen3-5-9b.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-9B).
+- **2026-09-29** — Update [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/liberoplus/qwen3-5-4b.md) results on LIBERO-plus · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B).
+- **2026-09-28** — Update [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/robocasa-tabletop/qwen3-5-4b.md) results on RoboCasa GR1 Tabletop · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboCasa-Qwen3.5-4B).
+- **2026-09-26** — Update [ABot-M0 · Qwen3.5-0.8B](docs/experiments/abot-m0/robotwin/qwen3-5-0-8b.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-0.8B).
+- **2026-09-26** — Update [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/libero/qwen3-5-4b.md) results on LIBERO · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-LIBERO-Qwen3.5-4B).
+- **2026-09-25** — Update [ABot-M0 · Qwen3-VL-2B](docs/experiments/abot-m0/robotwin/qwen3-vl-2b.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-2B).
+- **2026-09-23** — Update [ABot-M0 · Qwen3.5-4B](docs/experiments/abot-m0/robotwin/qwen3-5-4b.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3.5-4B).
+- **2026-09-21** — Update [ABot-M0 · Qwen3-VL-4B](docs/experiments/abot-m0/robotwin/qwen3-vl-4b.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-ABot-M0-RoboTwin-Qwen3-VL-4B).
 <!-- END GENERATED updates -->
-
-See the [changelog](CHANGELOG.md) for release details.
-
-The historical Qwen3-VL-8B diagnostic was already documented in the 2026-10-12 release; its exact result completion timestamp is not recorded and is not inferred from that release date.
 
 ## Start here
 
@@ -242,15 +231,18 @@ New action models, backbone substitutions, evaluation results, and corrections a
 
 ## Citation
 
-If you use the experimental records or analysis tools, cite this repository and the technical report:
+If you use RoboSeed, please cite our [public paper on arXiv](https://arxiv.org/abs/2610.40026):
 
 ```bibtex
-@misc{roboseed2026,
-  title        = {RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models},
-  author       = {{RoboSeed Team}},
-  year         = {2026},
-  howpublished = {\url{https://github.com/PrimitiveX/RoboSeed}},
-  note         = {Technical report and experimental records, October 28 evidence snapshot}
+@misc{ma2026roboseed,
+  title         = {RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence},
+  author        = {Xin Ma and Furong Chen and Xinlong Man and Bo Zhang and Yalong Guo and Haolan Lei and Chaochen Cui and Hongyuan Zhang and Mulin Chen and Yi Wang and Lap-pui Chau and Chuang Yang},
+  year          = {2026},
+  eprint        = {2610.40026},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  doi           = {10.48550/arXiv.2610.40026},
+  url           = {https://arxiv.org/abs/2610.40026}
 }
 ```
 

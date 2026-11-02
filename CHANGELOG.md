@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-02 · Refine homepage layout and public-paper citation
+
+- Separate method names from VLM/reproduction checkpoints in the first two Overview columns, with experiment and weight links.
+- Replace the timestamp table with a date-only Updates list of model results and corresponding weight links; keep weight publication as a separate dated entry.
+- Replace the homepage BibTeX with the public arXiv paper's complete title, twelve authors, identifier and DOI; add the same paper as the preferred citation in CITATION.cff.
+
 ## 2026-11-02 · Homepage overview and dated model updates
 
 - Add a generated Overview table covering all 16 current evaluated checkpoint/benchmark records and the historical Qwen3-VL-8B diagnostic, with key metrics, evaluation counts, training costs and links to the canonical experiments.
