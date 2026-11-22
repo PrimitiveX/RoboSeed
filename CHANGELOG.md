@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-22 · Initial RoboSeed-Sim report
+
+- Add an independent Chinese report on RoboTwin GPU-parallel evaluation, with evidence through November 20 and a shared report-series entry point.
+- Package manuscript sources, four external figure sets, full-task and paired outcomes, matched seeds/instructions, scaling runs and sampled GPU memory, with source identities and hashes.
+- Add offline figure generation and checks for denominators, process-time throughput, reused 64-episode data, common-128 scaling inputs and N=64 replay outcomes.
+- Retain the original report, model-capability tables and citation identity. This initial report addition does not release the complete simulator adapters or policy-serving implementation.
+
 ## 2026-11-02 · Merge method cells and label the technical report
 
 - Render the Overview as an HTML table with a single spanning method cell for each algorithm; keep the historical ABot-M0 row with its method group.

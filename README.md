@@ -18,7 +18,7 @@
   <a href="docs/releases/README.md"><img src="docs/figure/badges/checkpoints.svg" alt="Checkpoint status"></a>
 </p>
 
-[Overview](#overview) · [Updates](#updates) · [Results](#results) · [Model weights](docs/releases/README.md) · [To-do list](#to-do-list) · [Documentation](docs/README.md) · [Citation](#citation)
+[Overview](#overview) · [Reports](#research-reports) · [Updates](#updates) · [Results](#results) · [Model weights](docs/releases/README.md) · [To-do list](#to-do-list) · [Documentation](docs/README.md) · [Citation](#citation)
 
 <p><strong>An open experimental record of action-model reproduction,<br>backbone adaptation, training cost, and robot execution.</strong></p>
 
@@ -198,7 +198,20 @@ RoboTwin ABot means equally weight Clean and Randomized; each scene has 50 tasks
 
 The [technical report](docs/report/README.md) evaluates capability, downstream training affordability, deployment affordability, locally verified research value and reproduction evidence. Missing measurements remain explicit. Model families have different inherited priors, observation/action interfaces and evaluation paths; the cross-family results describe the recorded recipes and do not isolate architecture effects.
 
+## Research reports
+
+RoboSeed hosts independent reports with their own questions, experimental protocols and evidence snapshots.
+
+| Report | Research direction | Evidence snapshot |
+| --- | --- | --- |
+| [RoboSeed: Multidimensional Evaluation of Vision–Language–Action and World–Action Models](docs/report/README.md) | Model reproduction, capability and resource assessment | October 28, 2026; [arXiv](https://arxiv.org/abs/2610.40026) |
+| [RoboSeed-Sim: GPU-Parallel Simulation and Evaluation for Vision–Language–Action Models](docs/report/roboseed-sim/README.md) | RoboTwin GPU evaluation migration, system throughput and environment-count scaling | November 20, 2026; initial Chinese report |
+
+RoboSeed-Sim packages the [Chinese report](docs/report/roboseed-sim/RoboSeed-Sim_zh.pdf), [LaTeX source](reports/roboseed-sim/README.md), [system experiments](docs/experiments/roboseed-sim/README.md) and [offline evidence](data/roboseed_sim/README.md). Its 800-episode scene evaluations and small systems comparisons retain their own denominators; they do not replace the model-capability records above. This initial addition does not package the complete simulator and model-serving adapters.
+
 ## Updates
+
+- **2026-11-22** — Add the initial Chinese [RoboSeed-Sim report](docs/report/roboseed-sim/README.md), with evidence through November 20, manuscript sources and offline figure regeneration.
 
 <!-- BEGIN GENERATED updates -->
 - **2026-10-29** — Release [all 17 model-weight packages](docs/releases/README.md), covering ABot-M0, LingBot-VLA 2.0, OpenWAM and LiLa-WAM.

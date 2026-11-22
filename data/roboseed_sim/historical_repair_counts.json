@@ -1,0 +1,46 @@
+{
+  "selection": "Transcribed historical counts used by the manuscript; not independent raw replay traces.",
+  "source": "source://roboseed-sim/technical_report/main.tex",
+  "records": [
+    {
+      "repair": "success_latch",
+      "task": "stack_blocks_two",
+      "before": 9,
+      "after": 15,
+      "mode": "fixed_action_replay",
+      "episodes": 16
+    },
+    {
+      "repair": "success_latch",
+      "task": "beat_block_hammer",
+      "before": 13,
+      "after": 16,
+      "mode": "fixed_action_replay_single_ground",
+      "episodes": 16
+    },
+    {
+      "repair": "shared_ground",
+      "task": "beat_block_hammer",
+      "before": 11,
+      "after": 15,
+      "mode": "fixed_action_replay",
+      "episodes": 16
+    },
+    {
+      "repair": "joint_initialization",
+      "task": "open_laptop",
+      "before": 14,
+      "after": 16,
+      "mode": "live_vla_not_fully_fixed_sampling",
+      "episodes": 16
+    },
+    {
+      "repair": "root_initialization",
+      "task": "beat_block_hammer",
+      "before": 12,
+      "after": 11,
+      "mode": "fixed_action_replay",
+      "episodes": 16
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "task": "adjust_bottle",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "beat_block_hammer",
+    "cpu_n1": 15,
+    "gpu_n1": 8,
+    "gpu_n16": 9,
+    "gpu_disagreements": 5,
+    "cpu_gpu_disagreements": 9
+  },
+  {
+    "task": "blocks_ranking_rgb",
+    "cpu_n1": 14,
+    "gpu_n1": 14,
+    "gpu_n16": 15,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "blocks_ranking_size",
+    "cpu_n1": 12,
+    "gpu_n1": 12,
+    "gpu_n16": 11,
+    "gpu_disagreements": 3,
+    "cpu_gpu_disagreements": 4
+  },
+  {
+    "task": "click_alarmclock",
+    "cpu_n1": 15,
+    "gpu_n1": 15,
+    "gpu_n16": 15,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "click_bell",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "grab_roller",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "handover_block",
+    "cpu_n1": 11,
+    "gpu_n1": 16,
+    "gpu_n16": 15,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 5
+  },
+  {
+    "task": "handover_mic",
+    "cpu_n1": 16,
+    "gpu_n1": 15,
+    "gpu_n16": 16,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 1
+  },
+  {
+    "task": "hanging_mug",
+    "cpu_n1": 6,
+    "gpu_n1": 9,
+    "gpu_n16": 6,
+    "gpu_disagreements": 5,
+    "cpu_gpu_disagreements": 5
+  },
+  {
+    "task": "lift_pot",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "move_can_pot",
+    "cpu_n1": 15,
+    "gpu_n1": 15,
+    "gpu_n16": 14,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "move_pillbottle_pad",
+    "cpu_n1": 15,
+    "gpu_n1": 11,
+    "gpu_n16": 12,
+    "gpu_disagreements": 3,
+    "cpu_gpu_disagreements": 6
+  },
+  {
+    "task": "move_playingcard_away",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "move_stapler_pad",
+    "cpu_n1": 4,
+    "gpu_n1": 6,
+    "gpu_n16": 4,
+    "gpu_disagreements": 2,
+    "cpu_gpu_disagreements": 6
+  },
+  {
+    "task": "open_laptop",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "open_microwave",
+    "cpu_n1": 13,
+    "gpu_n1": 13,
+    "gpu_n16": 12,
+    "gpu_disagreements": 3,
+    "cpu_gpu_disagreements": 2
+  },
+  {
+    "task": "pick_diverse_bottles",
+    "cpu_n1": 12,
+    "gpu_n1": 8,
+    "gpu_n16": 9,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 4
+  },
+  {
+    "task": "pick_dual_bottles",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 14,
+    "gpu_disagreements": 2,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "place_a2b_left",
+    "cpu_n1": 13,
+    "gpu_n1": 13,
+    "gpu_n16": 13,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "place_a2b_right",
+    "cpu_n1": 14,
+    "gpu_n1": 13,
+    "gpu_n16": 13,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 1
+  },
+  {
+    "task": "place_bread_basket",
+    "cpu_n1": 16,
+    "gpu_n1": 14,
+    "gpu_n16": 15,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 2
+  },
+  {
+    "task": "place_bread_skillet",
+    "cpu_n1": 11,
+    "gpu_n1": 3,
+    "gpu_n16": 4,
+    "gpu_disagreements": 5,
+    "cpu_gpu_disagreements": 8
+  },
+  {
+    "task": "place_burger_fries",
+    "cpu_n1": 15,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 1
+  },
+  {
+    "task": "place_can_basket",
+    "cpu_n1": 13,
+    "gpu_n1": 14,
+    "gpu_n16": 12,
+    "gpu_disagreements": 4,
+    "cpu_gpu_disagreements": 3
+  },
+  {
+    "task": "place_cans_plasticbox",
+    "cpu_n1": 16,
+    "gpu_n1": 14,
+    "gpu_n16": 14,
+    "gpu_disagreements": 4,
+    "cpu_gpu_disagreements": 2
+  },
+  {
+    "task": "place_container_plate",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "place_dual_shoes",
+    "cpu_n1": 5,
+    "gpu_n1": 3,
+    "gpu_n16": 4,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 2
+  },
+  {
+    "task": "place_empty_cup",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "place_fan",
+    "cpu_n1": 16,
+    "gpu_n1": 10,
+    "gpu_n16": 8,
+    "gpu_disagreements": 8,
+    "cpu_gpu_disagreements": 6
+  },
+  {
+    "task": "place_mouse_pad",
+    "cpu_n1": 13,
+    "gpu_n1": 13,
+    "gpu_n16": 15,
+    "gpu_disagreements": 4,
+    "cpu_gpu_disagreements": 2
+  },
+  {
+    "task": "place_object_basket",
+    "cpu_n1": 13,
+    "gpu_n1": 16,
+    "gpu_n16": 15,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 3
+  },
+  {
+    "task": "place_object_scale",
+    "cpu_n1": 15,
+    "gpu_n1": 15,
+    "gpu_n16": 14,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "place_object_stand",
+    "cpu_n1": 14,
+    "gpu_n1": 15,
+    "gpu_n16": 16,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 1
+  },
+  {
+    "task": "place_phone_stand",
+    "cpu_n1": 13,
+    "gpu_n1": 12,
+    "gpu_n16": 14,
+    "gpu_disagreements": 2,
+    "cpu_gpu_disagreements": 1
+  },
+  {
+    "task": "place_shoe",
+    "cpu_n1": 10,
+    "gpu_n1": 9,
+    "gpu_n16": 10,
+    "gpu_disagreements": 3,
+    "cpu_gpu_disagreements": 7
+  },
+  {
+    "task": "press_stapler",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "put_bottles_dustbin",
+    "cpu_n1": 9,
+    "gpu_n1": 8,
+    "gpu_n16": 10,
+    "gpu_disagreements": 4,
+    "cpu_gpu_disagreements": 3
+  },
+  {
+    "task": "put_object_cabinet",
+    "cpu_n1": 11,
+    "gpu_n1": 12,
+    "gpu_n16": 14,
+    "gpu_disagreements": 2,
+    "cpu_gpu_disagreements": 1
+  },
+  {
+    "task": "rotate_qrcode",
+    "cpu_n1": 11,
+    "gpu_n1": 13,
+    "gpu_n16": 13,
+    "gpu_disagreements": 2,
+    "cpu_gpu_disagreements": 2
+  },
+  {
+    "task": "scan_object",
+    "cpu_n1": 15,
+    "gpu_n1": 13,
+    "gpu_n16": 13,
+    "gpu_disagreements": 2,
+    "cpu_gpu_disagreements": 2
+  },
+  {
+    "task": "shake_bottle",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "shake_bottle_horizontally",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "stack_blocks_three",
+    "cpu_n1": 10,
+    "gpu_n1": 9,
+    "gpu_n16": 9,
+    "gpu_disagreements": 6,
+    "cpu_gpu_disagreements": 5
+  },
+  {
+    "task": "stack_blocks_two",
+    "cpu_n1": 15,
+    "gpu_n1": 16,
+    "gpu_n16": 14,
+    "gpu_disagreements": 2,
+    "cpu_gpu_disagreements": 1
+  },
+  {
+    "task": "stack_bowls_three",
+    "cpu_n1": 15,
+    "gpu_n1": 16,
+    "gpu_n16": 15,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 1
+  },
+  {
+    "task": "stack_bowls_two",
+    "cpu_n1": 16,
+    "gpu_n1": 16,
+    "gpu_n16": 16,
+    "gpu_disagreements": 0,
+    "cpu_gpu_disagreements": 0
+  },
+  {
+    "task": "stamp_seal",
+    "cpu_n1": 14,
+    "gpu_n1": 11,
+    "gpu_n16": 12,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 3
+  },
+  {
+    "task": "turn_switch",
+    "cpu_n1": 12,
+    "gpu_n1": 13,
+    "gpu_n16": 14,
+    "gpu_disagreements": 1,
+    "cpu_gpu_disagreements": 1
+  }
+]

@@ -13,6 +13,7 @@ import re
 import xml.etree.ElementTree as ET
 
 from generate_docs import ROOT, build, slug
+from roboseed_sim.verify import verify as verify_roboseed_sim
 
 
 def require(condition, message):
@@ -230,6 +231,7 @@ def verify_documents(allow_missing_manifest=False):
     for name, text in generated.items():
         require((ROOT / name).read_text(encoding='utf-8') == text, f'Generated content stale: {name}')
     files = [ROOT / 'README.md', ROOT / 'CONTRIBUTING.md', ROOT / 'CHANGELOG.md'] + list((ROOT / 'docs').rglob('*.md')) + list((ROOT / 'data').glob('*.md')) + list((ROOT / 'configs').glob('*.md'))
+    files += list((ROOT / 'data/roboseed_sim').glob('*.md')) + list((ROOT / 'reports/roboseed-sim').glob('*.md'))
     links = 0
     for path in files:
         text = path.read_text(encoding='utf-8')
@@ -254,6 +256,8 @@ def verify_documents(allow_missing_manifest=False):
 
 def inventory():
     paths = list((ROOT / 'data').glob('*')) + list((ROOT / 'configs/abot-m0').glob('*.yaml')) + list((ROOT / 'docs/report').glob('*.pdf'))
+    for folder in ['data/roboseed_sim', 'docs/report/roboseed-sim', 'reports/roboseed-sim', 'scripts/roboseed_sim']:
+        paths += [p for p in (ROOT / folder).rglob('*') if '_build' not in p.parts and '__pycache__' not in p.parts]
     return {p.relative_to(ROOT).as_posix(): {'bytes': p.stat().st_size, 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(paths) if p.is_file() and p.name != 'release_manifest.json'}
 
 
@@ -261,11 +265,15 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--write-manifest', action='store_true', help='Refresh hashes after counts, evidence and links pass.')
     args = parser.parse_args()
-    verify_results(); verify_documents(allow_missing_manifest=args.write_manifest)
+    verify_results(); verify_roboseed_sim(); verify_documents(allow_missing_manifest=args.write_manifest)
     path = ROOT / 'data/release_manifest.json'
     current = inventory()
     if args.write_manifest:
-        path.write_text(json.dumps({'as_of': read_json('source_manifest.json')['snapshot_date'], 'scope': 'Packaged results, audits, recorded configs, and report PDF. Original source hashes are in source_manifest.json.', 'files': current}, indent=2) + '\n', encoding='utf-8')
+        path.write_text(json.dumps({'as_of': read_json('source_manifest.json')['snapshot_date'],
+                                   'report_snapshots': {'roboseed': read_json('source_manifest.json')['snapshot_date'],
+                                                        'roboseed_sim': read_json('roboseed_sim/protocol.json')['evidence_cutoff']},
+                                   'scope': 'Packaged results, audits, recorded configs, and report PDFs/sources. Per-report evidence cutoffs are in report_snapshots; original input hashes are in the corresponding source manifests.',
+                                   'files': current}, indent=2) + '\n', encoding='utf-8')
         print(f'Wrote release hash inventory: {len(current)} files.')
     require(path.exists(), 'Missing release_manifest.json; use --write-manifest after reviewing the source changes')
     require(json.loads(path.read_text())['files'] == current, 'Packaged hashes differ from release_manifest.json')

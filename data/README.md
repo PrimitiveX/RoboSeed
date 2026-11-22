@@ -4,6 +4,8 @@
 
 This directory packages the October 28, 2026 RoboSeed evidence snapshot, retaining the earlier audited records and adding the report refresh. Counts and loss observations are copied from its audited data. No model weights, demonstration videos, or simulation datasets are bundled.
 
+The independent [RoboSeed-Sim snapshot](roboseed_sim/README.md) is stored in its own subdirectory, with evidence through November 20, 2026. It contains system-evaluation records and does not change the model-capability denominators documented below.
+
 ## Result tables
 
 | File | Unit and schema |

@@ -1,0 +1,50 @@
+{
+  "release": "initial Chinese report",
+  "evidence_cutoff": "2026-11-20",
+  "model": "LingBot-VLA-v2 6B",
+  "checkpoint": "global_step_50000",
+  "new_policy_training": false,
+  "simulation_render": "raster",
+  "simulation_control": "direct",
+  "max_direct_substeps": 17,
+  "settle_steps": 2500,
+  "gpu_total_mib": 143771,
+  "scaling_inference_gpu": 2,
+  "scaling_simulation_gpu": 3,
+  "scaling_eval_processes_concurrent": 1,
+  "sampling": {
+    "status": "verified",
+    "scope": "per-environment injected sampling noise only; not a guarantee of identical output actions",
+    "version": "per-env-noise-v1",
+    "scheme": "SHA256(task, environment_seed, action_chunk_index, repeat_index) seeds independent CPU normal noise, then cast to model dtype",
+    "noise_hash_same_sample_across_batch_sizes": true,
+    "n16_actual_client_server_mapping_validated": true,
+    "same_input_same_noise_action_max_abs_diff": 0.010242396034300327,
+    "same_input_cross_batch_action_max_abs_diff": 0.010242396034300327,
+    "action_repeatability": "not bitwise reproducible; cause not established",
+    "vla_gpu": 2,
+    "vla_port": 9403,
+    "model_checkpoint": "global_step_50000",
+    "dtype": "bf16",
+    "compile": true,
+    "auxiliary_global_rng_seed": 20261119,
+    "torch_deterministic_algorithms": "warn_only",
+    "repeat_index": 0,
+    "n16_audit_file_source_ids": [
+      "source://roboseed-sim/artifacts/robotwin_migration/evaluations/three_tasks_clean_128_n16_20261119/sampling_smoke/sampling_audit.jsonl"
+    ],
+    "validation_logs_source_ids": [
+      "source://roboseed-sim/artifacts/robotwin_migration/logs/per_environment_vla_check_retry3_20261119.log",
+      "source://roboseed-sim/artifacts/robotwin_migration/logs/per_environment_n16_smoke_20261119.log"
+    ]
+  },
+  "timing": "Recorded process durations summed across selected completed task runs or batches; excludes expert screening and complete scheduling/retry history.",
+  "seed_policy": "Reuse expert-passed seeds; scenario-specific full-task sets. Scaling shares 128 seeds and saved instructions; N=200 adds 72 seeds.",
+  "scope": "Report, processed outcome evidence, GPU samples and offline figure regeneration. Simulator adapters and model serving implementation are external.",
+  "unavailable": [
+    "Full 50-task matched original-system throughput",
+    "Independent repetitions for scaling trends",
+    "Universal environment-count limit",
+    "Attribution of throughput gains to individual components"
+  ]
+}

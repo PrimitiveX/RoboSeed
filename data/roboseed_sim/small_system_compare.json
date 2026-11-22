@@ -1,0 +1,189 @@
+{
+  "tasks": [
+    "click_bell",
+    "beat_block_hammer",
+    "pick_diverse_bottles"
+  ],
+  "task_configs": [
+    "demo_clean",
+    "demo_randomized"
+  ],
+  "simulation_gpu": 3,
+  "vla_port": 9401,
+  "seed_screening_included": false,
+  "notes": "per-task process wall time; same seeds and saved batch instructions; original uses single slot",
+  "results": {
+    "clean": {
+      "click_bell": {
+        "seeds": [
+          100000,
+          100001,
+          100002,
+          100003,
+          100004,
+          100005,
+          100006,
+          100007,
+          100008,
+          100009,
+          100010,
+          100011,
+          100012,
+          100013,
+          100014,
+          100015
+        ],
+        "batch": {
+          "success": 16,
+          "wall_seconds": 144.73
+        },
+        "original": {
+          "success": 14,
+          "wall_seconds": 353.6
+        }
+      },
+      "beat_block_hammer": {
+        "seeds": [
+          100000,
+          100003,
+          100006,
+          100007,
+          100008,
+          100009,
+          100010,
+          100011,
+          100012,
+          100013,
+          100014,
+          100015,
+          100017,
+          100019,
+          100020,
+          100021
+        ],
+        "batch": {
+          "success": 10,
+          "wall_seconds": 296.8
+        },
+        "original": {
+          "success": 14,
+          "wall_seconds": 471.12
+        }
+      },
+      "pick_diverse_bottles": {
+        "seeds": [
+          100000,
+          100002,
+          100007,
+          100009,
+          100012,
+          100013,
+          100015,
+          100016,
+          100022,
+          100023,
+          100026,
+          100027,
+          100029,
+          100036,
+          100042,
+          100046
+        ],
+        "batch": {
+          "success": 11,
+          "wall_seconds": 306.48
+        },
+        "original": {
+          "success": 13,
+          "wall_seconds": 600.29
+        }
+      }
+    },
+    "randomized": {
+      "click_bell": {
+        "seeds": [
+          100000,
+          100001,
+          100002,
+          100003,
+          100004,
+          100005,
+          100006,
+          100007,
+          100008,
+          100009,
+          100010,
+          100011,
+          100012,
+          100013,
+          100014,
+          100015
+        ],
+        "batch": {
+          "success": 16,
+          "wall_seconds": 143.29
+        },
+        "original": {
+          "success": 11,
+          "wall_seconds": 603.87
+        }
+      },
+      "beat_block_hammer": {
+        "seeds": [
+          100000,
+          100001,
+          100002,
+          100003,
+          100004,
+          100005,
+          100006,
+          100007,
+          100011,
+          100012,
+          100013,
+          100015,
+          100020,
+          100021,
+          100023,
+          100024
+        ],
+        "batch": {
+          "success": 12,
+          "wall_seconds": 319.57
+        },
+        "original": {
+          "success": 14,
+          "wall_seconds": 568.18
+        }
+      },
+      "pick_diverse_bottles": {
+        "seeds": [
+          100001,
+          100005,
+          100007,
+          100008,
+          100009,
+          100013,
+          100020,
+          100024,
+          100026,
+          100027,
+          100029,
+          100033,
+          100035,
+          100048,
+          100051,
+          100054
+        ],
+        "batch": {
+          "success": 9,
+          "wall_seconds": 326.08
+        },
+        "original": {
+          "success": 11,
+          "wall_seconds": 809.88
+        }
+      }
+    }
+  }
+}

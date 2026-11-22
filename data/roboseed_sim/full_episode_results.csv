@@ -1,0 +1,1601 @@
+scene,task,seed,success,instruction
+clean,adjust_bottle,100001,1,Pick up the plastic soda bottle carefully using the right arm
+clean,adjust_bottle,100002,1,Grab the green bottle on the table and raise it.
+clean,adjust_bottle,100005,1,Pick up the green bottle with white label from the table head-up.
+clean,adjust_bottle,100006,1,Pick up the bottle with red screw cap from the table head-up.
+clean,adjust_bottle,100008,1,Pick up the green plastic bottle with ridged bottom using the correct arm
+clean,adjust_bottle,100010,1,Grab the green bottle with white label on the table and raise it.
+clean,adjust_bottle,100012,1,Pick up the green plastic bottle with ridged bottom from the table head-up.
+clean,adjust_bottle,100013,1,Use the right arm to grab the plastic soda bottle upright
+clean,adjust_bottle,100015,1,Pick up the bottle with red screw cap using the right arm in an upright position
+clean,adjust_bottle,100016,1,Use the right arm to grab the bottle with red screw cap upright
+clean,adjust_bottle,100021,1,Grab the green plastic bottle with ridged bottom from the table with the right arm
+clean,adjust_bottle,100022,1,Use the left arm to grab the green bottle with white label upright
+clean,adjust_bottle,100023,1,Pick up the brown bottle from the table head-up.
+clean,adjust_bottle,100024,1,Pick up the green plastic bottle with ridged bottom using the correct arm
+clean,adjust_bottle,100025,1,Use the right arm to grab the bottle the green bottle with white label
+clean,adjust_bottle,100026,1,Grab the green bottle with white label on the table and raise it.
+clean,beat_block_hammer,100000,0,"Use the left arm to grab the hammer with claw and smooth head, beat the block."
+clean,beat_block_hammer,100003,1,"Use the right arm to grab the hammer with black handle, beat the block."
+clean,beat_block_hammer,100006,0,Grab the silver hammer head and claw and hit the block
+clean,beat_block_hammer,100007,1,Use the left arm to grab the hammer with black handle then beat block
+clean,beat_block_hammer,100008,0,Grab the hammer with black handle and hit the block
+clean,beat_block_hammer,100009,1,Use the silver hammer head and claw to strike the block
+clean,beat_block_hammer,100010,0,Pick the hammer with claw and smooth head up and hit the block
+clean,beat_block_hammer,100011,1,Use the right arm to pick up the silver hammer head and claw.
+clean,beat_block_hammer,100012,0,"Use the right arm to grab the hammer with claw and smooth head, beat the block."
+clean,beat_block_hammer,100013,1,Pick the silver hammer head and claw up and hit the block
+clean,beat_block_hammer,100014,0,Pick the hammer with black handle up and hit the block
+clean,beat_block_hammer,100015,1,Use the right arm to pick up the hammer with black handle.
+clean,beat_block_hammer,100017,1,Use the right arm to pick up the hammer with black handle.
+clean,beat_block_hammer,100019,1,Use the left arm to grab the hammer with black handle then beat block
+clean,beat_block_hammer,100020,1,Use the left arm to grab the hammer with claw and smooth head then beat block
+clean,beat_block_hammer,100021,0,Grab the hammer with claw and smooth head and hit the block
+clean,blocks_ranking_rgb,100000,1,"Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right."
+clean,blocks_ranking_rgb,100001,1,"Arrange red block, green block, and blue block side by side, starting with red block on the left."
+clean,blocks_ranking_rgb,100002,1,"Use the left arm to arrange red block first, then use the left arm for green block, and finally use the right arm for blue block in a row."
+clean,blocks_ranking_rgb,100003,1,"Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right."
+clean,blocks_ranking_rgb,100004,1,"Place red block on the left, then set green block to its right and blue block next to green block."
+clean,blocks_ranking_rgb,100005,1,"Use the right arm to arrange red block first, then use the left arm for green block, and finally use the left arm for blue block in a row."
+clean,blocks_ranking_rgb,100006,0,"Set red block, green block, and blue block in a row from left to right in the order red, green, blue."
+clean,blocks_ranking_rgb,100007,1,"Set red block on the left, then green block in the center, and finally blue block on the right."
+clean,blocks_ranking_rgb,100008,1,"Arrange red block, green block, and blue block from left to right in a row."
+clean,blocks_ranking_rgb,100009,1,"Use the right arm to arrange red block first, then use the left arm for green block, and finally use the left arm for blue block in a row."
+clean,blocks_ranking_rgb,100010,1,"Set red block on the left, then green block in the center, and finally blue block on the right."
+clean,blocks_ranking_rgb,100011,1,"Place red block, green block, and blue block sequentially in a row, starting with red block."
+clean,blocks_ranking_rgb,100012,1,"Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right."
+clean,blocks_ranking_rgb,100013,1,"Arrange red block, green block, and blue block side by side, starting with red block on the left."
+clean,blocks_ranking_rgb,100014,1,"Set red block on the left, then green block in the center, and finally blue block on the right."
+clean,blocks_ranking_rgb,100015,1,"Set red block on the left, then green block in the center, and finally blue block on the right."
+clean,blocks_ranking_size,100000,1,"Place large block, medium block, and small block at the table center."
+clean,blocks_ranking_size,100001,1,"Take large block, medium block, and small block to the table center."
+clean,blocks_ranking_size,100002,1,"Place large block, medium block, and small block at the table center, largest to smallest."
+clean,blocks_ranking_size,100003,0,"Move large block, medium block, and small block to the center, arrange left to right."
+clean,blocks_ranking_size,100004,1,"Place large block, medium block, and small block in order at the table's center."
+clean,blocks_ranking_size,100005,1,"Move large block, medium block, and small block to the center, ordering largest to smallest."
+clean,blocks_ranking_size,100006,1,"Arrange large block, medium block, and small block from largest to smallest."
+clean,blocks_ranking_size,100007,1,"Move large block, medium block, and small block to the center, ordering largest to smallest."
+clean,blocks_ranking_size,100008,0,"Move large block, medium block, and small block to the center table."
+clean,blocks_ranking_size,100009,1,"Place large block, medium block, and small block at the table center."
+clean,blocks_ranking_size,100010,1,"Place large block, medium block, and small block in order at the table's center."
+clean,blocks_ranking_size,100011,0,"Place large block, medium block, and small block in order at the center."
+clean,blocks_ranking_size,100012,0,"Move large block, medium block, and small block to the center, arrange left to right."
+clean,blocks_ranking_size,100014,1,"Move large block, medium block, and small block to the center table."
+clean,blocks_ranking_size,100015,1,"Place large block, medium block, and small block at the table center."
+clean,blocks_ranking_size,100018,0,"Place large block, medium block, and small block in order at the table's center."
+clean,click_alarmclock,100000,1,Click the central top button on the alarm-clock with beige screen.
+clean,click_alarmclock,100002,1,Tap the center top button of the alarm-clock with large numbers
+clean,click_alarmclock,100003,1,Press the alarm-clock with beige screen's center top button
+clean,click_alarmclock,100004,1,Press the top center of the alarm-clock for bedside table.
+clean,click_alarmclock,100007,1,Click the top button of the alarm-clock with large numbers
+clean,click_alarmclock,100008,1,Press the top button on the alarm clock with smooth finish
+clean,click_alarmclock,100009,1,Use the right arm to click the alarm-clock with large numbers's top center button.
+clean,click_alarmclock,100010,1,Press the top center of the alarm-clock with beige screen.
+clean,click_alarmclock,100011,1,Click the center top button of the alarm clock with smooth finish
+clean,click_alarmclock,100012,1,Use the right arm to click the alarm-clock for bedside table's top center button.
+clean,click_alarmclock,100013,1,Tap the center top button of the alarm-clock with large numbers
+clean,click_alarmclock,100014,1,Click the top button of the alarm-clock for bedside table
+clean,click_alarmclock,100015,0,Click the top button of the alarm-clock with large numbers
+clean,click_alarmclock,100016,1,Press the top center of the alarm-clock with large numbers.
+clean,click_alarmclock,100018,1,Click the central top button on the alarm-clock with large numbers.
+clean,click_alarmclock,100019,1,Click the center top button of the compact alarm clock
+clean,click_bell,100000,1,Click the blue bell with glossy finish's top center on the table.
+clean,click_bell,100001,1,Use the right arm to press the blue bell with glossy finish's top center.
+clean,click_bell,100002,1,Use the left arm to press the palm-sized bell's top center.
+clean,click_bell,100003,1,Click the top center of the lightweight bell with smooth surface.
+clean,click_bell,100004,1,Click the bell with raised round top's top center on the table.
+clean,click_bell,100005,1,Find the blue bell with glossy finish and click its top center.
+clean,click_bell,100006,1,Direct the right arm to click the blue bell with glossy finish's top.
+clean,click_bell,100007,1,Click the top center of the palm-sized bell.
+clean,click_bell,100008,1,Find the lightweight bell with smooth surface and click its top center.
+clean,click_bell,100009,1,Use the right arm to press the bell with raised round top's top center.
+clean,click_bell,100010,1,Use the right arm to press the lightweight bell with smooth surface's top center.
+clean,click_bell,100011,1,Use the right arm to press the lightweight bell with smooth surface's top center.
+clean,click_bell,100012,1,Click the medium-sized bell's top center on the table.
+clean,click_bell,100013,1,Click the smooth metal bell's top center on the table.
+clean,click_bell,100014,1,Use the right arm to press the blue bell with glossy finish's top center.
+clean,click_bell,100015,1,Use the right arm to press the palm-sized bell's top center.
+clean,dump_bin_bigbin,100002,1,Pick up the lightweight round tabletop trashbin and pour it.
+clean,dump_bin_bigbin,100004,1,Lift the plastic tiny trashbin for tables and empty it.
+clean,dump_bin_bigbin,100005,1,Pick up the lightweight round tabletop trashbin and pour it.
+clean,dump_bin_bigbin,100007,1,Take the rectangular plastic bin and empty into big bin
+clean,dump_bin_bigbin,100010,1,Pour the small bin for table waste into the big bin.
+clean,dump_bin_bigbin,100011,1,Grab the smooth plastic tabletrashbin and pour into big bin
+clean,dump_bin_bigbin,100015,1,Take the gray trashbin for tabletop and empty it.
+clean,dump_bin_bigbin,100016,1,Lift the lightweight round tabletop trashbin and empty it.
+clean,dump_bin_bigbin,100019,1,Grab the compact tabletop trashbin and pour into big bin
+clean,dump_bin_bigbin,100022,1,Grab the tabletrashbin made of plastic and pour balls.
+clean,dump_bin_bigbin,100027,1,Pour the gray trashbin for tabletop into the big bin.
+clean,dump_bin_bigbin,100029,1,Lift the small bin for table waste and transfer the contents.
+clean,dump_bin_bigbin,100031,1,Pour the plastic tiny trashbin for tables into the big bin.
+clean,dump_bin_bigbin,100032,1,Pick up the tabletrashbin made of plastic and pour it.
+clean,dump_bin_bigbin,100033,1,Take the plastic tiny trashbin for tables and empty into big bin
+clean,dump_bin_bigbin,100034,1,"Pick up the small smooth gray trashbin, pour balls into the bin."
+clean,grab_roller,100000,1,Reach and grab the smooth wooden roller with both arms
+clean,grab_roller,100001,1,Use arms to grab the wooden roller.
+clean,grab_roller,100002,1,Use both arms to grab the roller with tapered tips.
+clean,grab_roller,100003,1,Grab the roller with tapered tips on the table.
+clean,grab_roller,100004,1,Grab the light brown wooden roller on the table using arms
+clean,grab_roller,100006,1,Grab the wooden roller with both arms.
+clean,grab_roller,100007,1,Grab the light brown wooden roller on the table using arms
+clean,grab_roller,100008,1,Hold the roller with tapered tips with both arms.
+clean,grab_roller,100009,1,Use both arms to grab the roller with tapered tips.
+clean,grab_roller,100010,1,Use both arms to grab the light brown wooden roller.
+clean,grab_roller,100011,1,Grab the light brown cylindrical roller on the table with arms.
+clean,grab_roller,100012,1,Grab the smooth wooden roller on the table with arms.
+clean,grab_roller,100013,1,Grab the light brown wooden roller on the table using arms
+clean,grab_roller,100014,1,Grab the light brown cylindrical roller on the table using arms
+clean,grab_roller,100015,1,Grab the light brown wooden roller on the table.
+clean,grab_roller,100016,1,Reach and grab the wooden roller with both arms
+clean,handover_block,100000,1,Grab the red block with the left arm.
+clean,handover_block,100002,1,Pass the red block to the right arm and set it down.
+clean,handover_block,100003,1,"Use the left arm to grab the red block, transfer it to the right hand, and set it onto the blue pad."
+clean,handover_block,100004,1,Grab the red block using the left arm.
+clean,handover_block,100006,1,Pass the red block to the right arm and set it down.
+clean,handover_block,100007,1,Pass the red block to the right arm and set it down.
+clean,handover_block,100008,1,"Use the left arm to grab the red block, transfer it to the right hand, and set it onto the blue pad."
+clean,handover_block,100009,1,Grab the red block using the left arm.
+clean,handover_block,100010,1,Pass the red block to the right arm and set it down.
+clean,handover_block,100011,0,Grab the red block using the left arm.
+clean,handover_block,100012,1,Pick up the red block and switch arms.
+clean,handover_block,100013,1,"Pick up the red block with the left arm, transfer it to the right, and place it on the blue pad."
+clean,handover_block,100014,1,Pass the red block to the right arm and set it down.
+clean,handover_block,100015,1,Grab the red block with the left arm.
+clean,handover_block,100016,1,Pass the red block to the right arm and set it down.
+clean,handover_block,100017,1,Use the left arm to pick up the red block.
+clean,handover_mic,100000,1,Pick up the lightweight handheld microphone and hand it over
+clean,handover_mic,100001,1,Grab the black and white plastic microphone from the table and pass it over.
+clean,handover_mic,100002,1,Pick up the handheld microphone and hand it over
+clean,handover_mic,100003,1,Take hold of the teal microphone with white bottom and hand it over.
+clean,handover_mic,100005,1,Grab the lightweight handheld microphone from the table and pass it over.
+clean,handover_mic,100006,1,Pick up the switchable microphone with teal body and hand it over
+clean,handover_mic,100007,1,Grab the lightweight handheld microphone from the table and pass it over.
+clean,handover_mic,100008,1,Use one arm to hold the teal microphone with white bottom and hand it over.
+clean,handover_mic,100009,1,Grab the teal microphone with white bottom from the table and pass it over.
+clean,handover_mic,100010,1,Pick up the long teal microphone with white grooves and hand it over
+clean,handover_mic,100011,1,Grab the long teal microphone with white grooves from the table and pass it across.
+clean,handover_mic,100012,1,Pick up the compact microphone with two parts and transfer it to the other hand.
+clean,handover_mic,100013,1,Grab the handheld microphone and pass it to the other arm.
+clean,handover_mic,100014,1,Grab the lightweight handheld microphone from the table and pass it over.
+clean,handover_mic,100015,1,Pick up the handheld microphone and hand it over
+clean,handover_mic,100016,1,Pick up the microphone used for audio input and hand it over
+clean,hanging_mug,100000,0,"Pick up the white coffee mug, rotate it, place it on the table, and hang it on the rack with straight and slanted rods."
+clean,hanging_mug,100001,1,"Grab the ceramic mug, turn it, set it on the table, then hang it on the medium-sized rack."
+clean,hanging_mug,100003,0,"Grab the mug shaped like a cylinder from the table, rotate it, and set it in the center. Then hang the mug shaped like a cylinder on the dark gray rack with flat back."
+clean,hanging_mug,100004,0,"Pick the cylindrical mug with handle from the table, rotate it, place it in the middle, and hang it onto the dark gray rack with flat back."
+clean,hanging_mug,100005,0,"Grab the medium black mug on the table, rotate it, set it down in the middle, then hang it onto the medium-sized rack."
+clean,hanging_mug,100006,0,"Pick the beige mug with the left arm, rotate, place it, then hang it on the dark gray rack with flat back."
+clean,hanging_mug,100008,0,"Grab the beige coffee mug from the table, rotate it, and set it in the center. Then hang the beige coffee mug on the rack with straight and slanted rods."
+clean,hanging_mug,100009,0,"Pick the ceramic mug from the table, rotate it, place it in the middle, and hang it onto the rack with straight and slanted rods."
+clean,hanging_mug,100010,1,"Grab the beige mug on the table, rotate it, set it down in the middle, then hang it onto the medium-sized rack."
+clean,hanging_mug,100011,1,"Pick the cylindrical mug from the table, rotate it, place it in the middle, and hang it onto the rack with straight and slanted rods."
+clean,hanging_mug,100012,1,"Grab the cylindrical drinking mug black color, turn it, set it on the table, then hang it on the medium-sized rack."
+clean,hanging_mug,100013,1,"Pick up the ceramic mug, rotate it, place it on the table, and hang it on the medium-sized rack."
+clean,hanging_mug,100014,0,"Pick the white coffee mug from the table, rotate it, place it in the middle, and hang it onto the medium-sized rack."
+clean,hanging_mug,100015,0,"Pick the cylindrical mug from the table, rotate it, place it in the middle, and hang it onto the dark gray rack with flat back."
+clean,hanging_mug,100016,1,"Pick the medium-sized white mug with the left arm, rotate, place it, then hang it on the medium-sized rack."
+clean,hanging_mug,100018,0,"Grab the mug beige smooth cylinder shape from the table, rotate it, and set it in the center. Then hang the mug beige smooth cylinder shape on the dark gray rack with flat back."
+clean,lift_pot,100000,1,Hold the kitchenpot with two side handles firmly and lift it
+clean,lift_pot,100002,1,Lift the kitchenpot with two side handles using both arms
+clean,lift_pot,100003,1,Lift the kitchenpot with two side handles using both arms
+clean,lift_pot,100005,1,Together lift the gray kitchenpot with rounded edges up
+clean,lift_pot,100009,1,Lift the dark gray cooking kitchenpot upward using arms.
+clean,lift_pot,100012,1,Hold the dark gray cooking kitchenpot firmly and lift it
+clean,lift_pot,100014,1,Lift the dark gray cooking kitchenpot with both arms
+clean,lift_pot,100019,1,Together lift the dark gray cooking kitchenpot up
+clean,lift_pot,100020,1,Hold the kitchenpot with two side handles firmly and lift it
+clean,lift_pot,100022,1,Use both arms to lift the dark gray cooking kitchenpot
+clean,lift_pot,100024,1,Lift the dark gray cooking kitchenpot using both arms
+clean,lift_pot,100028,1,Lift the gray kitchenpot with rounded edges with both arms
+clean,lift_pot,100029,1,Lift the gray kitchenpot with rounded edges upward using arms.
+clean,lift_pot,100030,1,Together lift the dark gray cooking kitchenpot up
+clean,lift_pot,100032,1,Lift the dark gray cooking kitchenpot upward using arms.
+clean,lift_pot,100039,1,Lift the gray kitchenpot with rounded edges with both arms
+clean,move_can_pot,100000,0,Lift the metal body sauce can and set it beside the kitchenpot for stovetop boiling
+clean,move_can_pot,100001,1,Grab the medium-size cylindrical sauce can and place it beside the round pot with blue top
+clean,move_can_pot,100002,1,Pick up the yellow label on sauce can and move it near the medium kitchenpot with black handles
+clean,move_can_pot,100003,1,Use the right arm to pick up the yellow label on sauce can and move it beside the round black kitchenpot
+clean,move_can_pot,100005,1,Use the right arm to pick up the metal body sauce can and move it beside the compact kitchenpot with lid-like surface
+clean,move_can_pot,100006,1,Grab the smooth cylindrical sauce can and place it beside the rounded cooking pot with two handles
+clean,move_can_pot,100008,1,Grab the yellow label on sauce can and place it beside the round black kitchenpot
+clean,move_can_pot,100009,1,Pick up the sauce can with red lid and move it near the rounded cooking pot with two handles
+clean,move_can_pot,100010,0,Pick up the sauce can and set it beside the blue kitchenpot
+clean,move_can_pot,100011,1,Pick up the medium-size cylindrical sauce can and set it beside the kitchenpot for stovetop boiling
+clean,move_can_pot,100012,1,Grab the sauce can and move it near the kitchenpot with two side handles
+clean,move_can_pot,100013,1,Pick up the smooth sauce can and set it beside the cylindrical kitchenpot for cooking
+clean,move_can_pot,100014,1,Grab the medium-size cylindrical sauce can and place it beside the shiny black kitchenpot
+clean,move_can_pot,100015,1,Grab the yellow label on sauce can and place it beside the kitchenpot for stovetop boiling
+clean,move_can_pot,100016,1,Grab the red sauce can and set it beside the blue pot with cylindrical body and lid
+clean,move_can_pot,100017,1,"Use the left arm to pick up the sauce can with smooth surface, move it near the metal pot with curved handles"
+clean,move_pillbottle_pad,100001,0,Pick the hand-sized bottle with screw cap and set it on the pad
+clean,move_pillbottle_pad,100002,1,Pick the hand-sized orange capped bottle and set it on the pad
+clean,move_pillbottle_pad,100004,1,Pick the white bottle for storing items and set it on the pad
+clean,move_pillbottle_pad,100005,1,Use the right arm to move the medium-sized bottle onto the pad
+clean,move_pillbottle_pad,100006,1,Use the right arm to grab the white bottle with teal ends and place it
+clean,move_pillbottle_pad,100007,0,Use the left arm to pick the plastic orange bottle with white lid and place it.
+clean,move_pillbottle_pad,100008,1,Pick the white cylindrical bottle and set it on the pad
+clean,move_pillbottle_pad,100009,1,Use the right arm to pick the cylindrical bottle with ribbed cap and place it.
+clean,move_pillbottle_pad,100010,1,Grab the bottle with printed white label and set it on the pad
+clean,move_pillbottle_pad,100011,1,Pick the rounded white bottle with teal base and put it onto the pad
+clean,move_pillbottle_pad,100013,1,Grab the plastic orange bottle with white lid and set it on the pad
+clean,move_pillbottle_pad,100015,1,Use the right arm to grab the plastic orange bottle with white lid and place it
+clean,move_pillbottle_pad,100016,0,Use the left arm to pick the plastic orange bottle with white lid and place it.
+clean,move_pillbottle_pad,100017,1,Use the right arm to grab the hand-sized orange capped bottle and place it
+clean,move_pillbottle_pad,100018,1,Pick the bottle with smooth brown texture and set it onto the pad.
+clean,move_pillbottle_pad,100020,0,Pick the plastic orange bottle with white lid and set it on the pad
+clean,move_playingcard_away,100000,1,Pick up the hard black box for card deck and move it outward.
+clean,move_playingcard_away,100001,1,Pick up the hard black box for card deck and move it outward.
+clean,move_playingcard_away,100002,1,Grab the rectangular playingcards pack and move it outward.
+clean,move_playingcard_away,100003,1,Lift the hard black box for card deck from the table and shift it.
+clean,move_playingcard_away,100004,1,Pick up the rectangular playingcards case with patterns and move it outward.
+clean,move_playingcard_away,100005,1,Pick up the rectangular red playingcards holder and move it outward.
+clean,move_playingcard_away,100006,1,Use the right arm to grab the playingcards with red packaging and move it outward.
+clean,move_playingcard_away,100007,1,Pick up the hard black box for card deck and shift it outward.
+clean,move_playingcard_away,100008,1,Pick up the gold text on playing cards box and move it outward.
+clean,move_playingcard_away,100009,1,Use the left arm to grab the rectangular red playingcards holder and relocate it.
+clean,move_playingcard_away,100010,1,Grab the black box with smooth surface and move it off the table.
+clean,move_playingcard_away,100011,1,Pick up the small box for playingcards and shift it outward.
+clean,move_playingcard_away,100012,1,Pick up the black box with smooth surface and move it outward.
+clean,move_playingcard_away,100013,1,Grab the gold text on playing cards box and move it outward.
+clean,move_playingcard_away,100014,1,Grab the rectangular playingcards case with patterns and move it off the table.
+clean,move_playingcard_away,100015,1,Use the right arm to grab the hard black box for card deck and relocate it.
+clean,move_stapler_pad,100000,0,Place the hand-size bright blue stapler on the Cyan colored mat.
+clean,move_stapler_pad,100001,0,Place the white stapler on the Magenta mat
+clean,move_stapler_pad,100002,0,Move the red stapler with silver chamber to the Black mat
+clean,move_stapler_pad,100003,1,Move the stapler with white loading section to the Cyan colored mat
+clean,move_stapler_pad,100004,1,Use the left arm to move the red stapler with silver chamber to the Green mat
+clean,move_stapler_pad,100005,0,Use the right arm to move the red stapler with silver chamber to Magenta mat
+clean,move_stapler_pad,100006,0,Use the right arm to move the palm-sized black stapler to Black mat.
+clean,move_stapler_pad,100008,0,Use the left arm to move the metal and plastic stapler to Black mat.
+clean,move_stapler_pad,100009,0,Move the small hand-sized stapler to the Green mat.
+clean,move_stapler_pad,100010,1,Place the blue and white stapler on the Red mat
+clean,move_stapler_pad,100012,1,Use the right arm to move the hand-size bright blue stapler to the Blue mat
+clean,move_stapler_pad,100013,0,Use the right arm to move the blue stapler with smooth finish to the Black mat
+clean,move_stapler_pad,100014,0,Grab the blue stapler for holding papers and set it on Gray mat
+clean,move_stapler_pad,100015,0,Place the blue stapler with smooth finish on the Gray mat
+clean,move_stapler_pad,100016,0,Place the paper stapler with curved handle on the Green colored mat.
+clean,move_stapler_pad,100017,0,Use the right arm to move the white stapler to Green mat
+clean,open_laptop,100000,1,Lift the foldable laptop's lid gently.
+clean,open_laptop,100001,1,Grab the foldable laptop and open it.
+clean,open_laptop,100002,1,Pull up the silver laptop's lid.
+clean,open_laptop,100003,1,Open the medium laptop with black case with care
+clean,open_laptop,100004,1,Lift the black laptop with shiny hinges's lid fully.
+clean,open_laptop,100005,1,Open the silver laptop with one motion.
+clean,open_laptop,100006,1,Open the medium-sized laptop for portable use with care
+clean,open_laptop,100007,1,Open the portable laptop with care
+clean,open_laptop,100008,1,Lift the medium-sized laptop for portable use's lid gently.
+clean,open_laptop,100009,1,Open the medium laptop with silver body with one motion.
+clean,open_laptop,100010,1,Lift the medium-sized laptop for portable use's lid fully.
+clean,open_laptop,100011,1,Lift the medium laptop with silver body using the right arm
+clean,open_laptop,100012,1,Grab the laptop computer and open it.
+clean,open_laptop,100013,1,Open the laptop with glossy black display with care
+clean,open_laptop,100014,1,Open the rectangular laptop with smooth finish with care
+clean,open_laptop,100015,1,Open the medium laptop with silver body carefully using the left arm.
+clean,open_microwave,100000,1,Pull the gray and yellow rectangular microwave open with the left arm.
+clean,open_microwave,100001,0,Open the dark gray microwave using the left arm.
+clean,open_microwave,100003,1,Grab the gray and yellow rectangular microwave's handle and pull to open it.
+clean,open_microwave,100005,1,Use the left arm to pull the handle of the medium-sized rectangular microwave with textured top.
+clean,open_microwave,100006,1,Pull the dark gray microwave open with the left arm.
+clean,open_microwave,100009,1,Open the medium-sized rectangular microwave with textured top by pulling its door handle.
+clean,open_microwave,100012,1,Open the medium-sized rectangular microwave with textured top by pulling its door handle.
+clean,open_microwave,100013,0,Pull the kitchen microwave with slanted shape open with the left arm.
+clean,open_microwave,100014,0,Use the left arm to open the gray and yellow rectangular microwave.
+clean,open_microwave,100015,1,Use the left arm to pull the handle of the medium-sized microwave with angled walls.
+clean,open_microwave,100016,0,Move the left arm and open the kitchen microwave with slanted shape.
+clean,open_microwave,100018,1,Open the medium-sized microwave with angled walls by pulling its door handle.
+clean,open_microwave,100019,1,Grab the gray and yellow rectangular microwave's handle and pull to open it.
+clean,open_microwave,100020,1,Use the left arm to open the gray and yellow rectangular microwave.
+clean,open_microwave,100021,1,Open the medium-sized microwave with angled walls using the left arm.
+clean,open_microwave,100022,1,Use the left arm to open the gray and yellow rectangular microwave.
+clean,pick_diverse_bottles,100000,0,Grab the medium-sized plastic bottle with capped top and the bottle with white and yellow label at the same time.
+clean,pick_diverse_bottles,100002,1,Lift the hand-sized bottle with ridged bottom using one arm and lift the hand-sized yellow plastic bottle using the other.
+clean,pick_diverse_bottles,100007,0,Lift the yellow bottle for liquid storage using one arm and lift the glossy brown bottle using the other.
+clean,pick_diverse_bottles,100009,0,Pick up the medium-sized plastic bottle with capped top and take the plastic soda bottle together.
+clean,pick_diverse_bottles,100012,0,"Use each arm to lift a bottle: the green plastic bottle with ridged bottom, then the bottle with ridged orange grip."
+clean,pick_diverse_bottles,100013,1,Pick up the bottle with red screw cap and take the lightweight plastic brown bottle together.
+clean,pick_diverse_bottles,100015,0,Pick up both the bottle with green label and white lid and the plastic bottle with blue label together.
+clean,pick_diverse_bottles,100016,1,Grab the hand-sized yellow plastic bottle and grab the bottle with curved body at once.
+clean,pick_diverse_bottles,100022,1,Pick up both the yellow bottle for liquid storage and the bottle with ridges near base together.
+clean,pick_diverse_bottles,100023,1,Pick up both the yellow-capped bottle with smooth surface and the shiny red bottle together.
+clean,pick_diverse_bottles,100026,1,"Pick up the plastic soda bottle with one arm, grab the blue-capped plastic bottle with the other."
+clean,pick_diverse_bottles,100027,0,"Use each arm to lift a bottle: the liquid container dark brown plastic, then the bottle with ridges near base."
+clean,pick_diverse_bottles,100029,0,Pick up the bottle with ridged orange grip and take the bottle with yellow sticker label together.
+clean,pick_diverse_bottles,100036,1,Use each arm to grab the lightweight plastic brown bottle and the medium plastic bottle.
+clean,pick_diverse_bottles,100042,1,Pick up both the smooth bottle with blue text and the liquid container dark brown plastic together.
+clean,pick_diverse_bottles,100046,1,Pick up both the bottle with Starbucks logo on label and the medium bottle for liquids together.
+clean,pick_dual_bottles,100000,1,"Pick the brown bottle with one arm, the green plastic bottle with ridged bottom with the other."
+clean,pick_dual_bottles,100001,1,"Pick the plastic soda bottle with one arm, the green bottle with the other."
+clean,pick_dual_bottles,100002,1,"Grab the plastic soda bottle with one arm, grab the green bottle with white label with the other."
+clean,pick_dual_bottles,100003,1,"Pick the plastic soda bottle with one arm, the green bottle with the other."
+clean,pick_dual_bottles,100004,0,"Use one arm to grab the bottle with red screw cap, the other for the green plastic bottle with ridged bottom."
+clean,pick_dual_bottles,100005,1,"Hold the plastic soda bottle in one hand, the green plastic bottle with ridged bottom in the other."
+clean,pick_dual_bottles,100006,1,Lift the bottle with red screw cap and the green bottle with white label using both arms.
+clean,pick_dual_bottles,100007,1,"Grab the brown bottle with one arm, grab the green bottle with the other."
+clean,pick_dual_bottles,100008,1,"Hold the brown bottle in one hand, the green bottle with white label in the other."
+clean,pick_dual_bottles,100009,0,"Pick the bottle with red screw cap, then pick the green plastic bottle with ridged bottom."
+clean,pick_dual_bottles,100010,1,Lift the brown bottle and the green plastic bottle with ridged bottom using both arms.
+clean,pick_dual_bottles,100011,1,"Hold the brown bottle in one hand, the green bottle with white label in the other."
+clean,pick_dual_bottles,100012,1,Take hold of the brown bottle and the green plastic bottle with ridged bottom at once.
+clean,pick_dual_bottles,100013,1,"Pick the brown bottle with one arm, the green bottle with the other."
+clean,pick_dual_bottles,100014,1,"Pick the brown bottle, then pick the green plastic bottle with ridged bottom."
+clean,pick_dual_bottles,100015,1,"Grab the brown bottle with one arm, grab the green plastic bottle with ridged bottom with the other."
+clean,place_a2b_left,100000,0,Set the solid gray rectangular cleaning soap down to the left of the plastic teal car with wheels
+clean,place_a2b_left,100001,1,Pick the bread loaf with soft surface and set it left of the dark gray wireless mouse.
+clean,place_a2b_left,100002,1,Use the left arm to place the phone with flat black screen left of the paper stapler with curved handle.
+clean,place_a2b_left,100003,1,Set the palm-sized bell down to the left of the hand-sized black-gray mouse
+clean,place_a2b_left,100004,1,Position the gold text on playing cards box on the left of the tea-box with smooth glossy finish
+clean,place_a2b_left,100005,1,Set the black stapler down to the left of the medium rectangular woodenblock with grain
+clean,place_a2b_left,100007,1,Set the dark gray wireless mouse down to the left of the smooth soap
+clean,place_a2b_left,100008,0,"Use the left arm to put the red, blue, green, yellow rubikscube left of the hand-sized wireless mouse."
+clean,place_a2b_left,100009,1,Place the red tea-box with golden designs to the left of the smooth coffee box using the left arm
+clean,place_a2b_left,100012,1,Set the paper stapler with curved handle on the left side of the handheld rubikscube
+clean,place_a2b_left,100013,1,Grab the cardboard box for storing coffee and place left of the pink toycar with white bumper
+clean,place_a2b_left,100014,1,Set the flat-edged rectangular phone on the left side of the smooth textured coffee-box
+clean,place_a2b_left,100015,1,Set the rubikscube for twisting and turning on the left side of the black tea-box with golden details.
+clean,place_a2b_left,100017,1,Pick the light yellow cleaning soap and set it left of the light beige cube.
+clean,place_a2b_left,100018,0,Grab the hand-sized rubikscube with colored squares and place left of the toycar with rounded body
+clean,place_a2b_left,100019,1,Place the smooth coffee box to the left of the spongy golden brown bread using the right arm
+clean,place_a2b_right,100000,1,Place the solid gray rectangular cleaning soap rightward of the teal toycar using the left arm
+clean,place_a2b_right,100001,1,Set the rectangular bread loaf on the right of the dark gray wireless mouse.
+clean,place_a2b_right,100002,1,Set the bread loaf with golden baked top to the right of the toycar with rounded body.
+clean,place_a2b_right,100003,1,Place the blue bell with glossy finish on the hand-sized black-gray mouse's right side.
+clean,place_a2b_right,100004,1,Put the white coffee-box to the right of the rectangular silver phone with rounded edges.
+clean,place_a2b_right,100005,1,Put the palm-sized black stapler to the right of the medium rectangular woodenblock with grain
+clean,place_a2b_right,100007,1,Set the hand-sized black-gray mouse to the right of the soft block of bread.
+clean,place_a2b_right,100008,0,Grab the rectangular green box for tea and place it right of the coffee box with dark brown top.
+clean,place_a2b_right,100009,0,Put the red tea-box to the right of the coffee box with slanted sides.
+clean,place_a2b_right,100010,1,Place the smooth metal bell rightward of the medium bread loaf using the right arm
+clean,place_a2b_right,100014,1,Grab the flat-edged rectangular phone and place it right of the white coffee-box.
+clean,place_a2b_right,100015,1,Put the smooth metal bell to the right of the woodenblock for stacking.
+clean,place_a2b_right,100017,1,Put the wireless mouse with left and right buttons to the right of the cardboard coffee-box.
+clean,place_a2b_right,100018,0,Place the hand-sized rubikscube with colored squares on the compact toycar with rotating wheels's right side.
+clean,place_a2b_right,100019,1,Put the rounded loaf bread to the right of the medium-sized bell.
+clean,place_a2b_right,100020,1,Place the smooth metal bell on the right of the handheld rubikscube.
+clean,place_bread_basket,100000,1,Use the left arm to pick the soft bread with golden edges and place in the medium light brown breadbasket.
+clean,place_bread_basket,100001,1,Place the rectangular bread loaf and the rectangular bread loaf into the rectangular breadbasket using the dual arm
+clean,place_bread_basket,100002,1,Place the braided top round bread into the light wooden breadbasket using the right arm
+clean,place_bread_basket,100004,1,Grab the bread with golden crust and drop it into the round beige breadbasket.
+clean,place_bread_basket,100005,1,Use the dual arm to pick the spongy golden brown bread and the small loaf-shaped bread and place in the round beige breadbasket.
+clean,place_bread_basket,100006,1,Use the dual arm to pick the bread loaf with soft surface and the small loaf-shaped bread and place in the breadbasket with smooth bottom grid sides.
+clean,place_bread_basket,100007,1,Grab the rounded oval bread and the rounded oval bread and drop them into the medium light brown breadbasket.
+clean,place_bread_basket,100008,1,Use the dual arm to pick the braided top round bread and the round braided loaf and place in the white basket with beige bottom.
+clean,place_bread_basket,100009,1,"Grab the soft bread with golden edges with one arm, place in the woven shallow breadbasket."
+clean,place_bread_basket,100010,0,Place the bread loaf medium-sized and the bread with golden crust into the round beige breadbasket using the left arm
+clean,place_bread_basket,100011,1,Pick the rectangular bread loaf and the spongy golden brown bread and place them in the rectangular light brown breadbasket.
+clean,place_bread_basket,100012,1,Use the dual arm to pick the round braided loaf and the oval bread and place in the beige breadbasket.
+clean,place_bread_basket,100013,1,"Grab the rectangular bread loaf and the bread loaf with soft surface with two arms, place in the medium-sized breadbasket."
+clean,place_bread_basket,100015,1,"Use one arm to grab the oval-shaped soft bread and the bread loaf with soft surface, drop in the breadbasket with ridged texture."
+clean,place_bread_basket,100016,1,"Use the dual arm to pick up the oval-shaped soft bread and the rounded oval bread, then place them in the light wooden breadbasket."
+clean,place_bread_basket,100017,1,Place the bread loaf with soft surface and the palm-sized braided golden bread into the rectangular breadbasket using the dual arm
+clean,place_bread_skillet,100003,0,Grab the bread loaf medium-sized and place it in the dark gray round cast iron pan
+clean,place_bread_skillet,100004,0,Grab the soft bread with golden edges and place it in the pan-shaped skillet with hole in handle
+clean,place_bread_skillet,100005,0,Pick up the bread loaf with soft surface and drop it into the black skillet
+clean,place_bread_skillet,100006,0,Pick the oval bread up and place it in the black skillet
+clean,place_bread_skillet,100011,1,Use the left arm to move the oval-shaped soft bread to the medium black frying skillet.
+clean,place_bread_skillet,100015,1,Use the right arm to grab the oval bread and set it in the pan-shaped skillet with hole in handle
+clean,place_bread_skillet,100018,0,Use the left arm to grab the oval-shaped soft bread and set it in the dark skillet with shiny finish
+clean,place_bread_skillet,100019,1,Grab the oval bread and drop it into the pan-shaped skillet with hole in handle.
+clean,place_bread_skillet,100026,1,Pick the small loaf-shaped bread up and place it in the dark skillet with shiny finish
+clean,place_bread_skillet,100027,0,Grab the oval-shaped soft bread and set it in the black skillet
+clean,place_bread_skillet,100028,0,Grab the bread loaf medium-sized and set it in the round cast-iron skillet
+clean,place_bread_skillet,100029,0,Grab the braided top round bread and set it in the versatile skillet for frying and sauteing
+clean,place_bread_skillet,100031,0,Grab the oval-shaped soft bread and set it in the round cast-iron skillet
+clean,place_bread_skillet,100037,0,Grab the oval bread and place it in the cooking skillet with grippy handle
+clean,place_bread_skillet,100039,0,Grab the braided top round bread and set it in the black skillet
+clean,place_bread_skillet,100042,0,Grab the bread with golden crust and place it in the black skillet
+clean,place_burger_fries,100000,1,"Pick up the small rectangular hamburg and the hand-sized fries container, then place on the medium green tray for carrying."
+clean,place_burger_fries,100001,1,"Pick the stackable hamburg box and the golden fries in red holder, place them on the tray for carrying items."
+clean,place_burger_fries,100002,1,"Grab the hamburg pack with printed details and the hand-sized fries container, then set them on the medium beige plastic tray"
+clean,place_burger_fries,100003,1,"Grab the small yellow-marked hamburg wrapper and the Crispy potato fries with red box together, setting them on the medium green tray for carrying."
+clean,place_burger_fries,100004,1,"Pick the hamburg with curved surfaces and the Red carton box fries crispy golden, place them on the rectangular beige tray."
+clean,place_burger_fries,100005,1,Use both arms to place the stackable hamburg box and the golden crispy fries inside red box on the medium beige plastic tray.
+clean,place_burger_fries,100006,1,Place the hamburg with soft texture and the golden crispy fries inside red box onto the rectangular bright orange serving tray.
+clean,place_burger_fries,100007,1,Use both arms to place the hamburg with white sides and the golden fries in red holder on the medium green tray for carrying.
+clean,place_burger_fries,100008,1,Pick up the hamburg with curved surfaces and the Crispy potato fries with red box and place them on the rectangular bright orange serving tray.
+clean,place_burger_fries,100009,1,Place the hamburg with curved surfaces and the hand-sized fries container onto the medium beige plastic tray.
+clean,place_burger_fries,100010,1,"Pick the stackable hamburg box and the golden fries in red holder, place them on the medium green tray for carrying."
+clean,place_burger_fries,100011,1,"Pick the rounded rectangular hamburg wrap and the hand-sized fries container, place them on the rectangular tray with rounded edges."
+clean,place_burger_fries,100012,1,Use both arms to place the hamburg with uneven white surface and the golden crispy fries inside red box on the medium green tray for carrying.
+clean,place_burger_fries,100013,1,Use both arms to place the hamburg with white and orange and the Crispy potato fries with red box on the green tray.
+clean,place_burger_fries,100014,1,"Grab the palm-sized hamburg and the Golden fries in red carton box together, setting them on the medium green tray for carrying."
+clean,place_burger_fries,100015,1,"Pick the small yellow-marked hamburg wrapper and the Golden fries in red carton box, then place them on the smooth green tray."
+clean,place_can_basket,100000,1,"Use the left arm to grab the palm-sized red metal Coca-Cola can, put it in the medium-sized basket with perforated texture, and lift the medium-sized basket with perforated texture."
+clean,place_can_basket,100001,1,"Use the right arm to pick up the can with red body, put it into the oval basket with medium storage space, the other arm lifts the oval basket with medium storage space."
+clean,place_can_basket,100002,0,"Use the left arm to pick up the cylindrical can with smooth surface, put it into the medium-sized basket with perforated texture, the other arm lifts the medium-sized basket with perforated texture."
+clean,place_can_basket,100003,0,"Pick up the red can, place it in the yellow basket with open slots, then lift the yellow basket with open slots."
+clean,place_can_basket,100005,0,"Grab the lightweight cylindrical metal can, drop it into the medium-sized basket with perforated texture, lift the medium-sized basket with perforated texture with another arm."
+clean,place_can_basket,100006,1,"Use the right arm to pick the small aluminum can, drop it into the basket with rounded edges, then lift the basket with rounded edges."
+clean,place_can_basket,100007,1,"Pick the can with shiny smooth surface, put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips."
+clean,place_can_basket,100008,1,"Grab the can with gold logo design and put it in the yellow basket with open slots, then lift the yellow basket with open slots."
+clean,place_can_basket,100009,1,"Use the left arm to grab the red can, put it in the medium-sized basket with perforated texture, and lift the medium-sized basket with perforated texture."
+clean,place_can_basket,100012,0,"Grab the rounded can with smooth printed surface, drop it in the medium-sized basket with perforated texture, and lift the medium-sized basket with perforated texture."
+clean,place_can_basket,100013,1,"Grab the red can and put it in the medium basket with smooth texture, then lift the medium basket with smooth texture."
+clean,place_can_basket,100014,1,"Use the left arm to pick the small aluminum can, drop it into the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips."
+clean,place_can_basket,100015,1,"Grab the cylindrical can with smooth surface, drop it in the basket with rounded edges, and lift the basket with rounded edges."
+clean,place_can_basket,100016,1,"Use the right arm to grab the red can, put it in the basket with rounded edges, and lift the basket with rounded edges."
+clean,place_can_basket,100020,1,"Grab the red can, drop it in the medium-sized basket with perforated texture, and lift the medium-sized basket with perforated texture."
+clean,place_can_basket,100022,1,"Use the left arm to pick up the cylindrical can with smooth surface, put it into the yellow rectangular basket with dual grips, the other arm lifts the yellow rectangular basket with dual grips."
+clean,place_cans_plasticbox,100000,1,"Pick up the small red soda can and the cylindrical can with bright colors, drop them together into the medium-sized smooth plasticbox"
+clean,place_cans_plasticbox,100001,1,"Grab the can with red body, drop it into the hard plastic rectangular box. Repeat for the cylindrical can with bright colors."
+clean,place_cans_plasticbox,100002,1,"Grab the cylindrical brown drink can with white markings, drop it in the rectangular plasticbox with locking clips, and do the same for the red can."
+clean,place_cans_plasticbox,100003,0,"Grab the hand-sized can with metallic finish, drop it into the rectangular plasticbox with locking clips. Repeat for the can with red body."
+clean,place_cans_plasticbox,100004,1,"Lift the can with gold logo design and the can with red body, drop both into the rectangular plasticbox with locking clips."
+clean,place_cans_plasticbox,100005,1,"Pick up the red can with white top and the cylindrical can with smooth surface, drop them together into the rectangular plasticbox with locking clips"
+clean,place_cans_plasticbox,100006,1,Pick the small aluminum can and place it into the smooth exterior blue plasticbox. Then do the same for the can with shiny smooth surface.
+clean,place_cans_plasticbox,100007,1,"Move the metal can fits easily in hand into the rectangular plasticbox with locking clips, then move the cylindrical brown drink can with white markings into the rectangular plasticbox with locking clips."
+clean,place_cans_plasticbox,100008,0,"Pick the small aluminum can, place it into the smooth exterior blue plasticbox, then repeat with the can with shiny smooth surface."
+clean,place_cans_plasticbox,100009,1,"Grab the can with gold logo design, drop it in the rectangular plasticbox with locking clips, and do the same for the cylindrical can with bright colors."
+clean,place_cans_plasticbox,100010,1,"Grab the red can, drop it in the medium-sized smooth plasticbox, and do the same for the rounded can with smooth printed surface."
+clean,place_cans_plasticbox,100011,1,"Grab the cylindrical can with smooth surface and drop it into the smooth exterior blue plasticbox, then do the same for the small red soda can."
+clean,place_cans_plasticbox,100012,1,"Grab the cylindrical can with smooth surface and drop it into the medium-sized smooth plasticbox, then do the same for the small aluminum can."
+clean,place_cans_plasticbox,100013,1,Pick the gold and red soda can and place it into the rectangular plasticbox with locking clips. Then do the same for the red can.
+clean,place_cans_plasticbox,100014,1,"Lift the lightweight cylindrical metal can and the small red soda can, drop both into the portable light blue storage plasticbox."
+clean,place_cans_plasticbox,100015,1,"Move the cylindrical can with smooth surface into the rectangular plasticbox with locking clips, then move the red can into the rectangular plasticbox with locking clips."
+clean,place_container_plate,100000,1,Set the container on the smooth round plate for serving with the light blue bowl with darkened rim.
+clean,place_container_plate,100003,1,Place the container onto the gray plate for dining with the cup with rounded edges
+clean,place_container_plate,100004,1,Place the container onto the smooth round plate for serving with the simple dark brown plastic cup
+clean,place_container_plate,100005,1,Set the container on the smooth round plate for serving with the smooth bowl with glossy finish.
+clean,place_container_plate,100006,1,"Grab container with the rusty-looking grayish metallic cup, place it on the gray plate for dining."
+clean,place_container_plate,100007,1,Move the smooth light gray bowl to set the container on the gray plate for dining
+clean,place_container_plate,100008,1,"Grab container with the smooth light gray bowl, place it on the smooth round plate for serving."
+clean,place_container_plate,100009,1,Set the container on the gray plate for dining with the medium-sized white serving bowl.
+clean,place_container_plate,100010,1,Place the container onto the gray plate for dining with the smooth light gray bowl
+clean,place_container_plate,100011,1,Set the container on the gray plate for dining with the smooth bowl with glossy finish.
+clean,place_container_plate,100012,1,Move the green cup to set the container on the gray plate
+clean,place_container_plate,100014,1,Move the small round drinkable cup to set the container on the gray plate for dining
+clean,place_container_plate,100015,1,Set the container on the gray plate for dining with the cup for liquids.
+clean,place_container_plate,100016,1,Set the container on the gray plate for dining with the cup for liquids.
+clean,place_container_plate,100017,1,Move the smooth light gray bowl to set the container on the gray plate
+clean,place_container_plate,100018,1,Place the container onto the smooth round plate for serving with the rusty-looking grayish metallic cup
+clean,place_dual_shoes,100001,0,"Pick up two the medium adult shoe, tips left, into the orange box for keeping shoes."
+clean,place_dual_shoes,100002,0,"Pick up two the shoe with striped design, tips left, into the orange box for keeping shoes."
+clean,place_dual_shoes,100007,0,"Use both arms to move two the smooth white shoe with laces to the medium cardboard shoe-box, tips pointing left."
+clean,place_dual_shoes,100008,0,"Use both arms to move two the smooth plastic shoe to the rectangular Nike box for shoes, tips pointing left."
+clean,place_dual_shoes,100009,0,"Grab two the brown shoe with green red stripes, point tips left, place in the rectangular Nike box for shoes."
+clean,place_dual_shoes,100012,0,"Use both arms to move two the black shoe with white midsole to the orange box for keeping shoes, tips pointing left."
+clean,place_dual_shoes,100013,0,"Lift two the brown shoe with green red stripes, tips pointing left, into the medium cardboard shoe-box."
+clean,place_dual_shoes,100015,0,"Grab a pair of the shoe with striped design, place left tips in the rectangular Nike box for shoes."
+clean,place_dual_shoes,100016,0,"Grab a pair of the beige-soled walking sneaker, place left tips in the orange box for keeping shoes."
+clean,place_dual_shoes,100020,1,"Grab a pair of the medium adult shoe, place left tips in the rectangular Nike box for shoes."
+clean,place_dual_shoes,100021,0,"Pick up two the shoe with black stripe design, tips left, into the orange box for keeping shoes."
+clean,place_dual_shoes,100023,0,"Lift two the black shoe with white midsole, tips pointing left, into the medium cardboard shoe-box."
+clean,place_dual_shoes,100024,1,"Put a pair of the black-striped white shoe in the the medium cardboard shoe-box, tips pointing left."
+clean,place_dual_shoes,100025,1,"Use both arms to move two the casual brown shoe to the orange box for keeping shoes, tips pointing left."
+clean,place_dual_shoes,100026,0,"Place two the running shoe with laces into the orange box for keeping shoes, tips left."
+clean,place_dual_shoes,100028,1,"Place two the white shoe with tongue logo into the rectangular Nike box for shoes, tips left."
+clean,place_empty_cup,100000,1,Pick the small smooth cup and position it on the small drink-protecting wooden coaster
+clean,place_empty_cup,100001,1,Use arm to set the blue cup on the disc-shaped light gray coaster
+clean,place_empty_cup,100002,1,Place the blue cup onto the small drink-protecting wooden coaster
+clean,place_empty_cup,100004,1,Set the small smooth cup on top of the disc-shaped light gray coaster.
+clean,place_empty_cup,100005,1,Set the handheld round blue cup on top of the disc-shaped light gray coaster.
+clean,place_empty_cup,100007,1,Place the handheld round blue cup on top of the small drink-protecting wooden coaster.
+clean,place_empty_cup,100008,1,Set the blue cup on top of the light gray coaster.
+clean,place_empty_cup,100009,1,Place the blue cup onto the small drink-protecting wooden coaster.
+clean,place_empty_cup,100010,1,Place the blue cup onto the disc-shaped light gray coaster
+clean,place_empty_cup,100011,1,Set the handheld round blue cup on top of the disc-shaped light gray coaster.
+clean,place_empty_cup,100012,1,Place the small smooth cup onto the light gray coaster
+clean,place_empty_cup,100013,1,Set the blue cup on top of the disc-shaped light gray coaster.
+clean,place_empty_cup,100014,1,Use arm to set the handheld round blue cup on the disc-shaped light gray coaster
+clean,place_empty_cup,100015,1,Set the blue cup down on the small drink-protecting wooden coaster.
+clean,place_empty_cup,100016,1,Place the handheld round blue cup onto the disc-shaped light gray coaster.
+clean,place_empty_cup,100017,1,Place the handheld round blue cup carefully onto the disc-shaped light gray coaster
+clean,place_fan,100002,0,Place the white desk fan onto the Tan colored mat facing the robot.
+clean,place_fan,100003,1,"Pick the white desk fan, place it on the Beige mat, face it toward the robot"
+clean,place_fan,100004,1,Grab the plastic fan and set it on the Turquoise mat.
+clean,place_fan,100005,1,Pick the plastic fan and set it on the Brown mat facing the robot.
+clean,place_fan,100006,1,Pick up the beige circular blade fan and set it on the Silver mat facing the robot.
+clean,place_fan,100008,0,Grab the portable curved handle fan and set it on the Orange mat facing the robot
+clean,place_fan,100009,1,Grab the white desk fan with the right arm and position it on the Black mat facing the robot.
+clean,place_fan,100010,0,"Pick the plastic fan, place it on the Coral mat, face it toward the robot"
+clean,place_fan,100011,1,Grab the portable curved handle fan and set it on the Coral mat.
+clean,place_fan,100012,0,"Pick the white desk fan, place it on the Blue mat, face it toward the robot"
+clean,place_fan,100013,0,Grab the white desk fan and set it on the Silver mat facing the robot.
+clean,place_fan,100014,1,Grab the fan with small round shape with the right arm and position it on the Gray mat facing the robot.
+clean,place_fan,100015,0,Grab the fan with small round shape and set it on the Indigo mat facing the robot.
+clean,place_fan,100016,1,"Use the left arm to grab the fan with small round shape, then place it on the Gray mat facing the robot."
+clean,place_fan,100017,0,Grab the beige circular blade fan and set it on the Purple mat facing the robot.
+clean,place_fan,100019,0,Use the right arm to grab the white desk fan and place it on the Navy mat facing the robot.
+clean,place_mouse_pad,100000,1,Use the left arm to pick up the dark gray wireless mouse and drop it on Cyan mat.
+clean,place_mouse_pad,100001,1,Pick the flat-bottomed mouse and position it on the Black colored mat.
+clean,place_mouse_pad,100002,1,Grab the the hand-sized dark gray mouse and position it on the Black mat.
+clean,place_mouse_pad,100003,1,Grab the the wireless mouse with left and right buttons and position it on the Cyan mat.
+clean,place_mouse_pad,100004,1,Pick up the the dark gray computer mouse with logo and set it on the Green mat.
+clean,place_mouse_pad,100005,1,Grab the the dark gray computer mouse with logo and position it on the Magenta mat.
+clean,place_mouse_pad,100006,1,Pick the flat-bottomed mouse and position it on the Black colored mat.
+clean,place_mouse_pad,100007,1,Use the left arm to pick up the wireless mouse with left and right buttons and drop it on Green mat.
+clean,place_mouse_pad,100008,1,Pick up the the flat-bottomed mouse and set it on the Black mat.
+clean,place_mouse_pad,100009,1,Pick up the the small rounded plastic mouse and set it on the Green mat.
+clean,place_mouse_pad,100010,1,Pick up the wireless mouse with left and right buttons with the right arm and drop it onto the Red mat.
+clean,place_mouse_pad,100011,1,Grab the hand-sized wireless mouse and set it on Green mat.
+clean,place_mouse_pad,100012,1,Grab the wireless mouse with left and right buttons and set it on the Blue mat.
+clean,place_mouse_pad,100013,1,Grab the hand-sized black-gray mouse and set it on Black mat.
+clean,place_mouse_pad,100014,1,Pick up the the small rounded plastic mouse and set it on the Gray mat.
+clean,place_mouse_pad,100015,0,Grab the hand-sized black-gray mouse and set it on the Gray mat.
+clean,place_object_basket,100000,1,"Pick up the blue toycar with yellow buttons, place it in the yellow basket with open slots, move the yellow basket with open slots."
+clean,place_object_basket,100002,1,"Move the rectangular playingcards pack to the medium-sized basket with perforated texture, then shift the medium-sized basket with perforated texture."
+clean,place_object_basket,100003,1,Grab the toycar with rounded body and put it into the medium-sized basket with perforated texture.
+clean,place_object_basket,100008,0,Grab the hard black box for card deck and put it into the yellow rectangular basket with dual grips.
+clean,place_object_basket,100010,1,Place the tiny pink car with four wheels in the medium-sized basket with perforated texture and move it.
+clean,place_object_basket,100011,1,"Use one arm to grab the playingcards with red packaging, place it in the medium basket with smooth texture."
+clean,place_object_basket,100012,1,"Move the black box with smooth surface to the yellow basket with open slots, then shift the yellow basket with open slots."
+clean,place_object_basket,100013,1,Grab the plastic teal car with wheels and place into the basket with rounded edges.
+clean,place_object_basket,100014,1,"Pick up the pink toycar with white bumper, place it in the yellow basket with open slots, move the yellow basket with open slots."
+clean,place_object_basket,100016,1,"Grab the toycar with rounded body, put it in the oval basket with medium storage space, move the oval basket with medium storage space."
+clean,place_object_basket,100017,1,"Pick up the bright green toycar, place it in the yellow rectangular basket with dual grips, move the yellow rectangular basket with dual grips."
+clean,place_object_basket,100019,1,Place the compact toycar with rotating wheels in the yellow basket with open slots and move it.
+clean,place_object_basket,100020,1,Grab the plastic teal car with wheels and put it into the medium-sized basket with perforated texture.
+clean,place_object_basket,100022,1,Pick up the black box with smooth surface and drop in the yellow rectangular basket with dual grips.
+clean,place_object_basket,100023,1,"Grab the playingcards with red packaging, put it in the oval basket with medium storage space, move the oval basket with medium storage space."
+clean,place_object_basket,100024,1,"Move the rectangular playingcards case with patterns to the medium-sized basket with perforated texture, then shift the medium-sized basket with perforated texture."
+clean,place_object_scale,100000,1,Pick the smooth metal bell up and put it on the scale with rounded edges
+clean,place_object_scale,100002,1,Pick up the dark gray computer mouse with logo and set it on the gold circular platform electronicscale
+clean,place_object_scale,100003,1,Use one arm to pick the blue bell with glossy finish for the electronicscale with black digital screen
+clean,place_object_scale,100004,1,Grab the flat-bottomed mouse and set it on the electronicscale with black digital screen
+clean,place_object_scale,100006,1,Use the right arm to put the black stapler on the black screen electronicscale.
+clean,place_object_scale,100007,1,Grab the blue bell with glossy finish and place it on the scale with rounded edges
+clean,place_object_scale,100009,1,Grab the hand-sized dark gray mouse and place it on the electronicscale with rectangular base.
+clean,place_object_scale,100010,1,Pick the smooth metal bell up and put it on the lightweight electronicscale for measuring weight
+clean,place_object_scale,100011,1,Pick up the small stapler with simple design and set it on the electronicscale
+clean,place_object_scale,100012,0,Grab the smooth metal bell and place it on the scale with rounded edges.
+clean,place_object_scale,100015,1,Grab the palm-sized bell and set it on the electronicscale with circular platform
+clean,place_object_scale,100016,1,Pick up the mouse with scroll wheel and set it on the electronicscale with rectangular base
+clean,place_object_scale,100018,0,Pick up the blue bell with glossy finish and set it on the electronicscale with gold round platform
+clean,place_object_scale,100019,1,Grab the white stapler with metal tray and put it on the electronicscale with circular platform
+clean,place_object_scale,100020,1,Grab the blue stapler with smooth finish and place it on the electronicscale flat base and stand
+clean,place_object_scale,100021,1,"With the left arm, grab the bell with raised round top and position it on the electronicscale with black digital screen"
+clean,place_object_stand,100000,1,Place the hand-sized black-gray mouse onto the rectangular base displaystand with the right arm
+clean,place_object_stand,100001,1,Use the left arm to place the hand-size bright blue stapler on the hollow rectangular black displaystand
+clean,place_object_stand,100002,1,Use the left arm to grab the playable toycar with rolling wheels and place it on the rectangular base displaystand
+clean,place_object_stand,100003,1,Use the right arm to grab the red stapler with silver chamber and place it on the black displaystand
+clean,place_object_stand,100004,1,Grab the dark gray wireless mouse using the left arm and place on the displaystand with angled sides.
+clean,place_object_stand,100005,1,Place the black stapler onto the angled rectangular metal displaystand with the left arm
+clean,place_object_stand,100007,1,Place the bright green toycar onto the rectangular displaystand with the right arm
+clean,place_object_stand,100008,1,Place the bell with raised round top on the medium displaystand with smooth finish using the left arm.
+clean,place_object_stand,100009,1,Set the paper stapler with curved handle on the displaystand with hollow center.
+clean,place_object_stand,100010,1,Use the right arm to place the blue stapler for holding papers on the tabletop-sized displaystand.
+clean,place_object_stand,100011,1,Use the right arm to grab the remote control with circular pad and place it on the displaystand with hollow center
+clean,place_object_stand,100012,1,Place the red plastic stapler onto the medium displaystand with smooth finish with the right arm
+clean,place_object_stand,100013,1,Set the lightweight bell with smooth surface onto the medium brown displaystand with slot using the right arm.
+clean,place_object_stand,100014,1,"Grab the toycar with rounded edges, then place it on the tabletop-sized displaystand"
+clean,place_object_stand,100015,1,Use the right arm to place the bell with raised round top on the dark brown displaystand.
+clean,place_object_stand,100016,1,Grab the blue toycar using the left arm and place on the rectangular base displaystand.
+clean,place_phone_stand,100000,1,Set the handheld phone with silver frame on the dark green phonestand.
+clean,place_phone_stand,100001,1,Set the phone with rounded edges on the silver arm phonestand.
+clean,place_phone_stand,100002,1,Set the phone with rounded edges on the brown angled plastic phonestand.
+clean,place_phone_stand,100005,1,Set the modern phone on the angled brown phonestand.
+clean,place_phone_stand,100006,1,Set the phone with flat black screen on the dark green phonestand.
+clean,place_phone_stand,100008,1,Set the phone with shiny black back on the adjustable phone holder.
+clean,place_phone_stand,100010,1,Set the phone with shiny black back on the brown angled plastic phonestand.
+clean,place_phone_stand,100012,1,Set the phone with shiny black back on the angled brown phonestand.
+clean,place_phone_stand,100014,1,Set the rectangular silver phone with rounded edges on the L-shaped smooth brown phonestand.
+clean,place_phone_stand,100015,1,Set the rectangular phone with curved edges on the dark green phonestand.
+clean,place_phone_stand,100016,1,Set the white-sided phone on the angled brown phonestand.
+clean,place_phone_stand,100017,0,Set the phone with shiny black back on the dark green phonestand.
+clean,place_phone_stand,100018,1,Set the rectangular silver phone with rounded edges on the angled brown phonestand.
+clean,place_phone_stand,100019,1,Set the rectangular silver phone with rounded edges on the dark green phonestand.
+clean,place_phone_stand,100020,0,Set the modern phone on the L-shaped smooth brown phonestand.
+clean,place_phone_stand,100021,1,Set the handheld phone with silver frame on the brown angled plastic phonestand.
+clean,place_shoe,100000,1,Use the right arm to lift the brown footwear with smooth texture and drop it on the mat
+clean,place_shoe,100001,0,Pick up the brown footwear with smooth texture from the table and set it on the mat
+clean,place_shoe,100002,0,Pick up the shoe model with ribbed sole from the table and set it down on the mat
+clean,place_shoe,100003,1,Pick up the the brown footwear with smooth texture from the table and place it on the mat
+clean,place_shoe,100004,1,Grab the the brown footwear with smooth texture from the table and set it on the mat
+clean,place_shoe,100005,1,Use the left arm to lift the red shoe and drop it on the mat
+clean,place_shoe,100006,1,Grab the smooth white shoe with laces from the table and place it on the mat
+clean,place_shoe,100007,1,Pick up the shoe with ribbed sole from the table and set it on the mat
+clean,place_shoe,100008,0,Grab the black shoe with white midsole from the table and place it on the mat
+clean,place_shoe,100009,1,Pick up the white leather shoe with gum sole from the table and set it down on the mat
+clean,place_shoe,100010,0,Grab the shoe with adjustable laces from the table and place it on the mat
+clean,place_shoe,100011,1,Grab the the shoe with ribbed sole from the table and set it on the mat
+clean,place_shoe,100012,1,Use the right arm to lift the walking shoe with grip sole and drop it on the mat
+clean,place_shoe,100013,0,Pick up the synthetic shoe upper from the table and set it down on the mat
+clean,place_shoe,100014,0,Grab the synthetic shoe upper from the table and place it on the mat
+clean,place_shoe,100015,1,Grab the the smooth white shoe with laces from the table and set it on the mat
+clean,press_stapler,100000,1,Use the left arm to press down on the rectangular stapler with curved corners.
+clean,press_stapler,100002,1,Use the left arm to press on the red stapler with silver chamber
+clean,press_stapler,100003,1,Push the blue stapler with smooth finish down with one arm the right arm.
+clean,press_stapler,100004,1,Use the left arm to press down on the red plastic stapler.
+clean,press_stapler,100005,1,Use the right arm to press the stapler the paper stapler with curved handle.
+clean,press_stapler,100006,1,Press down on the metal and plastic stapler with the right arm
+clean,press_stapler,100007,1,Press the stapler the rectangular stapler with curved corners with the arm the left arm.
+clean,press_stapler,100009,1,Press the stapler the small hand-sized stapler with the arm the right arm.
+clean,press_stapler,100010,1,Press the hand-size bright blue stapler firmly using your arm.
+clean,press_stapler,100011,1,Use the right arm to press on the shiny red plastic stapler
+clean,press_stapler,100012,1,Press down on the rectangular stapler with curved corners with the right arm
+clean,press_stapler,100013,1,Press the plastic stapler firmly using your arm.
+clean,press_stapler,100014,1,Use the right arm to press down on the blue and white stapler.
+clean,press_stapler,100015,1,Press down on the stapler with white loading section with the right arm.
+clean,press_stapler,100016,1,Press down on the red plastic stapler with the left arm
+clean,press_stapler,100017,1,Push the white stapler with metal tray down with one arm the right arm.
+clean,put_bottles_dustbin,100002,1,"Use arms to grab the plastic bottle with two distinct parts, the bottle with blue highlights, and the plastic bottle with ridges near bottom and drop them into the smooth surface dustbin."
+clean,put_bottles_dustbin,100004,1,"Use arms to grab the plastic bottle with two distinct parts, the bottle with ridges, and the medium black bottle, placing each into the smooth surface dustbin."
+clean,put_bottles_dustbin,100005,0,"Grab the plastic bottle with two distinct parts and place it in the curved rectangular trash can, then do the same for the bottle with blue highlights and the plastic bottle with ridges near bottom."
+clean,put_bottles_dustbin,100006,0,"Move the plastic bottle with two distinct parts, the plastic bottle, and the medium black bottle into the smooth surface dustbin on the left of the table."
+clean,put_bottles_dustbin,100007,1,"Pick the yellow plastic bottle, drop it into the simple black garbage bin, repeat for the bottle with ridges and the plastic bottle with ridges near bottom."
+clean,put_bottles_dustbin,100008,1,"Use arms to grab the yellow bottle with elongated cylinder body, the bottle with ridges, and the bottle with red screw cap, placing each into the smooth surface dustbin."
+clean,put_bottles_dustbin,100010,0,"Pick up the yellow plastic bottle, the bottle with ridges, and the bottle with red screw cap one by one and drop them into the curved rectangular trash can."
+clean,put_bottles_dustbin,100013,1,"Grab the yellow plastic bottle and place it in the smooth surface dustbin, then do the same for the bottle with ridges and the plastic bottle with ridges near bottom."
+clean,put_bottles_dustbin,100015,1,"Pick up the yellow plastic bottle, drop it into the simple black garbage bin, then repeat for the bottle with ridges and the medium black bottle."
+clean,put_bottles_dustbin,100016,0,"Pick up the yellow bottle with elongated cylinder body and drop it into the curved rectangular trash can, do the same for the plastic bottle and the medium black bottle."
+clean,put_bottles_dustbin,100017,1,"Move the yellow plastic bottle, the bottle with ridges, and the plastic bottle with ridges near bottom into the curved rectangular trash can on the left of the table."
+clean,put_bottles_dustbin,100019,0,"Take each bottle the yellow bottle with elongated cylinder body, the bottle with ridges, the bottle with red screw cap one by one and place them in the curved rectangular trash can."
+clean,put_bottles_dustbin,100020,1,"Pick up the yellow plastic bottle, the plastic bottle, and the medium black bottle one by one and drop them into the curved rectangular trash can."
+clean,put_bottles_dustbin,100024,1,"Grab the plastic bottle with two distinct parts and place it in the smooth surface dustbin, then do the same for the bottle with blue highlights and the plastic bottle with ridges near bottom."
+clean,put_bottles_dustbin,100027,1,Pick up the yellow plastic bottle and toss it into the simple black garbage bin; repeat for the bottle with ridges and the bottle with red screw cap.
+clean,put_bottles_dustbin,100029,0,"Move the plastic bottle with two distinct parts, the bottle with ridges, and the medium black bottle into the curved rectangular trash can on the left of the table."
+clean,put_object_cabinet,100026,1,Pull out the drawer of the slanted wooden cabinet and set the hand-sized rubikscube with colored squares into it.
+clean,put_object_cabinet,100027,1,Pull out the drawer of the cabinet with smooth finish and set the rounded loaf bread into it.
+clean,put_object_cabinet,100030,1,Open the slanted wooden cabinet's drawer and set the flat-bottomed mouse inside with the other arm.
+clean,put_object_cabinet,100044,0,Open the slanted wooden cabinet's drawer and set the rectangular playingcards case with patterns inside with the other arm.
+clean,put_object_cabinet,100045,1,Pull out the drawer of the slanted wooden cabinet and set the white-sided phone into it.
+clean,put_object_cabinet,100053,1,Pull out the drawer of the slanted wooden cabinet and set the compact toycar with rotating wheels into it.
+clean,put_object_cabinet,100058,1,Pull out the drawer of the slanted wooden cabinet and set the compact stapler into it.
+clean,put_object_cabinet,100061,1,Pull out the drawer of the cabinet with light wood panels and set the toycar with rounded body into it.
+clean,put_object_cabinet,100069,1,Pull out the drawer of the cabinet with smooth finish and set the hand-sized black-gray mouse into it.
+clean,put_object_cabinet,100076,1,Open the slanted wooden cabinet's drawer and set the white stapler inside with the other arm.
+clean,put_object_cabinet,100079,1,Pull out the drawer of the cabinet with light wood panels and set the red tea-box into it.
+clean,put_object_cabinet,100082,0,Pull out the drawer of the slanted wooden cabinet and set the rectangular phone into it.
+clean,put_object_cabinet,100084,1,Open the cabinet with smooth finish's drawer and set the handheld rubikscube inside with the other arm.
+clean,put_object_cabinet,100094,1,Pull out the drawer of the slanted wooden cabinet and set the handheld phone with silver frame into it.
+clean,put_object_cabinet,100111,1,Open the cabinet with smooth finish's drawer and set the toycar with rounded edges inside with the other arm.
+clean,put_object_cabinet,100113,1,Pull out the drawer of the cabinet with light wood panels and set the plastic teal car with wheels into it.
+clean,rotate_qrcode,100000,1,Pick up the black triangular stand and rotate it facing you.
+clean,rotate_qrcode,100001,1,"Grab the sign for payment processing, lift it, and rotate to see the qrcode."
+clean,rotate_qrcode,100002,1,Pick the paymentsign with QR code off the table using the left arm and rotate it.
+clean,rotate_qrcode,100003,1,"Grab the black stand with angled display, lift it, and rotate to see the qrcode."
+clean,rotate_qrcode,100004,1,Pick up the paymentsign with QR code and rotate it to face its QR code toward you.
+clean,rotate_qrcode,100005,1,Pick up the tabletop paymentsign and rotate it to face its QR code toward you.
+clean,rotate_qrcode,100006,1,Catch the QR code paymentsign from the table and rotate it
+clean,rotate_qrcode,100008,1,Catch the paymentsign with smooth base stand on the table and pick it up.
+clean,rotate_qrcode,100009,1,Catch the tabletop paymentsign from the table and rotate it
+clean,rotate_qrcode,100010,1,Pick the black stand with angled display off the table using the right arm and rotate it.
+clean,rotate_qrcode,100011,1,Pick up the paymentsign with angled support bars and rotate it facing you.
+clean,rotate_qrcode,100012,0,"Grab the black triangular stand, lift it, and turn it to face you"
+clean,rotate_qrcode,100013,0,Pick up the black triangular stand and rotate it facing you.
+clean,rotate_qrcode,100014,1,"Grab the paymentsign with QR code, lift it, and turn it to face you"
+clean,rotate_qrcode,100015,0,Catch the black stand with angled display from the table and make it face you.
+clean,rotate_qrcode,100016,1,Catch the paymentsign with angled stand from the table and rotate it
+clean,scan_object,100002,1,"Pick up the trigger scanner, then pick the small tea-box, and scan the small tea-box using the trigger scanner."
+clean,scan_object,100006,1,"Pick up the barcode scanner, hold the small tea-box, and scan it with the barcode scanner"
+clean,scan_object,100011,0,"Grab the light gray scanner with smooth finish in one hand and the red tea-box with golden designs in the other, then scan the red tea-box with golden designs with the light gray scanner with smooth finish."
+clean,scan_object,100014,0,"Grab the plastic yellow gun-shaped scanner, take the rectangular green box for tea, and scan the rectangular green box for tea using the plastic yellow gun-shaped scanner."
+clean,scan_object,100017,1,"Grab the scanner with black tip with one arm, take the glossy tea-box with the other, then scan the glossy tea-box using the scanner with black tip"
+clean,scan_object,100019,1,"Pick the handheld scanner with blue activation trigger, grab the box with green leafy patterns, and scan it with the handheld scanner with blue activation trigger."
+clean,scan_object,100029,1,"Pick up the scanner with wide top section, hold the small tea box, and scan it with the scanner with wide top section"
+clean,scan_object,100037,1,"Pick the handheld scanner, grab the tea-box with smooth glossy finish, and scan the tea-box with smooth glossy finish with the handheld scanner."
+clean,scan_object,100038,1,"Pick the small scanner fits in hand, grab the tea-box with smooth glossy finish, and scan the tea-box with smooth glossy finish with the small scanner fits in hand."
+clean,scan_object,100040,1,"Pick up the plastic yellow gun-shaped scanner, then pick the tea-box with smooth glossy finish, and scan the tea-box with smooth glossy finish using the plastic yellow gun-shaped scanner."
+clean,scan_object,100042,1,"Take the compact barcode scanner, pick the box with green leafy patterns, and use the scanner to perform the scan."
+clean,scan_object,100043,1,"Grab the small scanner fits in hand, take the tea-box with smooth glossy finish, and scan the tea-box with smooth glossy finish using the small scanner fits in hand."
+clean,scan_object,100044,1,"Pick the handheld scanner, grab the compact tea box, and scan it with the handheld scanner."
+clean,scan_object,100046,1,"Pick up the barcode scanner, then pick the red tea-box with golden designs, and scan the red tea-box with golden designs using the barcode scanner."
+clean,scan_object,100049,1,"Pick up the scanner for barcode scanning, then pick the red tea-box with golden designs, and scan the red tea-box with golden designs using the scanner for barcode scanning."
+clean,scan_object,100052,0,"Take the compact barcode scanner, pick the small tea-box, and use the scanner to perform the scan."
+clean,shake_bottle,100000,1,Grab the medium bottle and give it a shake.
+clean,shake_bottle,100001,1,Grab the bottle with ridged neck and give it a shake.
+clean,shake_bottle,100003,1,Pick up the bottle with Starbucks logo on label and shake it.
+clean,shake_bottle,100004,1,Use the left arm to grab the blue-capped plastic bottle and shake.
+clean,shake_bottle,100005,1,Use the left arm to pick the curvy yellow plastic bottle.
+clean,shake_bottle,100006,1,Pick and shake the the bottle with coffee-colored body with the right arm.
+clean,shake_bottle,100009,1,Pick and shake the the lightweight plastic brown bottle with the left arm.
+clean,shake_bottle,100013,1,Pick up the light gray bottle and shake it.
+clean,shake_bottle,100015,1,Grab the medium-sized plastic bottle with capped top and give it a shake.
+clean,shake_bottle,100018,1,Grab the bottle with curved neck design and shake it.
+clean,shake_bottle,100020,1,Use the left arm to pick the bottle with glossy surface.
+clean,shake_bottle,100021,1,Pick up the bottle with green label and white lid and shake it.
+clean,shake_bottle,100023,1,Pick up the lightweight plastic brown bottle with the right arm and shake.
+clean,shake_bottle,100025,1,Grab the brown cylindrical bottle with label and shake it.
+clean,shake_bottle,100027,1,Pick and shake the the liquid container dark brown plastic with the left arm.
+clean,shake_bottle,100028,1,Grab the yellow rectangular bottle and give it a shake.
+clean,shake_bottle_horizontally,100000,1,Shake the bottle with rounded edges side-to-side after picking it up.
+clean,shake_bottle_horizontally,100001,1,Use the left arm to pick the bottle with curved neck design and shake it.
+clean,shake_bottle_horizontally,100003,1,Use the right arm to hold the plastic Starbucks bottle and shake sideways.
+clean,shake_bottle_horizontally,100004,1,Shake the bottle with ridged neck side-to-side after picking it up.
+clean,shake_bottle_horizontally,100005,1,Use the left arm to pick the curvy yellow plastic bottle and shake it.
+clean,shake_bottle_horizontally,100006,1,Grab the bottle with Starbucks logo on label and shake it horizontally.
+clean,shake_bottle_horizontally,100009,1,Grab the brown cylindrical bottle with label and shake it horizontally.
+clean,shake_bottle_horizontally,100013,1,"Grab the light gray bottle, shake it horizontally."
+clean,shake_bottle_horizontally,100015,1,Use the right arm to pick the liquid container dark brown plastic and shake it.
+clean,shake_bottle_horizontally,100018,1,"Grab the bottle with ridged neck, shake it horizontally."
+clean,shake_bottle_horizontally,100020,1,Grab the bottle with glossy surface with the left arm and shake horizontally.
+clean,shake_bottle_horizontally,100021,1,"Grab the medium-sized plastic bottle with capped top, shake it horizontally."
+clean,shake_bottle_horizontally,100023,1,Use the right arm to pick the brown cylindrical bottle with label and shake it.
+clean,shake_bottle_horizontally,100025,1,Shake the brown bottle horizontally after grabbing.
+clean,shake_bottle_horizontally,100027,1,Use the left arm to pick the liquid container dark brown plastic and shake it.
+clean,shake_bottle_horizontally,100028,1,Use the left arm to pick the yellow rectangular bottle and shake it.
+clean,stack_blocks_three,100000,1,"Bring red block, green block, and blue block to the center, stacking blue block on green block and green block on red block."
+clean,stack_blocks_three,100001,1,"Place red block, green block, and blue block at the table's center, then stack blue block on green block and green block on red block."
+clean,stack_blocks_three,100002,0,"Move red block, green block, and blue block to the center of the table, then stack blue block on green block and green block on red block."
+clean,stack_blocks_three,100003,1,"Move red block, green block, and blue block to the center, then stack green block over red block and blue block over green block."
+clean,stack_blocks_three,100004,1,"Move red block, green block, and blue block to the center, then stack blue block on green block, and green block on red block."
+clean,stack_blocks_three,100005,1,"Bring red block, green block, and blue block to the table's center. Stack green block on red block and blue block on green block."
+clean,stack_blocks_three,100006,1,"Move red block, green block, and blue block to the center, then stack blue block on green block, and green block on red block."
+clean,stack_blocks_three,100008,0,"Place red block, green block, and blue block at the table's center, then stack blue block on green block and green block on red block."
+clean,stack_blocks_three,100009,0,"Bring red block, green block, and blue block to the center, stacking blue block on green block and green block on red block."
+clean,stack_blocks_three,100010,0,"Bring red block, green block, and blue block to the center, stacking blue block on green block and green block on red block."
+clean,stack_blocks_three,100011,1,"Move red block, green block, and blue block to the center, then stack green block over red block and blue block over green block."
+clean,stack_blocks_three,100012,0,"Bring red block, green block, and blue block to the center, stacking blue block on green block and green block on red block."
+clean,stack_blocks_three,100014,1,"Bring red block, green block, blue block to the table's center and stack them: blue block on green block, green block on red block."
+clean,stack_blocks_three,100015,0,"Transfer red block, green block, and blue block to the middle, then stack blue block over green block and green block over red block."
+clean,stack_blocks_three,100016,1,"Place red block, green block, and blue block at the table's center, then stack blue block on green block and green block on red block."
+clean,stack_blocks_three,100017,0,"Move red block, green block, and blue block to the center of the table, then stack blue block on green block and green block on red block."
+clean,stack_blocks_two,100000,1,"Move red block to the center, then put green block on top."
+clean,stack_blocks_two,100001,1,"Grab red block, place it at the center, then stack green block on red block."
+clean,stack_blocks_two,100002,0,"Place red block in the center, then stack green block on it."
+clean,stack_blocks_two,100003,1,Move red block and green block to the center and place green block atop red block.
+clean,stack_blocks_two,100004,1,"Grab red block, place it at the center, then stack green block on red block."
+clean,stack_blocks_two,100005,1,"Bring red block and green block to the center, then position green block above red block."
+clean,stack_blocks_two,100006,1,"Move red block and green block to the center, then stack green block on red block."
+clean,stack_blocks_two,100007,1,"Move red block and green block to the table's center, then stack green block on red block."
+clean,stack_blocks_two,100008,1,"Move red block and green block to the center, then stack green block on red block."
+clean,stack_blocks_two,100009,1,"Place red block in the middle, then stack green block on it."
+clean,stack_blocks_two,100010,1,"Place red block in the center, then stack green block on it."
+clean,stack_blocks_two,100011,1,"Bring red block and green block to the center, then position green block above red block."
+clean,stack_blocks_two,100012,0,"Place red block in the center, then stack green block on it."
+clean,stack_blocks_two,100013,1,"Place red block in the center, then stack green block on it."
+clean,stack_blocks_two,100014,1,"Grab red block, place it at the center, then stack green block on red block."
+clean,stack_blocks_two,100015,1,"Move red block to the center, then put green block on top."
+clean,stack_bowls_three,100000,1,Stack the smooth bowl with glossy finish by placing smallest on top.
+clean,stack_bowls_three,100001,1,Pick up the first the small smooth brown-rimmed bowl and layer the rest above it.
+clean,stack_bowls_three,100002,1,Grab the first the small smooth brown-rimmed bowl and stack the others on top.
+clean,stack_bowls_three,100004,1,Stack the three the smooth bowl with glossy finish one above the other.
+clean,stack_bowls_three,100006,1,"Stack the first the small smooth brown-rimmed bowl, then the second, then the third."
+clean,stack_bowls_three,100008,1,Stack the three the small smooth brown-rimmed bowl one above the other.
+clean,stack_bowls_three,100009,1,Pick up the first the smooth bowl with glossy finish and layer the rest above it.
+clean,stack_bowls_three,100015,1,Stack the smooth bowl with glossy finish by placing smallest on top.
+clean,stack_bowls_three,100016,1,"Put the small smooth brown-rimmed bowl in a pile, largest to smallest."
+clean,stack_bowls_three,100017,1,"Stack the first the smooth bowl with glossy finish, then the second, then the third."
+clean,stack_bowls_three,100020,0,"Grab the small smooth brown-rimmed bowl, stack them one by one."
+clean,stack_bowls_three,100022,1,Stack the smooth bowl with glossy finish by placing smallest on top.
+clean,stack_bowls_three,100023,1,"Stack the first the smooth bowl with glossy finish, then the second, then the third."
+clean,stack_bowls_three,100024,1,"Grab the small smooth brown-rimmed bowl, stack them one by one."
+clean,stack_bowls_three,100025,1,Stack the small smooth brown-rimmed bowl by placing smallest on top.
+clean,stack_bowls_three,100026,1,Pick up the first the light blue bowl with darkened rim and layer the rest above it.
+clean,stack_bowls_two,100000,1,Pick up the smooth bowl with glossy finish and stack the small smooth brown-rimmed bowl above.
+clean,stack_bowls_two,100001,1,Stack the light blue bowl with darkened rim directly over the smooth bowl with glossy finish.
+clean,stack_bowls_two,100002,1,Place the smooth bowl with glossy finish onto the small smooth brown-rimmed bowl to form a stack.
+clean,stack_bowls_two,100003,1,Pick up the light blue bowl with darkened rim and stack the small smooth brown-rimmed bowl above.
+clean,stack_bowls_two,100004,1,"Take the light blue bowl with darkened rim, set it down, and stack the light blue bowl with darkened rim on top."
+clean,stack_bowls_two,100006,1,Stack the light blue bowl with darkened rim on top of the smooth bowl with glossy finish.
+clean,stack_bowls_two,100008,1,"Place the smooth bowl with glossy finish down, then put the light blue bowl with darkened rim on top."
+clean,stack_bowls_two,100009,1,"Place the small smooth brown-rimmed bowl down, then put the light blue bowl with darkened rim on top."
+clean,stack_bowls_two,100011,1,Stack the smooth bowl with glossy finish directly over the small smooth brown-rimmed bowl.
+clean,stack_bowls_two,100014,1,"Grab the light blue bowl with darkened rim, then set the small smooth brown-rimmed bowl on top."
+clean,stack_bowls_two,100015,1,Place the light blue bowl with darkened rim onto the light blue bowl with darkened rim to form a stack.
+clean,stack_bowls_two,100016,1,Stack the smooth bowl with glossy finish on top of the smooth bowl with glossy finish.
+clean,stack_bowls_two,100017,1,Pick up the light blue bowl with darkened rim and stack the light blue bowl with darkened rim above.
+clean,stack_bowls_two,100020,1,Place the small smooth brown-rimmed bowl onto the light blue bowl with darkened rim to form a stack.
+clean,stack_bowls_two,100021,1,Pick up the small smooth brown-rimmed bowl and stack the light blue bowl with darkened rim above.
+clean,stack_bowls_two,100022,1,"Place the light blue bowl with darkened rim down, then put the smooth bowl with glossy finish on top."
+clean,stamp_seal,100000,1,Stamp Brown using the brown seal with leaf carvings
+clean,stamp_seal,100001,1,Grab the stamp with beige handle and stamp Navy
+clean,stamp_seal,100004,0,Pick the small rectangular seal for stamping and stamp Navy
+clean,stamp_seal,100006,1,Pick the round base seal and stamp Beige
+clean,stamp_seal,100007,0,Pick the solid brown seal and stamp on Beige
+clean,stamp_seal,100008,0,Pick the red seal on rectangular base and stamp Coral
+clean,stamp_seal,100009,1,Stamp Teal using the smooth stone seal with writing
+clean,stamp_seal,100010,1,"Grab the small slanted-edged brown seal, press onto Coral"
+clean,stamp_seal,100011,1,Grab the round base seal using the right arm and stamp Turquoise
+clean,stamp_seal,100013,1,Grab the solid brown seal and stamp Silver
+clean,stamp_seal,100015,1,Pick the solid brown seal and press on Indigo.
+clean,stamp_seal,100016,1,"Grab the solid brown seal, press onto Silver"
+clean,stamp_seal,100017,1,Pick the seal with black base and press on Pink.
+clean,stamp_seal,100018,1,Pick the small carved seal to stamp Magenta
+clean,stamp_seal,100020,0,Grab the small slanted-edged brown seal and stamp Blue
+clean,stamp_seal,100024,1,Pick the solid brown seal to stamp Cyan
+clean,turn_switch,100000,0,Press the lightweight plastic switch angled edges using the left arm
+clean,turn_switch,100001,1,Move and click the the small beige switch with angular sides
+clean,turn_switch,100002,1,Move and click the the lightweight plastic switch angled edges
+clean,turn_switch,100004,1,Move and click the the smooth black switch
+clean,turn_switch,100005,0,Move and click the the smooth gray base switch
+clean,turn_switch,100006,1,Move and click the the gray switch medium size
+clean,turn_switch,100007,1,Direct the right arm to click the beige switch with darker brown top
+clean,turn_switch,100008,1,Click the red ON OFF labeled toggle switch with the left arm
+clean,turn_switch,100009,1,Click the lightweight plastic switch angled edges with the left arm.
+clean,turn_switch,100010,1,Click the gray switch medium size with the left arm
+clean,turn_switch,100013,1,Click the flat gray switch with the right arm
+clean,turn_switch,100014,1,Click the red ON OFF labeled toggle switch with the right arm.
+clean,turn_switch,100015,1,Use the right arm to press the gray switch.
+clean,turn_switch,100016,1,Click the smooth black switch with the left arm
+clean,turn_switch,100020,1,Click the flat square gray switch using the right arm
+clean,turn_switch,100022,1,Click the red ON OFF labeled toggle switch with the left arm
+randomized,adjust_bottle,100000,1,Pick up the plastic soda bottle carefully using the left arm
+randomized,adjust_bottle,100002,1,Grab the green bottle on the table and raise it.
+randomized,adjust_bottle,100003,1,Grab the green bottle from the table with the left arm
+randomized,adjust_bottle,100004,1,Pick up the green plastic bottle with ridged bottom carefully using the right arm
+randomized,adjust_bottle,100005,1,Pick up the plastic soda bottle from the table head-up.
+randomized,adjust_bottle,100006,1,Pick up the bottle with red screw cap from the table head-up.
+randomized,adjust_bottle,100007,1,Grab the green bottle with white label on the table and raise it.
+randomized,adjust_bottle,100008,1,Pick up the bottle with red screw cap using the correct arm
+randomized,adjust_bottle,100010,1,Grab the green bottle with white label on the table and raise it.
+randomized,adjust_bottle,100012,1,Pick up the bottle with red screw cap from the table head-up.
+randomized,adjust_bottle,100013,1,Use the left arm to grab the green bottle with white label upright
+randomized,adjust_bottle,100015,1,Pick up the green plastic bottle with ridged bottom using the left arm in an upright position
+randomized,adjust_bottle,100016,1,Use the right arm to grab the bottle with red screw cap upright
+randomized,adjust_bottle,100017,1,Use the left arm to grab the plastic soda bottle head-up.
+randomized,adjust_bottle,100018,1,Grab the green bottle with white label from the table with the right arm
+randomized,adjust_bottle,100020,1,Pick up the plastic soda bottle using the left arm in an upright position
+randomized,beat_block_hammer,100000,1,"Use the left arm to grab the hammer with claw and smooth head, beat the block."
+randomized,beat_block_hammer,100001,1,Use the left arm to pick up the hammer with claw and smooth head.
+randomized,beat_block_hammer,100002,0,Grab the hammer with claw and smooth head and hit the block.
+randomized,beat_block_hammer,100003,0,"Use the right arm to grab the hammer with black handle, beat the block."
+randomized,beat_block_hammer,100004,1,Grab the hammer with claw and smooth head and beat the block
+randomized,beat_block_hammer,100005,1,Grab the silver hammer head and claw and hit the block
+randomized,beat_block_hammer,100006,1,Grab the silver hammer head and claw and hit the block
+randomized,beat_block_hammer,100007,0,Use the left arm to grab the hammer with black handle then beat block
+randomized,beat_block_hammer,100011,1,Use the left arm to pick up the silver hammer head and claw.
+randomized,beat_block_hammer,100012,1,"Use the left arm to grab the hammer with claw and smooth head, beat the block."
+randomized,beat_block_hammer,100013,1,Pick the silver hammer head and claw up and hit the block
+randomized,beat_block_hammer,100015,1,Use the left arm to pick up the hammer with black handle.
+randomized,beat_block_hammer,100020,0,Use the right arm to grab the hammer with claw and smooth head then beat block
+randomized,beat_block_hammer,100021,0,Grab the hammer with claw and smooth head and hit the block
+randomized,beat_block_hammer,100023,0,Pick the hammer with black handle up and hit the block
+randomized,beat_block_hammer,100024,1,Grab the hammer with black handle and beat the block
+randomized,blocks_ranking_rgb,100000,1,"Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right."
+randomized,blocks_ranking_rgb,100001,1,"Arrange red block, green block, and blue block side by side, starting with red block on the left."
+randomized,blocks_ranking_rgb,100002,1,"Use the right arm to arrange red block first, then use the left arm for green block, and finally use the right arm for blue block in a row."
+randomized,blocks_ranking_rgb,100003,1,"Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right."
+randomized,blocks_ranking_rgb,100004,1,"Place red block on the left, then set green block to its right and blue block next to green block."
+randomized,blocks_ranking_rgb,100005,1,"Use the left arm to arrange red block first, then use the left arm for green block, and finally use the right arm for blue block in a row."
+randomized,blocks_ranking_rgb,100006,1,"Set red block, green block, and blue block in a row from left to right in the order red, green, blue."
+randomized,blocks_ranking_rgb,100007,0,"Set red block on the left, then green block in the center, and finally blue block on the right."
+randomized,blocks_ranking_rgb,100008,1,"Arrange red block, green block, and blue block from left to right in a row."
+randomized,blocks_ranking_rgb,100009,1,"Use the left arm to arrange red block first, then use the right arm for green block, and finally use the left arm for blue block in a row."
+randomized,blocks_ranking_rgb,100011,1,"Place red block, green block, and blue block sequentially in a row, starting with red block."
+randomized,blocks_ranking_rgb,100012,1,"Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right."
+randomized,blocks_ranking_rgb,100013,1,"Arrange red block, green block, and blue block side by side, starting with red block on the left."
+randomized,blocks_ranking_rgb,100014,1,"Set red block on the left, then green block in the center, and finally blue block on the right."
+randomized,blocks_ranking_rgb,100015,1,"Set red block on the left, then green block in the center, and finally blue block on the right."
+randomized,blocks_ranking_rgb,100016,1,"Set red block, green block, and blue block in a row from left to right in the order red, green, blue."
+randomized,blocks_ranking_size,100000,1,"Place large block, medium block, and small block at the table center."
+randomized,blocks_ranking_size,100001,1,"Take large block, medium block, and small block to the table center."
+randomized,blocks_ranking_size,100002,1,"Place large block, medium block, and small block at the table center, largest to smallest."
+randomized,blocks_ranking_size,100003,1,"Move large block, medium block, and small block to the center, arrange left to right."
+randomized,blocks_ranking_size,100004,1,"Place large block, medium block, and small block in order at the table's center."
+randomized,blocks_ranking_size,100005,0,"Move large block, medium block, and small block to the center, ordering largest to smallest."
+randomized,blocks_ranking_size,100006,0,"Arrange large block, medium block, and small block from largest to smallest."
+randomized,blocks_ranking_size,100007,1,"Move large block, medium block, and small block to the center, ordering largest to smallest."
+randomized,blocks_ranking_size,100009,1,"Place large block, medium block, and small block at the table center."
+randomized,blocks_ranking_size,100010,0,"Place large block, medium block, and small block in order at the table's center."
+randomized,blocks_ranking_size,100011,1,"Place large block, medium block, and small block in order at the center."
+randomized,blocks_ranking_size,100012,1,"Move large block, medium block, and small block to the center, arrange left to right."
+randomized,blocks_ranking_size,100013,1,"Place large block, medium block, and small block at the table center, largest to smallest."
+randomized,blocks_ranking_size,100014,1,"Move large block, medium block, and small block to the center table."
+randomized,blocks_ranking_size,100016,0,"Move large block, medium block, and small block to the center, arrange left to right."
+randomized,blocks_ranking_size,100017,1,"Move large block, medium block, and small block to the table center."
+randomized,click_alarmclock,100000,1,Click the central top button on the alarm-clock with beige screen.
+randomized,click_alarmclock,100001,0,Use the left arm to click the compact alarm clock's top center button.
+randomized,click_alarmclock,100003,1,Press the blue alarm clock's center top button
+randomized,click_alarmclock,100004,1,Press the top center of the compact alarm clock.
+randomized,click_alarmclock,100005,1,Press the alarm-clock for bedside table's center top button
+randomized,click_alarmclock,100006,1,Click the center top button of the blue alarm clock
+randomized,click_alarmclock,100007,0,Click the top button of the alarm-clock with large numbers
+randomized,click_alarmclock,100009,0,Use the left arm to click the alarm-clock with large numbers's top center button.
+randomized,click_alarmclock,100011,0,Click the center top button of the alarm-clock with large numbers
+randomized,click_alarmclock,100012,1,Use the left arm to click the compact alarm clock's top center button.
+randomized,click_alarmclock,100013,1,Tap the center top button of the alarm clock with smooth finish
+randomized,click_alarmclock,100014,1,Click the top button of the alarm-clock for bedside table
+randomized,click_alarmclock,100015,1,Click the top button of the alarm-clock with large numbers
+randomized,click_alarmclock,100016,1,Press the top center of the alarm clock with smooth finish.
+randomized,click_alarmclock,100017,1,Click the central top button on the alarm clock with smooth finish.
+randomized,click_alarmclock,100018,1,Click the central top button on the alarm-clock with large numbers.
+randomized,click_bell,100000,1,Click the lightweight bell with smooth surface's top center on the table.
+randomized,click_bell,100001,1,Use the left arm to press the lightweight bell with smooth surface's top center.
+randomized,click_bell,100002,1,Use the right arm to press the medium-sized bell's top center.
+randomized,click_bell,100003,1,Click the top center of the lightweight bell with smooth surface.
+randomized,click_bell,100004,1,Click the bell with raised round top's top center on the table.
+randomized,click_bell,100005,1,Find the blue bell with glossy finish and click its top center.
+randomized,click_bell,100006,1,Direct the right arm to click the lightweight bell with smooth surface's top.
+randomized,click_bell,100007,1,Click the top center of the medium-sized bell.
+randomized,click_bell,100008,1,Find the lightweight bell with smooth surface and click its top center.
+randomized,click_bell,100009,1,Use the left arm to press the smooth metal bell's top center.
+randomized,click_bell,100010,1,Use the right arm to press the blue bell with glossy finish's top center.
+randomized,click_bell,100011,1,Use the left arm to press the blue bell with glossy finish's top center.
+randomized,click_bell,100012,1,Click the palm-sized bell's top center on the table.
+randomized,click_bell,100013,1,Click the smooth metal bell's top center on the table.
+randomized,click_bell,100014,1,Use the left arm to press the blue bell with glossy finish's top center.
+randomized,click_bell,100015,1,Use the left arm to press the medium-sized bell's top center.
+randomized,dump_bin_bigbin,100006,1,Grab the portable gray speckled tabletrashbin and pour into big bin
+randomized,dump_bin_bigbin,100007,1,Take the small bin for table waste and empty into big bin
+randomized,dump_bin_bigbin,100013,1,Lift the portable gray speckled tabletrashbin and transfer the contents.
+randomized,dump_bin_bigbin,100017,1,Pour the tabletrashbin for tabletop use into the big bin.
+randomized,dump_bin_bigbin,100019,1,Grab the compact tabletop trashbin and pour into big bin
+randomized,dump_bin_bigbin,100020,1,Pick up the small bin for table waste and pour it.
+randomized,dump_bin_bigbin,100021,1,Lift the compact tabletop trashbin and empty it.
+randomized,dump_bin_bigbin,100023,1,Lift the small bin for table waste and empty it.
+randomized,dump_bin_bigbin,100026,0,Take the smooth plastic tabletrashbin and empty into big bin
+randomized,dump_bin_bigbin,100027,1,Pour the smooth plastic tabletrashbin into the big bin.
+randomized,dump_bin_bigbin,100029,1,Lift the small bin for table waste and transfer the contents.
+randomized,dump_bin_bigbin,100033,1,Take the tabletrashbin for tabletop use and empty into big bin
+randomized,dump_bin_bigbin,100038,1,Pour the compact tabletop trashbin into the big bin.
+randomized,dump_bin_bigbin,100041,1,Pour the compact tabletop trashbin into the big bin.
+randomized,dump_bin_bigbin,100042,1,Grab the lightweight round tabletop trashbin and pour balls.
+randomized,dump_bin_bigbin,100046,1,Take the small bin for table waste and empty into big bin
+randomized,grab_roller,100000,1,Reach and grab the smooth wooden roller with both arms
+randomized,grab_roller,100001,1,Use arms to grab the smooth wooden roller.
+randomized,grab_roller,100002,1,Use both arms to grab the roller with tapered tips.
+randomized,grab_roller,100004,1,Grab the light brown wooden roller on the table using arms
+randomized,grab_roller,100006,1,Grab the wooden roller with both arms.
+randomized,grab_roller,100007,1,Grab the light brown cylindrical roller on the table using arms
+randomized,grab_roller,100008,1,Hold the roller with tapered ends with both arms.
+randomized,grab_roller,100009,1,Use both arms to grab the roller with tapered tips.
+randomized,grab_roller,100011,1,Grab the light brown wooden roller on the table with arms.
+randomized,grab_roller,100012,1,Grab the wooden roller on the table with arms.
+randomized,grab_roller,100013,1,Grab the light brown cylindrical roller on the table using arms
+randomized,grab_roller,100015,1,Grab the light brown cylindrical roller on the table.
+randomized,grab_roller,100016,1,Reach and grab the wooden roller with both arms
+randomized,grab_roller,100017,1,Grab the smooth wooden roller with both arms.
+randomized,grab_roller,100018,1,Grab the wooden roller on the table using arms
+randomized,grab_roller,100019,1,Grab the roller with tapered ends on the table using arms
+randomized,handover_block,100001,1,"Pick up the red block with the left arm, transfer it to the right, and place it on the blue pad."
+randomized,handover_block,100002,1,Pass the red block to the right arm and set it down.
+randomized,handover_block,100003,1,"Use the left arm to grab the red block, transfer it to the right hand, and set it onto the blue pad."
+randomized,handover_block,100004,1,Grab the red block using the left arm.
+randomized,handover_block,100005,0,Grab the red block with the left arm.
+randomized,handover_block,100006,1,Pass the red block to the right arm and set it down.
+randomized,handover_block,100008,0,"Use the left arm to grab the red block, transfer it to the right hand, and set it onto the blue pad."
+randomized,handover_block,100009,0,Grab the red block using the left arm.
+randomized,handover_block,100010,1,Pass the red block to the right arm and set it down.
+randomized,handover_block,100013,1,"Pick up the red block with the left arm, transfer it to the right, and place it on the blue pad."
+randomized,handover_block,100014,1,Pass the red block to the right arm and set it down.
+randomized,handover_block,100015,1,Grab the red block with the left arm.
+randomized,handover_block,100018,1,Grab the red block using the left arm.
+randomized,handover_block,100019,1,"Use the left arm to grab the red block, transfer it to the right hand, and set it onto the blue pad."
+randomized,handover_block,100020,1,Pick up the red block and switch arms.
+randomized,handover_block,100021,1,"Pick up the red block with the left arm, transfer it to the right, and place it on the blue pad."
+randomized,handover_mic,100000,1,Pick up the lightweight handheld microphone and hand it over
+randomized,handover_mic,100002,1,Pick up the teal microphone with white bottom and hand it over
+randomized,handover_mic,100003,1,Take hold of the microphone used for audio input and hand it over.
+randomized,handover_mic,100004,1,Take hold of the microphone with cylindrical handle and hand it over.
+randomized,handover_mic,100005,1,Grab the lightweight handheld microphone from the table and pass it over.
+randomized,handover_mic,100006,1,Pick up the lightweight handheld microphone and hand it over
+randomized,handover_mic,100007,1,Grab the lightweight handheld microphone from the table and pass it over.
+randomized,handover_mic,100008,1,Use one arm to hold the handheld microphone and hand it over.
+randomized,handover_mic,100009,0,Grab the microphone used for audio input from the table and pass it over.
+randomized,handover_mic,100012,1,Pick up the compact microphone with two parts and transfer it to the other hand.
+randomized,handover_mic,100013,1,Grab the teal microphone with white bottom and pass it to the other arm.
+randomized,handover_mic,100014,1,Grab the switchable microphone with teal body from the table and pass it over.
+randomized,handover_mic,100015,0,Pick up the microphone used for audio input and hand it over
+randomized,handover_mic,100017,1,Take hold of the switchable microphone with teal body and hand it over.
+randomized,handover_mic,100018,1,Pick up the lightweight handheld microphone and transfer it to the other hand.
+randomized,handover_mic,100019,1,Grab the lightweight handheld microphone from the table and pass it across.
+randomized,hanging_mug,100000,1,"Pick up the beige mug, rotate it, place it on the table, and hang it on the rack with straight and slanted rods."
+randomized,hanging_mug,100002,0,"Pick up the cylindrical mug with handle, rotate it, place it on the table, and hang it on the medium-sized rack."
+randomized,hanging_mug,100003,0,"Grab the cylindrical mug with handle from the table, rotate it, and set it in the center. Then hang the cylindrical mug with handle on the dark gray rack with flat back."
+randomized,hanging_mug,100004,1,"Pick the lightweight mug for beverages from the table, rotate it, place it in the middle, and hang it onto the dark gray rack with flat back."
+randomized,hanging_mug,100005,1,"Grab the mug with rounded bottom and handle on the table, rotate it, set it down in the middle, then hang it onto the medium-sized rack."
+randomized,hanging_mug,100006,1,"Pick the ceramic mug with the left arm, rotate, place it, then hang it on the dark gray rack with flat back."
+randomized,hanging_mug,100008,0,"Grab the cylindrical drinking mug black color from the table, rotate it, and set it in the center. Then hang the cylindrical drinking mug black color on the rack with straight and slanted rods."
+randomized,hanging_mug,100009,0,"Pick the ceramic mug from the table, rotate it, place it in the middle, and hang it onto the rack with straight and slanted rods."
+randomized,hanging_mug,100010,1,"Grab the beige mug on the table, rotate it, set it down in the middle, then hang it onto the medium-sized rack."
+randomized,hanging_mug,100018,0,"Grab the cylindrical mug with handle from the table, rotate it, and set it in the center. Then hang the cylindrical mug with handle on the dark gray rack with flat back."
+randomized,hanging_mug,100024,1,"Grab the medium-sized white mug from the table, rotate it, and set it in the center. Then hang the medium-sized white mug on the medium-sized rack."
+randomized,hanging_mug,100025,1,"Pick the mug with rounded bottom and handle with the left arm, rotate, place it, then hang it on the medium-sized rack."
+randomized,hanging_mug,100026,1,"Lift the mug with rounded bottom and handle, rotate it, put it down, then attach it to the medium-sized rack."
+randomized,hanging_mug,100028,0,"Lift the matte black mug, rotate it, put it down, then attach it to the dark gray rack with flat back."
+randomized,hanging_mug,100030,1,"Grab the mug with white logo print from the table, rotate it, and set it in the center. Then hang the mug with white logo print on the rack with straight and slanted rods."
+randomized,hanging_mug,100031,1,"Grab the smooth ceramic mug from the table, rotate it, and set it in the center. Then hang the smooth ceramic mug on the medium-sized rack."
+randomized,lift_pot,100000,1,Hold the kitchenpot with two side handles firmly and lift it
+randomized,lift_pot,100001,1,Hold the gray kitchenpot with rounded edges firmly and lift it
+randomized,lift_pot,100002,1,Lift the kitchenpot with two side handles using both arms
+randomized,lift_pot,100007,1,Use both arms to lift the dark gray cooking kitchenpot
+randomized,lift_pot,100009,1,Lift the dark gray cooking kitchenpot upward using arms.
+randomized,lift_pot,100017,1,Use both arms to lift the gray kitchenpot with rounded edges
+randomized,lift_pot,100021,1,Together lift the dark gray cooking kitchenpot up
+randomized,lift_pot,100022,1,Use both arms to lift the dark gray cooking kitchenpot
+randomized,lift_pot,100023,1,Lift the gray kitchenpot with rounded edges with both arms
+randomized,lift_pot,100025,1,Use both arms for the dark gray cooking kitchenpot
+randomized,lift_pot,100027,1,Lift the dark gray cooking kitchenpot with both arms
+randomized,lift_pot,100029,1,Lift the gray kitchenpot with rounded edges upward using arms.
+randomized,lift_pot,100030,1,Together lift the dark gray cooking kitchenpot up
+randomized,lift_pot,100037,1,Lift the dark gray cooking kitchenpot using both arms
+randomized,lift_pot,100038,1,Together lift the dark gray cooking kitchenpot up
+randomized,lift_pot,100041,1,Together lift the dark gray cooking kitchenpot up
+randomized,move_can_pot,100000,1,Lift the sauce can with red lid and set it beside the medium kitchenpot
+randomized,move_can_pot,100001,1,Grab the sauce can with round ridged lid and place it beside the kitchenpot for cooking food
+randomized,move_can_pot,100002,0,Pick up the medium sauce can with white label and move it near the kitchenpot for cooking food
+randomized,move_can_pot,100003,1,Use the right arm to pick up the sauce can with red lid and move it beside the medium kitchenpot
+randomized,move_can_pot,100004,1,Grab the yellow label on sauce can and move it near the cylindrical kitchenpot for cooking
+randomized,move_can_pot,100005,1,Use the left arm to pick up the sauce can with red lid and move it beside the medium black kitchenpot with lid
+randomized,move_can_pot,100006,1,Grab the sauce can with round ridged lid and place it beside the kitchenpot with smooth matte body
+randomized,move_can_pot,100007,0,Grab the sauce can with smooth surface and move it near the kitchenpot for stovetop boiling
+randomized,move_can_pot,100008,1,Grab the medium sauce can with white label and place it beside the blue kitchenpot
+randomized,move_can_pot,100009,1,Pick up the yellow label on sauce can and move it near the rounded cooking pot with two handles
+randomized,move_can_pot,100010,1,Pick up the medium sauce can and set it beside the blue kitchenpot
+randomized,move_can_pot,100012,1,Grab the medium sauce can and move it near the shiny black kitchenpot
+randomized,move_can_pot,100015,1,Grab the red can with white text and place it beside the dark gray cooking kitchenpot
+randomized,move_can_pot,100016,1,Grab the hand-sized sauce can and set it beside the kitchenpot with smooth matte body
+randomized,move_can_pot,100017,1,"Use the right arm to pick up the smooth cylindrical sauce can, move it near the medium kitchenpot"
+randomized,move_can_pot,100018,1,Pick up the yellow label on sauce can and move it near the blue pot with cylindrical body and lid
+randomized,move_pillbottle_pad,100001,1,Pick the white cylindrical bottle and set it on the pad
+randomized,move_pillbottle_pad,100002,1,Pick the hand-sized orange capped bottle and set it on the pad
+randomized,move_pillbottle_pad,100003,1,Use the right arm to pick the plastic orange bottle with white lid and place it.
+randomized,move_pillbottle_pad,100004,1,Pick the bottle with smooth brown texture and set it on the pad
+randomized,move_pillbottle_pad,100006,1,Use the right arm to grab the orange bottle and place it
+randomized,move_pillbottle_pad,100007,0,Use the left arm to pick the plastic orange bottle with white lid and place it.
+randomized,move_pillbottle_pad,100010,1,Grab the hand-sized bottle with screw cap and set it on the pad
+randomized,move_pillbottle_pad,100011,1,Pick the hand-sized orange capped bottle and put it onto the pad
+randomized,move_pillbottle_pad,100013,1,Grab the hand-sized orange capped bottle and set it on the pad
+randomized,move_pillbottle_pad,100015,0,Use the left arm to grab the plastic orange bottle with white lid and place it
+randomized,move_pillbottle_pad,100017,0,Use the left arm to grab the rounded white bottle with teal base and place it
+randomized,move_pillbottle_pad,100019,1,Pick the orange capped bottle and set it on the pad
+randomized,move_pillbottle_pad,100021,1,Use the left arm to pick the hand-sized orange capped bottle and place it.
+randomized,move_pillbottle_pad,100022,1,Pick the white bottle with teal ends and set it on the pad
+randomized,move_pillbottle_pad,100025,1,Pick the hand-sized orange capped bottle and put it onto the pad
+randomized,move_pillbottle_pad,100027,0,Pick the bottle with white screw-on cap and set it onto the pad.
+randomized,move_playingcard_away,100000,1,Pick up the hard black box for card deck and move it outward.
+randomized,move_playingcard_away,100001,1,Pick up the small box for playingcards and move it outward.
+randomized,move_playingcard_away,100002,1,Grab the black box with smooth surface and move it outward.
+randomized,move_playingcard_away,100003,1,Lift the hard black box for card deck from the table and shift it.
+randomized,move_playingcard_away,100004,1,Pick up the rectangular red playingcards holder and move it outward.
+randomized,move_playingcard_away,100005,1,Pick up the gold text on playing cards box and move it outward.
+randomized,move_playingcard_away,100007,1,Pick up the small packet of playingcards and shift it outward.
+randomized,move_playingcard_away,100008,1,Pick up the gold text on playing cards box and move it outward.
+randomized,move_playingcard_away,100009,1,Use the left arm to grab the gold text on playing cards box and relocate it.
+randomized,move_playingcard_away,100010,1,Grab the playingcards with red packaging and move it off the table.
+randomized,move_playingcard_away,100011,1,Pick up the hard black box for card deck and shift it outward.
+randomized,move_playingcard_away,100012,1,Pick up the black box with smooth surface and move it outward.
+randomized,move_playingcard_away,100013,1,Grab the rectangular red playingcards holder and move it outward.
+randomized,move_playingcard_away,100014,1,Grab the gold text on playing cards box and move it off the table.
+randomized,move_playingcard_away,100016,0,Use the left arm to grab the black box with smooth surface and move it outward.
+randomized,move_playingcard_away,100017,1,Pick up the hard black box for card deck and move it outward.
+randomized,move_stapler_pad,100000,0,Place the blue stapler with smooth finish on the Yellow colored mat.
+randomized,move_stapler_pad,100001,0,Place the black stapler on the Green mat
+randomized,move_stapler_pad,100002,0,Move the compact stapler to the Green mat
+randomized,move_stapler_pad,100003,1,Move the white stapler with metal tray to the Yellow colored mat
+randomized,move_stapler_pad,100004,0,Use the right arm to move the stapler with silver metal top to the Gray mat
+randomized,move_stapler_pad,100005,1,Use the left arm to move the blue stapler for holding papers to Magenta mat
+randomized,move_stapler_pad,100006,0,Use the right arm to move the palm-sized black stapler to Green mat.
+randomized,move_stapler_pad,100007,0,Move the paper stapler with curved handle to the Green colored mat
+randomized,move_stapler_pad,100008,0,Use the left arm to move the small stapler with simple design to Red mat.
+randomized,move_stapler_pad,100011,1,Place the rectangular stapler with curved corners on the Red colored mat.
+randomized,move_stapler_pad,100012,0,Use the left arm to move the compact stapler to the Green mat
+randomized,move_stapler_pad,100013,1,Use the left arm to move the palm-sized black stapler to the Yellow mat
+randomized,move_stapler_pad,100014,0,Grab the blue stapler with smooth finish and set it on Green mat
+randomized,move_stapler_pad,100015,0,Place the blue stapler for holding papers on the Magenta mat
+randomized,move_stapler_pad,100016,0,Place the white stapler with metal tray on the Magenta colored mat.
+randomized,move_stapler_pad,100017,1,Use the left arm to move the white stapler to Blue mat
+randomized,open_laptop,100000,1,Lift the flat orange laptop's lid gently.
+randomized,open_laptop,100001,1,Grab the laptop with colorful screen and open it.
+randomized,open_laptop,100002,1,Pull up the laptop with smooth surfaces's lid.
+randomized,open_laptop,100004,1,Lift the laptop with colorful screen's lid fully.
+randomized,open_laptop,100006,1,Open the foldable laptop with care
+randomized,open_laptop,100007,1,Open the sleek laptop with care
+randomized,open_laptop,100008,1,Lift the medium laptop with silver body's lid gently.
+randomized,open_laptop,100009,1,Open the medium laptop with silver body with one motion.
+randomized,open_laptop,100011,1,Lift the foldable laptop using the right arm
+randomized,open_laptop,100012,1,Grab the black laptop fitting laptop bags and open it.
+randomized,open_laptop,100013,1,Open the black laptop slightly rounded at edges with care
+randomized,open_laptop,100014,1,Open the smooth black plastic laptop with care
+randomized,open_laptop,100015,1,Open the smooth black plastic laptop carefully using the left arm.
+randomized,open_laptop,100016,1,Lift the laptop with patterned keyboard surface's lid fully.
+randomized,open_laptop,100017,1,Lift the laptop with display and keyboard's lid gently.
+randomized,open_laptop,100018,1,Lift the black laptop with compact design using the left arm
+randomized,open_microwave,100000,1,Pull the gray and yellow rectangular microwave open with the left arm.
+randomized,open_microwave,100001,1,Open the medium gray microwave with top vents using the left arm.
+randomized,open_microwave,100003,0,Grab the gray and yellow rectangular microwave's handle and pull to open it.
+randomized,open_microwave,100004,0,Use the left arm to open the kitchen microwave with slanted shape.
+randomized,open_microwave,100005,0,Use the left arm to pull the handle of the medium-sized rectangular microwave with textured top.
+randomized,open_microwave,100008,0,Use the left arm to open the medium-sized microwave with angled walls.
+randomized,open_microwave,100010,1,Use the left arm to open the kitchen microwave with slanted shape.
+randomized,open_microwave,100011,1,Move the left arm and open the dark gray microwave.
+randomized,open_microwave,100012,0,Open the medium-sized microwave with angled walls by pulling its door handle.
+randomized,open_microwave,100013,0,Pull the gray and yellow rectangular microwave open with the left arm.
+randomized,open_microwave,100014,1,Use the left arm to open the kitchen microwave with slanted shape.
+randomized,open_microwave,100016,1,Move the left arm and open the kitchen microwave with slanted shape.
+randomized,open_microwave,100017,1,Use the left arm to open the medium gray microwave with top vents.
+randomized,open_microwave,100018,1,Open the medium-sized microwave with angled walls by pulling its door handle.
+randomized,open_microwave,100019,1,Grab the kitchen microwave with slanted shape's handle and pull to open it.
+randomized,open_microwave,100021,1,Open the medium-sized rectangular microwave with textured top using the left arm.
+randomized,pick_diverse_bottles,100001,1,"Use each arm to lift a bottle: the blue-capped plastic bottle, then the yellow rectangular bottle."
+randomized,pick_diverse_bottles,100005,0,Lift the bottle with white cap using one arm and lift the cylindrical bottle with curved sides using the other.
+randomized,pick_diverse_bottles,100007,1,Lift the hand-sized bottle with ridged bottom using one arm and lift the bottle with curved body using the other.
+randomized,pick_diverse_bottles,100008,0,"Use each arm to lift a bottle: the yellow rectangular bottle, then the bottle with yellow Chinese characters."
+randomized,pick_diverse_bottles,100009,1,Pick up the plastic orange bottle with rounded base and take the lightweight plastic brown bottle together.
+randomized,pick_diverse_bottles,100013,1,Pick up the plastic orange bottle with rounded base and take the bottle with green label and white lid together.
+randomized,pick_diverse_bottles,100020,0,Grab the bottle with curved neck design and the white capped orange plastic bottle at the same time.
+randomized,pick_diverse_bottles,100024,1,Pick up both the plastic soda bottle and the curvy orange bottle with white section together.
+randomized,pick_diverse_bottles,100026,0,"Pick up the hand-sized yellow plastic bottle with one arm, grab the bottle with ridged orange grip with the other."
+randomized,pick_diverse_bottles,100027,1,"Use each arm to lift a bottle: the shiny red bottle, then the brown bottle."
+randomized,pick_diverse_bottles,100029,0,Pick up the bottle with white and yellow label and take the bottle with ridged orange grip together.
+randomized,pick_diverse_bottles,100033,0,Grab the bottle with green label and white lid and the glossy brown bottle at the same time.
+randomized,pick_diverse_bottles,100035,0,Grab the hand-sized yellow plastic bottle and grab the bottle with red screw cap at once.
+randomized,pick_diverse_bottles,100048,1,"Pick up the bottle with curved neck design with one arm, grab the lightweight plastic brown bottle with the other."
+randomized,pick_diverse_bottles,100051,1,Lift the brown cylindrical bottle with label using one arm and lift the hand-sized bottle with ridged bottom using the other.
+randomized,pick_diverse_bottles,100054,1,Pick up both the blue-capped plastic bottle and the green bottle with white label together.
+randomized,pick_dual_bottles,100000,1,"Pick the brown bottle with one arm, the green plastic bottle with ridged bottom with the other."
+randomized,pick_dual_bottles,100001,1,"Pick the plastic soda bottle with one arm, the green bottle with the other."
+randomized,pick_dual_bottles,100002,1,"Grab the plastic soda bottle with one arm, grab the green bottle with white label with the other."
+randomized,pick_dual_bottles,100003,1,"Pick the plastic soda bottle with one arm, the green bottle with the other."
+randomized,pick_dual_bottles,100004,1,"Use one arm to grab the bottle with red screw cap, the other for the green plastic bottle with ridged bottom."
+randomized,pick_dual_bottles,100006,1,Lift the bottle with red screw cap and the green bottle with white label using both arms.
+randomized,pick_dual_bottles,100007,1,"Grab the brown bottle with one arm, grab the green bottle with the other."
+randomized,pick_dual_bottles,100008,1,"Hold the brown bottle in one hand, the green bottle with white label in the other."
+randomized,pick_dual_bottles,100009,1,"Pick the bottle with red screw cap, then pick the green plastic bottle with ridged bottom."
+randomized,pick_dual_bottles,100010,1,Lift the brown bottle and the green plastic bottle with ridged bottom using both arms.
+randomized,pick_dual_bottles,100011,1,"Hold the brown bottle in one hand, the green bottle with white label in the other."
+randomized,pick_dual_bottles,100012,1,Take hold of the brown bottle and the green plastic bottle with ridged bottom at once.
+randomized,pick_dual_bottles,100013,1,"Pick the brown bottle with one arm, the green bottle with the other."
+randomized,pick_dual_bottles,100015,1,"Grab the brown bottle with one arm, grab the green plastic bottle with ridged bottom with the other."
+randomized,pick_dual_bottles,100016,1,"Hold the plastic soda bottle in one hand, the green bottle with white label in the other."
+randomized,pick_dual_bottles,100017,1,"Pick the bottle with red screw cap, then pick the green plastic bottle with ridged bottom."
+randomized,place_a2b_left,100000,0,Set the phone with flat rectangular back down to the left of the blue stapler with smooth finish
+randomized,place_a2b_left,100004,1,Position the rectangular storage box for coffee on the left of the blue bell with glossy finish
+randomized,place_a2b_left,100005,1,Set the dark gray wireless mouse down to the left of the rectangular playingcards case with patterns
+randomized,place_a2b_left,100006,1,Position the hand-sized black-gray mouse on the left of the rubikscube for twisting and turning
+randomized,place_a2b_left,100008,1,Use the left arm to put the white-sided phone left of the coffee-box with orange circle.
+randomized,place_a2b_left,100009,1,Place the black tea-box with golden details to the left of the medium woodenblock with smooth texture using the left arm
+randomized,place_a2b_left,100010,1,Set the stapler with silver metal top down to the left of the light brown box for coffee storage
+randomized,place_a2b_left,100011,1,Use the left arm to place the soft rectangular bread loaf left of the modern phone.
+randomized,place_a2b_left,100012,1,Set the blue soap with printed patterns on the left side of the shiny red plastic stapler
+randomized,place_a2b_left,100013,1,"Grab the stapler with smooth plastic body and place left of the red, blue, green, yellow rubikscube"
+randomized,place_a2b_left,100017,1,Pick the mouse with scroll wheel and set it left of the round braided loaf.
+randomized,place_a2b_left,100018,1,Grab the dark gray computer mouse with logo and place left of the light brown woodenblock
+randomized,place_a2b_left,100019,1,Place the medium-sized bell to the left of the small loaf-shaped bread using the right arm
+randomized,place_a2b_left,100020,1,Place the smooth metal bell to the left of the sealed coffee box with flat sides using the right arm
+randomized,place_a2b_left,100022,1,Set the coffee-box rectangular with smooth texture on the left side of the white-sided phone.
+randomized,place_a2b_left,100023,1,Set the small loaf-shaped bread on the left side of the hand-sized rubikscube with colored squares.
+randomized,place_a2b_right,100000,1,Place the lightweight bell with smooth surface rightward of the brown soap using the left arm
+randomized,place_a2b_right,100002,1,Set the small rounded plastic mouse to the right of the bell with raised round top.
+randomized,place_a2b_right,100004,1,Put the hard black box for card deck to the right of the solid gray rectangular cleaning soap.
+randomized,place_a2b_right,100005,1,Put the tea-box with small handle to the right of the coffee box with dark brown top
+randomized,place_a2b_right,100006,1,Place the bright blue soap bar on the right of the white-sided phone.
+randomized,place_a2b_right,100007,1,Set the blue stapler for holding papers to the right of the palm-sized bell.
+randomized,place_a2b_right,100008,1,Grab the rectangular phone and place it right of the coffee-box with orange circle.
+randomized,place_a2b_right,100010,1,Place the stapler with silver metal top rightward of the sealed coffee box with flat sides using the left arm
+randomized,place_a2b_right,100011,1,Put the smooth metal bell to the right of the flat-bottomed mouse
+randomized,place_a2b_right,100012,1,Put the bright blue soap bar to the right of the shiny red plastic stapler
+randomized,place_a2b_right,100013,1,Place the rectangular green box for tea on the right of the small packet of playingcards.
+randomized,place_a2b_right,100015,1,Put the rubikscube with yellow top to the right of the hand-sized gray soap.
+randomized,place_a2b_right,100016,0,Grab the box with coffee mug design and place it right of the bell with raised round top.
+randomized,place_a2b_right,100017,1,Put the hand-sized wireless mouse to the right of the braided top round bread.
+randomized,place_a2b_right,100018,1,Place the blue bell with glossy finish on the rectangular silver phone with rounded edges's right side.
+randomized,place_a2b_right,100021,1,Put the hand-sized gray soap to the right of the oval-shaped soft bread.
+randomized,place_bread_basket,100000,0,"Grab the spongy golden brown bread and the rectangular bread loaf with two arms, place in the medium-sized breadbasket."
+randomized,place_bread_basket,100001,1,Place the round braided loaf and the round braided loaf into the white basket with beige bottom using the dual arm
+randomized,place_bread_basket,100003,1,Pick the square bread with light spots and place it in the medium light brown breadbasket.
+randomized,place_bread_basket,100005,1,Pick the bread with golden crust and drop it in the woven shallow breadbasket
+randomized,place_bread_basket,100006,0,Use the left arm to pick the soft rectangular bread loaf and the rectangular bread loaf and place in the breadbasket with smooth bottom grid sides.
+randomized,place_bread_basket,100007,1,Grab the rounded oval bread and the bread with golden crust and drop them into the round beige breadbasket.
+randomized,place_bread_basket,100008,1,Use the dual arm to pick the soft bread with golden edges and the round braided loaf and place in the woven shallow breadbasket.
+randomized,place_bread_basket,100009,1,Grab the spongy golden brown bread and the small loaf-shaped bread and put them in the medium-sized breadbasket.
+randomized,place_bread_basket,100010,1,Place the rounded oval bread and the bread loaf medium-sized into the medium light brown breadbasket using the left arm
+randomized,place_bread_basket,100011,1,Grab the square bread with light spots and put it in the rectangular light brown breadbasket.
+randomized,place_bread_basket,100012,0,Use the left arm to pick the rectangular bread loaf and the rectangular bread loaf and place in the rectangular breadbasket.
+randomized,place_bread_basket,100013,1,Pick the bread with golden crust and drop it in the white basket with beige bottom
+randomized,place_bread_basket,100014,0,Use the right arm to pick the bread with golden crust and the spongy golden brown bread and place in the beige breadbasket.
+randomized,place_bread_basket,100015,1,"Use one arm to grab the palm-sized braided golden bread and the soft rectangular bread loaf, drop in the shallow rectangular breadbasket."
+randomized,place_bread_basket,100016,1,"Use the left arm to pick up the bread loaf with soft surface and the rounded oval bread, then place them in the rectangular light brown breadbasket."
+randomized,place_bread_basket,100017,0,Place the square bread with light spots and the bread loaf with soft surface into the rectangular breadbasket using the dual arm
+randomized,place_bread_skillet,100001,0,Move the square bread with light spots to the pan-shaped skillet with hole in handle using the left arm.
+randomized,place_bread_skillet,100003,0,Grab the soft bread with golden edges and place it in the round black skillet
+randomized,place_bread_skillet,100004,0,Grab the bread with golden crust and place it in the round cast-iron skillet
+randomized,place_bread_skillet,100006,0,Pick the rectangular bread loaf up and place it in the dark skillet with shiny finish
+randomized,place_bread_skillet,100008,0,Grab the soft bread with golden edges and place it into the pan-shaped skillet with hole in handle.
+randomized,place_bread_skillet,100013,0,Grab the oval-shaped soft bread and set it in the versatile skillet for frying and sauteing
+randomized,place_bread_skillet,100014,0,Use the right arm to grab the spongy golden brown bread and set it in the cooking skillet with grippy handle
+randomized,place_bread_skillet,100022,0,Move the round braided loaf to the pan-shaped skillet with hole in handle using the left arm.
+randomized,place_bread_skillet,100029,0,Grab the soft bread with golden edges and set it in the versatile skillet for frying and sauteing
+randomized,place_bread_skillet,100034,0,Take the bread with golden crust and put it in the round cast-iron skillet
+randomized,place_bread_skillet,100035,0,Move the square bread with light spots to the black skillet using the left arm.
+randomized,place_bread_skillet,100038,0,Grab the bread loaf medium-sized and drop it into the cooking skillet with grippy handle.
+randomized,place_bread_skillet,100045,0,Use the left arm to move the spongy golden brown bread to the dark skillet with shiny finish.
+randomized,place_bread_skillet,100060,0,Pick the rectangular bread loaf up and place it in the versatile skillet for frying and sauteing
+randomized,place_bread_skillet,100065,0,Grab the bread with golden crust and place it in the black skillet
+randomized,place_bread_skillet,100070,0,Take the rectangular bread loaf and put it in the iron skillet for frying foods
+randomized,place_burger_fries,100000,1,"Pick up the hamburg with white sides and the Golden fries in red carton box, then place on the medium green tray for carrying."
+randomized,place_burger_fries,100001,1,"Pick the hamburg with uneven white surface and the golden fries in red holder, place them on the rectangular bright orange serving tray."
+randomized,place_burger_fries,100002,1,"Grab the hamburg with uneven white surface and the hand-sized fries container, then set them on the medium beige plastic tray"
+randomized,place_burger_fries,100003,1,"Grab the cardboard hamburg box and the golden fries in red holder together, setting them on the flat brown serving tray."
+randomized,place_burger_fries,100004,1,"Pick the hamburg with curved surfaces and the Red carton box fries crispy golden, place them on the rectangular tray with rounded edges."
+randomized,place_burger_fries,100005,1,Use both arms to place the hamburg with curved surfaces and the golden crispy fries inside red box on the medium beige plastic tray.
+randomized,place_burger_fries,100006,1,Place the cardboard hamburg container and the Red carton box fries crispy golden onto the rectangular bright orange serving tray.
+randomized,place_burger_fries,100007,1,Use both arms to place the hamburg with uneven white surface and the Crispy potato fries with red box on the beige tray with soft edges.
+randomized,place_burger_fries,100008,1,Pick up the hamburg with white sides and the golden fries in red holder and place them on the tray for carrying items.
+randomized,place_burger_fries,100009,1,Place the hamburg with uneven white surface and the Golden fries in red carton box onto the smooth green tray.
+randomized,place_burger_fries,100010,1,"Pick the small rectangular hamburg and the golden fries in red holder, place them on the medium-sized tray with rounded corners."
+randomized,place_burger_fries,100012,1,Use both arms to place the hamburg with curved surfaces and the golden crispy fries inside red box on the flat brown serving tray.
+randomized,place_burger_fries,100014,1,"Grab the hamburg with soft texture and the Golden fries in red carton box together, setting them on the medium green tray for carrying."
+randomized,place_burger_fries,100015,1,"Pick the cardboard hamburg box and the hand-sized fries container, then place them on the medium beige plastic tray."
+randomized,place_burger_fries,100016,1,Use both arms to grab the stackable hamburg box and the golden fries in red holder and set them on the flat brown serving tray.
+randomized,place_burger_fries,100017,1,Pick up the stackable hamburg box and the hand-sized fries container and place them on the flat brown serving tray.
+randomized,place_can_basket,100000,0,"Use the left arm to grab the palm-sized red metal Coca-Cola can, put it in the oval basket with medium storage space, and lift the oval basket with medium storage space."
+randomized,place_can_basket,100001,0,"Use the left arm to pick up the small red soda can, put it into the medium-sized basket with perforated texture, the other arm lifts the medium-sized basket with perforated texture."
+randomized,place_can_basket,100002,1,"Use the left arm to pick up the cylindrical brown drink can with white markings, put it into the medium-sized basket with perforated texture, the other arm lifts the medium-sized basket with perforated texture."
+randomized,place_can_basket,100003,1,"Pick up the small aluminum can, place it in the yellow basket with open slots, then lift the yellow basket with open slots."
+randomized,place_can_basket,100004,1,"Grab the small aluminum can and put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips."
+randomized,place_can_basket,100005,1,"Grab the lightweight cylindrical metal can, drop it into the oval basket with medium storage space, lift the oval basket with medium storage space with another arm."
+randomized,place_can_basket,100007,1,"Pick the can with red body, put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips."
+randomized,place_can_basket,100008,1,"Grab the lightweight cylindrical metal can and put it in the basket with rounded edges, then lift the basket with rounded edges."
+randomized,place_can_basket,100009,0,"Use the left arm to grab the cylindrical can with bright colors, put it in the medium-sized basket with perforated texture, and lift the medium-sized basket with perforated texture."
+randomized,place_can_basket,100011,0,"Grab the small aluminum can and put it in the oval basket with medium storage space, then lift the oval basket with medium storage space."
+randomized,place_can_basket,100012,0,"Grab the can with shiny smooth surface, drop it in the oval basket with medium storage space, and lift the oval basket with medium storage space."
+randomized,place_can_basket,100013,0,"Grab the cylindrical can with bright colors and put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips."
+randomized,place_can_basket,100016,1,"Use the right arm to grab the small aluminum can, put it in the basket with rounded edges, and lift the basket with rounded edges."
+randomized,place_can_basket,100017,0,"Use the left arm to grab the small aluminum can, put it in the basket with rounded edges, and lift the basket with rounded edges."
+randomized,place_can_basket,100021,1,"Grab the gold and red soda can, drop it into the yellow basket with open slots, lift the yellow basket with open slots with another arm."
+randomized,place_can_basket,100022,0,"Use the left arm to pick up the cylindrical can with smooth surface, put it into the yellow rectangular basket with dual grips, the other arm lifts the yellow rectangular basket with dual grips."
+randomized,place_cans_plasticbox,100000,1,"Pick up the can with shiny smooth surface and the red can, drop them together into the medium-sized smooth plasticbox"
+randomized,place_cans_plasticbox,100002,1,"Grab the cylindrical can with smooth surface, drop it in the rectangular plasticbox with locking clips, and do the same for the cylindrical can with bright colors."
+randomized,place_cans_plasticbox,100003,1,"Grab the can with red body, drop it into the smooth exterior blue plasticbox. Repeat for the hand-sized can with metallic finish."
+randomized,place_cans_plasticbox,100004,1,"Lift the can with gold logo design and the rounded can with smooth printed surface, drop both into the smooth exterior blue plasticbox."
+randomized,place_cans_plasticbox,100005,1,"Pick up the can with gold logo design and the cylindrical can with smooth surface, drop them together into the rectangular plasticbox with locking clips"
+randomized,place_cans_plasticbox,100006,1,Pick the light brown cylindrical can and place it into the smooth exterior blue plasticbox. Then do the same for the hand-sized can with metallic finish.
+randomized,place_cans_plasticbox,100007,1,"Move the cylindrical can with bright colors into the rectangular plasticbox with locking clips, then move the can with gold logo design into the rectangular plasticbox with locking clips."
+randomized,place_cans_plasticbox,100008,1,"Pick the metal can fits easily in hand, place it into the smooth exterior blue plasticbox, then repeat with the hand-sized can with metallic finish."
+randomized,place_cans_plasticbox,100009,1,"Grab the cylindrical can with smooth surface, drop it in the rectangular plasticbox with locking clips, and do the same for the red can."
+randomized,place_cans_plasticbox,100010,1,"Grab the red can, drop it in the rectangular plasticbox, and do the same for the gold and red soda can."
+randomized,place_cans_plasticbox,100011,1,"Grab the cylindrical brown drink can with white markings and drop it into the rectangular plasticbox with locking clips, then do the same for the small red soda can."
+randomized,place_cans_plasticbox,100012,1,"Grab the can with gold logo design and drop it into the rectangular plasticbox, then do the same for the cylindrical can with bright colors."
+randomized,place_cans_plasticbox,100013,1,Pick the small red soda can and place it into the smooth exterior blue plasticbox. Then do the same for the red can.
+randomized,place_cans_plasticbox,100014,1,"Lift the can with gold logo design and the small red soda can, drop both into the portable light blue storage plasticbox."
+randomized,place_cans_plasticbox,100015,1,"Move the red can with white top into the rectangular plasticbox with locking clips, then move the cylindrical can with bright colors into the rectangular plasticbox with locking clips."
+randomized,place_cans_plasticbox,100017,1,"Move the red can with white top into the smooth exterior blue plasticbox, then move the cylindrical can with smooth surface into the smooth exterior blue plasticbox."
+randomized,place_container_plate,100000,1,Set the container on the smooth round plate for serving with the curved bowl with smooth texture.
+randomized,place_container_plate,100001,1,Move the medium-sized white serving bowl to set the container on the gray plate for dining
+randomized,place_container_plate,100002,1,"Grab container with the black and white round bowl, place it on the gray plate."
+randomized,place_container_plate,100003,1,Place the container onto the gray plate for dining with the small smooth brown-rimmed bowl
+randomized,place_container_plate,100005,1,Set the container on the smooth round plate for serving with the smooth bowl with glossy finish.
+randomized,place_container_plate,100006,1,"Grab container with the light blue bowl with darkened rim, place it on the gray plate for dining."
+randomized,place_container_plate,100007,1,Move the small smooth brown-rimmed bowl to set the container on the gray plate for dining
+randomized,place_container_plate,100008,1,"Grab container with the simple dark brown plastic cup, place it on the smooth round plate for serving."
+randomized,place_container_plate,100009,1,Set the container on the gray plate for dining with the medium-sized white serving bowl.
+randomized,place_container_plate,100011,1,Set the container on the gray plate for dining with the glossy cup with floral patterns.
+randomized,place_container_plate,100013,1,Place the container onto the smooth round plate for serving with the simple round bowl
+randomized,place_container_plate,100015,1,Set the container on the gray plate for dining with the black and white round bowl.
+randomized,place_container_plate,100018,1,Place the container onto the smooth round plate for serving with the curved bowl with smooth texture
+randomized,place_container_plate,100020,1,Place the container onto the gray plate for dining with the simple round bowl
+randomized,place_container_plate,100022,1,Set the container on the gray plate with the cup with smooth glossy surface.
+randomized,place_container_plate,100023,1,"Grab container with the small smooth brown-rimmed bowl, place it on the smooth round plate for serving."
+randomized,place_dual_shoes,100000,0,"Grab two the walking shoe with grip sole, point tips left, place in the medium cardboard shoe-box."
+randomized,place_dual_shoes,100002,1,"Pick up two the white shoe with tongue logo, tips left, into the orange box for keeping shoes."
+randomized,place_dual_shoes,100003,0,"Pick up two the shoe with adjustable laces, tips left, into the rectangular Nike box for shoes."
+randomized,place_dual_shoes,100004,1,"Grab two the casual brown shoe, point tips left, place in the medium cardboard shoe-box."
+randomized,place_dual_shoes,100008,1,"Use both arms to move two the black shoe with white midsole to the rectangular Nike box for shoes, tips pointing left."
+randomized,place_dual_shoes,100011,1,"Put a pair of the white shoe in the the orange box for keeping shoes, tips pointing left."
+randomized,place_dual_shoes,100013,0,"Lift two the brown shoe with green red stripes, tips pointing left, into the medium cardboard shoe-box."
+randomized,place_dual_shoes,100014,0,"Lift two the red sneaker medium sized, tips pointing left, into the medium cardboard shoe-box."
+randomized,place_dual_shoes,100015,0,"Grab a pair of the synthetic shoe upper, place left tips in the rectangular Nike box for shoes."
+randomized,place_dual_shoes,100016,0,"Grab a pair of the smooth white shoe with laces, place left tips in the orange box for keeping shoes."
+randomized,place_dual_shoes,100017,0,"Put a pair of the red sneaker medium sized in the the orange box for keeping shoes, tips pointing left."
+randomized,place_dual_shoes,100018,0,"Grab two the black-striped white shoe, point tips left, place in the rectangular Nike box for shoes."
+randomized,place_dual_shoes,100019,0,"Grab a pair of the medium adult shoe, place left tips in the orange box for keeping shoes."
+randomized,place_dual_shoes,100020,0,"Grab a pair of the running shoe with laces, place left tips in the rectangular Nike box for shoes."
+randomized,place_dual_shoes,100021,0,"Pick up two the beige-soled walking sneaker, tips left, into the orange box for keeping shoes."
+randomized,place_dual_shoes,100022,0,"Grab two the red sneaker medium sized and set them in the medium cardboard shoe-box, tips left."
+randomized,place_empty_cup,100000,1,Pick the small smooth cup and position it on the small drink-protecting wooden coaster
+randomized,place_empty_cup,100001,1,Use arm to set the blue cup on the disc-shaped light gray coaster
+randomized,place_empty_cup,100002,1,Place the blue cup onto the small drink-protecting wooden coaster
+randomized,place_empty_cup,100003,1,Place the blue cup onto the light gray coaster
+randomized,place_empty_cup,100004,1,Set the small smooth cup on top of the disc-shaped light gray coaster.
+randomized,place_empty_cup,100005,1,Set the handheld round blue cup on top of the disc-shaped light gray coaster.
+randomized,place_empty_cup,100006,1,Use arm to set the blue cup on the disc-shaped light gray coaster
+randomized,place_empty_cup,100007,1,Place the handheld round blue cup on top of the small drink-protecting wooden coaster.
+randomized,place_empty_cup,100008,1,Set the blue cup on top of the light gray coaster.
+randomized,place_empty_cup,100009,1,Place the blue cup onto the small drink-protecting wooden coaster.
+randomized,place_empty_cup,100010,1,Place the blue cup onto the disc-shaped light gray coaster
+randomized,place_empty_cup,100011,1,Set the handheld round blue cup on top of the disc-shaped light gray coaster.
+randomized,place_empty_cup,100012,1,Place the small smooth cup onto the light gray coaster
+randomized,place_empty_cup,100013,1,Set the blue cup on top of the disc-shaped light gray coaster.
+randomized,place_empty_cup,100014,1,Use arm to set the handheld round blue cup on the disc-shaped light gray coaster
+randomized,place_empty_cup,100015,1,Set the blue cup down on the small drink-protecting wooden coaster.
+randomized,place_fan,100000,0,Use the left arm to grab the plastic fan and place it on the Lime mat facing the robot.
+randomized,place_fan,100002,0,Place the white desk fan onto the Maroon colored mat facing the robot.
+randomized,place_fan,100003,1,"Pick the portable curved handle fan, place it on the Pink mat, face it toward the robot"
+randomized,place_fan,100005,1,Pick the plastic fan and set it on the Lime mat facing the robot.
+randomized,place_fan,100006,1,Pick up the beige circular blade fan and set it on the Purple mat facing the robot.
+randomized,place_fan,100009,0,Grab the white desk fan with the left arm and position it on the Olive mat facing the robot.
+randomized,place_fan,100010,1,"Pick the beige circular blade fan, place it on the Navy mat, face it toward the robot"
+randomized,place_fan,100011,0,Grab the white desk fan and set it on the Red mat.
+randomized,place_fan,100012,0,"Pick the portable curved handle fan, place it on the Coral mat, face it toward the robot"
+randomized,place_fan,100013,1,Grab the portable curved handle fan and set it on the Yellow mat facing the robot.
+randomized,place_fan,100014,1,Grab the fan with small round shape with the left arm and position it on the Gray mat facing the robot.
+randomized,place_fan,100019,1,Use the left arm to grab the portable curved handle fan and place it on the Indigo mat facing the robot.
+randomized,place_fan,100020,1,Grab the fan with small round shape and set it on the Olive mat facing the robot.
+randomized,place_fan,100022,0,Pick the portable curved handle fan and set it on the Lime mat facing the robot.
+randomized,place_fan,100023,1,Use the left arm to grab the plastic fan and place it on the Magenta mat facing the robot.
+randomized,place_fan,100025,0,Pick the plastic fan and set it on the Indigo mat facing the robot.
+randomized,place_mouse_pad,100000,1,Use the left arm to pick up the dark gray wireless mouse and drop it on Yellow mat.
+randomized,place_mouse_pad,100001,1,Pick the flat-bottomed mouse and position it on the Green colored mat.
+randomized,place_mouse_pad,100002,0,Grab the the dark gray wireless mouse and position it on the Blue mat.
+randomized,place_mouse_pad,100003,1,Grab the the wireless mouse with left and right buttons and position it on the Gray mat.
+randomized,place_mouse_pad,100004,1,Pick up the the hand-sized wireless mouse and set it on the Gray mat.
+randomized,place_mouse_pad,100005,1,Grab the the dark gray computer mouse with logo and position it on the Magenta mat.
+randomized,place_mouse_pad,100006,1,Pick the flat-bottomed mouse and position it on the Green colored mat.
+randomized,place_mouse_pad,100007,0,Use the left arm to pick up the dark gray computer mouse with logo and drop it on Green mat.
+randomized,place_mouse_pad,100008,0,Pick up the the hand-sized dark gray mouse and set it on the Red mat.
+randomized,place_mouse_pad,100009,0,Pick up the the hand-sized black-gray mouse and set it on the Blue mat.
+randomized,place_mouse_pad,100010,1,Pick up the hand-sized wireless mouse with the right arm and drop it onto the Red mat.
+randomized,place_mouse_pad,100011,0,Grab the wireless mouse with left and right buttons and set it on Red mat.
+randomized,place_mouse_pad,100012,1,Grab the wireless mouse with left and right buttons and set it on the Magenta mat.
+randomized,place_mouse_pad,100014,0,Pick up the the hand-sized black-gray mouse and set it on the Green mat.
+randomized,place_mouse_pad,100015,1,Grab the small rounded plastic mouse and set it on the Magenta mat.
+randomized,place_mouse_pad,100017,1,Grab the hand-sized black-gray mouse and set it on Magenta mat.
+randomized,place_object_basket,100000,1,"Pick up the toycar with rounded body, place it in the basket with rounded edges, move the basket with rounded edges."
+randomized,place_object_basket,100002,1,"Move the black box with smooth surface to the medium-sized basket with perforated texture, then shift the medium-sized basket with perforated texture."
+randomized,place_object_basket,100003,1,Grab the tiny pink car with four wheels and put it into the medium-sized basket with perforated texture.
+randomized,place_object_basket,100005,1,"Use one arm to grab the toycar with orange wheels, place it in the medium basket with smooth texture."
+randomized,place_object_basket,100007,1,Grab the compact toycar with shiny black tires and put it into the medium-sized basket with perforated texture.
+randomized,place_object_basket,100008,1,Grab the hard black box for card deck and put it into the medium basket with smooth texture.
+randomized,place_object_basket,100009,1,Grab the rectangular playingcards case with patterns and put it into the medium-sized basket with perforated texture.
+randomized,place_object_basket,100010,1,Place the tiny pink car with four wheels in the medium-sized basket with perforated texture and move it.
+randomized,place_object_basket,100012,1,"Move the rectangular playingcards pack to the basket with rounded edges, then shift the basket with rounded edges."
+randomized,place_object_basket,100014,1,"Pick up the small packet of playingcards, place it in the yellow basket with open slots, move the yellow basket with open slots."
+randomized,place_object_basket,100018,1,Place the toycar with rounded edges in the medium-sized basket with perforated texture and move it.
+randomized,place_object_basket,100021,1,Grab the plastic toycar and put it into the medium-sized basket with perforated texture.
+randomized,place_object_basket,100022,1,Pick up the black box with smooth surface and drop in the yellow rectangular basket with dual grips.
+randomized,place_object_basket,100023,1,"Grab the bright green toycar, put it in the oval basket with medium storage space, move the oval basket with medium storage space."
+randomized,place_object_basket,100025,1,"Pick up the playingcards with red packaging, place it in the oval basket with medium storage space, move the oval basket with medium storage space."
+randomized,place_object_basket,100028,1,"Grab the hard black box for card deck, put it in the basket with rounded edges, move the basket with rounded edges."
+randomized,place_object_scale,100000,1,Pick the bell with raised round top up and put it on the electronicscale with circular platform
+randomized,place_object_scale,100001,1,Grab the small hand-sized stapler and place it on the electronicscale.
+randomized,place_object_scale,100002,1,Pick up the blue bell with glossy finish and set it on the gold circular platform electronicscale
+randomized,place_object_scale,100004,1,Grab the red plastic stapler and set it on the electronicscale with gold round platform
+randomized,place_object_scale,100005,1,Use one arm to pick the wireless mouse with left and right buttons for the electronicscale with rectangular base
+randomized,place_object_scale,100006,1,Use the right arm to put the white stapler on the electronicscale flat base and stand.
+randomized,place_object_scale,100009,1,Grab the palm-sized bell and place it on the electronicscale with rectangular base.
+randomized,place_object_scale,100010,1,Pick the blue stapler with smooth finish up and put it on the lightweight electronicscale for measuring weight
+randomized,place_object_scale,100011,1,Pick up the lightweight bell with smooth surface and set it on the electronicscale
+randomized,place_object_scale,100012,1,Grab the smooth metal bell and place it on the scale with rounded edges.
+randomized,place_object_scale,100013,1,Pick the red stapler with silver chamber up and put it on the electronicscale with rectangular base
+randomized,place_object_scale,100015,1,Grab the dark gray wireless mouse and set it on the gold circular platform electronicscale
+randomized,place_object_scale,100017,0,Grab the medium-sized bell and set it on the gold circular platform electronicscale
+randomized,place_object_scale,100018,1,Pick up the blue bell with glossy finish and set it on the electronicscale with black digital screen
+randomized,place_object_scale,100019,1,Grab the blue bell with glossy finish and put it on the gold circular platform electronicscale
+randomized,place_object_scale,100021,1,"With the left arm, grab the blue stapler for holding papers and position it on the lightweight electronicscale for measuring weight"
+randomized,place_object_stand,100001,1,Use the left arm to place the blue stapler for holding papers on the black displaystand
+randomized,place_object_stand,100002,1,Use the right arm to grab the lightweight bell with smooth surface and place it on the rectangular base displaystand
+randomized,place_object_stand,100003,1,Use the right arm to grab the rubikscube with yellow top and place it on the tabletop-sized displaystand
+randomized,place_object_stand,100004,1,Grab the handheld remotecontrol using the right arm and place on the displaystand with angled sides.
+randomized,place_object_stand,100006,1,"Grab the white stapler with metal tray, then place it on the rectangular base displaystand"
+randomized,place_object_stand,100007,1,Place the blue toycar with yellow buttons onto the rectangular displaystand with the left arm
+randomized,place_object_stand,100008,1,Place the mouse with scroll wheel on the compact black hollow displaystand using the right arm.
+randomized,place_object_stand,100009,1,Set the blue bell with glossy finish on the medium-sized hollow black displaystand.
+randomized,place_object_stand,100010,1,Use the left arm to place the dark gray plastic remotecontrol on the dark brown displaystand.
+randomized,place_object_stand,100011,0,Use the left arm to grab the rubikscube for twisting and turning and place it on the displaystand with hollow center
+randomized,place_object_stand,100012,1,Place the handheld rubikscube onto the medium displaystand with smooth finish with the left arm
+randomized,place_object_stand,100013,1,Set the blue bell with glossy finish onto the displaystand with angled sides using the right arm.
+randomized,place_object_stand,100014,1,"Grab the stapler with white loading section, then place it on the tabletop-sized displaystand"
+randomized,place_object_stand,100016,1,Grab the handheld rubikscube using the left arm and place on the medium displaystand with smooth finish.
+randomized,place_object_stand,100017,1,Place the rubikscube for puzzle solving on the hollow rectangular black displaystand using the left arm.
+randomized,place_object_stand,100018,1,Grab the compact toycar with rotating wheels using the right arm and place on the medium brown displaystand with slot.
+randomized,place_phone_stand,100000,1,Set the smartphone with black display on the angled brown phonestand.
+randomized,place_phone_stand,100009,1,Set the phone with shiny black back on the brown angled plastic phonestand.
+randomized,place_phone_stand,100010,1,Set the phone with shiny black back on the silver arm phonestand.
+randomized,place_phone_stand,100012,1,Set the rectangular phone on the angled brown phonestand.
+randomized,place_phone_stand,100013,0,Set the phone with shiny black back on the L-shaped smooth brown phonestand.
+randomized,place_phone_stand,100014,1,Set the palm-sized phone with glossy finish on the adjustable phone holder.
+randomized,place_phone_stand,100015,1,Set the rectangular silver phone with rounded edges on the dark green phonestand.
+randomized,place_phone_stand,100017,1,Set the rectangular phone on the angled brown phonestand.
+randomized,place_phone_stand,100020,1,Set the white-sided phone on the L-shaped smooth brown phonestand.
+randomized,place_phone_stand,100021,1,Set the phone with shiny black back on the silver arm phonestand.
+randomized,place_phone_stand,100022,1,Set the phone with rounded edges on the adjustable phone holder.
+randomized,place_phone_stand,100023,1,Set the white-sided phone on the brown angled plastic phonestand.
+randomized,place_phone_stand,100024,1,Set the phone with rounded edges on the brown angled plastic phonestand.
+randomized,place_phone_stand,100025,1,Set the smartphone with black display on the adjustable phone holder.
+randomized,place_phone_stand,100026,1,Set the phone with rounded edges on the silver arm phonestand.
+randomized,place_phone_stand,100027,1,Set the handheld phone with silver frame on the silver arm phonestand.
+randomized,place_shoe,100001,0,Pick up the rounded white shoe from the table and set it on the mat
+randomized,place_shoe,100002,1,Pick up the black-striped white shoe from the table and set it down on the mat
+randomized,place_shoe,100003,1,Pick up the the shoe with black stripe design from the table and place it on the mat
+randomized,place_shoe,100004,1,Grab the the brown footwear with smooth texture from the table and set it on the mat
+randomized,place_shoe,100005,1,Use the left arm to lift the black shoe with white midsole and drop it on the mat
+randomized,place_shoe,100006,1,Grab the smooth white shoe with laces from the table and place it on the mat
+randomized,place_shoe,100008,0,Grab the black shoe with white midsole from the table and place it on the mat
+randomized,place_shoe,100010,1,Grab the smooth plastic shoe from the table and place it on the mat
+randomized,place_shoe,100012,1,Use the left arm to lift the shoe with black stripe design and drop it on the mat
+randomized,place_shoe,100013,0,Pick up the black-accented white shoe from the table and set it down on the mat
+randomized,place_shoe,100014,1,Grab the white shoe with tongue logo from the table and place it on the mat
+randomized,place_shoe,100015,0,Grab the the shoe with padded collar and tongue from the table and set it on the mat
+randomized,place_shoe,100016,1,Pick up the shoe with ribbed sole from the table and set it down on the mat
+randomized,place_shoe,100017,0,Grab the black shoe with white midsole and set it on the mat
+randomized,place_shoe,100018,0,Pick up the black-accented white shoe from the table and set it down on the mat
+randomized,place_shoe,100019,0,Grab the running shoe with laces off the table and drop it on the mat
+randomized,press_stapler,100000,1,Use the left arm to press down on the stapler with white loading section.
+randomized,press_stapler,100001,0,Press the metal and plastic stapler firmly using your arm.
+randomized,press_stapler,100002,1,Use the right arm to press on the blue stapler for holding papers
+randomized,press_stapler,100003,1,Push the compact stapler down with one arm the right arm.
+randomized,press_stapler,100004,1,Use the right arm to press down on the shiny red plastic stapler.
+randomized,press_stapler,100006,1,Press down on the metal and plastic stapler with the right arm
+randomized,press_stapler,100007,1,Press the stapler the paper stapler with curved handle with the arm the left arm.
+randomized,press_stapler,100009,1,Press the stapler the plastic stapler with the arm the left arm.
+randomized,press_stapler,100010,1,Press the stapler with silver metal top firmly using your arm.
+randomized,press_stapler,100011,1,Use the left arm to press on the blue and white stapler
+randomized,press_stapler,100012,1,Press down on the white stapler with metal tray with the left arm
+randomized,press_stapler,100013,1,Press the black stapler firmly using your arm.
+randomized,press_stapler,100014,1,Use the left arm to press down on the plastic stapler.
+randomized,press_stapler,100015,1,Press down on the small stapler with simple design with the left arm.
+randomized,press_stapler,100016,1,Press down on the white stapler with the left arm
+randomized,press_stapler,100017,1,Push the white stapler with metal tray down with one arm the left arm.
+randomized,put_bottles_dustbin,100000,0,"Pick up the yellow bottle with elongated cylinder body, the bottle with blue highlights, and the bottle with red screw cap one by one and drop them into the smooth surface dustbin."
+randomized,put_bottles_dustbin,100003,0,"Pick up the plastic bottle with two distinct parts, the bottle with blue highlights, and the bottle with red screw cap one by one and drop them into the curved rectangular trash can."
+randomized,put_bottles_dustbin,100010,1,"Pick up the yellow plastic bottle, the bottle with ridges, and the bottle with red screw cap one by one and drop them into the curved rectangular trash can."
+randomized,put_bottles_dustbin,100015,1,"Pick up the yellow plastic bottle, drop it into the simple black garbage bin, then repeat for the bottle with ridges and the medium black bottle."
+randomized,put_bottles_dustbin,100016,1,"Pick up the yellow bottle with elongated cylinder body and drop it into the curved rectangular trash can, do the same for the plastic bottle and the medium black bottle."
+randomized,put_bottles_dustbin,100021,1,"Pick up the yellow bottle with elongated cylinder body, drop it into the simple black garbage bin, then repeat for the bottle with ridges and the plastic bottle with ridges near bottom."
+randomized,put_bottles_dustbin,100022,1,"Grab the yellow bottle with elongated cylinder body and place it in the curved rectangular trash can, then do the same for the bottle with ridges and the medium black bottle."
+randomized,put_bottles_dustbin,100024,1,"Grab the plastic bottle with two distinct parts and place it in the smooth surface dustbin, then do the same for the bottle with blue highlights and the plastic bottle with ridges near bottom."
+randomized,put_bottles_dustbin,100025,0,Pick up the plastic bottle with two distinct parts and toss it into the simple black garbage bin; repeat for the bottle with ridges and the bottle with red screw cap.
+randomized,put_bottles_dustbin,100028,1,Pick up the yellow plastic bottle and toss it into the curved rectangular trash can; repeat for the plastic bottle and the plastic bottle with ridges near bottom.
+randomized,put_bottles_dustbin,100029,1,"Move the plastic bottle with two distinct parts, the bottle with ridges, and the medium black bottle into the curved rectangular trash can on the left of the table."
+randomized,put_bottles_dustbin,100030,1,Pick up the plastic bottle with two distinct parts and toss it into the curved rectangular trash can; repeat for the plastic bottle and the bottle with red screw cap.
+randomized,put_bottles_dustbin,100031,1,"Move the yellow plastic bottle, the bottle with blue highlights, and the bottle with red screw cap into the curved rectangular trash can on the left of the table."
+randomized,put_bottles_dustbin,100033,1,"Pick up the yellow plastic bottle and drop it into the curved rectangular trash can, do the same for the bottle with ridges and the plastic bottle with ridges near bottom."
+randomized,put_bottles_dustbin,100034,1,"Use arms to grab the plastic bottle with two distinct parts, the plastic bottle, and the medium black bottle and drop them into the simple black garbage bin."
+randomized,put_bottles_dustbin,100035,1,"Pick up the yellow plastic bottle, the plastic bottle, and the plastic bottle with ridges near bottom one by one and drop them into the curved rectangular trash can."
+randomized,put_object_cabinet,100009,1,Open the cabinet with smooth finish's drawer and set the small packet of playingcards inside with the other arm.
+randomized,put_object_cabinet,100016,1,Open the cabinet with smooth finish's drawer and set the tea-box with small handle inside with the other arm.
+randomized,put_object_cabinet,100026,1,Pull out the drawer of the slanted wooden cabinet and set the gold text on playing cards box into it.
+randomized,put_object_cabinet,100046,1,Pull out the drawer of the cabinet with light wood panels and set the rubikscube for twisting and turning into it.
+randomized,put_object_cabinet,100049,1,Open the cabinet with smooth finish's drawer and set the bread with golden crust inside with the other arm.
+randomized,put_object_cabinet,100055,0,Pull out the drawer of the cabinet with smooth finish and set the rectangular playingcards pack into it.
+randomized,put_object_cabinet,100093,0,Pull out the drawer of the cabinet with smooth finish and set the rectangular red playingcards holder into it.
+randomized,put_object_cabinet,100102,1,Open the cabinet with light wood panels's drawer and set the light yellow cleaning soap inside with the other arm.
+randomized,put_object_cabinet,100115,1,Open the cabinet with light wood panels's drawer and set the handheld rubikscube inside with the other arm.
+randomized,put_object_cabinet,100136,1,Open the cabinet with light wood panels's drawer and set the soap bar shaped rectangular inside with the other arm.
+randomized,put_object_cabinet,100202,1,Open the cabinet with smooth finish's drawer and set the hand-sized dark gray mouse inside with the other arm.
+randomized,put_object_cabinet,100226,1,Pull out the drawer of the slanted wooden cabinet and set the bright green toycar into it.
+randomized,put_object_cabinet,100230,1,Open the cabinet with smooth finish's drawer and set the palm-sized braided golden bread inside with the other arm.
+randomized,put_object_cabinet,100238,1,Pull out the drawer of the slanted wooden cabinet and set the smooth soap into it.
+randomized,put_object_cabinet,100245,1,Pull out the drawer of the cabinet with smooth finish and set the compact toycar with shiny black tires into it.
+randomized,put_object_cabinet,100248,1,Pull out the drawer of the slanted wooden cabinet and set the blue soap with printed patterns into it.
+randomized,rotate_qrcode,100000,1,Pick up the black triangular stand and rotate it facing you.
+randomized,rotate_qrcode,100001,1,"Grab the QR code paymentsign, lift it, and rotate to see the qrcode."
+randomized,rotate_qrcode,100002,1,Pick the medium paymentsign with QR section off the table using the right arm and rotate it.
+randomized,rotate_qrcode,100003,1,"Grab the paymentsign with smooth base stand, lift it, and rotate to see the qrcode."
+randomized,rotate_qrcode,100005,1,Pick up the tabletop paymentsign and rotate it to face its QR code toward you.
+randomized,rotate_qrcode,100006,1,Catch the QR code paymentsign from the table and rotate it
+randomized,rotate_qrcode,100007,0,Pick up the paymentsign with QR code and rotate it to face its QR code toward you.
+randomized,rotate_qrcode,100008,1,Catch the paymentsign with smooth base stand on the table and pick it up.
+randomized,rotate_qrcode,100009,1,Catch the QR code payment sign from the table and rotate it
+randomized,rotate_qrcode,100011,1,Pick up the black stand with angled display and rotate it facing you.
+randomized,rotate_qrcode,100014,1,"Grab the black triangular stand, lift it, and turn it to face you"
+randomized,rotate_qrcode,100015,1,Catch the paymentsign with angled stand from the table and make it face you.
+randomized,rotate_qrcode,100016,1,Catch the paymentsign with smooth base stand from the table and rotate it
+randomized,rotate_qrcode,100017,1,Pick the sign for payment processing up from the table and rotate it.
+randomized,rotate_qrcode,100018,1,"Grab the black stand with angled display, lift it, and rotate to see the qrcode."
+randomized,rotate_qrcode,100019,1,"Grab the black stand with angled display, lift it, and turn it to face you"
+randomized,scan_object,100004,1,"Grab the handheld scanner with blue activation trigger, then pick up the box with green leafy patterns, and use the handheld scanner with blue activation trigger to scan the box with green leafy patterns."
+randomized,scan_object,100007,1,"Grab the handheld scanner with blue activation trigger, then pick up the light beige cube, and use the handheld scanner with blue activation trigger to scan the light beige cube."
+randomized,scan_object,100009,0,"Grab the scanner with wide top section with one arm, take the tea box with green leaves with the other, then scan the tea box with green leaves using the scanner with wide top section"
+randomized,scan_object,100013,1,"Grab the small scanner fits in hand, then pick up the tea-box with small handle, and use the small scanner fits in hand to scan the tea-box with small handle."
+randomized,scan_object,100014,1,"Grab the handheld scanner with blue activation trigger, take the rectangular green box for tea, and scan the rectangular green box for tea using the handheld scanner with blue activation trigger."
+randomized,scan_object,100015,0,"Pick the small scanner fits in hand, grab the rectangular green box for tea, and scan the rectangular green box for tea with the small scanner fits in hand."
+randomized,scan_object,100024,1,"Grab the black scanner with ergonomic handle, then pick up the cube tea box with shiny embossed patterns, and use the black scanner with ergonomic handle to scan the cube tea box with shiny embossed patterns."
+randomized,scan_object,100026,0,"Grab the scanner with black tip, then pick up the red tea-box with golden designs, and use the scanner with black tip to scan the red tea-box with golden designs."
+randomized,scan_object,100029,1,"Pick up the compact black barcode scanner, hold the small tea box, and scan it with the compact black barcode scanner"
+randomized,scan_object,100031,1,"Lift the scanner with wide top section in one hand and grab the small tea box with the other, then scan it."
+randomized,scan_object,100033,1,"Pick up the black scanner with ergonomic handle, hold the box with green leafy patterns, and scan it with the black scanner with ergonomic handle"
+randomized,scan_object,100037,0,"Pick the yellow and black scanner, grab the cube tea box with shiny embossed patterns, and scan the cube tea box with shiny embossed patterns with the yellow and black scanner."
+randomized,scan_object,100043,1,"Grab the barcode scanner, take the black tea-box with golden details, and scan the black tea-box with golden details using the barcode scanner."
+randomized,scan_object,100047,0,"Pick the compact black barcode scanner, grab the tea-box with smooth glossy finish, and scan it with the compact black barcode scanner."
+randomized,scan_object,100048,1,"Pick the barcode scanner, grab the cube tea box with shiny embossed patterns, and scan it with the barcode scanner."
+randomized,scan_object,100057,0,"Take the compact black barcode scanner, pick the turquoise and black tea-box, and use the scanner to perform the scan."
+randomized,shake_bottle,100001,1,Grab the curvy yellow plastic bottle and give it a shake.
+randomized,shake_bottle,100002,1,Pick up the bottle with green label and white lid with the right arm and shake.
+randomized,shake_bottle,100003,1,Pick up the bottle with rounded edges and shake it.
+randomized,shake_bottle,100004,1,Use the right arm to grab the bottle with yellow sticker label and shake.
+randomized,shake_bottle,100007,1,Grab the bottle with green label and white lid and shake it.
+randomized,shake_bottle,100008,1,Grab the lightweight plastic brown bottle and shake it.
+randomized,shake_bottle,100010,1,Pick up the plastic soda bottle and shake it.
+randomized,shake_bottle,100011,1,Grab the blue-capped plastic bottle and shake it.
+randomized,shake_bottle,100013,1,Pick up the light gray bottle and shake it.
+randomized,shake_bottle,100014,1,Grab the handheld orange bottle and give it a shake.
+randomized,shake_bottle,100015,1,Grab the green plastic bottle with ridged bottom and give it a shake.
+randomized,shake_bottle,100016,1,Pick and shake the the yellow bottle for liquid storage with the left arm.
+randomized,shake_bottle,100017,1,Grab the blue-capped plastic bottle and shake it.
+randomized,shake_bottle,100018,1,Grab the white capped orange plastic bottle and shake it.
+randomized,shake_bottle,100020,1,Use the right arm to pick the bottle with ridged orange grip.
+randomized,shake_bottle,100021,1,Pick up the bottle with yellow sticker label and shake it.
+randomized,shake_bottle_horizontally,100001,1,Use the left arm to pick the yellow bottle with white cap and shake it.
+randomized,shake_bottle_horizontally,100002,1,Shake the medium-sized plastic bottle with capped top horizontally after grabbing it.
+randomized,shake_bottle_horizontally,100003,1,Use the right arm to hold the medium bottle and shake sideways.
+randomized,shake_bottle_horizontally,100004,1,Shake the bottle with curved body side-to-side after picking it up.
+randomized,shake_bottle_horizontally,100007,1,Use the left arm to pick the liquid container dark brown plastic and shake it.
+randomized,shake_bottle_horizontally,100008,1,"Grab the brown cylindrical bottle with label, shake it horizontally."
+randomized,shake_bottle_horizontally,100010,1,Grab the brown bottle and shake it horizontally.
+randomized,shake_bottle_horizontally,100011,1,Shake the bottle with curved neck design side-to-side after picking it up.
+randomized,shake_bottle_horizontally,100013,1,"Grab the light gray bottle, shake it horizontally."
+randomized,shake_bottle_horizontally,100014,1,Grab the handheld orange bottle with the right arm and shake horizontally.
+randomized,shake_bottle_horizontally,100015,1,Use the left arm to pick the green bottle and shake it.
+randomized,shake_bottle_horizontally,100016,1,Shake the yellow rectangular bottle side-to-side after picking it up.
+randomized,shake_bottle_horizontally,100017,1,Shake the bottle with curved neck design side-to-side after picking it up.
+randomized,shake_bottle_horizontally,100018,1,"Grab the bottle with white cap, shake it horizontally."
+randomized,shake_bottle_horizontally,100020,1,Grab the bottle with ridged orange grip with the right arm and shake horizontally.
+randomized,shake_bottle_horizontally,100021,1,"Grab the curvy orange bottle with white section, shake it horizontally."
+randomized,stack_blocks_three,100000,0,"Bring red block, green block, and blue block to the center, stacking blue block on green block and green block on red block."
+randomized,stack_blocks_three,100001,1,"Place red block, green block, and blue block at the table's center, then stack blue block on green block and green block on red block."
+randomized,stack_blocks_three,100002,1,"Move red block, green block, and blue block to the center of the table, then stack blue block on green block and green block on red block."
+randomized,stack_blocks_three,100003,0,"Move red block, green block, and blue block to the center, then stack green block over red block and blue block over green block."
+randomized,stack_blocks_three,100004,0,"Move red block, green block, and blue block to the center, then stack blue block on green block, and green block on red block."
+randomized,stack_blocks_three,100005,0,"Bring red block, green block, and blue block to the table's center. Stack green block on red block and blue block on green block."
+randomized,stack_blocks_three,100006,1,"Move red block, green block, and blue block to the center, then stack blue block on green block, and green block on red block."
+randomized,stack_blocks_three,100007,1,"Place red block, green block, and blue block at the table's center, then stack blue block on green block and green block on red block."
+randomized,stack_blocks_three,100008,1,"Place red block, green block, and blue block at the table's center, then stack blue block on green block and green block on red block."
+randomized,stack_blocks_three,100009,0,"Bring red block, green block, and blue block to the center, stacking blue block on green block and green block on red block."
+randomized,stack_blocks_three,100010,1,"Bring red block, green block, and blue block to the center, stacking blue block on green block and green block on red block."
+randomized,stack_blocks_three,100011,1,"Move red block, green block, and blue block to the center, then stack green block over red block and blue block over green block."
+randomized,stack_blocks_three,100013,1,"Bring red block, green block, blue block to the table's center and stack them: blue block on green block, green block on red block."
+randomized,stack_blocks_three,100014,1,"Bring red block, green block, blue block to the table's center and stack them: blue block on green block, green block on red block."
+randomized,stack_blocks_three,100016,1,"Place red block, green block, and blue block at the table's center, then stack blue block on green block and green block on red block."
+randomized,stack_blocks_three,100018,0,"Bring red block, green block, blue block to the table's center and stack them: blue block on green block, green block on red block."
+randomized,stack_blocks_two,100000,1,"Move red block to the center, then put green block on top."
+randomized,stack_blocks_two,100001,1,"Grab red block, place it at the center, then stack green block on red block."
+randomized,stack_blocks_two,100002,1,"Place red block in the center, then stack green block on it."
+randomized,stack_blocks_two,100003,1,Move red block and green block to the center and place green block atop red block.
+randomized,stack_blocks_two,100004,1,"Grab red block, place it at the center, then stack green block on red block."
+randomized,stack_blocks_two,100005,0,"Bring red block and green block to the center, then position green block above red block."
+randomized,stack_blocks_two,100006,1,"Move red block and green block to the center, then stack green block on red block."
+randomized,stack_blocks_two,100007,1,"Move red block and green block to the table's center, then stack green block on red block."
+randomized,stack_blocks_two,100008,1,"Move red block and green block to the center, then stack green block on red block."
+randomized,stack_blocks_two,100010,1,"Place red block in the center, then stack green block on it."
+randomized,stack_blocks_two,100011,1,"Bring red block and green block to the center, then position green block above red block."
+randomized,stack_blocks_two,100012,1,"Place red block in the center, then stack green block on it."
+randomized,stack_blocks_two,100013,1,"Place red block in the center, then stack green block on it."
+randomized,stack_blocks_two,100014,1,"Grab red block, place it at the center, then stack green block on red block."
+randomized,stack_blocks_two,100015,1,"Move red block to the center, then put green block on top."
+randomized,stack_blocks_two,100016,1,"Place red block in the middle, then stack green block on it."
+randomized,stack_bowls_three,100000,1,Stack the smooth bowl with glossy finish by placing smallest on top.
+randomized,stack_bowls_three,100001,1,Pick up the first the small smooth brown-rimmed bowl and layer the rest above it.
+randomized,stack_bowls_three,100002,1,Grab the first the small smooth brown-rimmed bowl and stack the others on top.
+randomized,stack_bowls_three,100006,1,"Stack the first the small smooth brown-rimmed bowl, then the second, then the third."
+randomized,stack_bowls_three,100007,1,Position one the small smooth brown-rimmed bowl and stack two others on it.
+randomized,stack_bowls_three,100012,1,"Stack the first the small smooth brown-rimmed bowl, then the second, then the third."
+randomized,stack_bowls_three,100016,1,"Put the small smooth brown-rimmed bowl in a pile, largest to smallest."
+randomized,stack_bowls_three,100021,1,Stack the light blue bowl with darkened rim together one by one.
+randomized,stack_bowls_three,100023,1,"Stack the first the smooth bowl with glossy finish, then the second, then the third."
+randomized,stack_bowls_three,100024,1,"Grab the small smooth brown-rimmed bowl, stack them one by one."
+randomized,stack_bowls_three,100025,1,Stack the small smooth brown-rimmed bowl by placing smallest on top.
+randomized,stack_bowls_three,100027,1,Position one the small smooth brown-rimmed bowl and stack two others on it.
+randomized,stack_bowls_three,100030,1,Stack the light blue bowl with darkened rim by placing smallest on top.
+randomized,stack_bowls_three,100033,1,Stack the three the small smooth brown-rimmed bowl one above the other.
+randomized,stack_bowls_three,100035,1,Start stacking the light blue bowl with darkened rim from the bottom to the top.
+randomized,stack_bowls_three,100037,1,"Put the smooth bowl with glossy finish in a pile, largest to smallest."
+randomized,stack_bowls_two,100000,1,Pick up the smooth bowl with glossy finish and stack the small smooth brown-rimmed bowl above.
+randomized,stack_bowls_two,100001,1,Stack the light blue bowl with darkened rim directly over the smooth bowl with glossy finish.
+randomized,stack_bowls_two,100004,1,"Take the light blue bowl with darkened rim, set it down, and stack the light blue bowl with darkened rim on top."
+randomized,stack_bowls_two,100006,1,Stack the light blue bowl with darkened rim on top of the smooth bowl with glossy finish.
+randomized,stack_bowls_two,100011,1,Stack the smooth bowl with glossy finish directly over the small smooth brown-rimmed bowl.
+randomized,stack_bowls_two,100013,1,Stack the small smooth brown-rimmed bowl on top of the light blue bowl with darkened rim.
+randomized,stack_bowls_two,100015,1,Place the light blue bowl with darkened rim onto the light blue bowl with darkened rim to form a stack.
+randomized,stack_bowls_two,100016,1,Stack the smooth bowl with glossy finish on top of the smooth bowl with glossy finish.
+randomized,stack_bowls_two,100019,1,Place the smooth bowl with glossy finish carefully over the smooth bowl with glossy finish to stack them.
+randomized,stack_bowls_two,100020,1,Place the small smooth brown-rimmed bowl onto the light blue bowl with darkened rim to form a stack.
+randomized,stack_bowls_two,100021,1,Pick up the small smooth brown-rimmed bowl and stack the light blue bowl with darkened rim above.
+randomized,stack_bowls_two,100022,1,"Place the light blue bowl with darkened rim down, then put the smooth bowl with glossy finish on top."
+randomized,stack_bowls_two,100023,1,"Grab the light blue bowl with darkened rim, then set the smooth bowl with glossy finish on top."
+randomized,stack_bowls_two,100024,1,Stack the light blue bowl with darkened rim on top of the small smooth brown-rimmed bowl.
+randomized,stack_bowls_two,100025,1,Stack the small smooth brown-rimmed bowl on top of the small smooth brown-rimmed bowl.
+randomized,stack_bowls_two,100027,1,Stack the small smooth brown-rimmed bowl directly over the small smooth brown-rimmed bowl.
+randomized,stamp_seal,100003,1,Grab the solid brown seal using the right arm and stamp Blue
+randomized,stamp_seal,100004,1,Pick the small rectangular seal for stamping and stamp Yellow
+randomized,stamp_seal,100005,1,"Grab the reddish rectangular seal, press onto Maroon"
+randomized,stamp_seal,100006,1,Pick the solid brown seal and stamp Magenta
+randomized,stamp_seal,100007,1,Pick the solid brown seal and stamp on Orange
+randomized,stamp_seal,100010,1,"Grab the stamp with beige handle, press onto Purple"
+randomized,stamp_seal,100011,0,Grab the seal with black base using the left arm and stamp Yellow
+randomized,stamp_seal,100012,1,Stamp Cyan using the reddish rectangular seal
+randomized,stamp_seal,100013,0,Grab the seal with black base and stamp Purple
+randomized,stamp_seal,100015,1,Pick the solid brown seal and press on Brown.
+randomized,stamp_seal,100017,1,Pick the round base seal and press on Teal.
+randomized,stamp_seal,100021,0,Grab the seal with smooth texture and stamp Maroon
+randomized,stamp_seal,100022,1,Pick the round base seal to stamp Red
+randomized,stamp_seal,100028,1,Pick the solid brown seal to stamp Teal
+randomized,stamp_seal,100029,1,Pick the block-shaped seal with angled edges to stamp Lime
+randomized,stamp_seal,100030,1,Pick the small slanted-edged brown seal and press on Blue.
+randomized,turn_switch,100000,0,Press the hand-sized square electrical switch using the left arm
+randomized,turn_switch,100001,0,Move and click the the smooth gray base switch
+randomized,turn_switch,100002,0,Move and click the the hand-sized square electrical switch
+randomized,turn_switch,100003,0,Activate the switch at the hand-sized square electrical switch
+randomized,turn_switch,100005,1,Move and click the the curved toggle switch
+randomized,turn_switch,100007,1,Direct the left arm to click the small flat switch tan top
+randomized,turn_switch,100008,1,Click the matte black plastic switch with the left arm
+randomized,turn_switch,100009,1,Click the lightweight plastic switch angled edges with the right arm.
+randomized,turn_switch,100010,1,Click the gray switch medium size with the left arm
+randomized,turn_switch,100011,1,Press the beige switch with darker brown top using the right arm
+randomized,turn_switch,100012,1,Click the gray switch medium size with the right arm
+randomized,turn_switch,100013,0,Click the flat square gray switch with the right arm
+randomized,turn_switch,100016,1,Click the beige switch with darker brown top with the right arm
+randomized,turn_switch,100019,1,Move and click the the smooth black switch
+randomized,turn_switch,100021,1,Move and click the the curved toggle switch
+randomized,turn_switch,100023,1,Click the switch flat tan top brown rectangle with the left arm

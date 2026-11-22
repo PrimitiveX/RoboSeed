@@ -1,0 +1,8 @@
+configuration,label,success,episodes,control,render,source
+original_topp_rt,Original TOPP/RT,4486,5000,TOPP,RT,source://roboseed-sim/robotwin_success_rate_multidim_report_20261115.md
+original_direct_rt,Original direct/RT,732,800,direct,RT,source://roboseed-sim/robotwin_success_rate_multidim_report_20261115.md
+single_reference_raster,Single reference direct/raster,662,800,direct,raster,source://roboseed-sim/robotwin_success_rate_multidim_report_20261115.md
+migrated_cpu_n1,Migrated CPU N=1,681,800,direct,raster,source://roboseed-sim/robotwin_success_rate_multidim_report_20261115.md
+migrated_gpu_n1,Migrated GPU N=1,657,800,direct,raster,source://roboseed-sim/robotwin_success_rate_multidim_report_20261115.md
+migrated_gpu_n16_early,Migrated GPU N=16 early,433,800,direct,raster,source://roboseed-sim/robotwin_success_rate_multidim_report_20261115.md
+migrated_gpu_n16_fixed,Migrated GPU N=16 fixed,657,800,direct,raster,source://roboseed-sim/robotwin_success_rate_multidim_report_20261115.md
