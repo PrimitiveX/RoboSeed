@@ -14,7 +14,6 @@ The comparison is designed around practical, limited-hardware budgets, with ABot
 | [PX evaluation harness](experiments/px-harness/README.md) | Full-task throughput and topology/batch measurements |
 | [Experimental findings](findings/README.md) | Scale and budget comparisons, convergence versus execution, robustness, and failure patterns |
 | [Technical report](report/README.md) | Full study, section guide, scientific figures, and citation |
-| [RoboSeed-Sim](report/roboseed-sim/README.md) | Independent GPU simulation/evaluation report, system comparisons and environment-count scaling; November 20 evidence snapshot |
 | [Action models](action_models/README.md) | Reproduced methods, architecture, and adaptation choices |
 | [VLM backbones](models/README.md) | Backbone families, nominal sizes, and experiment coverage |
 | [Benchmarks](datasets/README.md) | Training setting, evaluation unit, and task-level outcomes |

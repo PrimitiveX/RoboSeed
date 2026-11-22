@@ -1,15 +1,6 @@
-# RoboSeed report series
+# RoboSeed technical report
 
 [Home](../../README.md) · [Documentation](../README.md) · [Experimental findings](../findings/README.md)
-
-| Report | Scope | Reading and source |
-| --- | --- | --- |
-| RoboSeed: Multidimensional Evaluation of Vision–Language–Action and World–Action Models | Model reproduction and assessment; October 28, 2026 evidence snapshot | [PDF](RoboSeed.pdf) · [arXiv](https://arxiv.org/abs/2610.40026) |
-| RoboSeed-Sim: GPU-Parallel Simulation and Evaluation for Vision–Language–Action Models | Independent systems report; November 20, 2026 evidence snapshot | [Chinese report and guide](roboseed-sim/README.md) · [Manuscript source](../../reports/roboseed-sim/README.md) |
-
-Each report retains its own protocols, evidence cutoff and citation identity. The existing arXiv identifier below applies to the model-reproduction report. RoboSeed-Sim is an initial Chinese research snapshot with its own manuscript and processed evidence.
-
-## Model reproduction and assessment report
 
 **RoboSeed: Multidimensional Evaluation of Vision–Language–Action and World–Action Models** · October 2026 · October 28 evidence snapshot, report updated October 29.
 

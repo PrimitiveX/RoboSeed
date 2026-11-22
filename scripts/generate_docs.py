@@ -135,10 +135,6 @@ def build():
         '## Historical diagnostics\n\n' +
         link('Earlier pre-train → post-train diagnostics', 'docs/experiments/abot-m0/robotwin/pre-train-to-post-train-diagnostic.md', page) +
         '\n\nThese Clean-only, 10-episode-per-task studies retain their own initialization and training routes.\n\n'
-        '## Independent systems reports\n\n' +
-        link('RoboSeed-Sim: GPU-parallel simulation and evaluation', 'docs/experiments/roboseed-sim/README.md', page) +
-        ' adds the November 20, 2026 systems snapshot: full-task migrated evaluations, matched small system comparisons and three-task environment-count scaling. '
-        'These workloads retain their own seeds, denominators and timing boundaries; they are separate from the checkpoint-capability tables.\n\n'
         'Each run page links its recorded configuration, rollout protocol, resource record, and task counts. '
         + link('Experimental findings', 'docs/findings/README.md', page) + ' connects the observations to the report. Public checkpoint availability is tracked in the '
         + link('release registry', 'docs/releases/README.md', page) + '.\n')

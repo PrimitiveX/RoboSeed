@@ -37,10 +37,6 @@ CALVIN reports continuous-chain completion; its score is not pooled with episode
 
 These Clean-only, 10-episode-per-task studies retain their own initialization and training routes.
 
-## Independent systems reports
-
-[RoboSeed-Sim: GPU-parallel simulation and evaluation](roboseed-sim/README.md) adds the November 20, 2026 systems snapshot: full-task migrated evaluations, matched small system comparisons and three-task environment-count scaling. These workloads retain their own seeds, denominators and timing boundaries; they are separate from the checkpoint-capability tables.
-
 Each run page links its recorded configuration, rollout protocol, resource record, and task counts. [Experimental findings](../findings/README.md) connects the observations to the report. Public checkpoint availability is tracked in the [release registry](../releases/README.md).
 
 ## Additional reproduced models

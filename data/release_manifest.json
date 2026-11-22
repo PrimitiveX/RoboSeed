@@ -1,10 +1,6 @@
 {
   "as_of": "2026-10-28",
-  "report_snapshots": {
-    "roboseed": "2026-10-28",
-    "roboseed_sim": "2026-11-20"
-  },
-  "scope": "Packaged results, audits, recorded configs, and report PDFs/sources. Per-report evidence cutoffs are in report_snapshots; original input hashes are in the corresponding source manifests.",
+  "scope": "Packaged results, audits, recorded configs, and report PDF. Original source hashes are in source_manifest.json.",
   "files": {
     "configs/abot-m0/calvin-qwen3-5-4b.yaml": {
       "bytes": 1849,
@@ -43,8 +39,8 @@
       "sha256": "b0a70d2437d31026d142eb0b05b0803c7bb054d6afbae828f5d1e8fc3b4fbe69"
     },
     "data/README.md": {
-      "bytes": 7564,
-      "sha256": "5f59349dddf3b3e2e2a6a7e1b65d6cf2526a9db14398ffe9332d689a750d9c53"
+      "bytes": 7313,
+      "sha256": "e8948f620a4b3519430ff70f1a4e4ef0c0ae2042f09133e132a62d7b7059a624"
     },
     "data/assessment.json": {
       "bytes": 20403,
@@ -178,70 +174,6 @@
       "bytes": 1264,
       "sha256": "0808516a24b4262ad2a1e2a27665b151b00db04ca0ecdd29204194ef0055fec7"
     },
-    "data/roboseed_sim/README.md": {
-      "bytes": 3745,
-      "sha256": "8a83347f31b77b5455a5afead8d1a421b35e25569ab6c64c2005bb56403dfebb"
-    },
-    "data/roboseed_sim/full_episode_results.csv": {
-      "bytes": 193979,
-      "sha256": "172d2d67c2462d42c5d49762622ec70ffb0b437172d534ed0f72dfe5adeeaf4f"
-    },
-    "data/roboseed_sim/full_task_results.csv": {
-      "bytes": 14774,
-      "sha256": "6dee0399035c14ec4e469565dd027bb8d7195603462853fa7f1459dd5dde829c"
-    },
-    "data/roboseed_sim/gpu_samples.csv": {
-      "bytes": 340488,
-      "sha256": "842c2fcc94a2d533676a0213c0e3974ce377a1b7b2945d814ca89b0da60b8c37"
-    },
-    "data/roboseed_sim/hammer_replay.json": {
-      "bytes": 6358,
-      "sha256": "8b8cd2952741957064b3235f043886eb18ed973b5bfed5e536b558a16933a83c"
-    },
-    "data/roboseed_sim/historical_configurations.csv": {
-      "bytes": 996,
-      "sha256": "253aad31a6a293ce2d6103689320de22c54f7662a15ebc23cb02e05a107f0d0c"
-    },
-    "data/roboseed_sim/historical_paired_results.csv": {
-      "bytes": 23568,
-      "sha256": "95ecd0e40a1e329dc88f717191f3590e40928f64d5f258613aadacbc3f700f46"
-    },
-    "data/roboseed_sim/historical_repair_counts.json": {
-      "bytes": 1115,
-      "sha256": "b8589296509eefe024cab2a3de21bc9a013b936ecd88ce0afffc2e88cc60613e"
-    },
-    "data/roboseed_sim/historical_task_profiles.json": {
-      "bytes": 7703,
-      "sha256": "650ee4603a86f10ca8f08add4cf19979edf6c2f2737a39ec64ae539166dd2754"
-    },
-    "data/roboseed_sim/protocol.json": {
-      "bytes": 2483,
-      "sha256": "874e36a2f1d829fd34af58287b8b406d63244bff7492e5ef9bccc740260f04d9"
-    },
-    "data/roboseed_sim/scaling_runs.json": {
-      "bytes": 258394,
-      "sha256": "1874c6b17bc6b43fcd0f26f2f2084cece8cbef34aa63ee189e0c0851031b7001"
-    },
-    "data/roboseed_sim/scaling_summary.csv": {
-      "bytes": 1552,
-      "sha256": "4d5cee041b8391d3c242996abf1ac436fbed3f753d249d0305e3b7e815751190"
-    },
-    "data/roboseed_sim/small_paired_episodes.csv": {
-      "bytes": 11023,
-      "sha256": "d6d3f12e2b7ca7959332b637145e6824b8a20f60f9b00529b1cb6047e5d2c5d4"
-    },
-    "data/roboseed_sim/small_system_compare.json": {
-      "bytes": 3597,
-      "sha256": "1658e6d70eb654fb8e75748e919ff0d9b1858fd03a9d85cca113c82233fb7a19"
-    },
-    "data/roboseed_sim/source_manifest.json": {
-      "bytes": 87828,
-      "sha256": "a23109a296fe6e70be266910fff47820474578b7cceee3bbcfef54f0b479c453"
-    },
-    "data/roboseed_sim/two_task_original.json": {
-      "bytes": 20619,
-      "sha256": "932a4cdfa146e31be2dc79a124de4eb0a3a54e1d8f616160bba0fd7a0ed05772"
-    },
     "data/robotwin_loss.csv": {
       "bytes": 362988,
       "sha256": "a5e430f7f8ccaf822b93e55d7a04529316c6d26b9565b0eeca21e95dd90b3389"
@@ -273,98 +205,6 @@
     "docs/report/RoboSeed.pdf": {
       "bytes": 1178842,
       "sha256": "1398890f613c31f85ddc03f2f37055c3530fbbe995d13a29294e05fbc6c6dde7"
-    },
-    "docs/report/roboseed-sim/README.md": {
-      "bytes": 3458,
-      "sha256": "7a702733f3d28b82a6e9566bbd2c0ddd6344542ad52de44812092e1ead5cca3e"
-    },
-    "docs/report/roboseed-sim/RoboSeed-Sim_zh.pdf": {
-      "bytes": 502759,
-      "sha256": "91c4f8f1eef5d31c1dc33e0bf208c39c50ee006b053446ab057dac6d60063cd1"
-    },
-    "reports/roboseed-sim/README.md": {
-      "bytes": 1969,
-      "sha256": "78c92527b2695bf56b121857d724c77a61df71c6e964b8e1182608871e9bc28e"
-    },
-    "reports/roboseed-sim/build_report.sh": {
-      "bytes": 933,
-      "sha256": "baef795ce7d5c713fe275e0dcf5a349a802981fd25d5f8b77020c7bbcaeaf73c"
-    },
-    "reports/roboseed-sim/colm2024_conference.sty": {
-      "bytes": 6832,
-      "sha256": "6ea026d8c286e05c377537ffb44eec5ca05e0f00a1f3d3bd24e51b040e23e040"
-    },
-    "reports/roboseed-sim/fancyhdr.sty": {
-      "bytes": 20513,
-      "sha256": "261be63f0ab516458d86db3a65d16605534b962da14614e53b7a800120eaf3ed"
-    },
-    "reports/roboseed-sim/figures/clean_scaling.pdf": {
-      "bytes": 28884,
-      "sha256": "056a9f17ce2032917b4031e67cb5b94aac98c5c1214ddac27eae3ac9ec6188e4"
-    },
-    "reports/roboseed-sim/figures/clean_scaling.png": {
-      "bytes": 164190,
-      "sha256": "ebaeebc98d0df68c5419fceb8c61ed272996ebcc5d98135859c499aa9138494e"
-    },
-    "reports/roboseed-sim/figures/clean_task_profiles.pdf": {
-      "bytes": 25100,
-      "sha256": "b78f66360fa1d6c43a3bec2cfbff58d2f972e4206753b811267e86d5a7891414"
-    },
-    "reports/roboseed-sim/figures/clean_task_profiles.png": {
-      "bytes": 424118,
-      "sha256": "7061b4630a82006df7bfa440ec6b68d8655e906559989397d76dc33979cc1b0d"
-    },
-    "reports/roboseed-sim/figures/clean_two_task_systems.pdf": {
-      "bytes": 20481,
-      "sha256": "d4dc03eb37cb5ee88846fd7263d4833e1976debac5da8dfaef49cdd73f9b5fa7"
-    },
-    "reports/roboseed-sim/figures/clean_two_task_systems.png": {
-      "bytes": 81766,
-      "sha256": "8e4aa4e8d7314dd6db52b66958c7d2b2230b2826fad7d88fb8388034c736a08b"
-    },
-    "reports/roboseed-sim/figures/small_system_compare.pdf": {
-      "bytes": 19647,
-      "sha256": "c2c9825a89d8ec8c98bf092098322398610a962ec14657969ebfc68c3b558633"
-    },
-    "reports/roboseed-sim/figures/small_system_compare.png": {
-      "bytes": 50573,
-      "sha256": "b58e545563fcbff954895c6b3913f607cacdd8c8556b0c1203eab2f1137c4177"
-    },
-    "reports/roboseed-sim/inconsolata.sty": {
-      "bytes": 138,
-      "sha256": "5c9f662f292e6f26375beeee9b3741c49da7db8545bc8782e592c0cb006ce6fb"
-    },
-    "reports/roboseed-sim/logo/PXLOGO.jpg": {
-      "bytes": 17943,
-      "sha256": "d5765ec3f4a9266b049bd9a3dbb53acc0b96073b89ee9c0e5b2d5b0a055ecb79"
-    },
-    "reports/roboseed-sim/logo/YunMu-logo.png": {
-      "bytes": 12927,
-      "sha256": "1277a2493696cd986fdb7cabf93a37c90d8c611020ef22e7d8d7f5197922cf54"
-    },
-    "reports/roboseed-sim/logo/github-logo.pdf": {
-      "bytes": 4183,
-      "sha256": "45501860f072834e87aa428c98caae90c4ca6ca490f065d768f2174dc0975e4a"
-    },
-    "reports/roboseed-sim/main.tex": {
-      "bytes": 45289,
-      "sha256": "85681ce76b9bb70ef08f3073d6bf15212875fbe91e75723f56858aa94f9ffa50"
-    },
-    "reports/roboseed-sim/natbib.sty": {
-      "bytes": 45150,
-      "sha256": "dbba2c7c2cd7a9a732d572d371a7968f4b0dd1bc6592b102a5a45871a92071e3"
-    },
-    "scripts/roboseed_sim/__init__.py": {
-      "bytes": 71,
-      "sha256": "ba2e192cf1c8508457946aebde4fd641f6a738ccc1eebab9731be9afcaa9f59b"
-    },
-    "scripts/roboseed_sim/plot_figures.py": {
-      "bytes": 7104,
-      "sha256": "20a35bff5b4cf25e05658e1b0916d44ea190c527df54579ae927cb88317209de"
-    },
-    "scripts/roboseed_sim/verify.py": {
-      "bytes": 7638,
-      "sha256": "02153c185d6cb2c13ed9067a2fffee94866588a518093e91469daf2e5a1058ea"
     }
   }
 }

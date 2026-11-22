@@ -24,8 +24,6 @@ Label official checkpoints evaluated locally as released-weight references, and 
 
 ## Check a change
 
-Independent report additions retain a dedicated manuscript, protocol, evidence cutoff and data namespace. RoboSeed-Sim uses `reports/roboseed-sim/`, `docs/report/roboseed-sim/` and `data/roboseed_sim/`; regenerate its figures with `python3 scripts/roboseed_sim/plot_figures.py` and build with `bash reports/roboseed-sim/build_report.sh`. Keep system-workload results outside policy-capability tables, identify reused episodes, and distinguish report/evidence publication from release of simulator and serving code.
-
 ```bash
 python3 scripts/generate_docs.py
 python3 scripts/generate_docs.py --check
