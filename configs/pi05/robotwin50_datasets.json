@@ -1,0 +1,960 @@
+{
+  "repo_id": "robotwin_50tasks_27500",
+  "source_tasks": [
+    "adjust_bottle",
+    "beat_block_hammer",
+    "blocks_ranking_rgb",
+    "blocks_ranking_size",
+    "click_alarmclock",
+    "click_bell",
+    "dump_bin_bigbin",
+    "grab_roller",
+    "handover_block",
+    "handover_mic",
+    "hanging_mug",
+    "lift_pot",
+    "move_can_pot",
+    "move_pillbottle_pad",
+    "move_playingcard_away",
+    "move_stapler_pad",
+    "open_laptop",
+    "open_microwave",
+    "pick_diverse_bottles",
+    "pick_dual_bottles",
+    "place_a2b_left",
+    "place_a2b_right",
+    "place_bread_basket",
+    "place_bread_skillet",
+    "place_burger_fries",
+    "place_can_basket",
+    "place_cans_plasticbox",
+    "place_container_plate",
+    "place_dual_shoes",
+    "place_empty_cup",
+    "place_fan",
+    "place_mouse_pad",
+    "place_object_basket",
+    "place_object_scale",
+    "place_object_stand",
+    "place_phone_stand",
+    "place_shoe",
+    "press_stapler",
+    "put_bottles_dustbin",
+    "put_object_cabinet",
+    "rotate_qrcode",
+    "scan_object",
+    "shake_bottle",
+    "shake_bottle_horizontally",
+    "stack_blocks_three",
+    "stack_blocks_two",
+    "stack_bowls_three",
+    "stack_bowls_two",
+    "stamp_seal",
+    "turn_switch"
+  ],
+  "dataset_count": 100,
+  "episodes": 27500,
+  "frames": 6075103,
+  "datasets": [
+    {
+      "repo_id": "robotwin_clean_adjust_bottle",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/adjust_bottle",
+      "task": "adjust_bottle",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 7188,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_beat_block_hammer",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/beat_block_hammer",
+      "task": "beat_block_hammer",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 5682,
+      "tasks_in_dataset": 48
+    },
+    {
+      "repo_id": "robotwin_clean_blocks_ranking_rgb",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/blocks_ranking_rgb",
+      "task": "blocks_ranking_rgb",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 23041,
+      "tasks_in_dataset": 42
+    },
+    {
+      "repo_id": "robotwin_clean_blocks_ranking_size",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/blocks_ranking_size",
+      "task": "blocks_ranking_size",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 23170,
+      "tasks_in_dataset": 35
+    },
+    {
+      "repo_id": "robotwin_clean_click_alarmclock",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/click_alarmclock",
+      "task": "click_alarmclock",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 4252,
+      "tasks_in_dataset": 48
+    },
+    {
+      "repo_id": "robotwin_clean_click_bell",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/click_bell",
+      "task": "click_bell",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 3855,
+      "tasks_in_dataset": 49
+    },
+    {
+      "repo_id": "robotwin_clean_dump_bin_bigbin",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/dump_bin_bigbin",
+      "task": "dump_bin_bigbin",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 12122,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_grab_roller",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/grab_roller",
+      "task": "grab_roller",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 4728,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_handover_block",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/handover_block",
+      "task": "handover_block",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 14084,
+      "tasks_in_dataset": 32
+    },
+    {
+      "repo_id": "robotwin_clean_handover_mic",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/handover_mic",
+      "task": "handover_mic",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 11092,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_hanging_mug",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/hanging_mug",
+      "task": "hanging_mug",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 16889,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_lift_pot",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/lift_pot",
+      "task": "lift_pot",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 5554,
+      "tasks_in_dataset": 48
+    },
+    {
+      "repo_id": "robotwin_clean_move_can_pot",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/move_can_pot",
+      "task": "move_can_pot",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 7568,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_move_pillbottle_pad",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/move_pillbottle_pad",
+      "task": "move_pillbottle_pad",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 7345,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_move_playingcard_away",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/move_playingcard_away",
+      "task": "move_playingcard_away",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 5884,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_move_stapler_pad",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/move_stapler_pad",
+      "task": "move_stapler_pad",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 7749,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_open_laptop",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/open_laptop",
+      "task": "open_laptop",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 10412,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_open_microwave",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/open_microwave",
+      "task": "open_microwave",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 24333,
+      "tasks_in_dataset": 46
+    },
+    {
+      "repo_id": "robotwin_clean_pick_diverse_bottles",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/pick_diverse_bottles",
+      "task": "pick_diverse_bottles",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 6060,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_pick_dual_bottles",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/pick_dual_bottles",
+      "task": "pick_dual_bottles",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 6129,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_a2b_left",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_a2b_left",
+      "task": "place_a2b_left",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 7451,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_a2b_right",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_a2b_right",
+      "task": "place_a2b_right",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 7349,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_bread_basket",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_bread_basket",
+      "task": "place_bread_basket",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 11956,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_bread_skillet",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_bread_skillet",
+      "task": "place_bread_skillet",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 8277,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_burger_fries",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_burger_fries",
+      "task": "place_burger_fries",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 12046,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_can_basket",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_can_basket",
+      "task": "place_can_basket",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 12618,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_cans_plasticbox",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_cans_plasticbox",
+      "task": "place_cans_plasticbox",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 14375,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_container_plate",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_container_plate",
+      "task": "place_container_plate",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 7934,
+      "tasks_in_dataset": 49
+    },
+    {
+      "repo_id": "robotwin_clean_place_dual_shoes",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_dual_shoes",
+      "task": "place_dual_shoes",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 11510,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_empty_cup",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_empty_cup",
+      "task": "place_empty_cup",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 8617,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_fan",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_fan",
+      "task": "place_fan",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 7358,
+      "tasks_in_dataset": 49
+    },
+    {
+      "repo_id": "robotwin_clean_place_mouse_pad",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_mouse_pad",
+      "task": "place_mouse_pad",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 7531,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_object_basket",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_object_basket",
+      "task": "place_object_basket",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 12298,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_object_scale",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_object_scale",
+      "task": "place_object_scale",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 7266,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_object_stand",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_object_stand",
+      "task": "place_object_stand",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 6952,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_phone_stand",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_phone_stand",
+      "task": "place_phone_stand",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 6357,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_place_shoe",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/place_shoe",
+      "task": "place_shoe",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 8982,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_press_stapler",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/press_stapler",
+      "task": "press_stapler",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 5953,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_put_bottles_dustbin",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/put_bottles_dustbin",
+      "task": "put_bottles_dustbin",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 31231,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_put_object_cabinet",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/put_object_cabinet",
+      "task": "put_object_cabinet",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 13460,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_rotate_qrcode",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/rotate_qrcode",
+      "task": "rotate_qrcode",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 7724,
+      "tasks_in_dataset": 49
+    },
+    {
+      "repo_id": "robotwin_clean_scan_object",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/scan_object",
+      "task": "scan_object",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 8463,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_shake_bottle",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/shake_bottle",
+      "task": "shake_bottle",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 12436,
+      "tasks_in_dataset": 49
+    },
+    {
+      "repo_id": "robotwin_clean_shake_bottle_horizontally",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/shake_bottle_horizontally",
+      "task": "shake_bottle_horizontally",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 13911,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_stack_blocks_three",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/stack_blocks_three",
+      "task": "stack_blocks_three",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 23619,
+      "tasks_in_dataset": 40
+    },
+    {
+      "repo_id": "robotwin_clean_stack_blocks_two",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/stack_blocks_two",
+      "task": "stack_blocks_two",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 15647,
+      "tasks_in_dataset": 32
+    },
+    {
+      "repo_id": "robotwin_clean_stack_bowls_three",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/stack_bowls_three",
+      "task": "stack_bowls_three",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 23550,
+      "tasks_in_dataset": 48
+    },
+    {
+      "repo_id": "robotwin_clean_stack_bowls_two",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/stack_bowls_two",
+      "task": "stack_bowls_two",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 15637,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_stamp_seal",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/stamp_seal",
+      "task": "stamp_seal",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 7279,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_clean_turn_switch",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Clean/turn_switch",
+      "task": "turn_switch",
+      "split": "Clean",
+      "episodes": 50,
+      "frames": 4863,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_randomized_adjust_bottle",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/adjust_bottle",
+      "task": "adjust_bottle",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 71223,
+      "tasks_in_dataset": 425
+    },
+    {
+      "repo_id": "robotwin_randomized_beat_block_hammer",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/beat_block_hammer",
+      "task": "beat_block_hammer",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 57214,
+      "tasks_in_dataset": 369
+    },
+    {
+      "repo_id": "robotwin_randomized_blocks_ranking_rgb",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/blocks_ranking_rgb",
+      "task": "blocks_ranking_rgb",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 229040,
+      "tasks_in_dataset": 135
+    },
+    {
+      "repo_id": "robotwin_randomized_blocks_ranking_size",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/blocks_ranking_size",
+      "task": "blocks_ranking_size",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 229862,
+      "tasks_in_dataset": 97
+    },
+    {
+      "repo_id": "robotwin_randomized_click_alarmclock",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/click_alarmclock",
+      "task": "click_alarmclock",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 42267,
+      "tasks_in_dataset": 443
+    },
+    {
+      "repo_id": "robotwin_randomized_click_bell",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/click_bell",
+      "task": "click_bell",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 38513,
+      "tasks_in_dataset": 398
+    },
+    {
+      "repo_id": "robotwin_randomized_dump_bin_bigbin",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/dump_bin_bigbin",
+      "task": "dump_bin_bigbin",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 118137,
+      "tasks_in_dataset": 447
+    },
+    {
+      "repo_id": "robotwin_randomized_grab_roller",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/grab_roller",
+      "task": "grab_roller",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 47821,
+      "tasks_in_dataset": 404
+    },
+    {
+      "repo_id": "robotwin_randomized_handover_block",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/handover_block",
+      "task": "handover_block",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 142246,
+      "tasks_in_dataset": 50
+    },
+    {
+      "repo_id": "robotwin_randomized_handover_mic",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/handover_mic",
+      "task": "handover_mic",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 111092,
+      "tasks_in_dataset": 429
+    },
+    {
+      "repo_id": "robotwin_randomized_hanging_mug",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/hanging_mug",
+      "task": "hanging_mug",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 168904,
+      "tasks_in_dataset": 499
+    },
+    {
+      "repo_id": "robotwin_randomized_lift_pot",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/lift_pot",
+      "task": "lift_pot",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 56178,
+      "tasks_in_dataset": 348
+    },
+    {
+      "repo_id": "robotwin_randomized_move_can_pot",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/move_can_pot",
+      "task": "move_can_pot",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 76425,
+      "tasks_in_dataset": 500
+    },
+    {
+      "repo_id": "robotwin_randomized_move_pillbottle_pad",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/move_pillbottle_pad",
+      "task": "move_pillbottle_pad",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 73866,
+      "tasks_in_dataset": 474
+    },
+    {
+      "repo_id": "robotwin_randomized_move_playingcard_away",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/move_playingcard_away",
+      "task": "move_playingcard_away",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 58360,
+      "tasks_in_dataset": 444
+    },
+    {
+      "repo_id": "robotwin_randomized_move_stapler_pad",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/move_stapler_pad",
+      "task": "move_stapler_pad",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 76777,
+      "tasks_in_dataset": 496
+    },
+    {
+      "repo_id": "robotwin_randomized_open_laptop",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/open_laptop",
+      "task": "open_laptop",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 111393,
+      "tasks_in_dataset": 474
+    },
+    {
+      "repo_id": "robotwin_randomized_open_microwave",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/open_microwave",
+      "task": "open_microwave",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 275544,
+      "tasks_in_dataset": 359
+    },
+    {
+      "repo_id": "robotwin_randomized_pick_diverse_bottles",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/pick_diverse_bottles",
+      "task": "pick_diverse_bottles",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 61495,
+      "tasks_in_dataset": 500
+    },
+    {
+      "repo_id": "robotwin_randomized_pick_dual_bottles",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/pick_dual_bottles",
+      "task": "pick_dual_bottles",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 61319,
+      "tasks_in_dataset": 485
+    },
+    {
+      "repo_id": "robotwin_randomized_place_a2b_left",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_a2b_left",
+      "task": "place_a2b_left",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 74386,
+      "tasks_in_dataset": 500
+    },
+    {
+      "repo_id": "robotwin_randomized_place_a2b_right",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_a2b_right",
+      "task": "place_a2b_right",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 74212,
+      "tasks_in_dataset": 500
+    },
+    {
+      "repo_id": "robotwin_randomized_place_bread_basket",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_bread_basket",
+      "task": "place_bread_basket",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 115095,
+      "tasks_in_dataset": 500
+    },
+    {
+      "repo_id": "robotwin_randomized_place_bread_skillet",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_bread_skillet",
+      "task": "place_bread_skillet",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 82639,
+      "tasks_in_dataset": 499
+    },
+    {
+      "repo_id": "robotwin_randomized_place_burger_fries",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_burger_fries",
+      "task": "place_burger_fries",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 120625,
+      "tasks_in_dataset": 500
+    },
+    {
+      "repo_id": "robotwin_randomized_place_can_basket",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_can_basket",
+      "task": "place_can_basket",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 125857,
+      "tasks_in_dataset": 499
+    },
+    {
+      "repo_id": "robotwin_randomized_place_cans_plasticbox",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_cans_plasticbox",
+      "task": "place_cans_plasticbox",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 142703,
+      "tasks_in_dataset": 500
+    },
+    {
+      "repo_id": "robotwin_randomized_place_container_plate",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_container_plate",
+      "task": "place_container_plate",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 78657,
+      "tasks_in_dataset": 494
+    },
+    {
+      "repo_id": "robotwin_randomized_place_dual_shoes",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_dual_shoes",
+      "task": "place_dual_shoes",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 115738,
+      "tasks_in_dataset": 493
+    },
+    {
+      "repo_id": "robotwin_randomized_place_empty_cup",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_empty_cup",
+      "task": "place_empty_cup",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 85761,
+      "tasks_in_dataset": 484
+    },
+    {
+      "repo_id": "robotwin_randomized_place_fan",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_fan",
+      "task": "place_fan",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 72844,
+      "tasks_in_dataset": 493
+    },
+    {
+      "repo_id": "robotwin_randomized_place_mouse_pad",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_mouse_pad",
+      "task": "place_mouse_pad",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 76182,
+      "tasks_in_dataset": 495
+    },
+    {
+      "repo_id": "robotwin_randomized_place_object_basket",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_object_basket",
+      "task": "place_object_basket",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 123619,
+      "tasks_in_dataset": 496
+    },
+    {
+      "repo_id": "robotwin_randomized_place_object_scale",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_object_scale",
+      "task": "place_object_scale",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 73161,
+      "tasks_in_dataset": 500
+    },
+    {
+      "repo_id": "robotwin_randomized_place_object_stand",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_object_stand",
+      "task": "place_object_stand",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 69414,
+      "tasks_in_dataset": 500
+    },
+    {
+      "repo_id": "robotwin_randomized_place_phone_stand",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_phone_stand",
+      "task": "place_phone_stand",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 63524,
+      "tasks_in_dataset": 478
+    },
+    {
+      "repo_id": "robotwin_randomized_place_shoe",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/place_shoe",
+      "task": "place_shoe",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 87739,
+      "tasks_in_dataset": 477
+    },
+    {
+      "repo_id": "robotwin_randomized_press_stapler",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/press_stapler",
+      "task": "press_stapler",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 59157,
+      "tasks_in_dataset": 472
+    },
+    {
+      "repo_id": "robotwin_randomized_put_bottles_dustbin",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/put_bottles_dustbin",
+      "task": "put_bottles_dustbin",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 311691,
+      "tasks_in_dataset": 500
+    },
+    {
+      "repo_id": "robotwin_randomized_put_object_cabinet",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/put_object_cabinet",
+      "task": "put_object_cabinet",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 135772,
+      "tasks_in_dataset": 500
+    },
+    {
+      "repo_id": "robotwin_randomized_rotate_qrcode",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/rotate_qrcode",
+      "task": "rotate_qrcode",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 76794,
+      "tasks_in_dataset": 459
+    },
+    {
+      "repo_id": "robotwin_randomized_scan_object",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/scan_object",
+      "task": "scan_object",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 84221,
+      "tasks_in_dataset": 499
+    },
+    {
+      "repo_id": "robotwin_randomized_shake_bottle",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/shake_bottle",
+      "task": "shake_bottle",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 124450,
+      "tasks_in_dataset": 483
+    },
+    {
+      "repo_id": "robotwin_randomized_shake_bottle_horizontally",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/shake_bottle_horizontally",
+      "task": "shake_bottle_horizontally",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 139151,
+      "tasks_in_dataset": 486
+    },
+    {
+      "repo_id": "robotwin_randomized_stack_blocks_three",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/stack_blocks_three",
+      "task": "stack_blocks_three",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 234890,
+      "tasks_in_dataset": 149
+    },
+    {
+      "repo_id": "robotwin_randomized_stack_blocks_two",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/stack_blocks_two",
+      "task": "stack_blocks_two",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 156380,
+      "tasks_in_dataset": 88
+    },
+    {
+      "repo_id": "robotwin_randomized_stack_bowls_three",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/stack_bowls_three",
+      "task": "stack_bowls_three",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 235785,
+      "tasks_in_dataset": 330
+    },
+    {
+      "repo_id": "robotwin_randomized_stack_bowls_two",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/stack_bowls_two",
+      "task": "stack_bowls_two",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 156961,
+      "tasks_in_dataset": 482
+    },
+    {
+      "repo_id": "robotwin_randomized_stamp_seal",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/stamp_seal",
+      "task": "stamp_seal",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 70897,
+      "tasks_in_dataset": 498
+    },
+    {
+      "repo_id": "robotwin_randomized_turn_switch",
+      "root": "${ROBOSEED_ROBOTWIN_ROOT}/datasets/RoboTwin-Randomized/Randomized/turn_switch",
+      "task": "turn_switch",
+      "split": "Randomized",
+      "episodes": 500,
+      "frames": 49335,
+      "tasks_in_dataset": 477
+    }
+  ]
+}

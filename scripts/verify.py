@@ -13,6 +13,7 @@ import re
 import xml.etree.ElementTree as ET
 
 from generate_docs import ROOT, build, slug
+from verify_pi05 import verify_pi05
 
 
 def require(condition, message):
@@ -157,6 +158,7 @@ def verify_results():
         config = (ROOT / r['configuration']).read_text()
         require(int(re.search(r'^\s*max_train_steps:\s*(\d+)', config, re.M)[1]) == r['updates'], 'Configuration update count')
     verify_refresh()
+    verify_pi05()
     print('Counts and evidence: ABot RoboTwin 60,000 episodes; LIBERO 2,000; LIBERO-plus 10,030; RoboCasa 1,200; CALVIN 1,000 chains.')
 
 
@@ -253,7 +255,7 @@ def verify_documents(allow_missing_manifest=False):
 
 
 def inventory():
-    paths = list((ROOT / 'data').glob('*')) + list((ROOT / 'configs/abot-m0').glob('*.yaml')) + list((ROOT / 'docs/report').glob('*.pdf'))
+    paths = list((ROOT / 'data').glob('*')) + list((ROOT / 'data/pi05').rglob('*')) + list((ROOT / 'configs/pi05').glob('*')) + list((ROOT / 'configs/abot-m0').glob('*.yaml')) + list((ROOT / 'docs/report').glob('*.pdf'))
     return {p.relative_to(ROOT).as_posix(): {'bytes': p.stat().st_size, 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(paths) if p.is_file() and p.name != 'release_manifest.json'}
 
 

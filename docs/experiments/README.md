@@ -57,3 +57,14 @@ Each run page links its recorded configuration, rollout protocol, resource recor
 Released-weight rows are official checkpoints evaluated locally; local-budget rows use our adapted recipes. They are not original-paper leaderboard comparisons.
 
 [PX harness systems results](px-harness/README.md) · [Five-dimension evaluation framework](../findings/assessment.md)
+
+## π0.5 · November evidence addition
+
+| Experiment | Origin | Result |
+| --- | --- | --- |
+| [π0.5 RoboTwin](pi05/robotwin/README.md) | Local post-train | 73.04% Clean; 71.88% Randomized; 10,000 episodes |
+| [π0.5 LIBERO](pi05/libero/README.md) | Released weights evaluated locally | 97.20%; 2,000 episodes |
+
+[Model and reproduction boundary](../action_models/pi05/README.md) · [Evidence and selection audit](../../data/pi05/README.md)
+
+These observations supplement the October 28 study and are not assigned new five-dimension scores. Local weights are not yet published.

@@ -17,3 +17,7 @@ The nine YAML files in `abot-m0/` are copied from the saved configurations of th
 | CALVIN · Qwen3.5-4B | [YAML](abot-m0/calvin-qwen3-5-4b.yaml) |
 
 These files record the local implementation's schema. They are not standalone launch scripts, and `${...}` values are placeholders that must be resolved by the user or a compatible loader. Training code, action-adapted initialization, and simulator adapters are external to this repository. Do not infer an effective state-input policy solely from a configured state dimension; the run pages distinguish configured layouts from inspected client behavior.
+
+## π0.5 recorded settings
+
+The [RoboTwin snapshot](pi05/robotwin50.yaml), [portable dataset-view manifest](pi05/robotwin50_datasets.json) and [LIBERO evaluation settings](pi05/libero-evaluation.json) document the added experiments. The YAML is a recorded OpenPI configuration snapshot, not a directly executable training configuration. `${ROBOSEED_ROBOTWIN_ROOT}` names the external dataset root.

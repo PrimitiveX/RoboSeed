@@ -1,0 +1,34 @@
+{
+  "collected_on": "2026-11-24",
+  "selection": "RoboTwin selected merged valid records; all 2000 LIBERO completed records. Original hashes identify external local evidence. Packaged hashes are in manifest.json.",
+  "original_evidence": {
+    "source://pi05/robotwin/merged_results.json": {
+      "bytes": 6346759,
+      "sha256": "c216dbf6e0bae3ba8b2ce2c469f4cf58be871a75d5297d2efb978e7f7161fa86"
+    },
+    "source://pi05/robotwin/training.log": {
+      "bytes": 5027511,
+      "sha256": "c14e924fd25a2cf03988a371eacd6776b4f82c544b68bdbc32200ea9fd9cdc4c"
+    },
+    "source://pi05/libero/manager.log": {
+      "bytes": 1614,
+      "sha256": "2e41450722e795014cd8241e97f51de0c91ae0f4114029e63ab931fe9b9a6d95"
+    },
+    "source://pi05/libero/libero_spatial.jsonl": {
+      "bytes": 103857,
+      "sha256": "ea6a7ff385e701cd8fd76485c6e4f57137fda8db0fc0d31bee02ed6453681961"
+    },
+    "source://pi05/libero/libero_object.jsonl": {
+      "bytes": 93206,
+      "sha256": "b90fd4a77970a48da8ee059fd086c344e227aca9311aaf01669757ac38fac668"
+    },
+    "source://pi05/libero/libero_goal.jsonl": {
+      "bytes": 83424,
+      "sha256": "71631e5ed0bc481ae3bd893cca718d3d17b95d84dc3fcdff833ca0fbd769f094"
+    },
+    "source://pi05/libero/libero_10.jsonl": {
+      "bytes": 97586,
+      "sha256": "12210a8a21f36ea6ec704faaf74b3f2abfb9532a3be316901856cc0e193b22f1"
+    }
+  }
+}

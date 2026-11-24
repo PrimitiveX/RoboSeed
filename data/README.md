@@ -57,3 +57,7 @@ The generator updates result tables, task pages, and compatibility pages from th
 - [harness_refresh.csv](harness_refresh.csv), [original full-task counts](harness_original_all50_tasks.csv), [W6 counts](harness_w6_tasks.csv), [W16 counts](harness_w16_tasks.csv): scoped systems observations. Wall time and startup-inclusive time are separate fields.
 - [LingBot](ling_training_observations.csv), [OpenWAM](openwam_training_observations.csv), [LiLa stage 1](lila_stage1_training_observations.csv) and [stage 2](lila_stage2_training_observations.csv): native loss observations. Objectives and console precision differ; raw loss values are not cross-model capability scores.
 - [modelscope_packages.json](modelscope_packages.json): all 17 published package folders, statuses, package sizes and remotely observed primary-weight byte counts and SHA-256 values. Branch `master` is mutable; these links are not immutable revisions.
+
+## November 24 π0.5 addition
+
+[π0.5 evidence](pi05/README.md) supplies 10,000 RoboTwin and 2,000 released-weight LIBERO episode records, loss observations, source/seed audits and a separate checkpoint registry. The historical twelve assessment profiles and seventeen published model packages are unchanged; no local π0.5 weight URL has been released.

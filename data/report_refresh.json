@@ -1,8 +1,8 @@
 {
   "snapshot_date": "2026-10-28",
-  "report_updated": "2026-10-29",
+  "report_updated": "2026-11-24",
   "source": "RoboSeed technical report and audited companion data",
-  "report_sha256": "1398890f613c31f85ddc03f2f37055c3530fbbe995d13a29294e05fbc6c6dde7",
+  "report_sha256": "9c7942024f0895936ec83bd4434e0d7d1891edff4f91f520a26f1470933dd603",
   "source_files": {
     "robotwin_summary.csv": {
       "bytes": 1510,
@@ -81,5 +81,13 @@
       "sha256": "aa6b8297cb68a509d4fc31ee4ea638d71d495681b07f718286130cb28913c7a5"
     }
   },
-  "notes": "Extension units omit machine-specific weight paths; source-file hash records the original input. Earlier source_manifest evidence retains its original collection timestamp. ModelScope branch master is mutable; weight hashes are recorded separately. Extension task sources use portable source identifiers; assessment units omit machine-specific weight paths."
+  "notes": "Extension units omit machine-specific weight paths; source-file hash records the original input. Earlier source_manifest evidence retains its original collection timestamp. ModelScope branch master is mutable; weight hashes are recorded separately. Extension task sources use portable source identifiers; assessment units omit machine-specific weight paths.",
+  "previous_report_sha256": "1398890f613c31f85ddc03f2f37055c3530fbbe995d13a29294e05fbc6c6dde7",
+  "pi05_addition": {
+    "metadata": "pi05/metadata.json",
+    "manifest": "pi05/manifest.json",
+    "existing_assessment_profiles": 12,
+    "new_experiments_outside_assessment": 2,
+    "article_source_project": "Separately managed roboseed/report; not duplicated inside this Git repository"
+  }
 }

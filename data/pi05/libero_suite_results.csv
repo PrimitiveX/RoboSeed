@@ -1,0 +1,5 @@
+suite,official_report_pct,local_successes,episodes,local_success_rate_pct
+libero_spatial,98.8,493,500,98.6
+libero_object,98.2,494,500,98.8
+libero_goal,98.0,493,500,98.6
+libero_10,92.4,464,500,92.80000000000001

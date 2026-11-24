@@ -104,6 +104,14 @@ def homepage_tables(root, table, slug):
             '; '.join(scores), f'{counts[0]:,} episodes / evaluated scene',
             '—' if unit['gpu_hours'] is None else f"{unit['gpu_hours']:.3f}", package['public_url'])
 
+    pi05 = json.loads((root / 'data/pi05/metadata.json').read_text())
+    for benchmark, path, variant, origin, result, count in [
+        ('RoboTwin', 'robotwin', 'Gemma 2B + 300M action expert · local step 295474', 'Local post-train from pi05_base', 'Clean 73.04%; Randomized 71.88%; mean **72.46%**', '5,000 episodes / scene'),
+        ('LIBERO', 'libero', 'Released pi05_libero', 'Released weights evaluated locally', '**97.20%**', '1,944/2,000')]:
+        rows.append(['[π0.5](docs/action_models/pi05/README.md)',
+                     f'[{variant}](docs/experiments/pi05/{path}/README.md)', benchmark, origin,
+                     result, count, 'Not verified' if path == 'robotwin' else 'No local training'])
+
     # The 8B backbone exists only in the earlier, smaller diagnostic protocol.
     # Keep it visible without promoting it into the current comparison or timeline.
     historical = (root / 'docs/experiments/abot-m0/robotwin/pre-train-to-post-train-diagnostic.md').read_text()
@@ -118,7 +126,7 @@ def homepage_tables(root, table, slug):
     dates = json.loads((root / 'data/model_updates.json').read_text())['updates']
     if {r['id'] for r in dates} != set(labels) or len(dates) != len(labels):
         raise ValueError('Model updates must cover every homepage experiment exactly once')
-    updates = ['- **2026-10-29** — Release [all 17 model-weight packages](docs/releases/README.md), covering ABot-M0, LingBot-VLA 2.0, OpenWAM and LiLa-WAM.']
+    updates = ['- **2026-11-24** — Add [π0.5 RoboTwin post-train and released LIBERO evaluation](docs/action_models/pi05/README.md), with complete episode evidence; local weights are not yet published.', '- **2026-10-29** — Release [all 17 model-weight packages](docs/releases/README.md), covering ABot-M0, LingBot-VLA 2.0, OpenWAM and LiLa-WAM.']
     for record in sorted(dates, key=lambda r: r['result_updated_at'], reverse=True):
         stamp = datetime.fromisoformat(record['result_updated_at'])
         if stamp.utcoffset().total_seconds() != 0:

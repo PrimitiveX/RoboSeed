@@ -45,3 +45,7 @@ The release packages the report, results, audits, configurations, and analysis s
 RoboTwin reports equal weighting of Clean and Randomized scenes. LIBERO-plus weights variants by their actual counts. CALVIN reports the mean successful prefix of five-task sequences and conditional task rates over reached attempts. These metrics retain their own denominators.
 
 RoboTwin training contains both Clean and Randomized demonstrations. CALVIN trains on ABCD and evaluates on D, which is included in training. Equal training updates do not mean equal compute, and measured workflow runtime does not identify single-request inference latency. The [findings page](findings/README.md) develops these distinctions alongside the observations they qualify.
+
+## π0.5 evidence addition
+
+The [π0.5 model record](action_models/pi05/README.md) adds local RoboTwin post-train and released-weight LIBERO verification, with [complete source evidence](../data/pi05/README.md). The updated [full technical report](report/RoboSeed.pdf) includes the method chapter and task-count appendix, imported from the existing separate article project. The original twelve scored checkpoint profiles remain a historical cohort.

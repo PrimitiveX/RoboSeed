@@ -1,0 +1,86 @@
+{
+  "as_of": "2026-11-24",
+  "scope": "Packaged public pi05 evidence, recorded configs and figure assets; authoritative LaTeX source remains in the separate article project. Original source hashes are in provenance.json.",
+  "files": {
+    "configs/pi05/libero-evaluation.json": {
+      "bytes": 851,
+      "sha256": "4390902b4e0ec1a4c11f8a5e17a864967a76c464442f8f25c02cb2252cc2ff0f"
+    },
+    "configs/pi05/robotwin50.yaml": {
+      "bytes": 1961,
+      "sha256": "0121cb6d9585d08021ded1415974d08d2d1b19138a15331e0f702133a72c1a32"
+    },
+    "configs/pi05/robotwin50_datasets.json": {
+      "bytes": 31190,
+      "sha256": "1280b901b39d1edb64f7b754140dd804383261d934a09b99b5c417b830095ddd"
+    },
+    "data/pi05/README.md": {
+      "bytes": 4354,
+      "sha256": "64cd0e96f46e3433765dd43267e5211320ba9bebe4bdcaec51919d4fb69c4c18"
+    },
+    "data/pi05/libero_episodes.jsonl": {
+      "bytes": 348073,
+      "sha256": "2e8ed95892fdf9b69640a32c30d2aa2f58e5eb83327cfad43fd2af90341d9d86"
+    },
+    "data/pi05/libero_suite_results.csv": {
+      "bytes": 210,
+      "sha256": "fd65dd88583a41571447b4bef11a8b47ed49f70afa6f422f7a965f1f8e4336a3"
+    },
+    "data/pi05/libero_tasks.csv": {
+      "bytes": 3285,
+      "sha256": "0c693f920dbeefc63d66446e6d8daca5a1f1bb2ac3ed014bc659678cbe883be4"
+    },
+    "data/pi05/metadata.json": {
+      "bytes": 2600,
+      "sha256": "101d84a95b72d40c793060fafe6d8024696139db5ca080d552d4f48cf27c73f5"
+    },
+    "data/pi05/provenance.json": {
+      "bytes": 1367,
+      "sha256": "68e24b5da1e98af987d7ec0309b8a1239a396bbe10f63d4ba86fcc2e1ec3246e"
+    },
+    "data/pi05/report_text.md": {
+      "bytes": 11915,
+      "sha256": "3772a4d45a50000ae96674b7938eeec1c1c38200b1358c2f9b240bcda100fa9f"
+    },
+    "data/pi05/robotwin_episodes.jsonl": {
+      "bytes": 4273409,
+      "sha256": "8bdde7ac059c968ae738a8c87f8f3f4cb978306ef0dece2c44b78dcf7c08d254"
+    },
+    "data/pi05/robotwin_loss.csv": {
+      "bytes": 399102,
+      "sha256": "65d564d0f99901067ffd69b3b7fb6f43ba9fc9fb94e6e466784aedcc42ad3843"
+    },
+    "data/pi05/robotwin_retry_audit.json": {
+      "bytes": 205632,
+      "sha256": "c466ff6a0f88285ddc2501b1edc5b4fbd322790abb04cfa49d992c07e011bec7"
+    },
+    "data/pi05/robotwin_task_results.csv": {
+      "bytes": 4922,
+      "sha256": "19feff4ebe70ec9481a373ab54e8fe993160e1147e4c29657a385d5e5cef811d"
+    },
+    "docs/figure/results/18_pi05_architecture.pdf": {
+      "bytes": 23888,
+      "sha256": "2a9ed6d73e54337c9a784e453457f4ad72054eb495ead2fa27f51f2e4fc25514"
+    },
+    "docs/figure/results/18_pi05_architecture.png": {
+      "bytes": 122229,
+      "sha256": "250a2126085dde92a9090a44824dea2dc1fbe7d5dd3e9af42a6b9afa73df6846"
+    },
+    "docs/figure/results/18_pi05_architecture.svg": {
+      "bytes": 8935,
+      "sha256": "081740524c55db172e74515a5720147bcbb11f9d2e0e5c61be27070fee7d8363"
+    },
+    "docs/figure/results/19_pi05_experiments.pdf": {
+      "bytes": 75531,
+      "sha256": "c9ec755dc9c8f23e3d391d76d950dcf2cfd7109b11e75227a8ed9c4b3fd3c9a9"
+    },
+    "docs/figure/results/19_pi05_experiments.png": {
+      "bytes": 298734,
+      "sha256": "939950fe9de41b95b5847d10f4a81b08426473e89a00fe8bf18022c27d36d618"
+    },
+    "docs/figure/results/19_pi05_experiments.svg": {
+      "bytes": 176255,
+      "sha256": "1ce162a0e33aa0d0a84cd983573f5d493fc80393889afeefb534bf4c4b2d7cc9"
+    }
+  }
+}

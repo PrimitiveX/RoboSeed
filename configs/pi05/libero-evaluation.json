@@ -1,0 +1,41 @@
+{
+  "tasks": 40,
+  "successes": 1944,
+  "episodes": 2000,
+  "success_rate_pct": 97.2,
+  "seed": 7,
+  "replan_steps": 5,
+  "action_horizon": 10,
+  "settling_steps": 10,
+  "evaluation_gpus": [
+    4,
+    5
+  ],
+  "rollout_processes_per_gpu": 1,
+  "queue_start_utc": "2026-11-12T05:16:40+00:00",
+  "queue_end_utc": "2026-11-12T08:16:42+00:00",
+  "queue_wall_seconds": 10802,
+  "checkpoint": "gs://openpi-assets/checkpoints/pi05_libero",
+  "model_config": "pi05_libero",
+  "max_control_steps": {
+    "libero_spatial": 220,
+    "libero_object": 280,
+    "libero_goal": 300,
+    "libero_10": 520
+  },
+  "render_resolution": [
+    256,
+    256
+  ],
+  "model_resolution": [
+    224,
+    224
+  ],
+  "views": [
+    "agentview",
+    "wrist"
+  ],
+  "image_rotation_degrees": 180,
+  "normalization": "checkpoint assets",
+  "robotwin_local_weights_reused": false
+}

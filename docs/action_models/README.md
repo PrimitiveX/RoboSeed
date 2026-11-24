@@ -20,3 +20,14 @@ Each reproduced action model receives its own section. VLM substitutions remain 
 | LingBot-VLA 2.0 | Official and local RoboTwin checkpoints | [Architecture and experiments](lingbot-vla2/README.md) |
 | OpenWAM | Official and local RoboTwin checkpoints | [Architecture and experiments](openwam/README.md) |
 | LiLa-WAM | Official and local RoboTwin checkpoints | [Architecture and experiments](lila-wam/README.md) |
+
+## π0.5 · November evidence addition
+
+| Experiment | Origin | Result |
+| --- | --- | --- |
+| [π0.5 RoboTwin](../experiments/pi05/robotwin/README.md) | Local post-train | 73.04% Clean; 71.88% Randomized; 10,000 episodes |
+| [π0.5 LIBERO](../experiments/pi05/libero/README.md) | Released weights evaluated locally | 97.20%; 2,000 episodes |
+
+[Model and reproduction boundary](pi05/README.md) · [Evidence and selection audit](../../data/pi05/README.md)
+
+These observations supplement the October 28 study and are not assigned new five-dimension scores. Local weights are not yet published.

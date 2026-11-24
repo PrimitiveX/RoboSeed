@@ -30,9 +30,9 @@
 
 ## Overview
 
-RoboSeed reproduces **vision–language–action (VLA) and world–action models (WAM)** and connects each checkpoint to its training recipe, evaluation interface, resource cost and task-level evidence. The current study covers **ABot-M0, LingBot-VLA 2.0, OpenWAM and LiLa-WAM**. Backbone substitutions stay within each model family; independently trained benchmark policies retain their own records.
+RoboSeed reproduces **vision–language–action (VLA) and world–action models (WAM)** and connects each checkpoint to its training recipe, evaluation interface, resource cost and task-level evidence. The current study covers **ABot-M0, LingBot-VLA 2.0, OpenWAM, LiLa-WAM and π0.5**. Backbone substitutions stay within each model family; independently trained benchmark policies retain their own records.
 
-The table below lists **all 16 current evaluated checkpoint/benchmark records**: six ABot-M0 RoboTwin backbones, four additional benchmark evaluations, and six official/local VLA and WAM records. It also includes the **historical Qwen3-VL-8B diagnostic**, which uses a separate 500-episode protocol. The first column links to each method; the second identifies its VLM or reproduction checkpoint and links to the experiment and weights.
+The table below lists **all 18 current evaluated checkpoint/benchmark records**: six ABot-M0 RoboTwin backbones, four additional benchmark evaluations, six official/local VLA and WAM records, and two π0.5 evaluations. It also includes the **historical Qwen3-VL-8B diagnostic**, which uses a separate 500-episode protocol. The first column links to each method; the second identifies its VLM or reproduction checkpoint and links to the experiment and weights.
 
 <!-- BEGIN GENERATED overview -->
 <table>
@@ -188,6 +188,23 @@ The table below lists **all 16 current evaluated checkpoint/benchmark records**:
 <td>250 episodes / evaluated scene</td>
 <td>—</td>
 </tr>
+<tr>
+<td rowspan="2"><a href="docs/action_models/pi05/README.md">π0.5</a></td>
+<td><a href="docs/experiments/pi05/robotwin/README.md">Gemma 2B + 300M action expert · local step 295474</a></td>
+<td>RoboTwin</td>
+<td>Local post-train from pi05_base</td>
+<td>Clean 73.04%; Randomized 71.88%; mean <strong>72.46%</strong></td>
+<td>5,000 episodes / scene</td>
+<td>Not verified</td>
+</tr>
+<tr>
+<td><a href="docs/experiments/pi05/libero/README.md">Released pi05_libero</a></td>
+<td>LIBERO</td>
+<td>Released weights evaluated locally</td>
+<td><strong>97.20%</strong></td>
+<td>1,944/2,000</td>
+<td>No local training</td>
+</tr>
 </tbody>
 </table>
 <!-- END GENERATED overview -->
@@ -201,6 +218,7 @@ The [technical report](docs/report/README.md) evaluates capability, downstream t
 ## Updates
 
 <!-- BEGIN GENERATED updates -->
+- **2026-11-24** — Add [π0.5 RoboTwin post-train and released LIBERO evaluation](docs/action_models/pi05/README.md), with complete episode evidence; local weights are not yet published.
 - **2026-10-29** — Release [all 17 model-weight packages](docs/releases/README.md), covering ABot-M0, LingBot-VLA 2.0, OpenWAM and LiLa-WAM.
 - **2026-10-26** — Update [LiLa-WAM · DINOv3 ViT-L/16 · local stage-2 epoch 4](docs/experiments/lila-wam/robotwin/README.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-local-stage2-epoch4).
 - **2026-10-26** — Update [LiLa-WAM · DINOv3 ViT-L/16 · official stage-2 epoch 4](docs/experiments/lila-wam/robotwin/README.md) results on RoboTwin · [Weights](https://www.modelscope.cn/models/InPeerReview/RoboSeed/tree/master/models/RoboSeed-LiLa-WAM-RoboTwin-official-stage2-epoch4).

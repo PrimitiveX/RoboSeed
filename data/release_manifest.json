@@ -38,9 +38,21 @@
       "bytes": 1841,
       "sha256": "b0a70d2437d31026d142eb0b05b0803c7bb054d6afbae828f5d1e8fc3b4fbe69"
     },
+    "configs/pi05/libero-evaluation.json": {
+      "bytes": 851,
+      "sha256": "4390902b4e0ec1a4c11f8a5e17a864967a76c464442f8f25c02cb2252cc2ff0f"
+    },
+    "configs/pi05/robotwin50.yaml": {
+      "bytes": 1961,
+      "sha256": "0121cb6d9585d08021ded1415974d08d2d1b19138a15331e0f702133a72c1a32"
+    },
+    "configs/pi05/robotwin50_datasets.json": {
+      "bytes": 31190,
+      "sha256": "1280b901b39d1edb64f7b754140dd804383261d934a09b99b5c417b830095ddd"
+    },
     "data/README.md": {
-      "bytes": 7313,
-      "sha256": "e8948f620a4b3519430ff70f1a4e4ef0c0ae2042f09133e132a62d7b7059a624"
+      "bytes": 7668,
+      "sha256": "6adee83caa7288b4a45afb2cbc87e5b8e394d77594d8ce0f076686f119eaee73"
     },
     "data/assessment.json": {
       "bytes": 20403,
@@ -166,9 +178,57 @@
       "bytes": 2912742,
       "sha256": "c0328840d2cad3121335b1f8eb2c4f37c91ffdd6a12fa2ea4ddf69dfa0adaa5b"
     },
+    "data/pi05/README.md": {
+      "bytes": 4354,
+      "sha256": "64cd0e96f46e3433765dd43267e5211320ba9bebe4bdcaec51919d4fb69c4c18"
+    },
+    "data/pi05/libero_episodes.jsonl": {
+      "bytes": 348073,
+      "sha256": "2e8ed95892fdf9b69640a32c30d2aa2f58e5eb83327cfad43fd2af90341d9d86"
+    },
+    "data/pi05/libero_suite_results.csv": {
+      "bytes": 210,
+      "sha256": "fd65dd88583a41571447b4bef11a8b47ed49f70afa6f422f7a965f1f8e4336a3"
+    },
+    "data/pi05/libero_tasks.csv": {
+      "bytes": 3285,
+      "sha256": "0c693f920dbeefc63d66446e6d8daca5a1f1bb2ac3ed014bc659678cbe883be4"
+    },
+    "data/pi05/manifest.json": {
+      "bytes": 3351,
+      "sha256": "c33098456dc3bf9f3a7585683c7debd945df9cabf1caf331c3ae344289580e7f"
+    },
+    "data/pi05/metadata.json": {
+      "bytes": 2600,
+      "sha256": "101d84a95b72d40c793060fafe6d8024696139db5ca080d552d4f48cf27c73f5"
+    },
+    "data/pi05/provenance.json": {
+      "bytes": 1367,
+      "sha256": "68e24b5da1e98af987d7ec0309b8a1239a396bbe10f63d4ba86fcc2e1ec3246e"
+    },
+    "data/pi05/report_text.md": {
+      "bytes": 11915,
+      "sha256": "3772a4d45a50000ae96674b7938eeec1c1c38200b1358c2f9b240bcda100fa9f"
+    },
+    "data/pi05/robotwin_episodes.jsonl": {
+      "bytes": 4273409,
+      "sha256": "8bdde7ac059c968ae738a8c87f8f3f4cb978306ef0dece2c44b78dcf7c08d254"
+    },
+    "data/pi05/robotwin_loss.csv": {
+      "bytes": 399102,
+      "sha256": "65d564d0f99901067ffd69b3b7fb6f43ba9fc9fb94e6e466784aedcc42ad3843"
+    },
+    "data/pi05/robotwin_retry_audit.json": {
+      "bytes": 205632,
+      "sha256": "c466ff6a0f88285ddc2501b1edc5b4fbd322790abb04cfa49d992c07e011bec7"
+    },
+    "data/pi05/robotwin_task_results.csv": {
+      "bytes": 4922,
+      "sha256": "19feff4ebe70ec9481a373ab54e8fe993160e1147e4c29657a385d5e5cef811d"
+    },
     "data/report_refresh.json": {
-      "bytes": 3442,
-      "sha256": "14a94056cd5ce280b29f8cfe7ca7108fe71c8afbb60494f1d37d7e54342f33fb"
+      "bytes": 3835,
+      "sha256": "61d0f4c58ce8058f9035182fd7ea101fa489c51169f517832eaa34b2940eb6d5"
     },
     "data/robocasa_tasks.csv": {
       "bytes": 1264,
@@ -203,8 +263,8 @@
       "sha256": "4ff2932f1f7da6cf7b84d8117c7da11b4a86e2d4ea16b62944671499b9c1e379"
     },
     "docs/report/RoboSeed.pdf": {
-      "bytes": 1178842,
-      "sha256": "1398890f613c31f85ddc03f2f37055c3530fbbe995d13a29294e05fbc6c6dde7"
+      "bytes": 1294587,
+      "sha256": "9c7942024f0895936ec83bd4434e0d7d1891edff4f91f520a26f1470933dd603"
     }
   }
 }

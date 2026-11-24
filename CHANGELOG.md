@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-24 · π0.5 evidence and full-report update
+
+- Add local π0.5 RoboTwin post-train results (72.46%, 10,000 rollouts) and released-weight LIBERO verification (97.20%, 2,000 rollouts).
+- Package complete episode/task counts, retry seed audits, native training loss and portable configuration records.
+- Integrate the π0.5 chapter and complete task appendix in the existing external article project; import its rebuilt PDF and figure companions without duplicating the source project in Git.
+- Preserve the historical assessment cohort and seventeen published weight packages; local π0.5 weights and unmeasured resource metrics remain unavailable.
+
 ## 2026-11-02 · Merge method cells and label the technical report
 
 - Render the Overview as an HTML table with a single spanning method cell for each algorithm; keep the historical ABot-M0 row with its method group.

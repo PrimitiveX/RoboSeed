@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "added_on": "2026-11-24",
+  "scope": "Additional evidence; outside the historical twelve scored checkpoint profiles.",
+  "checkpoints": [
+    {
+      "id": "pi05_robotwin50_local",
+      "benchmark": "RoboTwin",
+      "origin": "local_post_train",
+      "initialization": "gs://openpi-assets/checkpoints/pi05_base/params",
+      "checkpoint_step": 295474,
+      "updates": 295475,
+      "configuration": "configs/pi05/robotwin50.yaml",
+      "record": "docs/experiments/pi05/robotwin/README.md",
+      "public_url": null,
+      "weights_sha256": null,
+      "training_gpu_hours": null
+    },
+    {
+      "id": "pi05_libero_released",
+      "benchmark": "LIBERO",
+      "origin": "released_weights",
+      "checkpoint_uri": "gs://openpi-assets/checkpoints/pi05_libero",
+      "configuration": "configs/pi05/libero-evaluation.json",
+      "record": "docs/experiments/pi05/libero/README.md",
+      "public_url": "https://github.com/Physical-Intelligence/openpi",
+      "local_post_train": false,
+      "training_gpu_hours": null
+    }
+  ],
+  "robotwin": {
+    "tasks": 50,
+    "episodes_per_task_scene": 100,
+    "clean_successes": 3652,
+    "randomized_successes": 3594,
+    "episodes_per_scene": 5000,
+    "successes": 7246,
+    "episodes": 10000,
+    "success_rate_pct": 72.46,
+    "global_batch": 16,
+    "updates": 295475,
+    "sample_exposure": 4727600,
+    "training_seed": 42,
+    "base_source_frames": 6075103,
+    "complete_chunk_starts": 4727603,
+    "drop_incomplete_action_chunks": true,
+    "evaluation_gpus": [
+      4,
+      5
+    ],
+    "rollout_workers": 16,
+    "seed_policy": "original valid records keep their seed; missing slots use the first retry record with steps; official expert-filter rejections may therefore change that slot's seed"
+  },
+  "libero": {
+    "tasks": 40,
+    "successes": 1944,
+    "episodes": 2000,
+    "success_rate_pct": 97.2,
+    "seed": 7,
+    "replan_steps": 5,
+    "action_horizon": 10,
+    "settling_steps": 10,
+    "evaluation_gpus": [
+      4,
+      5
+    ],
+    "rollout_processes_per_gpu": 1,
+    "queue_start_utc": "2026-11-12T05:16:40+00:00",
+    "queue_end_utc": "2026-11-12T08:16:42+00:00",
+    "queue_wall_seconds": 10802
+  },
+  "implementation": {
+    "openpi_head": "215abfb217dbac7d5f1273282331b9b1866c0479",
+    "openpi_worktree_modified": true,
+    "libero_revision": "f78abd68ee283de9f9be3c8f7e2a9ad60246e95c",
+    "immutable_training_code_release_available": false
+  },
+  "completion": {
+    "libero_local_post_train": false,
+    "droid_released_evaluation": false,
+    "droid_local_post_train": false
+  }
+}

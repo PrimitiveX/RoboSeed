@@ -1,0 +1,67 @@
+# Effective configuration snapshot for pi05_robotwin50 (2026-11-06).
+# Source of truth is src/openpi/training/config.py; this file is documentation only.
+config_name: pi05_robotwin50
+repo_id: robotwin_50tasks_27500
+dataset_manifest: robotwin50_datasets.json
+dataset_count: 100
+tasks: 50
+episodes: 27500
+frames: 6075103
+complete_chunk_starts: 4727603
+excluded_tail_starts: 1347500
+
+model:
+  class: Pi0Config
+  pi05: true
+  action_dim: 32              # robot action is 14-D, padded to 32 by PadStatesAndActions
+  action_horizon: 50
+  max_token_len: 200
+  dtype: bfloat16
+  paligemma_variant: gemma_2b
+  action_expert_variant: gemma_300m
+  discrete_state_input: true
+
+data:
+  format: LeRobot v2.1, 100 per-task/split datasets through MultiLeRobotDataset
+  prompt_from_task: true
+  drop_incomplete_action_chunks: true
+  video_backend: pyav
+  cameras:
+    observation.images.cam_high: base_0_rgb
+    observation.images.cam_left_wrist: left_wrist_0_rgb
+    observation.images.cam_right_wrist: right_wrist_0_rgb
+  state_dim: 14
+  action_dim: 14
+  rgb_resolution: [480, 640, 3]
+  model_resolution: [224, 224, 3]
+
+normalization:
+  asset_id: robotwin_50tasks_27500
+  norm_stats_path: assets/pi05_robotwin50/robotwin_50tasks_27500/norm_stats.json
+  use_quantile_norm: true
+
+training:
+  init_weights: gs://openpi-assets/checkpoints/pi05_base/params
+  full_finetune: true
+  global_batch_size: 16
+  num_train_steps: 295475      # complete 50-step chunk starts / global batch
+  num_workers: 8
+  fsdp_devices: 1
+  seed: 42
+  optimizer: AdamW
+  clip_gradient_norm: 1.0
+  peak_lr: 2.5e-5
+  decay_lr: 2.5e-6
+  warmup_steps: 1000
+  lr_decay_steps: 295475
+  ema_decay: 0.99
+  save_interval: 20000
+  keep_period: 20000  # actual launch override recorded in worklog and checkpoint-manager log
+  log_interval: 10
+  wandb_enabled: false
+
+runtime:
+  physical_gpus: [4, 5]
+  training_seed: 42
+  effective_per_gpu_batch: 8
+  configuration_kind: documentation_snapshot_not_executable_yaml
